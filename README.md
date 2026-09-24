@@ -1,4 +1,4 @@
-﻿<p align="center"><img src="resources/cover/upc-logo.png" alt="Logo UPC" width="40"></p>
+<p align="center"><img src="resources/cover/upc-logo.png" alt="Logo UPC" width="40"></p>
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 <p align="center"><strong>Carrera de Ingeniería de Software</strong></p>
 <br>
@@ -3321,36 +3321,100 @@ Contiene las implementaciones concretas de los repositorios (`ParentRepositoryIm
 ### 3.1.1. Style Guidelines
 
 #### 3.1.1.1. General Style Guidelines
+Para el diseño de interfaces de RouteGuard, hemos establecido un sistema de diseño enfocado en la accesibilidad, el contraste y la jerarquía visual, asegurando que ambos segmentos de usuarios (padres y conductores) logren sus objetivos sin esfuerzo cognitivo y con rapidez.
+
+*   **Branding y Logotipo:** El isotipo de RouteGuard representa protección y ruta. Se ha diseñado pensando en su escalabilidad para pantallas móviles pequeñas y plataformas web.
+*   **Colores:**
+    *   **Color Principal (Primary):** Azul Marino Oscuro (`#1A365D`). Transmite seguridad, profesionalismo y confianza, esencial para brindar tranquilidad a los padres y formalidad a los conductores.
+    *   **Color Secundario (Secondary):** Naranja de Seguridad (`#F59E0B`). Utilizado como color de acento y para elementos críticos como los botones de emergencia y alertas.
+    *   **Colores de Estado:**
+        *   **Éxito:** Verde (`#10B981`) para confirmación de abordaje y llegadas a destino.
+        *   **Peligro/Error:** Rojo (`#EF4444`) para incidentes o notificaciones urgentes.
+        *   **Fondo:** Gris Claro (`#F3F4F6`) y Blanco (`#FFFFFF`) para minimizar la fatiga visual.
+*   **Tipografía:** Se emplea la familia tipográfica **Inter**, elegida por su alta legibilidad en pantallas digitales, particularmente en condiciones de movimiento o exteriores (crucial para el conductor).
+*   **Tono de Voz:** El tono es profesional, proactivo, directo y tranquilizador. Las alertas se redactan en oraciones cortas, precisas y sin ambigüedades (ej. "El alumno abordó el vehículo" en lugar de mensajes extensos).
 
 ### 3.1.2. Information Architecture
 
+La arquitectura de información (IA) de RouteGuard está estructurada para optimizar el flujo de los dos segmentos (Conductores y Padres), tanto en las aplicaciones móviles como en la Landing Page, dividiendo el ecosistema en contextos claros.
+
 #### 3.1.2.1. Organization Systems
+Se aplicó un modelo de organización mixto:
+*   **Lógico y Funcional (App del Conductor):** Centrado en tareas inmediatas y operativas: Rutas de hoy, Historial de Recorridos, y Reporte de Incidentes.
+*   **Jerárquico (App para Padres y Landing Page):** Presenta resúmenes iniciales (estado actual del niño) y permite profundizar a detalles adicionales (historial de alertas, ajustes de cuenta, planes de suscripción).
 
 #### 3.1.2.2. Labelling Systems
+Se utilizan etiquetas precisas para evitar la ambigüedad, aplicando el *Ubiquitous Language* definido en la etapa de modelado:
+*   **Conductor:** "Iniciar Ruta", "Finalizar Ruta", "Abordó", "Faltó".
+*   **Padres:** "En Camino", "Llegó", "Ver Ubicación", "Configurar Zonas".
+*   Se prefieren los iconos universales (ej. un escudo para seguridad, un pin de mapa para ubicación) para acompañar las etiquetas de texto.
 
 #### 3.1.2.3. SEO Tags and Meta Tags
+Para la Landing Page y el ecosistema web, se han definido etiquetas SEO clave orientadas a la captación B2B (administradores de flotas) y B2C (padres exigentes):
+*   **Title Tag:** RouteGuard - Monitoreo y Seguridad en el Transporte Escolar Privado.
+*   **Meta Description:** Plataforma logística integral para la gestión de flotas escolares. Conecta a transportistas con padres de familia en tiempo real mediante geolocalización y alertas proactivas.
+*   **Keywords:** transporte escolar privado, app movilidad escolar, tracking GPS niños, gestión logística escolar, geofencing.
 
 #### 3.1.2.4. Searching Systems
+Dado el alcance del producto, los sistemas de búsqueda están acotados a necesidades específicas:
+*   **Búsqueda de alumnos (Conductor):** Barra de búsqueda rápida con autocompletado en el checklist de ruta, vital cuando hay listas de más de 15 estudiantes.
+*   **Búsqueda de recorridos (Padres/Admin):** Filtros por fechas o estados ("Completados", "Incidentes").
 
 #### 3.1.2.5. Navigation Systems
+*   **Global:** Barra de navegación inferior (*Bottom Navigation Bar*) en las aplicaciones móviles para permitir acceso rápido a las 3 o 4 secciones principales con el pulgar.
+*   **Local/Contextual:** Botones de "Atrás" claramente visibles y pestañas (*Tabs*) superiores (ej. separar "Ruta de Ida" y "Ruta de Vuelta").
+*   **Flujo Cerrado:** Iniciar un viaje bloquea temporalmente el acceso a otras opciones secundarias para forzar la concentración del conductor y minimizar la distracción al volante.
 
 ### 3.1.3. Landing Page UI Design
 
+La *Landing Page* tiene como objetivo principal captar a dueños de flotas de transporte y presentar las ventajas competitivas de las aplicaciones a los padres.
+
 #### 3.1.3.1. Landing Page Wireframe
+A continuación, se presentan los wireframes de baja fidelidad que estructuran la propuesta de la web de aterrizaje, estableciendo el *Hero section*, beneficios, testimonios y *Call to Actions (CTA)*.
+
+![Landing Page Wireframe](resources/assets/images/chapter-3/landing-wireframe.png)
 
 #### 3.1.3.2. Landing Page Mock-up
+El diseño final de la Landing Page aplica nuestros colores corporativos y tipografías. Busca convencer visualmente al administrador de transportes para iniciar una prueba gratuita y adquirir nuestros planes.
+
+![Landing Page Mock-up](resources/assets/images/chapter-3/landing-mockup.png)
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
+El núcleo de RouteGuard reside en sus aplicaciones móviles, diseñadas teniendo en cuenta las fuertes diferencias en el contexto y entorno de uso de ambos usuarios objetivo.
+
 #### 3.1.4.1. Mobile Applications Wireframes
+Se elaboraron bocetos iniciales de las vistas críticas de la plataforma:
+*   **App Conductor:** Pantalla de selección de ruta, vista de checklist modo offline con botones grandes y accesibles, y botón de incidente a 1 toque.
+*   **App Padres:** Panel de estado principal, mapa de monitoreo pasivo, e historial de notificaciones.
+
+![Mobile Applications Wireframes](resources/assets/images/chapter-3/mobile-wireframes.png)
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+Estos diagramas evidencian la interacción entre las pantallas según las decisiones del usuario. Por ejemplo, demuestran cómo la acción simple del conductor ("Registrar Abordaje") desencadena actualizaciones visuales en el flujo de la vista del padre.
+
+![Mobile Applications Wireflow Diagrams](resources/assets/images/chapter-3/mobile-wireflow.png)
 
 #### 3.1.4.3. Mobile Applications Mock-ups
+Los diseños de alta fidelidad muestran la interfaz terminada, aplicando la guía de estilos:
+*   En la vista del conductor, predominan controles grandes e intuitivos que evitan la sobrecarga cognitiva durante el viaje.
+*   En la vista de los padres, la interfaz es amigable y resume en una vista el estado de seguridad de sus hijos mediante mapas y tarjetas de estado.
+
+![Mobile Applications Mock-ups](resources/assets/images/chapter-3/mobile-mockups.png)
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+El *User Flow* diagrama las rutas obligatorias y condicionales (*Happy paths* & *Alternate paths*). Destacan:
+*   **Flujo de Ejecución de Ruta (Conductor):** Login -> Seleccionar Ruta -> Modo Viaje (*GPS background tracking* activado) -> Checklists Parada a Parada -> Fin de Ruta.
+*   **Flujo de Monitoreo (Padre):** Notificación Push (Alerta Geofence) -> Toca alerta -> Pantalla de Detalles del Recorrido.
+
+![Mobile Applications User Flow Diagrams](resources/assets/images/chapter-3/mobile-user-flow.png)
 
 #### 3.1.4.5. Mobile Applications Prototyping
+Se desarrolló un prototipo interactivo en Figma que simula el movimiento, transiciones y flujos entre pantallas. Este recurso sirvió de base fundamental para validar la solución con los usuarios durante las entrevistas de validación finales.
+
+![Mobile Applications Prototyping](resources/assets/images/chapter-3/mobile-prototyping.png)
+
+*Enlace al prototipo interactivo (Figma):* `[Link a Figma - Insertar aquí]`
 
 <div style="page-break-after: always;"></div>
 
