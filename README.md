@@ -1,4 +1,4 @@
-<p align="center"><img src="resources/cover/upc-logo.png" alt="Logo UPC" width="40"></p>
+﻿<p align="center"><img src="resources/cover/upc-logo.png" alt="Logo UPC" width="40"></p>
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 <p align="center"><strong>Carrera de Ingeniería de Software</strong></p>
 <br>
@@ -203,7 +203,6 @@ A continuación, se adjunta la evidencia de la distribución equitativa de aport
     - [3.1.1. Style Guidelines](#311-style-guidelines)
       - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
     - [3.1.2. Information Architecture](#312-information-architecture)
-      - [3.1.2.1. Organization Systems](#3121-organization-systems)
       - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
       - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
       - [3.1.2.4. Searching Systems](#3124-searching-systems)
@@ -3336,34 +3335,51 @@ Para el diseño de interfaces de RouteGuard, hemos establecido un sistema de dis
 
 ### 3.1.2. Information Architecture
 
-La arquitectura de información (IA) de RouteGuard está estructurada para optimizar el flujo de los dos segmentos (Conductores y Padres), tanto en las aplicaciones móviles como en la Landing Page, dividiendo el ecosistema en contextos claros.
+Para estructurar los contenidos dentro de RouteGuard, hemos implementado una combinación de sistemas de organización exacta y ambigua, priorizando un esquema de categorización basado en la audiencia (*audience-based scheme*). Dado que las necesidades de un conductor difieren radicalmente de las de un padre de familia, la aplicación aísla los espacios de trabajo jerárquicamente según el rol del usuario autenticado. A nivel visual, utilizamos una jerarquía estricta que varía según la necesidad de la operación (Rosenfeld et al., 2015).
 
-#### 3.1.2.1. Organization Systems
-Se aplicó un modelo de organización mixto:
-*   **Lógico y Funcional (App del Conductor):** Centrado en tareas inmediatas y operativas: Rutas de hoy, Historial de Recorridos, y Reporte de Incidentes.
-*   **Jerárquico (App para Padres y Landing Page):** Presenta resúmenes iniciales (estado actual del niño) y permite profundizar a detalles adicionales (historial de alertas, ajustes de cuenta, planes de suscripción).
+Las estructuras aplicadas son las siguientes:
+*   **Esquema de Categorización (Audience-based):** Interfaces separadas de forma estricta para Padres, Conductores y Administradores de Flota.
+*   **Organización Secuencial (Conductores):** Estructura paso a paso (*step-by-step*) que guía al conductor desde el inicio de la ruta, las paradas de abordaje, hasta la finalización del viaje.
+*   **Organización Matricial y Jerárquica (Padres y Admins):** Estructura que permite al usuario navegar libremente entre el monitoreo en tiempo real, el historial de viajes y la gestión administrativa.
 
 #### 3.1.2.2. Labelling Systems
-Se utilizan etiquetas precisas para evitar la ambigüedad, aplicando el *Ubiquitous Language* definido en la etapa de modelado:
-*   **Conductor:** "Iniciar Ruta", "Finalizar Ruta", "Abordó", "Faltó".
-*   **Padres:** "En Camino", "Llegó", "Ver Ubicación", "Configurar Zonas".
-*   Se prefieren los iconos universales (ej. un escudo para seguridad, un pin de mapa para ubicación) para acompañar las etiquetas de texto.
+
+El sistema de etiquetado (*Labelling System*) en RouteGuard ha sido construido bajo la premisa de "claridad sobre creatividad", respaldada por las heurísticas de usabilidad de Nielsen (1994). Estas dictan que el sistema debe hablar el lenguaje del usuario con palabras, frases y conceptos familiares. Hemos evitado rigurosamente el uso de jerga técnica (como "Tracking Log" o "Geospatial Data"), optando por términos que reflejen el *Ubiquitous Language* del dominio del transporte escolar.
+
+Las convenciones de etiquetado adoptadas son:
+*   **Etiquetas de Navegación:** "Viaje Actual", "Historial de Asistencias", "Mis Rutas" y "Alertas".
+*   **Botones de Acción (Call-to-Action):** Se utilizan verbos imperativos directos para evitar ambigüedades, tales como "Iniciar Ruta", "Marcar Abordaje" o "Notificar Retraso".
+*   **Etiquetas de Estado del Sistema:** Descripciones cortas y escaneables como "En Camino", "Abordado", "Retrasado" o "Finalizado".
 
 #### 3.1.2.3. SEO Tags and Meta Tags
-Para la Landing Page y el ecosistema web, se han definido etiquetas SEO clave orientadas a la captación B2B (administradores de flotas) y B2C (padres exigentes):
-*   **Title Tag:** RouteGuard - Monitoreo y Seguridad en el Transporte Escolar Privado.
-*   **Meta Description:** Plataforma logística integral para la gestión de flotas escolares. Conecta a transportistas con padres de familia en tiempo real mediante geolocalización y alertas proactivas.
-*   **Keywords:** transporte escolar privado, app movilidad escolar, tracking GPS niños, gestión logística escolar, geofencing.
+
+Para asegurar la visibilidad y el posicionamiento orgánico del modelo de negocio, RouteGuard implementa una sólida estrategia de metadatos tanto en la Landing Page estática como en las tiendas de aplicaciones, basándose en las mejores prácticas de optimización de motores de búsqueda (Enge, Spencer, & Stricchiola, 2015).
+
+Los elementos técnicos implementados incluyen:
+*   **Landing Page Title:** `<title>RouteGuard | Plataforma de Monitoreo de Transporte Escolar Seguro</title>`
+*   **Meta Description:** `"Optimiza la gestión de tu flota escolar y brinda tranquilidad a los padres con geolocalización en tiempo real y notificaciones automatizadas."`
+*   **Open Graph (OG Tags):** Tarjetas visuales optimizadas (título, descripción y banner) para cuando los enlaces sean compartidos a través de redes sociales y WhatsApp.
+*   **ASO Elements (App Store Optimization):**
+    *   **App Title:** "RouteGuard - Movilidad Escolar"
+    *   **App Keywords:** "GPS escolar", "seguridad para niños", "control de asistencia", "rutas escolares".
 
 #### 3.1.2.4. Searching Systems
-Dado el alcance del producto, los sistemas de búsqueda están acotados a necesidades específicas:
-*   **Búsqueda de alumnos (Conductor):** Barra de búsqueda rápida con autocompletado en el checklist de ruta, vital cuando hay listas de más de 15 estudiantes.
-*   **Búsqueda de recorridos (Padres/Admin):** Filtros por fechas o estados ("Completados", "Incidentes").
+
+El sistema de búsqueda de RouteGuard está diseñado de manera asimétrica, adaptándose a la profundidad de información que cada rol necesita manejar. Dado que los padres interactúan con un volumen de datos reducido, la aplicación prioriza el escaneo visual directo. Por otro lado, para los Administradores de Flota, que deben gestionar decenas de alumnos y vehículos, el *Searching System* es fundamental para una toma de decisiones gerencial rápida (Rosenfeld et al., 2015).
+
+Las herramientas de búsqueda consisten en:
+*   **Búsqueda Global (Admins):** Barra de búsqueda tolerante a errores ortográficos para encontrar registros por nombre de alumno, apellido o colegio.
+*   **Filtros Estructurados (Faceted Search):** Opciones para refinar resultados masivos mediante parámetros como "Estado de la Ruta" (En curso, Retrasado), "Conductor" y "Fecha".
+*   **Escaneo Directo (Padres):** Ausencia de barras de búsqueda complejas; en su lugar, un historial de viajes ordenado cronológicamente para facilitar la revisión rápida.
 
 #### 3.1.2.5. Navigation Systems
-*   **Global:** Barra de navegación inferior (*Bottom Navigation Bar*) en las aplicaciones móviles para permitir acceso rápido a las 3 o 4 secciones principales con el pulgar.
-*   **Local/Contextual:** Botones de "Atrás" claramente visibles y pestañas (*Tabs*) superiores (ej. separar "Ruta de Ida" y "Ruta de Vuelta").
-*   **Flujo Cerrado:** Iniciar un viaje bloquea temporalmente el acceso a otras opciones secundarias para forzar la concentración del conductor y minimizar la distracción al volante.
+
+El sistema de navegación establece las vías por las cuales los usuarios exploran y consumen los servicios de RouteGuard. Se ha priorizado la ergonomía y la prevención de errores, asegurando que los usuarios (especialmente los conductores al volante) tengan acceso inmediato a las funciones principales y cuenten siempre con una ruta de salida segura (Nielsen, 1994).
+
+Los patrones de navegación integrados son:
+*   **Bottom Navigation Bar (Móvil):** Navegación global posicionada en la parte inferior de la pantalla (según *Material Design*), permitiendo el acceso a las vistas principales (Mapa, Rutas, Perfil) con el pulgar a una sola mano.
+*   **Sticky Header (Landing Page):** Navegación persistente superior que guía a los visitantes por el embudo de conversión (Funcionalidades, Planes, Contacto) sin importar cuánto se desplacen hacia abajo.
+*   **Breadcrumbs y Botones de Retorno:** Navegación estructural en la plataforma web administrativa para situar al usuario dentro del sistema, y flechas de retroceso evidentes en flujos profundos de la app móvil.
 
 ### 3.1.3. Landing Page UI Design
 
@@ -3534,11 +3550,14 @@ Se desarrolló un prototipo interactivo en Figma que simula el movimiento, trans
 * Adzic, G. (2012). *Impact Mapping: Making a big impact with software products and projects.* Provoking Thoughts.
 * Brandolini, A. (2021). *Introducing EventStorming: An Act of Deliberate Collective Learning.* Leanpub.
 * Chen, Y., & Zhao, M. (2025). Passive monitoring and location-based notifications in family tracking applications. *Journal of Mobile Human-Computer Interaction,* 15(2), 45-60. https://doi.org/10.1016/j.jmhci.2025.104221
-* Cooper, A. (1999). *The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity.* Sams Publishing.
 * Cohn, M. (2004). *User Stories Applied: For Agile Software Development.* Addison-Wesley Professional.
+* Cooper, A. (1999). *The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity.* Sams Publishing.
+* Enge, E., Spencer, S., & Stricchiola, J. (2015). *The Art of SEO: Mastering Search Engine Optimization* (3rd ed.). O'Reilly Media.
 * Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software.* Addison-Wesley Professional.
 * Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing Great Products with Agile Teams* (3rd ed.). O'Reilly Media.
 * Kumar, A., & Lee, S. (2024). Role-based task frequency analysis in mobile interface design for logistics. *International Journal of Human-Computer Studies,* 182, 103-118. https://doi.org/10.1016/j.ijhcs.2024.103118
+* Nielsen, J. (1994). *Usability Engineering*. Morgan Kaufmann.
+* Rosenfeld, L., Morville, P., & Arango, J. (2015). *Information Architecture: For the Web and Beyond* (4th ed.). O'Reilly Media.
 * Rubin, K. S. (2012). *Essential Scrum: A Practical Guide to the Most Popular Agile Process.* Addison-Wesley.
 * Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide.* Scrum.org.
 * Stickdorn, M., Hormess, M. E., Lawrence, A., & Schneider, J. (2018). *This Is Service Design Doing: Applying Service Design Thinking in the Real World*. O'Reilly Media.
