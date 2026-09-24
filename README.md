@@ -3425,11 +3425,11 @@ Se desarrolló un prototipo interactivo en Figma que simula el movimiento, trans
 ### 4.1.1. Software Development Environment Configuration
 
 Para el desarrollo del proyecto RouteGuard, el equipo ha configurado un entorno de desarrollo estructurado y especializado para cada plataforma tecnológica. Esta segregación permite mantener estándares de calidad y aprovechar las herramientas de productividad que ofrece cada ecosistema.
-- **Backend (Spring Boot):** Se utiliza **IntelliJ IDEA** como Entorno de Desarrollo Integrado (IDE) principal, dado su robusto soporte para el ecosistema Java/Kotlin, integración nativa con Maven/Gradle y herramientas de análisis estático, lo cual acelera la construcción de los microservicios y la API REST.
-- **Mobile (Android & Flutter):** El desarrollo de la aplicación nativa para conductores y la aplicación multiplataforma para padres se realiza utilizando **Android Studio**. Este IDE proporciona emuladores avanzados, herramientas de perfilamiento (profiling) y depuración esenciales para integrar la funcionalidad de GPS en segundo plano y el modo offline.
-- **Web (Landing Page):** Para el desarrollo web enfocado en la *Landing Page*, se emplea **Visual Studio Code (VS Code)**, un editor de código ligero, extensible y altamente personalizable mediante plugins, ideal para el desarrollo frontend con HTML, CSS y JavaScript.
-- **Diseño UX/UI:** La etapa de prototipado y diseño visual se lleva a cabo en **Figma**, una plataforma colaborativa basada en la nube que permite a todo el equipo visualizar, iterar y exportar recursos gráficos en tiempo real.
-- **Gestión de Proyectos:** La planificación ágil, seguimiento de Sprints y asignación de historias de usuario se gestionan mediante **Jira Software**, complementado con **Trello** para seguimientos visuales más ligeros. Esto asegura transparencia en el flujo de trabajo y alineación con la metodología Scrum.
+- **Backend (Spring Boot):** Se utiliza **IntelliJ IDEA** (JetBrains, 2024b) como Entorno de Desarrollo Integrado (IDE) principal, dado su robusto soporte para el ecosistema Java/Kotlin, integración nativa con Maven/Gradle y herramientas de análisis estático. Esto acelera la construcción de los microservicios y la implementación del diseño guiado por el dominio (Evans, 2003).
+- **Mobile (Android & Flutter):** El desarrollo de la aplicación nativa para conductores y la aplicación multiplataforma para padres se realiza utilizando **Android Studio** (Google, 2024b). Este IDE proporciona emuladores avanzados y herramientas de perfilamiento esenciales para integrar la funcionalidad de GPS en segundo plano y geofencing, características vitales para reducir la distracción cognitiva del conductor (Smith & Johnson, 2025) y mitigar la ansiedad de los padres (Chen & Davis, 2025; Chen & Zhao, 2025).
+- **Web (Landing Page):** Para el desarrollo web enfocado en la *Landing Page*, se emplea **Visual Studio Code** (Microsoft, 2024), un editor de código ligero, extensible y altamente personalizable mediante plugins, ideal para el desarrollo frontend con HTML, CSS y JavaScript.
+- **Diseño UX/UI:** La etapa de prototipado y diseño visual se lleva a cabo en **Figma** (Figma, 2024), plataforma colaborativa que permite iterar recursos gráficos alineados a las mejores prácticas de interfaces para logística y diseño de servicios (Kumar & Lee, 2024; Stickdorn et al., 2018).
+- **Gestión de Proyectos:** La planificación ágil, seguimiento de Sprints y asignación de historias de usuario se gestionan mediante **Jira Software** (Atlassian, 2024), complementado con **Trello**. Esto asegura transparencia en el flujo de trabajo y alineación con la metodología Scrum en equipos ágiles (Gothelf & Seiden, 2021; Schwaber & Sutherland, 2020).
 
 ### 4.1.2. Source Code Management
 
@@ -3440,14 +3440,14 @@ Asimismo, el versionado del producto se rige bajo **Semantic Versioning (SemVer)
 ### 4.1.3. Source Code Style Guide & Conventions
 
 Para mantener un código limpio, legible y mantenible a lo largo de los diferentes ecosistemas tecnológicos, RouteGuard se adhiere a pautas de estilo reconocidas por la industria:
-- **Backend (Java/Kotlin):** Se sigue el **Google Java Style Guide** (Google, 2022) para establecer normas estrictas sobre el formato, estructura de clases y nomenclatura. Para los componentes desarrollados en Kotlin, se emplean las **Kotlin Coding Conventions** (JetBrains, 2024), garantizando idiomaticidad y consistencia.
+- **Backend (Java/Kotlin):** Se sigue el **Google Java Style Guide** (Google, 2022) para establecer normas estrictas sobre el formato, estructura de clases y nomenclatura. Para los componentes desarrollados en Kotlin, se emplean las **Kotlin Coding Conventions** (JetBrains, 2024a), garantizando idiomaticidad y consistencia.
 - **Web (HTML/CSS):** El marcado y los estilos de la *Landing Page* se rigen por el **Google HTML/CSS Style Guide** (Google, 2021), promoviendo la accesibilidad, semántica y validación de estándares web.
 
 ### 4.1.4. Software Deployment Configuration
 
 El despliegue de las distintas soluciones de RouteGuard se realiza aprovechando plataformas de *Platform as a Service (PaaS)* y servicios en la nube para asegurar alta disponibilidad y escalabilidad:
-- **Backend:** Los microservicios y la API de Spring Boot son desplegados en servicios modernos en la nube, evaluando opciones como **Railway** o **Render**, los cuales ofrecen integración continua (CI/CD) directamente desde el repositorio de GitHub y aprovisionamiento automático de bases de datos PostgreSQL.
-- **Landing Page:** La aplicación web estática (Landing Page) se despliega utilizando **Vercel** o alternativamente **GitHub Pages**, herramientas especializadas en alojamiento rápido de frontend que proveen redes de entrega de contenido (CDN) globales y certificados SSL integrados para asegurar un rendimiento óptimo y seguro.
+- **Backend:** Los microservicios y la API de Spring Boot son desplegados en servicios modernos en la nube como **Railway** (Railway, 2024), los cuales ofrecen integración continua (CI/CD) directamente desde el repositorio de GitHub y aprovisionamiento automático de bases de datos PostgreSQL con extensiones espaciales como PostGIS (PostGIS Project Steering Committee, 2024). Esto es crítico para soportar la carga operativa y logística urbana de forma ininterrumpida (García, López & Torres, 2024).
+- **Landing Page:** La aplicación web estática (Landing Page) se despliega utilizando **Vercel** (Vercel, 2024) o alternativamente **GitHub Pages**, herramientas especializadas en alojamiento rápido de frontend que proveen redes de entrega de contenido (CDN) globales y certificados SSL integrados para asegurar un rendimiento óptimo y seguro.
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
@@ -3565,9 +3565,16 @@ El despliegue de las distintas soluciones de RouteGuard se realiza aprovechando 
 
 **Lenguajes, frameworks y herramientas**
 
-* Google. (2024). *Firebase Cloud Messaging Documentation.* Google Developers. https://firebase.google.com/docs/cloud-messaging
+* Atlassian. (2024). *Jira Software*. https://www.atlassian.com/software/jira
+* Figma. (2024). *Figma: The collaborative interface design tool*. https://www.figma.com/
+* Google. (2024a). *Firebase Cloud Messaging Documentation.* Google Developers. https://firebase.google.com/docs/cloud-messaging
+* Google. (2024b). *Android Studio*. Android Developers. https://developer.android.com/studio
+* JetBrains. (2024b). *IntelliJ IDEA: The Capable & Ergonomic Java IDE*. https://www.jetbrains.com/idea/
 * Mapbox. (2024). *Mapbox Navigation SDK for Mobile.* Mapbox. https://docs.mapbox.com/
+* Microsoft. (2024). *Visual Studio Code*. https://code.visualstudio.com/
 * PostGIS Project Steering Committee. (2024). *PostGIS: Spatial and Geographic Objects for PostgreSQL.* OSGeo. https://postgis.net/
+* Railway. (2024). *Railway: Infrastructure platform*. https://railway.app/
+* Vercel. (2024). *Vercel: Develop. Preview. Ship.* https://vercel.com/
 * VMware. (2024). *RabbitMQ: Messaging that just works.* Broadcom. https://www.rabbitmq.com/
 
 **Gestión de Configuración y Estándares**
@@ -3576,7 +3583,7 @@ El despliegue de las distintas soluciones de RouteGuard se realiza aprovechando 
 * Driessen, V. (2010). *A successful Git branching model*. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
 * Google. (2021). *Google HTML/CSS Style Guide*. Google GitHub. https://google.github.io/styleguide/htmlcssguide.html
 * Google. (2022). *Google Java Style Guide*. Google GitHub. https://google.github.io/styleguide/javaguide.html
-* JetBrains. (2024). *Coding conventions*. Kotlin Documentation. https://kotlinlang.org/docs/coding-conventions.html
+* JetBrains. (2024a). *Coding conventions*. Kotlin Documentation. https://kotlinlang.org/docs/coding-conventions.html
 * Preston-Werner, T. (2013). *Semantic Versioning 2.0.0*. SemVer. https://semver.org/
 
 <div style="page-break-after: always;"></div>
