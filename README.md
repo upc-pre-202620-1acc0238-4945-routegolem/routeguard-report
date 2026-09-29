@@ -223,10 +223,10 @@ A continuación, se adjunta la evidencia de la distribución equitativa de aport
     - [4.1.3. Source Code Style Guide \& Conventions](#413-source-code-style-guide--conventions)
     - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
   - [4.2. Landing Page \& Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
-    - [4.2.1. Sprint n](#421-sprint-n)
-      - [4.2.1.1. Sprint Planning n](#4211-sprint-planning-n)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
       - [4.2.1.2. Aspect Leaders and Collaborators](#4212-aspect-leaders-and-collaborators)
-      - [4.2.1.3. Sprint Backlog n](#4213-sprint-backlog-n)
+      - [4.2.1.3. Sprint Backlog 1](#4213-sprint-backlog-1)
       - [4.2.1.4. Development Evidence for Sprint Review](#4214-development-evidence-for-sprint-review)
       - [4.2.1.5. Testing Suite Evidence for Sprint Review](#4215-testing-suite-evidence-for-sprint-review)
       - [4.2.1.6. Execution Evidence for Sprint Review](#4216-execution-evidence-for-sprint-review)
@@ -3467,37 +3467,60 @@ El despliegue de las distintas soluciones de RouteGuard se realiza aprovechando 
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
-### 4.2.1. Sprint n
+### 4.2.1. Sprint 1
 
-#### 4.2.1.1. Sprint Planning n
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 1. El esfuerzo de esta iteración se concentró en establecer la presencia digital del producto a través del Landing Page y construir los cimientos de seguridad y base de datos en el Backend (Identity & Access Management).
 
-| Sprint # | Sprint n |
-|---|---|
-| Sprint Planning Background | |
-| Date | YYYY-MM-DD |
-| Time | HH:MM AM/PM |
-| Location | |
-| Prepared By | |
-| Attendees (to planning meeting) | |
-| Sprint n – 1 Review Summary | |
-| Sprint n – 1 Retrospective Summary | |
+#### 4.2.1.1. Sprint Planning 1
+
+El Sprint Planning se llevó a cabo de manera síncrona para definir los objetivos iniciales del desarrollo, estimar los puntos de historia (Story Points) y asignar las tareas técnicas derivadas de los User Stories priorizados en el Product Backlog.
+
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 2026-09-10 |
+| Time | 19:00 PM |
+| Location | Microsoft Teams (Reunión Virtual) |
+| Prepared By | Pareja Calloapaza, Marcelo Fausto |
+| Attendees (to planning meeting) | Pareja Calloapaza, Marcelo Fausto / Francia Torres, Jhony Manuel / De la Cruz De los Santos, Mathias Marcelo / Ramirez Ruíz, Nickolas |
+| Sprint n – 1 Review Summary | N/A - Al ser el primer Sprint, no hay entregas de software previas a revisar. |
+| Sprint n – 1 Retrospective Summary | N/A - Primer Sprint del proyecto. |
 | **Sprint Goal & User Stories** | |
-| Sprint n Goal | |
-| Sprint n Velocity | |
-| Sum of Story Points | |
+| Sprint 1 Goal | **Our focus is on** delivering the Landing Page and the Identity & Access Management (IAM) endpoints. **We believe it delivers** a clear product presentation to visitors and foundational security for the ecosystem. **This will be confirmed when** users can view the platform's value proposition online and the backend can issue valid JWT tokens for login. |
+| Sprint 1 Velocity | 15 Story Points. |
+| Sum of Story Points | 13 Story Points. |
 
 #### 4.2.1.2. Aspect Leaders and Collaborators
 
-| Team Member | GitHub Username | Aspect Name 1 | Aspect Name 2 | Aspect Name n |
-|---|---|---|---|---|
-| | | | | |
+Para mantener una comunicación efectiva y delegar responsabilidades, se elaboró la siguiente matriz *Leadership-and-Collaboration Matrix (LACX)* para los aspectos clave del Sprint 1.
 
-#### 4.2.1.3. Sprint Backlog n
+| Team Member | GitHub Username | Aspect Name 1: Landing Page (Frontend) | Aspect Name 2: IAM & Security (Backend) | Aspect Name 3: Database & DevOps |
+| :--- | :--- | :--- | :--- | :--- |
+| Pareja Calloapaza, Marcelo | marc3lllob7 | L (Leader) | C (Collaborator) | C (Collaborator) |
+| De la Cruz, Mathias | Dela0405 | C (Collaborator) | L (Leader) | C (Collaborator) |
+| Francia Torres, Jhony | ManuelFT4 | C (Collaborator) | C (Collaborator) | L (Leader) |
+| Ramirez Ruíz, Nickolas | Bynickram02 | C (Collaborator) | C (Collaborator) | C (Collaborator) |
 
-| Sprint # | Sprint n | | | |
-|---|---|---|---|---|
-| **User Story** | **Work-Item / Task** |
-| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+#### 4.2.1.3. Sprint Backlog 1
+
+Para la gestión de nuestras tareas y User Stories durante este Sprint, utilizamos la herramienta ágil Trello/Jira. El tablero público donde se evidencia el movimiento de tarjetas (To Do, In Progress, In Review, Done) se puede visualizar a continuación:
+
+> **URL del Board del Sprint 1:** [Enlace a tu Trello/Jira aquí]
+
+![Sprint 1 Board](resources/assets/images/chapter-4/sprint1-board.png)
+
+A continuación, se detalla la descomposición de los User Stories en Technical Tasks:
+
+| User Story | | Work-Item / Task | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US-01 | Registro y Asignación de Rol | TK-101 | Diseño de Entidades JPA | Crear entidades User, Role y Credential en Spring Boot con relaciones mapeadas. | 4 | Mathias | Done |
+| US-01 | Registro y Asignación de Rol | TK-102 | Configurar Spring Security | Implementar la configuración de seguridad y filtros JWT. | 6 | Mathias | Done |
+| US-01 | Registro y Asignación de Rol | TK-103 | IAM Controllers | Exponer los endpoints REST de `/api/v1/auth/sign-in` y `sign-up`. | 5 | Marcelo | Done |
+| US-13 | Gestión de Perfil | TK-104 | Repositorios y Servicios | Crear el UserJPARepository y UserAppService para actualizar datos. | 4 | Nickolas | Done |
+| TS-04 | Pipeline CI/CD | TK-105 | Configurar GitHub Actions | Crear el archivo .yml para compilación automática de Java/Spring. | 3 | Jhony | Done |
+| N/A | Landing Page | TK-106 | Maquetación HTML/CSS | Traducir los wireframes de Figma a código HTML semántico y CSS (Material). | 8 | Todos | Done |
+| N/A | Landing Page | TK-107 | Responsive Design | Adaptar el Landing Page para correcta visualización en móviles (Media Queries). | 5 | Todos | Done |
 
 #### 4.2.1.4. Development Evidence for Sprint Review
 
