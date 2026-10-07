@@ -33,23 +33,110 @@
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---------|-------|-------|-----------------------------|
-| **0.1** | 05/09/2026 | Marcelo Pareja | Creación de la estructura base del informe, carátula y aplicación de la plantilla Markdown oficial del curso. |
-| **0.2** | 05/09/2026 | Marcelo Pareja | Redacción del Startup Profile (Misión, Visión, Valores) y el Solution Profile (Antecedentes bajo la técnica 5W+2H) con sustento académico. |
-| **0.3** | 06/09/2026 | Marcelo Pareja | Integración del proceso Lean UX respetando los templates oficiales (Problem Statements, 5 tipos de Assumptions e Hipótesis). |
-| **0.4** | 06/09/2026 | Marcelo Pareja | Definición de los Segmentos Objetivo (Padres y Conductores) incorporando información estadística de sustento (MINEDU y ATU). |
-| **0.5** | 06/09/2026 | Marcelo Pareja | Incorporación de los Objetivos SMART, tabla de Student Outcome mapeada a la rúbrica y generación de la Tabla de Contenidos automatizada. |
-| **0.6** | 09/09/2026 | Marcelo Pareja | Diseño de guiones de entrevista, elaboración del User Task Matrix, User Personas y definición del Ubiquitous Language. |
-| **0.7** | 10/09/2026 | Marcelo Pareja | Integración visual del Big Picture EventStorming y desarrollo de los User Journey Maps (As-Is). |
-| **0.8** | 13/09/2026 | Manuel Francia | Definición de Épicas, creación del Product Backlog inicial y redacción de User Stories con criterios de aceptación Gherkin. |
-| **0.9** | 14/09/2026 | Mathias De La Cruz | Desarrollo del Strategic-Level DDD (EventStorming, Candidate Context Discovery, Domain Message Flows y Bounded Context Canvases). |
-| **1.0** | 14/09/2026 | Nickolas Ramirez | Redacción del Análisis Competitivo, definición de Estrategias frente a competidores y elaboración del Empathy Mapping. |
-| **1.1** | 16/09/2026 | Marcelo Pareja | Estructuración del Tactical-Level DDD, refinamiento del backlog e integración de arquitectura inicial para Tracking/Notifications. |
-| **1.2** | 17/09/2026 | Manuel Francia | Elaboración del Impact Mapping y actualización integral del formato de especificación de requerimientos. |
-| **1.3** | 18/09/2026 | Mathias De La Cruz | Diseño de diagramas de Software Architecture (Context, Container, Deployment) y refinamiento del Context Mapping. |
-| **1.4** | 18/09/2026 | Nickolas Ramirez | Modelado completo del Bounded Context de Stakeholder (Domain, Interface, Application, Infra) y diagramas C4 a nivel de código. |
-| **1.5** | 18/09/2026 | Marcelo Pareja | Consolidación de diagramas C4 Model (Micro-Frontend/Backend), resúmenes de entrevistas, video de Needfinding y resolución de merge conflicts (Release AV1). |
+<p><strong>Tabla 1.</strong> <em>Registro de Versiones del Informe</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Versión</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Fecha</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Autor</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.1</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">05/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Creación de la estructura base del informe, carátula y aplicación de la plantilla Markdown oficial del curso.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.2</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">05/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Redacción del Startup Profile (Misión, Visión, Valores) y el Solution Profile (Antecedentes bajo la técnica 5W+2H) con sustento académico.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.3</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">06/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Integración del proceso Lean UX respetando los templates oficiales (Problem Statements, 5 tipos de Assumptions e Hipótesis).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.4</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">06/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Definición de los Segmentos Objetivo (Padres y Conductores) incorporando información estadística de sustento (MINEDU y ATU).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.5</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">06/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Incorporación de los Objetivos SMART, tabla de Student Outcome mapeada a la rúbrica y generación de la Tabla de Contenidos automatizada.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.6</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">09/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Diseño de guiones de entrevista, elaboración del User Task Matrix, User Personas y definición del Ubiquitous Language.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.7</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">10/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Integración visual del Big Picture EventStorming y desarrollo de los User Journey Maps (As-Is).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.8</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">13/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Manuel Francia</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Definición de Épicas, creación del Product Backlog inicial y redacción de User Stories con criterios de aceptación Gherkin.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.9</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">14/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De La Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Desarrollo del Strategic-Level DDD (EventStorming, Candidate Context Discovery, Domain Message Flows y Bounded Context Canvases).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>1.0</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">14/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas Ramirez</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Redacción del Análisis Competitivo, definición de Estrategias frente a competidores y elaboración del Empathy Mapping.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>1.1</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">16/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Estructuración del Tactical-Level DDD, refinamiento del backlog e integración de arquitectura inicial para Tracking/Notifications.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>1.2</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">17/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Manuel Francia</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Elaboración del Impact Mapping y actualización integral del formato de especificación de requisitos.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>1.3</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">18/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De La Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Diseño de diagramas de Software Architecture (Context, Container, Deployment) y refinamiento del Context Mapping.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>1.4</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">18/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas Ramirez</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Modelado completo del Bounded Context de Stakeholder (Domain, Interface, Application, Infra) y diagramas C4 a nivel de código.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>1.5</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">18/09/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Consolidación de diagramas C4 Model (Micro-Frontend/Backend), resúmenes de entrevistas, video de Needfinding y resolución de merge conflicts (Release AV1).</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a registro de versiones del informe.</em></p>
 
 <div style="page-break-after: always;"></div>
 
@@ -254,10 +341,29 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 **ABET - EAC - Student Outcome 7**
 **Criterio:** La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-| :--- | :--- | :--- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Pareja Calloapaza, Marcelo Fausto:**<br>**AV1:** Aprendió y aplicó técnicas avanzadas de Lean UX y herramientas de UX Research (UXPressia) para el diseño de entrevistas y mapeo de journeys, alineando las necesidades del negocio con la visión de la solución.<br><br>**Francia Torres, Jhony Manuel:**<br>**AV1:** Investigó y dominó la sintaxis Gherkin (Given-When-Then) para la correcta especificación de Criterios de Aceptación, así como el uso de Impact Mapping para alinear las historias de usuario con los objetivos SMART.<br><br>**De la Cruz De los Santos, Mathias Marcelo:**<br>**AV1:** Actualizó sus conocimientos en el modelado de arquitecturas aplicando Strategic-Level Domain-Driven Design (EventStorming, Context Mapping) y el framework C4 Model para la representación estructural del sistema.<br><br>**Ramirez Ruíz, Nickolas:**<br>**AV1:** Adquirió nuevos conocimientos en análisis competitivo y modelado de arquitecturas mediante herramientas de *Diagram-as-Code* (Structurizr DSL y PlantUML), aplicándolos para diagramar el nivel de código y base de datos. | La actualización constante de conocimientos en metodologías ágiles (Lean UX), modelado de dominio (DDD) y arquitectura de software (C4 Model) fue fundamental para definir la estructura base de RouteGuard. Sin este aprendizaje autónomo y la exploración de nuevas herramientas, hubiese sido imposible traducir las necesidades operativas de los usuarios a requerimientos técnicos y arquitectónicos formales. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Pareja Calloapaza, Marcelo Fausto:**<br>**AV1:** Reconoció la importancia de mantener un estándar de comunicación global (Ubiquitous Language) y dominar herramientas de prototipado colaborativo para asegurar la calidad de los entregables a largo plazo.<br><br>**Francia Torres, Jhony Manuel:**<br>**AV1:** Identificó que el levantamiento de requerimientos evoluciona constantemente, comprendiendo la necesidad de investigar técnicas ágiles de priorización (Product Backlog) para maximizar el valor entregado.<br><br>**De la Cruz De los Santos, Mathias Marcelo:**<br>**AV1:** Comprendió que las arquitecturas modernas requieren una constante investigación sobre patrones de integración, evidenciando la necesidad de actualizarse continuamente en enfoques de despliegue en la nube.<br><br>**Ramirez Ruíz, Nickolas:**<br>**AV1:** Reconoció que el estudio continuo del mercado y la adopción constante de nuevos frameworks de modelado estructural son habilidades indispensables para agilizar la documentación técnica en entornos reales. | El equipo concluye que el ciclo de vida del software exige una mentalidad de aprendizaje continuo. La adopción temprana de estándares de la industria, herramientas de diseño modernas (como Figma o UXPressia) y enfoques arquitectónicos avanzados no solo asegura el éxito funcional del proyecto, sino que sienta las bases para la competitividad y el crecimiento profesional individual de cada integrante en el mercado laboral. |
+<p><strong>Tabla 2.</strong> <em>La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Criterio específico</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Acciones realizadas</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Pareja Calloapaza, Marcelo Fausto:</strong><br><strong>AV1:</strong> Aprendió y aplicó técnicas avanzadas de Lean UX y herramientas de UX Research (UXPressia) para el diseño de entrevistas y mapeo de journeys, alineando las necesidades del negocio con la visión de la solución.<br><br><strong>Francia Torres, Jhony Manuel:</strong><br><strong>AV1:</strong> Investigó y dominó la sintaxis Gherkin (Given-When-Then) para la correcta especificación de Criterios de Aceptación, así como el uso de Impact Mapping para alinear las historias de usuario con los objetivos SMART.<br><br><strong>De la Cruz De los Santos, Mathias Marcelo:</strong><br><strong>AV1:</strong> Actualizó sus conocimientos en el modelado de arquitecturas aplicando Strategic-Level Domain-Driven Design (EventStorming, Context Mapping) y el framework C4 Model para la representación estructural del sistema.<br><br><strong>Ramirez Ruíz, Nickolas:</strong><br><strong>AV1:</strong> Adquirió nuevos conocimientos en análisis competitivo y modelado de arquitecturas mediante herramientas de <em>Diagram-as-Code</em> (Structurizr DSL y PlantUML), aplicándolos para diagramar el nivel de código y base de datos.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">La actualización constante de conocimientos en metodologías ágiles (Lean UX), modelado de dominio (DDD) y arquitectura de software (C4 Model) fue fundamental para definir la estructura base de RouteGuard. Sin este aprendizaje autónomo y la exploración de nuevas herramientas, hubiese sido imposible traducir las necesidades operativas de los usuarios a requisitos técnicos y arquitectónicos formales.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Pareja Calloapaza, Marcelo Fausto:</strong><br><strong>AV1:</strong> Reconoció la importancia de mantener un estándar de comunicación global (Ubiquitous Language) y dominar herramientas de prototipado colaborativo para asegurar la calidad de los entregables a largo plazo.<br><br><strong>Francia Torres, Jhony Manuel:</strong><br><strong>AV1:</strong> Identificó que el levantamiento de requisitos evoluciona constantemente, comprendiendo la necesidad de investigar técnicas ágiles de priorización (Product Backlog) para maximizar el valor entregado.<br><br><strong>De la Cruz De los Santos, Mathias Marcelo:</strong><br><strong>AV1:</strong> Comprendió que las arquitecturas modernas requieren una constante investigación sobre patrones de integración, evidenciando la necesidad de actualizarse continuamente en enfoques de despliegue en la nube.<br><br><strong>Ramirez Ruíz, Nickolas:</strong><br><strong>AV1:</strong> Reconoció que el estudio continuo del mercado y la adopción constante de nuevos frameworks de modelado estructural son habilidades indispensables para agilizar la documentación técnica en entornos reales.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">El equipo concluye que el ciclo de vida del software exige una mentalidad de aprendizaje continuo. La adopción temprana de estándares de la industria, herramientas de diseño modernas (como Figma o UXPressia) y enfoques arquitectónicos avanzados no solo asegura el éxito funcional del proyecto, sino que sienta las bases para la competitividad y el crecimiento profesional individual de cada integrante en el mercado laboral.</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a la capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas..</em></p>
 
 <div style="page-break-after: always;"></div>
 
@@ -265,7 +371,7 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 Para garantizar el desarrollo ordenado y exitoso del ecosistema RouteGuard a lo largo del ciclo académico, el equipo ha establecido los siguientes objetivos bajo la metodología SMART:
 
-**Objetivo 1: Validación de Experiencia de Usuario (UX) y Requerimientos**
+**Objetivo 1: Validación de Experiencia de Usuario (UX) y Requisitos**
 * Validar la propuesta de valor y las hipótesis establecidas en el *Lean UX* realizando 8 entrevistas a profundidad (4 a conductores y 4 a padres de familia) para elaborar el 100% de los artefactos de Needfinding y el *Product Backlog* antes de la Semana 4 del ciclo académico.
   * **S (Específico):** Validar propuesta de valor y elaborar artefactos UX.
   * **M (Medible):** 8 entrevistas exactas y 100% de artefactos completados.
@@ -327,12 +433,49 @@ La visión de RouteGolem es consolidarse como el estándar tecnológico regional
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
-|                         Foto                         | Apellidos y Nombres |   Código    | Carrera | Resumen |
-|:----------------------------------------------------:|:---|:-----------:|:---|:---|
-|                       ![Foto](resources/assets/images/team/mathias.jpg)                        | De la Cruz De los Santos, Mathias Marcelo |   U202424059    | Ingeniería de Software |Soy Mathias De la Cruz De los Santos, estudiante de quinto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy un apasionado de la programación, así como del fútbol y los videojuegos, intereses que me han ayudado a desarrollar disciplina, paciencia y capacidad de trabajo en equipo. En cuanto al trabajo, aporto mis conocimientos técnicos junto con un enfoque responsable y comprometido, buscando siempre contribuir de forma constante al avance y la calidad del proyecto. |
-|                       ![Foto](resources/assets/images/team/Manuel.jpeg)                        | Francia Torres, Jhony Manuel |   U202417329    | Ingeniería de Software | Mi nombre es Jhony Manuel Francia Torres, tengo 19 años, actualmente estoy cursando el 6to  ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy un apasionado del fútbol y la natación. Soy perseverante en lograr mis objetivos y metódico en mis proyectos. Mi objetivo en este grupo es poder desarrollar mis habilidades de trabajo en equipo y comunicación ágil, además de adquirir conocimientos en nuevos lenguajes de programación para el desarrollo de aplicaciones móviles. Mis aportes en este grupo serán cumplir responsablemente con las tareas que se me asignen y brindar ideas para el desarrollo del proyecto. |
-|                       ![Foto](resources/assets/images/team/marcelo.jpg)                        | Pareja Calloapaza, Marcelo Fausto | U202411627  | Ingeniería de Software | Soy Marcelo Pareja Calloapaza, estudiante de Ingeniería de Software y considero que, gracias a mis estudios he podido construir un perfil técnico altamente versátil. Domino tecnologías backend, bases de datos y entornos cloud (C#, C++, JavaScript, SQL/NoSQL, Azure), y actualmente busco embarcarme en desarrollo móvil nativo con Kotlin. En RouteGuard desempeño un rol Full-Stack y de liderazgo arquitectónico, en donde busco involucrarme en todas las capas del ecosistema. Me considero un desarrollador analítico y adaptable, con disposición innata a resolver problemas complejos para asegurar el éxito del proyecto. |
-|                       ![Foto](resources/assets/images/team/nickolas.png)                        | Ramirez Ruiz, Nickolas | U202415551 | Ingeniería de Software | Soy Nickolas Ramirez Ruiz, estudiante del sexto ciclo de la carrera de Ingeniería de Software. A lo largo de mi formación académica he adquirido conocimientos en programación, principalmente utilizando el lenguaje Java. Me considero una persona organizada, comprometida y con un enfoque proactivo, siempre buscando cumplir con mis responsabilidades antes del tiempo previsto.|
+<p><strong>Tabla 3.</strong> <em>1.1.2 Perfiles de integrantes del equipo</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Foto</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Apellidos y Nombres</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Código</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Carrera</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Resumen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><img src="resources/assets/images/team/mathias.jpg" alt="Foto"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">De la Cruz De los Santos, Mathias Marcelo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">U202424059</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ingeniería de Software</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Soy Mathias De la Cruz De los Santos, estudiante de quinto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy un apasionado de la programación, así como del fútbol y los videojuegos, intereses que me han ayudado a desarrollar disciplina, paciencia y capacidad de trabajo en equipo. En cuanto al trabajo, aporto mis conocimientos técnicos junto con un enfoque responsable y comprometido, buscando siempre contribuir de forma constante al avance y la calidad del proyecto.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><img src="resources/assets/images/team/Manuel.jpeg" alt="Foto"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Francia Torres, Jhony Manuel</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">U202417329</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ingeniería de Software</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mi nombre es Jhony Manuel Francia Torres, tengo 19 años, actualmente estoy cursando el 6to  ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy un apasionado del fútbol y la natación. Soy perseverante en lograr mis objetivos y metódico en mis proyectos. Mi objetivo en este grupo es poder desarrollar mis habilidades de trabajo en equipo y comunicación ágil, además de adquirir conocimientos en nuevos lenguajes de programación para el desarrollo de aplicaciones móviles. Mis aportes en este grupo serán cumplir responsablemente con las tareas que se me asignen y brindar ideas para el desarrollo del proyecto.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><img src="resources/assets/images/team/marcelo.jpg" alt="Foto"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pareja Calloapaza, Marcelo Fausto</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">U202411627</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ingeniería de Software</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Soy Marcelo Pareja Calloapaza, estudiante de Ingeniería de Software y considero que, gracias a mis estudios he podido construir un perfil técnico altamente versátil. Domino tecnologías backend, bases de datos y entornos cloud (C#, C++, JavaScript, SQL/NoSQL, Azure), y actualmente busco embarcarme en desarrollo móvil nativo con Kotlin. En RouteGuard desempeño un rol Full-Stack y de liderazgo arquitectónico, en donde busco involucrarme en todas las capas del ecosistema. Me considero un desarrollador analítico y adaptable, con disposición innata a resolver problemas complejos para asegurar el éxito del proyecto.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><img src="resources/assets/images/team/nickolas.png" alt="Foto"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ramirez Ruiz, Nickolas</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">U202415551</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ingeniería de Software</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Soy Nickolas Ramirez Ruiz, estudiante del sexto ciclo de la carrera de Ingeniería de Software. A lo largo de mi formación académica he adquirido conocimientos en programación, principalmente utilizando el lenguaje Java. Me considero una persona organizada, comprometida y con un enfoque proactivo, siempre buscando cumplir con mis responsabilidades antes del tiempo previsto.</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a 1.1.2 perfiles de integrantes del equipo.</em></p>
 
 ## 1.2. Solution Profile
 
@@ -366,7 +509,7 @@ La magnitud del problema es masiva. Según el Censo Educativo del Ministerio de 
 Para el modelado de nuestra propuesta de valor y la mitigación de riesgos de desarrollo, aplicamos la metodología Lean UX (Gothelf & Seiden, 2021). Este enfoque iterativo nos permite validar de forma temprana nuestras asunciones mediante experimentación directa con los transportistas y padres de familia. Como señalan Gothelf y Seiden (2021), "Lean UX cambia radicalmente la forma en que enmarcamos nuestro trabajo al reintroducir el contexto estratégico para nuestras elecciones de diseño y funcionalidad y, lo que es más importante, cómo definimos el éxito" (p. 48).
 
 #### 1.2.2.1. Lean UX Problem Statements
-En el marco de Lean UX, las declaraciones de problemas de negocio reemplazan a los requerimientos tradicionales, ya que exigen explícitamente que se lleve a cabo un trabajo de descubrimiento del producto (Gothelf & Seiden, 2021, p. 68). Siguiendo la plantilla oficial para nuevas iniciativas (Gothelf & Seiden, 2021, p. 71), definimos el problema de nuestra startup de la siguiente manera:
+En el marco de Lean UX, las declaraciones de problemas de negocio reemplazan a los requisitos tradicionales, ya que exigen explícitamente que se lleve a cabo un trabajo de descubrimiento del producto (Gothelf & Seiden, 2021, p. 68). Siguiendo la plantilla oficial para nuevas iniciativas (Gothelf & Seiden, 2021, p. 71), definimos el problema de nuestra startup de la siguiente manera:
 
 El estado actual del **[transporte escolar privado]** se ha enfocado principalmente en **[la coordinación operativa y comunicación a través de métodos manuales e informales (llamadas telefónicas y grupos de WhatsApp), lo que genera puntos de dolor críticos: una constante ansiedad en los padres por desconocer el paradero exacto del vehículo y un alto nivel de distracción y sobrecarga laboral para el conductor al intentar reportar su avance mientras maneja]**, factores que multiplican el riesgo de siniestros viales (Smith & Johnson, 2025).
 
@@ -389,7 +532,7 @@ En el desarrollo de software, rara vez se cuenta con certezas absolutas. Por ell
 * Creemos que el éxito del negocio se medirá por la cantidad de rutas activas recurrentes creadas por los administradores y la tasa de actualización (upgrade) hacia los planes de suscripción de mayor nivel.
 
 **3. User Assumptions:**
-* Creemos que el "Conductor" operará la aplicación en entornos de baja conectividad a internet, por lo que el modo offline con sincronización en diferido es un requerimiento crítico.
+* Creemos que el "Conductor" operará la aplicación en entornos de baja conectividad a internet, por lo que el modo offline con sincronización en diferido es un requisito crítico.
 * Creemos que el "Padre de familia" prefiere una experiencia de usuario pasiva basada en alertas automáticas (Geofencing) en lugar de mantener la pantalla de su dispositivo encendida monitoreando un mapa todo el trayecto (Chen & Davis, 2025).
 
 **4. User Outcome and Benefit Assumptions:**
@@ -425,43 +568,37 @@ Una hipótesis es una solución empresarial propuesta que debe validarse de la m
 #### 1.2.2.4. Lean UX Canvas
 El Lean UX Canvas consolida los métodos y procesos de esta metodología en un solo documento para facilitar el entendimiento compartido del equipo (Gothelf & Seiden, 2021, p. 57).
 
-<table>
-    <tr>
-        <td valign="top" >
-            <div align="center"> <br><b>1. Business Problem</b> </div><br>
-            <p>El transporte escolar privado opera de forma manual e informal (WhatsApp/llamadas). Los padres carecen de visibilidad sobre el trayecto de sus hijos, y los conductores sufren sobrecarga y distracciones intentando reportar el servicio mientras manejan, comprometiendo la seguridad vial (Smith & Johnson, 2025).</p><br>
-        </td>
-        <td rowspan="2" valign="top">
-            <div align="center"><br><b>5. Solutions</b> </div><br>
-            <p>- App Nativa para conductor con GPS en background y soporte offline.<br>- Checklist de abordaje a 1 toque.<br>- App Cross-platform para padres con notificaciones Push y Geofencing.<br>- Botón de incidencias rápido.<br>- Plataforma SaaS de gestión de rutas y planes.</p><br>
-        </td>
-            <td valign="top">
-            <div align="center"> <br><b>2. Business Outcomes</b> </div><br>
-            <p>- Lograr que el 70% de administradores migren del Plan Básico al Intermedio/Completo en 3 meses.<br>- Reducir el tiempo promedio de recojo en paraderos en un 15%.<br>- Tasa de retención de flotas suscritas superior al 85%.</p><br>
-            </td>
-        </tr>
-    <tr>
-        <td valign="top">
-            <div align="center"><br><b>3. Users</b></div><br>
-            <p>- **Administrador:** Dueño de flota que busca gestionar rutas y profesionalizar su negocio.<br>- **Conductor:** Opera la movilidad y necesita herramientas sin distracción (offline y background).<br>- **Padres de Familia:** Buscan certeza y alertas pasivas sobre la seguridad de sus hijos.</p><br>
-        </td>
-        <td valign="top">
-            <div align="center"><br><b>4. User Outcomes & Benefits</b></div><br>
-            <p>- **Padres:** Paz mental, ahorro de tiempo, fin de la incertidumbre.<br>- **Conductores:** Conducción 100% enfocada, eliminación del estrés por reclamos, registro exacto.<br>- **Admin:** Centralización logística, mejora en la reputación del servicio.</p><br>
-        </td>
-    </tr>
-    <tr>
-        <td valign="top">
-            <div align="center"> <br><b>6. Hypotheses</b> </div><br>
-            <p>- H1: El GPS en background y soporte offline asegurarán la retención de planes de pago al eliminar la distracción del conductor.<br>- H2: Las alertas por Geofencing harán que los padres exijan la app, generando adopción orgánica.<br>- H3: El botón de incidencias reducirá masivamente las quejas formales.</p> <br>
-        </td>
-        <td valign="top">
-            <div align="center"> <br><b>7. What’s the most important thing we need to learn first?</b> </div><br><p>¿Están los administradores y conductores independientes dispuestos a pagar una suscripción mensual por un SaaS logístico que no es un marketplace de viajes?</p> <br>
-        </td>
-        <td valign="top">
-            <div align="center">  <br><b>8. What's the least amount of work we need to do to learn the next most important thing?</b> </div><br><p>Realizar de 3 a 5 entrevistas de validación profunda con dueños de movilidades escolares y padres de familia para validar la disposición de pago por "tranquilidad" y "orden operativo".</p> <br>
-        </td>
-    </tr>
+<table border="1" style="border-collapse: collapse; width: 100%; text-align: left;">
+  <tr>
+    <td style="vertical-align: top; padding: 8px; width: 33%;">
+      <b>1. Business Problem</b><br><i>El transporte escolar privado opera de forma manual e informal (WhatsApp/llamadas). Los padres carecen de visibilidad sobre el trayecto de sus hijos, y los conductores sufren sobrecarga y distracciones intentando reportar el servicio mientras manejan, comprometiendo la seguridad vial (Smith & Johnson, 2025).</i>
+    </td>
+    <td rowspan="2" style="vertical-align: top; padding: 8px; width: 34%;">
+      <b>5. Solutions</b><br><i>- App Nativa para conductor con GPS en background y soporte offline.<br>- Checklist de abordaje a 1 toque.<br>- App Cross-platform para padres con notificaciones Push y Geofencing.<br>- Botón de incidencias rápido.<br>- Plataforma SaaS de gestión de rutas y planes.</i>
+    </td>
+    <td style="vertical-align: top; padding: 8px; width: 33%;">
+      <b>2. Business Outcomes</b><br><i>- Lograr que el 70% de administradores migren del Plan Básico al Intermedio/Completo en 3 meses.<br>- Reducir el tiempo promedio de recojo en paraderos en un 15%.<br>- Tasa de retención de flotas suscritas superior al 85%.</i>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top; padding: 8px;">
+      <b>3. Users</b><br><i>- **Administrador:** Dueño de flota que busca gestionar rutas y profesionalizar su negocio.<br>- **Conductor:** Opera la movilidad y necesita herramientas sin distracción (offline y background).<br>- **Padres de Familia:** Buscan certeza y alertas pasivas sobre la seguridad de sus hijos.</i>
+    </td>
+    <td style="vertical-align: top; padding: 8px;">
+      <b>4. User Outcomes & Benefits</b><br><i>- **Padres:** Paz mental, ahorro de tiempo, fin de la incertidumbre.<br>- **Conductores:** Conducción 100% enfocada, eliminación del estrés por reclamos, registro exacto.<br>- **Admin:** Centralización logística, mejora en la reputación del servicio.</i>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top; padding: 8px;">
+      <b>6. Hypotheses</b><br><i>- H1: El GPS en background y soporte offline asegurarán la retención de planes de pago al eliminar la distracción del conductor.<br>- H2: Las alertas por Geofencing harán que los padres exijan la app, generando adopción orgánica.<br>- H3: El botón de incidencias reducirá masivamente las quejas formales.</i>
+    </td>
+    <td style="vertical-align: top; padding: 8px;">
+      <b>7. Learn First (Riskiest Assumption)</b><br><i>¿Están los administradores y conductores independientes dispuestos a pagar una suscripción mensual por un SaaS logístico que no es un marketplace de viajes?</i>
+    </td>
+    <td style="vertical-align: top; padding: 8px;">
+      <b>8. Least Work / Experiments</b><br><i>Realizar de 3 a 5 entrevistas de validación profunda con dueños de movilidades escolares y padres de familia para validar la disposición de pago por "tranquilidad" y "orden operativo".</i>
+    </td>
+  </tr>
 </table>
 
 ## 1.3 Segmentos objetivo
@@ -494,19 +631,110 @@ Para el ecosistema de RouteGuard, hemos identificado dos segmentos de usuarios c
 
 Este análisis nos permite conocer las características, ventajas y limitaciones de las principales soluciones de transporte escolar existentes en el mercado. También ayuda a identificar oportunidades de diferenciación y áreas de mejora para SafeRoute.
 
-| Categoría | Subcategoría | **RouteGuard** ![RouteGuard](/resources/assets/images/RouteGuard.jpg)                                                                                                  | **OnTrack School** ![OnTrack School](./resources/assets/images/OnTrackSchool.png)| **SafeRoute Parent** ![SafeRoute Parent](./resources/assets/images/SafeRouteParent.png)| **BusRight** ![BusRight](./resources/assets/images/BusRight.png)                                            |
-|---|---|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|------------------------------------------------------------------------------------------------------------|
-| **Perfil** | Overview | Plataforma de monitoreo y gestión de transporte escolar.                                                                                                              | Plataforma de gestión de transporte escolar para colegios, instituciones educativas y empresas de transporte. | Plataforma de monitoreo y seguridad del transporte escolar enfocada principalmente en padres de familia. | Plataforma integral para la gestión y optimización del transporte escolar y sus operaciones.               |
-| | Ventaja Competitiva | Roles específicos tanto para el padre como para el conductor y herramientas para la gestión de los viajes escolares.                                                  | Integra la gestión del transporte, seguimiento en tiempo real, control de acceso y otros servicios escolares en una sola plataforma. | Enfoque en seguridad, seguimiento en tiempo real, alertas y tranquilidad para los padres durante el traslado. | Combina planificación de rutas, GPS, gestión de estudiantes, conductores y comunicación con los padres.    |
-| **Perfil de Marketing** | Mercado Objetivo | Padres de familia y conductores de movilidad escolar.                                                                                                                 | Colegios, instituciones educativas y empresas de transporte escolar. | Padres de familia, colegios y operadores de transporte escolar. | Distritos escolares, departamentos de transporte y grandes operadores de transporte estudiantil.           |
-| | Estrategias de Marketing | Variedad de herramientas y seguridad para la correcta gestión de viajes escolares.                                                                                    | Marketing B2B dirigido a instituciones educativas mediante demostraciones, presencia digital y casos de éxito. | Marketing enfocado en seguridad, tranquilidad de los padres, seguimiento en tiempo real y protección de los estudiantes. | Marketing B2B orientado a eficiencia operativa, reducción de costos, seguridad y optimización de rutas.    |
-| **Perfil de Producto** | Productos y Servicios | Plataforma web, dashboard, GPS.                                                                                                                                       | Gestión de rutas, GPS, alumnos, vehículos, conductores, notificaciones y control de acceso. | Seguimiento GPS, ETA, alertas, geocercas, monitoreo del conductor y comunicación con padres. | Planificación de rutas, GPS, gestión de estudiantes, navegación para conductores, notificaciones y seguimiento. |
-| | Precios y Costos | Suscripción mensual de entre S/.9.99 y S/.49.99.                                                                                                                      | Precios personalizados según los servicios y características contratados por cada institución. | Aplicación gratuita para padres. No presenta información pública clara sobre los precios para instituciones u operadores. | Precios personalizados según el tamaño y las necesidades de cada organización.                             |
-| | Canales de Distribución (Web y/o Móvil) | Plataforma web.                                                                                                                                                       | Plataforma web y aplicaciones móviles para padres, conductores y administradores. | Aplicación móvil para padres y herramientas digitales para operadores de transporte. | Plataforma web y aplicaciones móviles para administradores, conductores y padres.                          |
-| **Análisis SWOT** | Fortalezas | Sistema enfocado en seguimiento de viajes, control de viajes y agendas y gestión.                                                                                     | Amplia propuesta de valor, integración con servicios escolares y presencia en el mercado latinoamericano. | Fuerte enfoque en seguridad, monitoreo en tiempo real y experiencia de los padres. | Plataforma completa con optimización de rutas, gestión operativa y herramientas de seguridad.              |
-| | Debilidades | Modelo de negocio nuevo en un mercado con mucha incertidumbre.                                                                                                        | Puede resultar complejo para pequeños operadores y depende principalmente de instituciones educativas. | Se concentra principalmente en monitoreo y seguridad, con menor énfasis en la gestión integral del transporte. | Está orientado principalmente a organizaciones grandes y al mercado estadounidense.                        |
-| | Oportunidades | Gran crecimiento potencial en el mercado de transporte escolar privado en Perú, ampliando funcionalidades y expandiéndose a otras ciudades y colegios.                | Expandirse en Latinoamérica y ofrecer más servicios para empresas de transporte escolar. | Incorporar funcionalidades de gestión de rutas, alumnos, conductores y operaciones. | Expandirse hacia nuevos mercados e incorporar inteligencia artificial para optimizar rutas y operaciones.  |
-| | Amenazas | Entrada de competidores más consolidados (como SafeRouteParent u OnTrack School) y soluciones informales o manuales que ya usan algunos colegios y padres de familia. | Nuevas plataformas SaaS, soluciones locales de transporte y sistemas GPS de menor costo. | Competidores que integren monitoreo, gestión, pagos y comunicación en una sola plataforma. | Software local, soluciones internas de colegios y nuevos competidores especializados en transporte escolar. |
+<p><strong>Tabla 4.</strong> <em>Este análisis nos permite conocer las características, ventajas y limitaciones de las principales soluciones de transporte escolar existentes en el mercado. También ayuda a identificar oportunidades de diferenciación y áreas de mejora para SafeRoute.</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Categoría</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Subcategoría</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"><strong>RouteGuard</strong> <img src="/resources/assets/images/RouteGuard.jpg" alt="RouteGuard"></th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"><strong>OnTrack School</strong> <img src="./resources/assets/images/OnTrackSchool.png" alt="OnTrack School"></th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"><strong>SafeRoute Parent</strong> <img src="./resources/assets/images/SafeRouteParent.png" alt="SafeRoute Parent"></th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"><strong>BusRight</strong> <img src="./resources/assets/images/BusRight.png" alt="BusRight"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Perfil</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Overview</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Plataforma de monitoreo y gestión de transporte escolar.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Plataforma de gestión de transporte escolar para colegios, instituciones educativas y empresas de transporte.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Plataforma de monitoreo y seguridad del transporte escolar enfocada principalmente en padres de familia.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Plataforma integral para la gestión y optimización del transporte escolar y sus operaciones.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ventaja Competitiva</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Roles específicos tanto para el padre como para el conductor y herramientas para la gestión de los viajes escolares.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Integra la gestión del transporte, seguimiento en tiempo real, control de acceso y otros servicios escolares en una sola plataforma.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Enfoque en seguridad, seguimiento en tiempo real, alertas y tranquilidad para los padres durante el traslado.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Combina planificación de rutas, GPS, gestión de estudiantes, conductores y comunicación con los padres.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Perfil de Marketing</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mercado Objetivo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Padres de familia y conductores de movilidad escolar.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Colegios, instituciones educativas y empresas de transporte escolar.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Padres de familia, colegios y operadores de transporte escolar.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Distritos escolares, departamentos de transporte y grandes operadores de transporte estudiantil.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Estrategias de Marketing</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Variedad de herramientas y seguridad para la correcta gestión de viajes escolares.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marketing B2B dirigido a instituciones educativas mediante demostraciones, presencia digital y casos de éxito.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marketing enfocado en seguridad, tranquilidad de los padres, seguimiento en tiempo real y protección de los estudiantes.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marketing B2B orientado a eficiencia operativa, reducción de costos, seguridad y optimización de rutas.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Perfil de Producto</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Productos y Servicios</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Plataforma web, dashboard, GPS.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Gestión de rutas, GPS, alumnos, vehículos, conductores, notificaciones y control de acceso.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Seguimiento GPS, ETA, alertas, geocercas, monitoreo del conductor y comunicación con padres.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Planificación de rutas, GPS, gestión de estudiantes, navegación para conductores, notificaciones y seguimiento.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Precios y Costos</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Suscripción mensual de entre S/.9.99 y S/.49.99.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Precios personalizados según los servicios y características contratados por cada institución.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Aplicación gratuita para padres. No presenta información pública clara sobre los precios para instituciones u operadores.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Precios personalizados según el tamaño y las necesidades de cada organización.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Canales de Distribución (Web y/o Móvil)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Plataforma web.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Plataforma web y aplicaciones móviles para padres, conductores y administradores.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Aplicación móvil para padres y herramientas digitales para operadores de transporte.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Plataforma web y aplicaciones móviles para administradores, conductores y padres.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Análisis SWOT</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Fortalezas</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sistema enfocado en seguimiento de viajes, control de viajes y agendas y gestión.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Amplia propuesta de valor, integración con servicios escolares y presencia en el mercado latinoamericano.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Fuerte enfoque en seguridad, monitoreo en tiempo real y experiencia de los padres.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Plataforma completa con optimización de rutas, gestión operativa y herramientas de seguridad.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Debilidades</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Modelo de negocio nuevo en un mercado con mucha incertidumbre.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Puede resultar complejo para pequeños operadores y depende principalmente de instituciones educativas.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Se concentra principalmente en monitoreo y seguridad, con menor énfasis en la gestión integral del transporte.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Está orientado principalmente a organizaciones grandes y al mercado estadounidense.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Oportunidades</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Gran crecimiento potencial en el mercado de transporte escolar privado en Perú, ampliando funcionalidades y expandiéndose a otras ciudades y colegios.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Expandirse en Latinoamérica y ofrecer más servicios para empresas de transporte escolar.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Incorporar funcionalidades de gestión de rutas, alumnos, conductores y operaciones.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Expandirse hacia nuevos mercados e incorporar inteligencia artificial para optimizar rutas y operaciones.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Amenazas</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Entrada de competidores más consolidados (como SafeRouteParent u OnTrack School) y soluciones informales o manuales que ya usan algunos colegios y padres de familia.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nuevas plataformas SaaS, soluciones locales de transporte y sistemas GPS de menor costo.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Competidores que integren monitoreo, gestión, pagos y comunicación en una sola plataforma.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Software local, soluciones internas de colegios y nuevos competidores especializados en transporte escolar.</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a este análisis nos permite conocer las características, ventajas y limitaciones de las principales soluciones de transporte escolar existentes en el mercado. también ayuda a identificar oportunidades de diferenciación y áreas de mejora para saferoute..</em></p>
 
 
 
@@ -702,18 +930,72 @@ A continuación, se presenta el análisis estadístico y cualitativo derivado de
 Se analizaron las entrevistas de 3 padres de familia (Manuel, Máximo y Diana) que actualmente utilizan servicios de movilidad escolar privada para sus hijos (con un rango de edad entre los 7 y 13 años).
 
 **A. Características Objetivas y Tecnológicas**
-| Característica / Hábito | Frecuencia | Porcentaje | Impacto en el User Persona |
-| :--- | :---: | :---: | :--- |
-| Uso de WhatsApp como canal principal | 3 de 3 | **100%** | Alta afinidad móvil, pero uso de canales no optimizados para rastreo. |
-| Incompatibilidad de horarios y falta de tiempo | 3 de 3 | **100%** | Demandan soluciones rápidas que no requieran vigilancia constante. |
-| Control manual/informal del pago de pensiones | 2 de 3 | **66%** | Digitalizados financieramente, pero con desorganización en los cobros. |
+<p><strong>Tabla 5.</strong> <em>Detalles de Característica / Hábito y Frecuencia</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Característica / Hábito</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Frecuencia</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Porcentaje</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Impacto en el User Persona</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Uso de WhatsApp como canal principal</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3 de 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>100%</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Alta afinidad móvil, pero uso de canales no optimizados para rastreo.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Incompatibilidad de horarios y falta de tiempo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3 de 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>100%</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Demandan soluciones rápidas que no requieran vigilancia constante.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Control manual/informal del pago de pensiones</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2 de 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>66%</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Digitalizados financieramente, pero con desorganización en los cobros.</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de característica / hábito y frecuencia.</em></p>
 
 **B. Características Subjetivas (Pains & Gains)**
-| Percepción / Frustración | Frecuencia | Porcentaje | Impacto en el User Persona |
-| :--- | :---: | :---: | :--- |
-| Ansiedad/Incertidumbre ante retrasos sin aviso | 3 de 3 | **100%** | Su mayor "Pain". Necesitan visibilidad absoluta para sentir tranquilidad. |
-| Disposición a adoptar notificaciones automáticas | 3 de 3 | **100%** | Alto interés en modernizar el servicio; su principal motivación (*Gain*). |
-| Frustración por falta de respuesta rápida al chat | 2 de 3 | **66%** | No les agrada la comunicación asíncrona en situaciones de emergencia. |
+<p><strong>Tabla 6.</strong> <em>Detalles de Percepción / Frustración y Frecuencia</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Percepción / Frustración</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Frecuencia</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Porcentaje</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Impacto en el User Persona</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ansiedad/Incertidumbre ante retrasos sin aviso</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3 de 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>100%</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Su mayor "Pain". Necesitan visibilidad absoluta para sentir tranquilidad.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Disposición a adoptar notificaciones automáticas</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3 de 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>100%</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Alto interés en modernizar el servicio; su principal motivación (<em>Gain</em>).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Frustración por falta de respuesta rápida al chat</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2 de 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>66%</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">No les agrada la comunicación asíncrona en situaciones de emergencia.</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de percepción / frustración y frecuencia.</em></p>
 
 **Conclusión del Segmento 1:** El arquetipo del Padre de Familia es un usuario altamente ocupado que sufre de "espera a ciegas" generada por el tráfico y la nula comunicación proactiva de la movilidad. Su principal motivación (*Gain*) es la tranquilidad mental respecto a la seguridad de su hijo, valorando enormemente las notificaciones en segundo plano.
 
@@ -723,18 +1005,72 @@ Se analizaron las entrevistas de 3 padres de familia (Manuel, Máximo y Diana) q
 Se analizaron las entrevistas de 3 transportistas (Luis, Iván y Matías) con experiencia variada (desde 4 hasta 25 años) que manejan flotas independientes o corporativas con rutas preestablecidas.
 
 **A. Características Objetivas y Tecnológicas**
-| Característica / Hábito | Frecuencia | Porcentaje | Impacto en el User Persona |
-| :--- | :---: | :---: | :--- |
-| Uso de WhatsApp para reportar ubicación | 3 de 3 | **100%** | Canal sobresaturado que mezcla emergencias, ubicaciones y reportes. |
-| Uso de registros físicos (papel) o listas manuales | 2 de 3 | **66%** | Resistencia a sistemas complejos; requieren botones grandes y simples. |
-| Facturación y cobros fuera de plataformas de gestión | 3 de 3 | **100%** | Administran su dinero de forma manual, propensos al desorden. |
+<p><strong>Tabla 7.</strong> <em>Detalles de Característica / Hábito y Frecuencia</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Característica / Hábito</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Frecuencia</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Porcentaje</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Impacto en el User Persona</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Uso de WhatsApp para reportar ubicación</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3 de 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>100%</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Canal sobresaturado que mezcla emergencias, ubicaciones y reportes.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Uso de registros físicos (papel) o listas manuales</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2 de 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>66%</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Resistencia a sistemas complejos; requieren botones grandes y simples.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Facturación y cobros fuera de plataformas de gestión</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3 de 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>100%</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Administran su dinero de forma manual, propensos al desorden.</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de característica / hábito y frecuencia.</em></p>
 
 **B. Características Subjetivas (Pains & Gains)**
-| Percepción / Frustración | Frecuencia | Porcentaje | Impacto en el User Persona |
-| :--- | :---: | :---: | :--- |
-| Estrés por usar el celular mientras conducen | 3 de 3 | **100%** | Riesgo alto de accidentes; necesitan que la app avise por ellos (*Gain*). |
-| Interés en pagar por proyectar una imagen formal | 3 de 3 | **100%** | Buscan escalar su negocio y retener clientes mediante tecnología. |
-| Pérdida de tiempo por ausencias/cancelaciones tardías | 2 de 3 | **66%** | "Pain" logístico. Conducen o se desvían en vano hacia un punto de recojo. |
+<p><strong>Tabla 8.</strong> <em>Detalles de Percepción / Frustración y Frecuencia</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Percepción / Frustración</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Frecuencia</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Porcentaje</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Impacto en el User Persona</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Estrés por usar el celular mientras conducen</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3 de 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>100%</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Riesgo alto de accidentes; necesitan que la app avise por ellos (<em>Gain</em>).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Interés en pagar por proyectar una imagen formal</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3 de 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>100%</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Buscan escalar su negocio y retener clientes mediante tecnología.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pérdida de tiempo por ausencias/cancelaciones tardías</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2 de 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>66%</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">"Pain" logístico. Conducen o se desvían en vano hacia un punto de recojo.</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de percepción / frustración y frecuencia.</em></p>
 
 **Conclusión del Segmento 2:** El arquetipo del Conductor es un trabajador que sufre de sobrecarga operativa y distracciones peligrosas al volante. Su principal dolor (*Pain*) es la desorganización provocada por mensajes cruzados y la incapacidad de notificar su ubicación de forma segura. Su motivación principal (*Gain*) es formalizar su negocio y conducir en paz, estando dispuesto a invertir económicamente en una solución tecnológica.
 
@@ -767,15 +1103,62 @@ El *User Task Matrix* es un artefacto fundamental en el diseño de interacción 
 En el caso de RouteGuard, esta matriz justifica nuestra decisión de separar la solución en dos aplicaciones distintas: una interfaz operativa para el conductor, donde se busca que la interacción manual sea mínima (de 1 solo toque) para no incrementar la carga cognitiva ni el riesgo de accidentes viales (Smith & Johnson, 2025), y una interfaz de monitoreo pasivo para el padre de familia.
 La siguiente matriz detalla las tareas principales dentro del ecosistema y la frecuencia con la que cada segmento interactúa con ellas:
 
-| Tarea (Task) | Administrador / Conductor | Padre de Familia | Frecuencia |
-|--------------|---------------------------|------------------|------------|
-| Registrar perfil y pagar suscripción | Alta (Crea la ruta) | Nula | Única vez |
-| Monitorear mapa en tiempo real | Baja | Alta | Diaria |
-| Iniciar y finalizar un trayecto (Trip) | Alta | Nula | Diaria |
-| Marcar asistencia (Check-in/out) | Alta | Nula | Diaria |
-| Reportar incidencia / Botón de Pánico | Media | Nula | Ocasional |
-| Recibir notificación de proximidad | Nula | Alta | Diaria |
-| Revisar historial de asistencias | Alta | Media | Semanal |
+<p><strong>Tabla 9.</strong> <em>La siguiente matriz detalla las tareas principales dentro del ecosistema y la frecuencia con la que cada segmento interactúa con ellas:</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Tarea (Task)</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Administrador / Conductor</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Padre de Familia</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Frecuencia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registrar perfil y pagar suscripción</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Alta (Crea la ruta)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nula</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Única vez</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Monitorear mapa en tiempo real</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Baja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Alta</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Diaria</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Iniciar y finalizar un trayecto (Trip)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Alta</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nula</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Diaria</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcar asistencia (Check-in/out)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Alta</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nula</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Diaria</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Reportar incidencia / Botón de Pánico</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Media</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nula</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ocasional</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Recibir notificación de proximidad</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nula</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Alta</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Diaria</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Revisar historial de asistencias</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Alta</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Media</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Semanal</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a la siguiente matriz detalla las tareas principales dentro del ecosistema y la frecuencia con la que cada segmento interactúa con ellas:.</em></p>
 
 ### 2.3.3. User Journey Mapping
 
@@ -844,37 +1227,122 @@ El descubrimiento de esta línea temporal fue el insumo principal para poder agr
 
 Siguiendo los principios fundamentales del *Domain-Driven Design* (Evans, 2003), hemos establecido un *Ubiquitous Language* (Lenguaje Ubicuo). Este glosario estandariza los términos del negocio en inglés para garantizar que tanto el equipo de desarrollo como los expertos del dominio utilicen exactamente el mismo vocabulario, eliminando ambigüedades entre el código fuente y las reglas de negocio.
 
-| Término | Descripción | Contexto |
-|---------|-------------|----------|
-| **Fleet** | Colección de vehículos y conductores gestionados por un mismo Administrador de transporte escolar. | IAM / Routing |
-| **Route** | Secuencia predefinida de paradas (*Stops*) desde un punto de origen hacia un colegio (o viceversa). | Routing |
-| **Trip** | La ejecución física y en tiempo real de una *Route* en una fecha y hora específica. | Operations |
-| **Stop** | Ubicación geográfica (coordenadas) donde un estudiante debe subir o bajar del vehículo. | Routing |
-| **Boarding** | El acto en el que un estudiante ingresa al vehículo y el conductor registra su asistencia en el sistema. | Operations |
-| **Geofence** | Perímetro virtual circular alrededor de un *Stop*. Cuando el GPS del conductor penetra este perímetro, dispara eventos automáticos. | Notifications |
-| **Proximity Alert** | Notificación Push enviada pasivamente al celular del padre cuando se penetra el *Geofence* de su hogar. | Notifications |
-| **Incident** | Evento inesperado (tráfico pesado, falla mecánica, accidente) que altera el curso normal de un *Trip*. | Operations |
+<p><strong>Tabla 10.</strong> <em>Siguiendo los principios fundamentales del *Domain-Driven Design* (Evans, 2003), hemos establecido un *Ubiquitous Language* (Lenguaje Ubicuo). Este glosario estandariza los términos del negocio en inglés para garantizar que tanto el equipo de desarrollo como los expertos del dominio utilicen exactamente el mismo vocabulario, eliminando ambigüedades entre el código fuente y las reglas de negocio.</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Término</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Descripción</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Contexto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Fleet</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Colección de vehículos y conductores gestionados por un mismo Administrador de transporte escolar.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">IAM / Routing</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Route</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Secuencia predefinida de paradas (<em>Stops</em>) desde un punto de origen hacia un colegio (o viceversa).</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Routing</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Trip</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">La ejecución física y en tiempo real de una <em>Route</em> en una fecha y hora específica.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Operations</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Stop</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ubicación geográfica (coordenadas) donde un estudiante debe subir o bajar del vehículo.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Routing</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Boarding</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">El acto en el que un estudiante ingresa al vehículo y el conductor registra su asistencia en el sistema.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Operations</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Geofence</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Perímetro virtual circular alrededor de un <em>Stop</em>. Cuando el GPS del conductor penetra este perímetro, dispara eventos automáticos.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Proximity Alert</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notificación Push enviada pasivamente al celular del padre cuando se penetra el <em>Geofence</em> de su hogar.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Incident</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Evento inesperado (tráfico pesado, falla mecánica, accidente) que altera el curso normal de un <em>Trip</em>.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Operations</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a siguiendo los principios fundamentales del *domain-driven design* (evans, 2003), hemos establecido un *ubiquitous language* (lenguaje ubicuo). este glosario estandariza los términos del negocio en inglés para garantizar que tanto el equipo de desarrollo como los expertos del dominio utilicen exactamente el mismo vocabulario, eliminando ambigüedades entre el código fuente y las reglas de negocio..</em></p>
 
 ## 2.4. Requirements specification
 
-La especificación de requerimientos en entornos de desarrollo ágil reemplaza la documentación extensa y rígida por formatos ligeros que fomentan la colaboración y capturan el valor directo para el cliente (Cohn, 2004). En este proyecto, integramos técnicas de agilidad con los principios de *Domain-Driven Design* (Evans, 2003) para garantizar que las necesidades del negocio se reflejen fielmente en la estructura del software.
+La especificación de requisitos en entornos de desarrollo ágil reemplaza la documentación extensa y rígida por formatos ligeros que fomentan la colaboración y capturan el valor directo para el cliente (Cohn, 2004). En este proyecto, integramos técnicas de agilidad con los principios de *Domain-Driven Design* (Evans, 2003) para garantizar que las necesidades del negocio se reflejen fielmente en la estructura del software.
 
 ### 2.4.1. User Stories
 
-Las Historias de Usuario (*User Stories*) y las Épicas son herramientas fundamentales en Scrum y metodologías ágiles, diseñadas para desplazar el enfoque de "escribir requerimientos" hacia "fomentar conversaciones" sobre ellos (Cohn, 2004). 
+Las Historias de Usuario (*User Stories*) y las Épicas son herramientas fundamentales en Scrum y metodologías ágiles, diseñadas para desplazar el enfoque de "escribir requisitos" hacia "fomentar conversaciones" sobre ellos (Cohn, 2004). 
 
 Para el caso de RouteGuard, hemos estructurado nuestras Épicas de modo que se alineen uno a uno con los *Bounded Contexts* descubiertos en nuestro diseño estratégico. Esta decisión asegura una transición fluida entre el modelado del problema y el diseño de la solución (Vernon, 2013). A continuación, se detallan las Épicas y sus respectivas Historias de Usuario, Historias Técnicas y Spikes, estructuradas bajo el formato de Criterios de Aceptación Gherkin (*Given-When-Then*).
 
 **EPICS (Alineadas a los Bounded Contexts)**
 
-| Epic ID | Título (Bounded Context) | Descripción | Criterios de Aceptación |
-| :--- | :--- | :--- | :--- |
-| **EP01** | **Identity & Access Management** | Como usuario, quiero registrarme y autenticarme según mi rol para usar la plataforma. | **Escenario 1:**<br>**Dado que** el usuario es válido, <br>**Cuando** ingresa sus credenciales, <br>**Entonces** accede a las funciones de su perfil. |
-| **EP02** | **Subscription & Plan Management** | Como administrador, quiero gestionar los pagos y planes SaaS para habilitar las funcionalidades. | **Escenario 1:**<br>**Dado que** el pago es exitoso, <br>**Cuando** se valida con la pasarela, <br>**Entonces** el sistema activa el acceso a la plataforma. |
-| **EP03** | **Fleet & Route Management** | Como conductor, quiero gestionar mi flota y planificar rutas para asegurar un recojo eficiente. | **Escenario 1:**<br>**Dado que** tengo alumnos asignados, <br>**Cuando** genero la ruta, <br>**Entonces** el sistema ordena las paradas geográficamente. |
-| **EP04** | **Stakeholder & Asset Management** | Como administrador o padre, quiero gestionar perfiles, calificar el servicio y vincular estudiantes a rutas. | **Escenario 1:**<br>**Dado que** un estudiante es validado, <br>**Cuando** el padre lo vincula a la movilidad, <br>**Entonces** el estudiante se agrega al grupo del conductor. |
-| **EP05** | **Trip Execution & Monitoring** | Como conductor y padre, quiero transmitir y consultar la ubicación GPS y registrar abordajes offline. | **Escenario 1:**<br>**Dado que** el conductor avanza, <br>**Cuando** marca un abordaje sin internet, <br>**Entonces** se guarda localmente y sincroniza después. |
-| **EP06** | **Notifications & Communication** | Como usuario, quiero recibir alertas automáticas, avisos y chatear para mantener la comunicación al momento. | **Escenario 1:**<br>**Dado que** el viaje está activo, <br>**Cuando** la movilidad entra al geocerca, <br>**Entonces** el padre recibe un Push Notification. |
+<p><strong>Tabla 11.</strong> <em>Detalles de Epic ID y Título (Bounded Context)</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Epic ID</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Título (Bounded Context)</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Descripción</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Criterios de Aceptación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>EP01</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Identity & Access Management</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Como usuario, quiero registrarme y autenticarme según mi rol para usar la plataforma.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Escenario 1:</strong><br><strong>Dado que</strong> el usuario es válido, <br><strong>Cuando</strong> ingresa sus credenciales, <br><strong>Entonces</strong> accede a las funciones de su perfil.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>EP02</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Subscription & Plan Management</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Como administrador, quiero gestionar los pagos y planes SaaS para habilitar las funcionalidades.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Escenario 1:</strong><br><strong>Dado que</strong> el pago es exitoso, <br><strong>Cuando</strong> se valida con la pasarela, <br><strong>Entonces</strong> el sistema activa el acceso a la plataforma.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>EP03</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Fleet & Route Management</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Como conductor, quiero gestionar mi flota y planificar rutas para asegurar un recojo eficiente.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Escenario 1:</strong><br><strong>Dado que</strong> tengo alumnos asignados, <br><strong>Cuando</strong> genero la ruta, <br><strong>Entonces</strong> el sistema ordena las paradas geográficamente.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>EP04</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Stakeholder & Asset Management</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Como administrador o padre, quiero gestionar perfiles, calificar el servicio y vincular estudiantes a rutas.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Escenario 1:</strong><br><strong>Dado que</strong> un estudiante es validado, <br><strong>Cuando</strong> el padre lo vincula a la movilidad, <br><strong>Entonces</strong> el estudiante se agrega al grupo del conductor.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>EP05</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Trip Execution & Monitoring</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Como conductor y padre, quiero transmitir y consultar la ubicación GPS y registrar abordajes offline.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Escenario 1:</strong><br><strong>Dado que</strong> el conductor avanza, <br><strong>Cuando</strong> marca un abordaje sin internet, <br><strong>Entonces</strong> se guarda localmente y sincroniza después.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>EP06</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Notifications & Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Como usuario, quiero recibir alertas automáticas, avisos y chatear para mantener la comunicación al momento.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Escenario 1:</strong><br><strong>Dado que</strong> el viaje está activo, <br><strong>Cuando</strong> la movilidad entra al geocerca, <br><strong>Entonces</strong> el padre recibe un Push Notification.</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de epic id y título (bounded context).</em></p>
 
 <br>
 
@@ -2693,53 +3161,336 @@ Para el caso de RouteGuard, hemos estructurado nuestras Épicas de modo que se a
 
 El *Product Backlog* es un artefacto vivo y emergente que centraliza y ordena todo el trabajo necesario para la evolución del producto (Schwaber & Sutherland, 2020). Para RouteGuard, las historias han sido estimadas mediante Puntos de Historia (Fibonacci) y priorizadas bajo el criterio de maximización de valor temprano (Rubin, 2012), asegurando que las funcionalidades críticas para el *Minimum Viable Product* (MVP) se desarrollen en los primeros *sprints*.
 
-| Orden | ID | Título | Epic | Story Points |
-| :---: | :---: | :--- | :--- | :---: |
-| 1 | TS-04 | Pipeline de Integración Continua (CI/CD) | General | 5 |
-| 2 | TS-01 | Autenticación de API vía JWT | EP01 | 5 |
-| 3 | SS-01 | Investigación: Consumo de Batería (Background Service) | EP05 | 3 |
-| 4 | US-01 | Registro y Asignación de Rol | EP01 | 3 |
-| 5 | SS-05 | Spike: Viabilidad de Inicio de Sesión Biométrico | EP01 | 3 |
-| 6 | US-19 | Recuperación de Contraseña | EP01 | 3 |
-| 7 | US-11 | Registro de Múltiples Hijos | EP02 | 3 |
-| 8 | TS-05 | Integración de Pasarela de Pagos | EP02 | 5 |
-| 9 | US-02 | Adquisición de Plan de Suscripción | EP02 | 5 |
-| 10 | US-12 | Control de Documentación (SOAT) | EP03 | 5 |
-| 11 | US-20 | Historial de Mantenimientos | EP03 | 3 |
-| 12 | US-04 | Listado y Secuencia de Paradas | EP03 | 5 |
-| 13 | US-22 | Reporte de Llegada al Colegio | EP05 | 3 |
-| 14 | SS-04 | Spike: Resolución de Conflictos Offline | EP05 | 5 |
-| 15 | TS-02 | Caché Local para Abordajes (Offline First) | EP05 | 8 |
-| 16 | US-06 | Check-in de Abordaje Offline | EP05 | 5 |
-| 17 | TS-08 | API para Validación de Códigos QR | EP05 | 5 |
-| 18 | SS-03 | Spike: Precisión GPS vs Consumo de Red | EP05 | 3 |
-| 19 | TS-06 | Configuración de Base de Datos Espacial | EP05 | 8 |
-| 20 | US-05 | Transmisión de GPS en Segundo Plano | EP05 | 8 |
-| 21 | SS-07 | Spike: Evaluación de Mapbox vs Google Maps | EP05 | 3 |
-| 22 | US-08 | Monitoreo de Ruta en Tiempo Real | EP05 | 8 |
-| 23 | SS-02 | Prueba de Latencia: WebSockets vs FCM | EP06 | 2 |
-| 24 | TS-03 | Integración de Firebase Cloud Messaging (FCM) | EP06 | 5 |
-| 25 | TS-07 | Implementación de Cola de Mensajería | EP06 | 5 |
-| 26 | SS-06 | Spike: Consumo de Geofencing OS-Level | EP06 | 3 |
-| 27 | US-07 | Alerta de Geofencing | EP06 | 5 |
-| 28 | US-16 | Asignación de Conductor a Vehículo | EP03 | 3 |
-| 29 | US-03 | Gestión de Capacidad Vehicular | EP03 | 3 |
-| 30 | US-13 | Gestión de Perfil de Usuario | EP01 | 2 |
-| 31 | US-10 | Botón de Incidencias Rápido | EP06 | 3 |
-| 32 | US-21 | Cancelación de Viaje por Fuerza Mayor | EP03 | 3 |
-| 33 | US-14 | Calificación del Servicio | EP04 | 3 |
-| 34 | US-24 | Foro de Anuncios del Conductor | EP06 | 2 |
-| 35 | US-09 | Reporte de Ausencia Temprana | EP06 | 2 |
-| 36 | US-17 | Generación de Reporte de Asistencia | EP05 | 3 |
-| 37 | US-15 | Historial de Viajes Finalizados | EP05 | 2 |
-| 38 | US-18 | Sección de Preguntas Frecuentes (FAQ) | EP04 | 2 |
-| 39 | US-23 | Envío de Ticket de Soporte | EP04 | 2 |
-| 40 | US-25 | Sección Tutorial interactiva (Onboarding) | EP02 | 3 |
-| 41 | US-26 | Registro de Gastos Operativos | EP03 | 2 |
-| 42 | US-27 | Cambio Temporal de Dirección de Recojo | EP03 | 5 |
-| 43 | US-28 | Reasignación de Rutas por Ausencias | EP03 | 5 |
-| 44 | US-29 | Reporte de Bloqueo de Vías | EP05 | 3 |
-| 45 | US-30 | Chat Interno Conductor - Padre | EP06 | 5 |
+<p><strong>Tabla 12.</strong> <em>El *Product Backlog* es un artefacto vivo y emergente que centraliza y ordena todo el trabajo necesario para la evolución del producto (Schwaber & Sutherland, 2020). Para RouteGuard, las historias han sido estimadas mediante Puntos de Historia (Fibonacci) y priorizadas bajo el criterio de maximización de valor temprano (Rubin, 2012), asegurando que las funcionalidades críticas para el *Minimum Viable Product* (MVP) se desarrollen en los primeros *sprints*.</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Orden</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">ID</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Título</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Epic</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">1</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TS-04</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pipeline de Integración Continua (CI/CD)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">General</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TS-01</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Autenticación de API vía JWT</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP01</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">SS-01</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Investigación: Consumo de Batería (Background Service)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-01</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registro y Asignación de Rol</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP01</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">SS-05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Spike: Viabilidad de Inicio de Sesión Biométrico</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP01</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">6</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-19</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Recuperación de Contraseña</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP01</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">7</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-11</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registro de Múltiples Hijos</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP02</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">8</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TS-05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Integración de Pasarela de Pagos</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP02</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">9</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-02</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Adquisición de Plan de Suscripción</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP02</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">10</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-12</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Control de Documentación (SOAT)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP03</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">11</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-20</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Historial de Mantenimientos</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP03</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">12</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-04</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Listado y Secuencia de Paradas</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP03</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">13</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-22</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Reporte de Llegada al Colegio</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">14</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">SS-04</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Spike: Resolución de Conflictos Offline</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">15</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TS-02</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Caché Local para Abordajes (Offline First)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">8</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">16</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Check-in de Abordaje Offline</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">17</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TS-08</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">API para Validación de Códigos QR</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">18</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">SS-03</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Spike: Precisión GPS vs Consumo de Red</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">19</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TS-06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Configuración de Base de Datos Espacial</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">8</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">20</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Transmisión de GPS en Segundo Plano</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">8</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">21</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">SS-07</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Spike: Evaluación de Mapbox vs Google Maps</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">22</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-08</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Monitoreo de Ruta en Tiempo Real</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">8</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">23</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">SS-02</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Prueba de Latencia: WebSockets vs FCM</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">24</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TS-03</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Integración de Firebase Cloud Messaging (FCM)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">25</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TS-07</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Implementación de Cola de Mensajería</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">26</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">SS-06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Spike: Consumo de Geofencing OS-Level</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">27</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-07</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Alerta de Geofencing</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">28</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-16</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Asignación de Conductor a Vehículo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP03</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">29</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-03</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Gestión de Capacidad Vehicular</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP03</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">30</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-13</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Gestión de Perfil de Usuario</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP01</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">31</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-10</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Botón de Incidencias Rápido</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">32</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-21</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Cancelación de Viaje por Fuerza Mayor</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP03</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">33</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-14</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Calificación del Servicio</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP04</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">34</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-24</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Foro de Anuncios del Conductor</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">35</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-09</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Reporte de Ausencia Temprana</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">36</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-17</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Generación de Reporte de Asistencia</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">37</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-15</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Historial de Viajes Finalizados</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">38</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-18</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sección de Preguntas Frecuentes (FAQ)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP04</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">39</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-23</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Envío de Ticket de Soporte</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP04</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">40</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-25</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sección Tutorial interactiva (Onboarding)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP02</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">41</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-26</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registro de Gastos Operativos</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP03</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">42</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-27</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Cambio Temporal de Dirección de Recojo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP03</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">43</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-28</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Reasignación de Rutas por Ausencias</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP03</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">44</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-29</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Reporte de Bloqueo de Vías</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP05</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">45</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-30</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Chat Interno Conductor - Padre</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">EP06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a el *product backlog* es un artefacto vivo y emergente que centraliza y ordena todo el trabajo necesario para la evolución del producto (schwaber & sutherland, 2020). para routeguard, las historias han sido estimadas mediante puntos de historia (fibonacci) y priorizadas bajo el criterio de maximización de valor temprano (rubin, 2012), asegurando que las funcionalidades críticas para el *minimum viable product* (mvp) se desarrollen en los primeros *sprints*..</em></p>
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
@@ -2757,12 +3508,39 @@ Para el proceso de EventStorming a nivel de diseño utilizamos la herramienta **
  
 A lo largo del tablero utilizamos además cuatro tipos de post-it complementarios para enriquecer el modelo:
  
-| Color | Tipo | Descripción |
-|---|---|---|
-| Amarillo pálido | Agregado | Entidad o conjunto de entidades que agrupan el comportamiento y el estado sobre el que actúa un comando. |
-| Rosado | Sistema Externo | Servicio de terceros con el que el sistema se integra (pasarela de pago, proveedor de mapas, proveedor push, broker de mensajería). |
-| Morado | Política | Regla de negocio que conecta automáticamente un evento con el siguiente comando, sin intervención de un actor humano. |
-| Verde | Pantalla | Vista de la aplicación desde la que un actor dispara un comando. |
+<p><strong>Tabla 13.</strong> <em>A lo largo del tablero utilizamos además cuatro tipos de post-it complementarios para enriquecer el modelo:</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Color</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Tipo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Amarillo pálido</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Agregado</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Entidad o conjunto de entidades que agrupan el comportamiento y el estado sobre el que actúa un comando.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Rosado</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sistema Externo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Servicio de terceros con el que el sistema se integra (pasarela de pago, proveedor de mapas, proveedor push, broker de mensajería).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Morado</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Política</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Regla de negocio que conecta automáticamente un evento con el siguiente comando, sin intervención de un actor humano.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Verde</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pantalla</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Vista de la aplicación desde la que un actor dispara un comando.</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a a lo largo del tablero utilizamos además cuatro tipos de post-it complementarios para enriquecer el modelo:.</em></p>
 
 <img src="resources\chapter-2\EventStorming\paleta-colores.png" width="1000">
  
@@ -2774,15 +3552,46 @@ Utilizamos las tres técnicas sugeridas de forma encadenada, ya que cada una res
  
 Los eventos pivote identificados fueron los siguientes:
  
-| Evento pivote | Cambio de estado que señala |
-|---|---|
-| `RouteActivationFinalized` | La ruta pasa de configuración a disponible para operar; separa la planificación de la ejecución, y es el evento que directamente dispara `Start Trip` en Trip Execution & Monitoring. |
-| `TripStarted` | El plan de ruta pasa de intención a ejecución; separa la planificación del registro operativo. |
-| `LocationUpdated` | La posición del vehículo pasa de dato crudo transmitido por el dispositivo a telemetría persistida del viaje; abre el flujo de monitoreo en tiempo real y dispara la evaluación de geocerca en Notifications & Communication. |
-| `GeofenceBreached` | La telemetría cruda pasa a ser un hecho accionable: el vehículo penetra el radio de una parada, disparando la alerta hacia el padre. |
-| `GroupFinalized` | El grupo de estudiantes pasa de configuración a disponible para asignar; es el evento que, a través de la política `Export Group Manifest to Route Context`, dispara `Assign Students to Route` en Fleet & Route Management. |
-| `SubscriptionActivated` | El vínculo comercial pasa de solicitud a acceso habilitado; separa la capa comercial de la operativa. |
-| `TripCompleted` | La ejecución pasa a cierre; separa la operación diaria de la postventa. |
+<p><strong>Tabla 14.</strong> <em>Los eventos pivote identificados fueron los siguientes:</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Evento pivote</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Cambio de estado que señala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">`RouteActivationFinalized`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">La ruta pasa de configuración a disponible para operar; separa la planificación de la ejecución, y es el evento que directamente dispara `Start Trip` en Trip Execution & Monitoring.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">`TripStarted`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">El plan de ruta pasa de intención a ejecución; separa la planificación del registro operativo.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">`LocationUpdated`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">La posición del vehículo pasa de dato crudo transmitido por el dispositivo a telemetría persistida del viaje; abre el flujo de monitoreo en tiempo real y dispara la evaluación de geocerca en Notifications & Communication.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">`GeofenceBreached`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">La telemetría cruda pasa a ser un hecho accionable: el vehículo penetra el radio de una parada, disparando la alerta hacia el padre.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">`GroupFinalized`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">El grupo de estudiantes pasa de configuración a disponible para asignar; es el evento que, a través de la política `Export Group Manifest to Route Context`, dispara `Assign Students to Route` en Fleet & Route Management.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">`SubscriptionActivated`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">El vínculo comercial pasa de solicitud a acceso habilitado; separa la capa comercial de la operativa.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">`TripCompleted`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">La ejecución pasa a cierre; separa la operación diaria de la postventa.</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a los eventos pivote identificados fueron los siguientes:.</em></p>
  
 Al analizar estos eventos pudimos observar que cada grupo implicaba responsabilidades, reglas y garantías de consistencia distintas dentro del sistema, lo que nos permitió agruparlos en contextos bien definidos, evitando ambigüedad y facilitando la organización del dominio.
  
@@ -2806,14 +3615,49 @@ A continuación se presenta la evolución progresiva del EventStorm durante la s
 
 Este proceso nos llevó a definir los siguientes Bounded Contexts:
  
-| Bounded Context | Descripción | Eventos clave |
-|---|---|---|
-| **Identity & Access Management** | Gestiona el registro, la autenticación y el control de acceso por rol de los usuarios de la plataforma. | Login Accepted, User Authenticated, JWT Session Token Issued, User Logged In, Administrator Account Created, Admin Role Privileges Granted, Driver Account Provisioned, Parent Account Provisioned, Password Generated |
-| **Subscription & Plan Management** | Administra los planes SaaS, procesa el cobro a través de la pasarela de pago y habilita el acceso comercial a la plataforma. | Plan Selected, Payment Confirmed, Subscription Activated, Plan Features Enabled, Plan Upgraded, Quotas Increased |
-| **Fleet & Route Management** | Custodia el plan de recorrido vigente: paradas, vehículo, conductor y programación de servicio de cada ruta. | Route Defined, Waypoint Selected, Stop Count Updated, Student Assigned To Route, Passenger Manifest Generated, Vehicle Assigned To Route, Service Days Defined, Route Activation Finalized |
-| **Stakeholder & Asset Management** | Registra a conductores y padres de familia, vincula estudiantes y organiza los grupos por ruta. | Driver Profile Created, Parent Profile Created, Child Profile Created, Child Linked To Parent, Group Name Assigned, Parents Assigned To Group, Students Included In Group, Group Finalized |
-| **Trip Execution & Monitoring** | Registra la ejecución real del viaje diario, incluyendo el registro de abordaje con soporte *offline* (US-06/TS-02), y la transmisión de la ubicación GPS en tiempo real del vehículo. | Trip Started, Boarding Opened, Student Boarded, Student Dropped Off, Location Updated, Incident Reported, Trip Completed, Trip Archived |
-| **Notifications & Communication** | Consume los eventos del viaje, evalúa la penetración de geocercas y traduce los eventos del dominio en notificaciones push para los padres de familia. | Notification Created, Notification Queued, Notification Dispatched, High Priority Alert Created, Geofence Breached, Announcement Published, Notification Sent |
+<p><strong>Tabla 15.</strong> <em>Este proceso nos llevó a definir los siguientes Bounded Contexts:</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Bounded Context</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Descripción</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Eventos clave</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Identity & Access Management</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Gestiona el registro, la autenticación y el control de acceso por rol de los usuarios de la plataforma.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Login Accepted, User Authenticated, JWT Session Token Issued, User Logged In, Administrator Account Created, Admin Role Privileges Granted, Driver Account Provisioned, Parent Account Provisioned, Password Generated</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Subscription & Plan Management</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Administra los planes SaaS, procesa el cobro a través de la pasarela de pago y habilita el acceso comercial a la plataforma.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Plan Selected, Payment Confirmed, Subscription Activated, Plan Features Enabled, Plan Upgraded, Quotas Increased</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Fleet & Route Management</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Custodia el plan de recorrido vigente: paradas, vehículo, conductor y programación de servicio de cada ruta.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Route Defined, Waypoint Selected, Stop Count Updated, Student Assigned To Route, Passenger Manifest Generated, Vehicle Assigned To Route, Service Days Defined, Route Activation Finalized</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Stakeholder & Asset Management</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registra a conductores y padres de familia, vincula estudiantes y organiza los grupos por ruta.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Driver Profile Created, Parent Profile Created, Child Profile Created, Child Linked To Parent, Group Name Assigned, Parents Assigned To Group, Students Included In Group, Group Finalized</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Trip Execution & Monitoring</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registra la ejecución real del viaje diario, incluyendo el registro de abordaje con soporte <em>offline</em> (US-06/TS-02), y la transmisión de la ubicación GPS en tiempo real del vehículo.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Started, Boarding Opened, Student Boarded, Student Dropped Off, Location Updated, Incident Reported, Trip Completed, Trip Archived</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Notifications & Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Consume los eventos del viaje, evalúa la penetración de geocercas y traduce los eventos del dominio en notificaciones push para los padres de familia.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notification Created, Notification Queued, Notification Dispatched, High Priority Alert Created, Geofence Breached, Announcement Published, Notification Sent</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a este proceso nos llevó a definir los siguientes bounded contexts:.</em></p>
  
 Aplicando finalmente *start-with-value*, clasificamos los contextos según su aporte estratégico. **Trip Execution & Monitoring** constituye el *Core Domain*: es el contexto donde RouteGuard concentra su ventaja competitiva, al garantizar tanto el registro de abordaje sin pérdida de datos ante la falta de conectividad como el monitoreo en tiempo real del trayecto. **Fleet & Route Management**, **Stakeholder & Asset Management** y **Notifications & Communication** son *Supporting Subdomains*: indispensables para el negocio pero no diferenciadores. **Identity & Access Management** y **Subscription & Plan Management** son *Generic Subdomains*, problemas ya resueltos por la industria en los que se prioriza la reutilización.
  
@@ -2821,13 +3665,62 @@ La capacidad que distingue a RouteGuard es la combinación de resiliencia ante l
  
 **Conexiones confirmadas entre Bounded Contexts**
  
-| # | Origen | Evento | Política | Destino | Comando / Evento |
-|---|---|---|---|---|---|
-| 1 | Stakeholder & Asset Management | `Group Finalized` | `Export Group Manifest to Route Context` | Fleet & Route Management | `Assign Students to Route` |
-| 2 | Fleet & Route Management | `Route Activation Finalized` | — | Trip Execution & Monitoring | `Start Trip` |
-| 3 | Trip Execution & Monitoring | `Student Boarded` | — | Notifications & Communication | `Student Boarded` (consumido) |
-| 4 | Trip Execution & Monitoring | `Incident Reported` | — | Notifications & Communication | `Incident Reported` (consumido) |
-| 5 | Trip Execution & Monitoring | `Location Updated` | *(evaluación de geocerca)* | Notifications & Communication | `Geofence Breached` |
+<p><strong>Tabla 16.</strong> <em>Detalles de # y Origen</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Origen</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Evento</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Política</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Destino</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Comando / Evento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">1</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Stakeholder & Asset Management</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Group Finalized`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Export Group Manifest to Route Context`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Fleet & Route Management</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Assign Students to Route`</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Fleet & Route Management</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Route Activation Finalized`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">—</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Start Trip`</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Student Boarded`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">—</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Student Boarded` (consumido)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Incident Reported`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">—</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Incident Reported` (consumido)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Location Updated`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>(evaluación de geocerca)</em></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Geofence Breached`</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de # y origen.</em></p>
  
 **Identity & Access Management** se conecta de forma transversal con los cinco contextos restantes a través de `User Authenticated`/`JWT Session Token Issued`, pero esta no es una política de negocio sino una dependencia de identidad.
  
@@ -2841,15 +3734,70 @@ Para cada escenario se documenta la secuencia numerada de mensajes, que es la qu
  
 **Escenario 01: Conformación del grupo de estudiantes y asignación a la ruta**
  
-| # | Tipo | Mensaje | Origen | Destino |
-|---|---|---|---|---|
-| 1 | Command | Crear grupo de estudiantes | Administrador | Stakeholder & Asset Management |
-| 2 | Command | Asignar padres e incluir hijos vinculados | Administrador | Stakeholder & Asset Management |
-| 3 | Command | Finalizar grupo | Administrador | Stakeholder & Asset Management |
-| 4 | Event | `Group Finalized` | Stakeholder & Asset Management | Stakeholder & Asset Management |
-| 5 | Policy | `Export Group Manifest to Route Context` | Stakeholder & Asset Management | Fleet & Route Management |
-| 6 | Command | `Assign Students to Route` | Fleet & Route Management | Fleet & Route Management |
-| 7 | Event | `Student Assigned to Route` | Fleet & Route Management | Fleet & Route Management |
+<p><strong>Tabla 17.</strong> <em>Detalles de # y Tipo</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Tipo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Mensaje</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Origen</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Destino</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">1</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Command</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Crear grupo de estudiantes</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Administrador</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Stakeholder & Asset Management</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Command</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Asignar padres e incluir hijos vinculados</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Administrador</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Stakeholder & Asset Management</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Command</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Finalizar grupo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Administrador</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Stakeholder & Asset Management</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Group Finalized`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Stakeholder & Asset Management</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Stakeholder & Asset Management</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Policy</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Export Group Manifest to Route Context`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Stakeholder & Asset Management</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Fleet & Route Management</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">6</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Command</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Assign Students to Route`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Fleet & Route Management</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Fleet & Route Management</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">7</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Student Assigned to Route`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Fleet & Route Management</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Fleet & Route Management</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de # y tipo.</em></p>
  
 ![Escenario 01: Conformación de grupo y asignación a ruta](resources/chapter-2/Domain-Message-Flows/escenario-01-grupo-ruta.png)
  
@@ -2857,12 +3805,49 @@ Este es el único cruce del sistema donde la conexión pasa explícitamente por 
  
 **Escenario 02: Activación de ruta e inicio del viaje**
  
-| # | Tipo | Mensaje | Origen | Destino |
-|---|---|---|---|---|
-| 1 | Command | Definir días de servicio y hora de salida | Administrador | Fleet & Route Management |
-| 2 | Event | `Route Activation Finalized` | Fleet & Route Management | Trip Execution & Monitoring |
-| 3 | Command | `Start Trip` | Conductor | Trip Execution & Monitoring |
-| 4 | Event | `Trip Started` | Trip Execution & Monitoring | Trip Execution & Monitoring |
+<p><strong>Tabla 18.</strong> <em>Detalles de # y Tipo</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Tipo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Mensaje</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Origen</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Destino</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">1</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Command</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Definir días de servicio y hora de salida</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Administrador</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Fleet & Route Management</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Route Activation Finalized`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Fleet & Route Management</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Command</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Start Trip`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Conductor</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Trip Started`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de # y tipo.</em></p>
  
 ![Escenario 02: Activación de ruta e inicio del viaje](resources/chapter-2/Domain-Message-Flows/escenario-02-activacion-inicio.png)
  
@@ -2870,15 +3855,70 @@ Este es el único cruce del sistema donde la conexión pasa explícitamente por 
  
 **Escenario 03: Transmisión de ubicación en tiempo real y alerta de geocerca**
  
-| # | Tipo | Mensaje | Origen | Destino |
-|---|---|---|---|---|
-| 1 | Command | Transmitir ubicación en segundo plano | App del conductor | Trip Execution & Monitoring |
-| 2 | Event | `Location Updated` | Trip Execution & Monitoring | RabbitMQ (broker) |
-| 3 | Event | Recibe de broker | RabbitMQ (broker) | Notifications & Communication |
-| 4 | Command | Evaluar intersección de geocerca | Notifications & Communication | Notifications & Communication |
-| 5 | Event | `Geofence Breached` | Notifications & Communication | Notifications & Communication |
-| 6 | Command | `Dispatch Notification` | Notifications & Communication | Proveedor push (FCM) |
-| 7 | Event | `Notification Sent` | Proveedor push (FCM) | Padre de familia |
+<p><strong>Tabla 19.</strong> <em>Detalles de # y Tipo</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Tipo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Mensaje</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Origen</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Destino</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">1</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Command</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Transmitir ubicación en segundo plano</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">App del conductor</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Location Updated`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">RabbitMQ (broker)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Recibe de broker</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">RabbitMQ (broker)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Command</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Evaluar intersección de geocerca</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Geofence Breached`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">6</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Command</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Dispatch Notification`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Proveedor push (FCM)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">7</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Notification Sent`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Proveedor push (FCM)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Padre de familia</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de # y tipo.</em></p>
  
 ![Escenario 03: Ubicación en tiempo real y alerta de geocerca](resources/chapter-2/Domain-Message-Flows/escenario-03-geofence.png)
  
@@ -2886,18 +3926,91 @@ Este escenario sustenta directamente el Objetivo SMART 4 (latencia menor a 5 seg
  
 **Escenario 04: Abordaje e incidencia notificados al padre**
  
-| # | Tipo | Mensaje | Origen | Destino |
-|---|---|---|---|---|
-| 1 | Command | Marcar abordaje | Conductor | Trip Execution & Monitoring |
-| 2 | Event | `Student Boarded` | Trip Execution & Monitoring | RabbitMQ (broker) |
-| 3 | Event | Recibe de broker | RabbitMQ (broker) | Notifications & Communication |
-| 4 | Event | `Notification Sent` | Notifications & Communication | Padre de familia |
-| 5 | Command | Reportar incidencia | Conductor | Trip Execution & Monitoring |
-| 6 | Event | `Incident Reported` | Trip Execution & Monitoring | RabbitMQ (broker) |
-| 7 | Event | Recibe de broker | RabbitMQ (broker) | Notifications & Communication |
-| 8 | Command | `Trigger Panic Alert` | Notifications & Communication | Notifications & Communication |
-| 9 | Event | `High Priority Alert Created` | Notifications & Communication | Notifications & Communication |
-| 10 | Event | `Notification Sent` | Notifications & Communication | Padre de familia |
+<p><strong>Tabla 20.</strong> <em>Detalles de # y Tipo</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Tipo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Mensaje</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Origen</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Destino</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">1</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Command</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcar abordaje</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Conductor</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Student Boarded`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">RabbitMQ (broker)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Recibe de broker</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">RabbitMQ (broker)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Notification Sent`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Padre de familia</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Command</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Reportar incidencia</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Conductor</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">6</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Incident Reported`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">RabbitMQ (broker)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">7</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Recibe de broker</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">RabbitMQ (broker)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">8</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Command</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Trigger Panic Alert`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">9</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`High Priority Alert Created`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">10</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Event</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">`Notification Sent`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Padre de familia</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de # y tipo.</em></p>
  
 ![Escenario 04: Abordaje e incidencia](resources/chapter-2/Domain-Message-Flows/escenario-04-abordaje-incidencia.png)
  
@@ -2911,91 +4024,295 @@ El *Bounded Context Canvas* permite representar de forma clara los límites, res
  
 ![Trip Execution and Monitoring Bounded Context Canvas](resources/chapter-2/Bounded-Context-Canvas/The-Bounded-Context-Canvas-Trip.jpg)
  
-| Campo | Contenido |
-|---|---|
-| **Name** | Trip Execution & Monitoring |
-| **Description** | Registra la ejecución real del viaje diario del conductor: el abordaje con soporte de sincronización *offline* (US-06/TS-02), y la transmisión de la ubicación GPS en tiempo real durante todo el trayecto. |
-| **Strategic Classification** | Domain: core · Business Model: revenue generator · Evolution: custom built |
-| **Domain Roles** | Execution Context |
-| **Inbound Communication** | *Commands:* Select Route Card, Start Trip, Open Boarding, Set Boarding Status, Send Location Update, Report Incident, Complete Trip, Archive Trip. *Events:* Route Activation Finalized *(recibido de Fleet & Route Management)*, Trip Started, Boarding Opened, Student Boarded, Student Dropped Off, Location Updated, Incident Reported, Trip Completed, Trip Archived |
-| **Ubiquitous Language** | **Trip:** ejecución física de una ruta en una fecha y hora específica. **Boarding:** acto en que un estudiante ingresa o desciende del vehículo. **Location Update:** registro puntual de coordenadas transmitido por el dispositivo en segundo plano. **Incident:** evento inesperado que altera el curso normal del viaje. |
-| **Business Decisions** | El viaje inicia con `Boarding Opened` antes de aceptar registros de abordaje. Un registro sin señal se guarda localmente y sincroniza al recuperar conexión, de forma independiente al estado de la transmisión GPS.|
-| **Outbound Communication** | *Messages:* `Student Boarded`, `Incident Reported`, `Location Updated` — publicados hacia el broker. *Collaborators:* RabbitMQ (Message Broker) → Notifications & Communication |
+<p><strong>Tabla 21.</strong> <em>Detalles de Campo y Contenido</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Campo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Contenido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Name</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trip Execution & Monitoring</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Description</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registra la ejecución real del viaje diario del conductor: el abordaje con soporte de sincronización <em>offline</em> (US-06/TS-02), y la transmisión de la ubicación GPS en tiempo real durante todo el trayecto.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Strategic Classification</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Domain: core · Business Model: revenue generator · Evolution: custom built</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Domain Roles</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Execution Context</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Inbound Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>Commands:</em> Select Route Card, Start Trip, Open Boarding, Set Boarding Status, Send Location Update, Report Incident, Complete Trip, Archive Trip. <em>Events:</em> Route Activation Finalized <em>(recibido de Fleet & Route Management)</em>, Trip Started, Boarding Opened, Student Boarded, Student Dropped Off, Location Updated, Incident Reported, Trip Completed, Trip Archived</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Ubiquitous Language</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Trip:</strong> ejecución física de una ruta en una fecha y hora específica. <strong>Boarding:</strong> acto en que un estudiante ingresa o desciende del vehículo. <strong>Location Update:</strong> registro puntual de coordenadas transmitido por el dispositivo en segundo plano. <strong>Incident:</strong> evento inesperado que altera el curso normal del viaje.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Business Decisions</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">El viaje inicia con `Boarding Opened` antes de aceptar registros de abordaje. Un registro sin señal se guarda localmente y sincroniza al recuperar conexión, de forma independiente al estado de la transmisión GPS.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Outbound Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>Messages:</em> `Student Boarded`, `Incident Reported`, `Location Updated` — publicados hacia el broker. <em>Collaborators:</em> RabbitMQ (Message Broker) → Notifications & Communication</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de campo y contenido.</em></p>
  
 **Canvas 2: Fleet & Route Management**
  
 ![Fleet and Route Management Bounded Context Canvas](resources/chapter-2/Bounded-Context-Canvas/The-Bounded-Context-Canvas-Fleet.jpg)
  
-| Campo | Contenido |
-|---|---|
-| **Name** | Fleet & Route Management |
-| **Description** | Custodia el plan de recorrido vigente de cada ruta escolar: secuencia de paradas, vehículo y conductor asignados, días de servicio y hora de salida. |
-| **Strategic Classification** | Domain: supporting · Business Model: engagement · Evolution: custom built |
-| **Domain Roles** | Specification Context |
-| **Inbound Communication** | *Commands:* Define Route, Pick Waypoints, Assign Students to Route, Select Vehicle, Define Service Days, Set Departure Time. *Events:* Route Defined, Waypoint Selected, Stop Count Updated, Student Assigned to Route *(recibido vía política de Stakeholder & Asset Management)*, Passenger Manifest Generated, Vehicle Assigned to Route, Service Days Defined, Route Activation Finalized |
-| **Ubiquitous Language** | **Route:** secuencia predefinida de paradas entre un origen y un colegio. **Waypoint:** punto de paso seleccionado sobre el mapa al trazar la ruta. **Passenger Manifest:** listado de estudiantes asignados a una ruta. |
-| **Business Decisions** | Una ruta no puede activarse sin vehículo y conductor asignados. El conteo de paradas se recalcula automáticamente al agregar o quitar un *waypoint*. Los estudiantes asignables a una ruta provienen únicamente del manifiesto exportado por Stakeholder & Asset Management, nunca de una consulta directa a su modelo interno. |
-| **Outbound Communication** | *Messages:* `Route Activation Finalized`. *Collaborators:* Trip Execution & Monitoring |
+<p><strong>Tabla 22.</strong> <em>Detalles de Campo y Contenido</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Campo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Contenido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Name</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Fleet & Route Management</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Description</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Custodia el plan de recorrido vigente de cada ruta escolar: secuencia de paradas, vehículo y conductor asignados, días de servicio y hora de salida.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Strategic Classification</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Domain: supporting · Business Model: engagement · Evolution: custom built</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Domain Roles</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Specification Context</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Inbound Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>Commands:</em> Define Route, Pick Waypoints, Assign Students to Route, Select Vehicle, Define Service Days, Set Departure Time. <em>Events:</em> Route Defined, Waypoint Selected, Stop Count Updated, Student Assigned to Route <em>(recibido vía política de Stakeholder & Asset Management)</em>, Passenger Manifest Generated, Vehicle Assigned to Route, Service Days Defined, Route Activation Finalized</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Ubiquitous Language</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Route:</strong> secuencia predefinida de paradas entre un origen y un colegio. <strong>Waypoint:</strong> punto de paso seleccionado sobre el mapa al trazar la ruta. <strong>Passenger Manifest:</strong> listado de estudiantes asignados a una ruta.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Business Decisions</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Una ruta no puede activarse sin vehículo y conductor asignados. El conteo de paradas se recalcula automáticamente al agregar o quitar un <em>waypoint</em>. Los estudiantes asignables a una ruta provienen únicamente del manifiesto exportado por Stakeholder & Asset Management, nunca de una consulta directa a su modelo interno.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Outbound Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>Messages:</em> `Route Activation Finalized`. <em>Collaborators:</em> Trip Execution & Monitoring</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de campo y contenido.</em></p>
  
 **Canvas 3: Stakeholder & Asset Management**
  
 ![Stakeholder and Asset Management Bounded Context Canvas](resources/chapter-2/Bounded-Context-Canvas/The-Bounded-Context-Canvas-StakeHolder.jpg)
  
-| Campo | Contenido |
-|---|---|
-| **Name** | Stakeholder & Asset Management |
-| **Description** | Registra a conductores y padres de familia, vincula estudiantes a sus padres y organiza los grupos de estudiantes que luego se asignan a una ruta. |
-| **Strategic Classification** | Domain: supporting · Business Model: engagement · Evolution: custom built |
-| **Domain Roles** | Registry Context |
-| **Inbound Communication** | *Commands:* Register Driver, Register Parent, Register Child, Link Child to Parent, Create Group, Assign Parents to Group, Include Linked Students, Finalize Group. *Events:* Driver Profile Created, Parent Profile Created, Child Profile Created, Child Linked to Parent, Group Name Assigned, Parents Assigned to Group, Students Included in Group, Group Finalized |
-| **Ubiquitous Language** | **Driver:** persona registrada que opera una unidad de transporte. **Parent:** persona registrada responsable de uno o más estudiantes. **Group:** conjunto de estudiantes vinculados a los padres asignados, previo a su incorporación a una ruta. |
-| **Business Decisions** | Un estudiante solo se vincula a un padre ya registrado. Un grupo no se finaliza sin al menos un padre y sus estudiantes incluidos. Al finalizarse, la política `Export Group Manifest to Route Context` traduce el grupo al único dato que Fleet & Route Management necesita: la nómina de estudiantes. |
-| **Outbound Communication** | *Messages:* `Group Finalized` → política `Export Group Manifest to Route Context`. *Collaborators:* Fleet & Route Management |
+<p><strong>Tabla 23.</strong> <em>Detalles de Campo y Contenido</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Campo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Contenido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Name</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Stakeholder & Asset Management</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Description</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registra a conductores y padres de familia, vincula estudiantes a sus padres y organiza los grupos de estudiantes que luego se asignan a una ruta.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Strategic Classification</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Domain: supporting · Business Model: engagement · Evolution: custom built</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Domain Roles</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registry Context</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Inbound Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>Commands:</em> Register Driver, Register Parent, Register Child, Link Child to Parent, Create Group, Assign Parents to Group, Include Linked Students, Finalize Group. <em>Events:</em> Driver Profile Created, Parent Profile Created, Child Profile Created, Child Linked to Parent, Group Name Assigned, Parents Assigned to Group, Students Included in Group, Group Finalized</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Ubiquitous Language</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Driver:</strong> persona registrada que opera una unidad de transporte. <strong>Parent:</strong> persona registrada responsable de uno o más estudiantes. <strong>Group:</strong> conjunto de estudiantes vinculados a los padres asignados, previo a su incorporación a una ruta.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Business Decisions</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Un estudiante solo se vincula a un padre ya registrado. Un grupo no se finaliza sin al menos un padre y sus estudiantes incluidos. Al finalizarse, la política `Export Group Manifest to Route Context` traduce el grupo al único dato que Fleet & Route Management necesita: la nómina de estudiantes.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Outbound Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>Messages:</em> `Group Finalized` → política `Export Group Manifest to Route Context`. <em>Collaborators:</em> Fleet & Route Management</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de campo y contenido.</em></p>
  
 **Canvas 4: Notifications & Communication**
  
 ![Notifications and Communication Bounded Context Canvas](resources/chapter-2/Bounded-Context-Canvas/The-Bounded-Context-Canvas-Notifications.jpg)
  
-| Campo | Contenido |
-|---|---|
-| **Name** | Notifications & Communication |
-| **Description** | Consume de forma asíncrona los eventos del viaje publicados por Trip Execution & Monitoring, evalúa la penetración de geocercas y traduce los eventos relevantes en notificaciones push, incluyendo alertas de alta prioridad y anuncios del conductor. |
-| **Strategic Classification** | Domain: supporting · Business Model: engagement · Evolution: custom built sobre broker y proveedor push de terceros |
-| **Domain Roles** | Dispatch Context |
-| **Inbound Communication** | *Commands:* Trigger Panic Alert, Post Broadcast Message, Retry Notification. *Events (recibidos vía broker):* Student Boarded, Incident Reported, Location Updated. *Eventos propios:* Notification Created, Notification Queued, Geofence Breached, High Priority Alert Created, Notification Dispatched, Announcement Published, Notification Sent, Notification Failed |
-| **Ubiquitous Language** | **Notification:** mensaje push entregado al dispositivo del padre ante un evento del viaje. **Geofence:** perímetro virtual cuya intersección con la posición del vehículo dispara `Geofence Breached`. **High Priority Alert:** notificación generada a partir de una incidencia reportada por el conductor. |
-| **Business Decisions** | El consumo de eventos es asíncrono vía broker, sin bloquear la ejecución del viaje en Trip Execution & Monitoring. Una alerta de alta prioridad se despacha antes que las notificaciones ordinarias en cola. Una notificación fallida se reintenta automáticamente. Por decisión del equipo, no se genera ninguna notificación al completar o archivar un viaje. |
-| **Outbound Communication** | *Messages:* `Notification Dispatched` / `Notification Sent`. *Collaborators:* Proveedor push (FCM) |
+<p><strong>Tabla 24.</strong> <em>Detalles de Campo y Contenido</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Campo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Contenido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Name</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notifications & Communication</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Description</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Consume de forma asíncrona los eventos del viaje publicados por Trip Execution & Monitoring, evalúa la penetración de geocercas y traduce los eventos relevantes en notificaciones push, incluyendo alertas de alta prioridad y anuncios del conductor.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Strategic Classification</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Domain: supporting · Business Model: engagement · Evolution: custom built sobre broker y proveedor push de terceros</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Domain Roles</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Dispatch Context</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Inbound Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>Commands:</em> Trigger Panic Alert, Post Broadcast Message, Retry Notification. <em>Events (recibidos vía broker):</em> Student Boarded, Incident Reported, Location Updated. <em>Eventos propios:</em> Notification Created, Notification Queued, Geofence Breached, High Priority Alert Created, Notification Dispatched, Announcement Published, Notification Sent, Notification Failed</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Ubiquitous Language</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Notification:</strong> mensaje push entregado al dispositivo del padre ante un evento del viaje. <strong>Geofence:</strong> perímetro virtual cuya intersección con la posición del vehículo dispara `Geofence Breached`. <strong>High Priority Alert:</strong> notificación generada a partir de una incidencia reportada por el conductor.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Business Decisions</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">El consumo de eventos es asíncrono vía broker, sin bloquear la ejecución del viaje en Trip Execution & Monitoring. Una alerta de alta prioridad se despacha antes que las notificaciones ordinarias en cola. Una notificación fallida se reintenta automáticamente. Por decisión del equipo, no se genera ninguna notificación al completar o archivar un viaje.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Outbound Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>Messages:</em> `Notification Dispatched` / `Notification Sent`. <em>Collaborators:</em> Proveedor push (FCM)</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de campo y contenido.</em></p>
  
 **Canvas 5: Identity & Access Management**
  
 ![Identity and Access Management Bounded Context Canvas](resources/chapter-2/Bounded-Context-Canvas/The-Bounded-Context-Canvas-IAM.jpg)
  
-| Campo | Contenido |
-|---|---|
-| **Name** | Identity & Access Management |
-| **Description** | Gestiona el registro, la autenticación y el control de acceso de los usuarios de la plataforma, resolviendo el rol activo que determina las funcionalidades visibles para cada perfil. |
-| **Strategic Classification** | Domain: generic · Business Model: compliance enforcement · Evolution: product |
-| **Domain Roles** | Gateway Context |
-| **Inbound Communication** | *Commands:* Sign In, Register Administrator, Generate Session Token, Generate Password. *Events:* Login Accepted, User Authenticated, JWT Session Token Issued, User Logged In, Administrator Account Created, Admin Role Privileges Granted, Driver Account Provisioned, Parent Account Provisioned, Password Generated |
-| **Ubiquitous Language** | **Account:** identidad única de un usuario en la plataforma. **Session Token:** credencial temporal emitida tras una autenticación válida. **Role:** perfil activo (Administrador, Conductor, Padre) que determina las funcionalidades visibles. |
-| **Business Decisions** | Un usuario debe estar registrado para acceder a la plataforma. Las cuentas de conductor y padre se provisionan con credenciales generadas automáticamente al momento del registro por el administrador. |
-| **Outbound Communication** | *Messages:* `User Authenticated` / `JWT Session Token Issued`, consumidos sin traducción. *Collaborators:* Todos los Bounded Contexts (patrón Conformist, ver 2.5.2) |
+<p><strong>Tabla 25.</strong> <em>Detalles de Campo y Contenido</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Campo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Contenido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Name</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Identity & Access Management</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Description</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Gestiona el registro, la autenticación y el control de acceso de los usuarios de la plataforma, resolviendo el rol activo que determina las funcionalidades visibles para cada perfil.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Strategic Classification</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Domain: generic · Business Model: compliance enforcement · Evolution: product</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Domain Roles</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Gateway Context</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Inbound Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>Commands:</em> Sign In, Register Administrator, Generate Session Token, Generate Password. <em>Events:</em> Login Accepted, User Authenticated, JWT Session Token Issued, User Logged In, Administrator Account Created, Admin Role Privileges Granted, Driver Account Provisioned, Parent Account Provisioned, Password Generated</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Ubiquitous Language</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Account:</strong> identidad única de un usuario en la plataforma. <strong>Session Token:</strong> credencial temporal emitida tras una autenticación válida. <strong>Role:</strong> perfil activo (Administrador, Conductor, Padre) que determina las funcionalidades visibles.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Business Decisions</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Un usuario debe estar registrado para acceder a la plataforma. Las cuentas de conductor y padre se provisionan con credenciales generadas automáticamente al momento del registro por el administrador.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Outbound Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>Messages:</em> `User Authenticated` / `JWT Session Token Issued`, consumidos sin traducción. <em>Collaborators:</em> Todos los Bounded Contexts (patrón Conformist, ver 2.5.2)</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de campo y contenido.</em></p>
  
 **Canvas 6: Subscription & Plan Management**
  
 ![Subscription and Plan Management Bounded Context Canvas](resources/chapter-2/Bounded-Context-Canvas/The-Bounded-Context-Canvas-Suscription.jpg)
  
-| Campo | Contenido |
-|---|---|
-| **Name** | Subscription & Plan Management |
-| **Description** | Administra los planes SaaS, procesa el cobro a través de la pasarela de pago y habilita el acceso comercial a la plataforma según el plan vigente del administrador. |
-| **Strategic Classification** | Domain: generic · Business Model: revenue generator · Evolution: product |
-| **Domain Roles** | Gateway Context |
-| **Inbound Communication** | *Commands:* Select Plan, Initiate Payment Process, Upgrade Plan. *Events:* Plan Selected, Payment Confirmed, Subscription Activated, Plan Features Enabled, Plan Upgraded, Quotas Increased |
-| **Ubiquitous Language** | **Subscription:** vínculo comercial vigente entre el administrador y la plataforma. **Plan:** nivel de servicio contratado, con límites propios de unidades gestionables. **Quota:** número máximo de rutas y conductores habilitados por el plan. |
-| **Business Decisions** | La suscripción se activa solo tras la confirmación de pago de la pasarela externa. Una mejora de plan incrementa las cuotas sin interrumpir el servicio vigente. Ningún otro Bounded Context consulta estas cuotas en tiempo real. |
-| **Outbound Communication** | *Messages:* Solicitar procesamiento de pago. *Collaborators:* Pasarela de pago (sistema externo) — sin colaboradores dentro del dominio propio |
+<p><strong>Tabla 26.</strong> <em>Detalles de Campo y Contenido</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Campo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Contenido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Name</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Subscription & Plan Management</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Description</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Administra los planes SaaS, procesa el cobro a través de la pasarela de pago y habilita el acceso comercial a la plataforma según el plan vigente del administrador.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Strategic Classification</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Domain: generic · Business Model: revenue generator · Evolution: product</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Domain Roles</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Gateway Context</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Inbound Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>Commands:</em> Select Plan, Initiate Payment Process, Upgrade Plan. <em>Events:</em> Plan Selected, Payment Confirmed, Subscription Activated, Plan Features Enabled, Plan Upgraded, Quotas Increased</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Ubiquitous Language</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Subscription:</strong> vínculo comercial vigente entre el administrador y la plataforma. <strong>Plan:</strong> nivel de servicio contratado, con límites propios de unidades gestionables. <strong>Quota:</strong> número máximo de rutas y conductores habilitados por el plan.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Business Decisions</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">La suscripción se activa solo tras la confirmación de pago de la pasarela externa. Una mejora de plan incrementa las cuotas sin interrumpir el servicio vigente. Ningún otro Bounded Context consulta estas cuotas en tiempo real.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Outbound Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><em>Messages:</em> Solicitar procesamiento de pago. <em>Collaborators:</em> Pasarela de pago (sistema externo) — sin colaboradores dentro del dominio propio</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de campo y contenido.</em></p>
 
 ### 2.5.2. Context Mapping
 
@@ -3475,31 +4792,114 @@ En esta sección se registra y explica el avance en términos de producto y trab
 
 El Sprint Planning se llevó a cabo de manera síncrona para definir los objetivos iniciales del desarrollo, estimar los puntos de historia (Story Points) y asignar las tareas técnicas derivadas de los User Stories priorizados en el Product Backlog.
 
-| Sprint # | Sprint 1 |
-| :--- | :--- |
-| **Sprint Planning Background** | |
-| Date | 2026-09-10 |
-| Time | 19:00 PM |
-| Location | Microsoft Teams (Reunión Virtual) |
-| Prepared By | Pareja Calloapaza, Marcelo Fausto |
-| Attendees (to planning meeting) | Pareja Calloapaza, Marcelo Fausto / Francia Torres, Jhony Manuel / De la Cruz De los Santos, Mathias Marcelo / Ramirez Ruíz, Nickolas |
-| Sprint n – 1 Review Summary | N/A - Al ser el primer Sprint, no hay entregas de software previas a revisar. |
-| Sprint n – 1 Retrospective Summary | N/A - Primer Sprint del proyecto. |
-| **Sprint Goal & User Stories** | |
-| Sprint 1 Goal | **Our focus is on** delivering the Landing Page and the Identity & Access Management (IAM) endpoints. **We believe it delivers** a clear product presentation to visitors and foundational security for the ecosystem. **This will be confirmed when** users can view the platform's value proposition online and the backend can issue valid JWT tokens for login. |
-| Sprint 1 Velocity | 15 Story Points. |
-| Sum of Story Points | 13 Story Points. |
+<p><strong>Tabla 27.</strong> <em>El Sprint Planning se llevó a cabo de manera síncrona para definir los objetivos iniciales del desarrollo, estimar los puntos de historia (Story Points) y asignar las tareas técnicas derivadas de los User Stories priorizados en el Product Backlog.</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Sprint #</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Sprint 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Sprint Planning Background</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Date</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-09-10</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Time</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">19:00 PM</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Location</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Microsoft Teams (Reunión Virtual)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Prepared By</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pareja Calloapaza, Marcelo Fausto</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Attendees (to planning meeting)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pareja Calloapaza, Marcelo Fausto / Francia Torres, Jhony Manuel / De la Cruz De los Santos, Mathias Marcelo / Ramirez Ruíz, Nickolas</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sprint n – 1 Review Summary</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">N/A - Al ser el primer Sprint, no hay entregas de software previas a revisar.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sprint n – 1 Retrospective Summary</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">N/A - Primer Sprint del proyecto.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Sprint Goal & User Stories</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sprint 1 Goal</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Our focus is on</strong> delivering the Landing Page and the Identity & Access Management (IAM) endpoints. <strong>We believe it delivers</strong> a clear product presentation to visitors and foundational security for the ecosystem. <strong>This will be confirmed when</strong> users can view the platform's value proposition online and the backend can issue valid JWT tokens for login.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sprint 1 Velocity</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">15 Story Points.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sum of Story Points</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">13 Story Points.</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a el sprint planning se llevó a cabo de manera síncrona para definir los objetivos iniciales del desarrollo, estimar los puntos de historia (story points) y asignar las tareas técnicas derivadas de los user stories priorizados en el product backlog..</em></p>
 
 #### 4.2.1.2. Aspect Leaders and Collaborators
 
 Para mantener una comunicación efectiva y delegar responsabilidades, se elaboró la siguiente matriz *Leadership-and-Collaboration Matrix (LACX)* para los aspectos clave del Sprint 1.
 
-| Team Member | GitHub Username | Aspect Name 1: Landing Page (Frontend) | Aspect Name 2: IAM & Security (Backend) | Aspect Name 3: Database & DevOps |
-| :--- | :--- | :--- | :--- | :--- |
-| Pareja Calloapaza, Marcelo | marc3lllob7 | L (Leader) | C (Collaborator) | C (Collaborator) |
-| De la Cruz, Mathias | Dela0405 | C (Collaborator) | L (Leader) | C (Collaborator) |
-| Francia Torres, Jhony | ManuelFT4 | C (Collaborator) | C (Collaborator) | L (Leader) |
-| Ramirez Ruíz, Nickolas | Bynickram02 | C (Collaborator) | C (Collaborator) | C (Collaborator) |
+<p><strong>Tabla 28.</strong> <em>Para mantener una comunicación efectiva y delegar responsabilidades, se elaboró la siguiente matriz *Leadership-and-Collaboration Matrix (LACX)* para los aspectos clave del Sprint 1.</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Team Member</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">GitHub Username</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aspect Name 1: Landing Page (Frontend)</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aspect Name 2: IAM & Security (Backend)</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aspect Name 3: Database & DevOps</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pareja Calloapaza, Marcelo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">marc3lllob7</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">L (Leader)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">De la Cruz, Mathias</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Dela0405</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">L (Leader)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Francia Torres, Jhony</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">ManuelFT4</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">L (Leader)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ramirez Ruíz, Nickolas</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Bynickram02</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a para mantener una comunicación efectiva y delegar responsabilidades, se elaboró la siguiente matriz *leadership-and-collaboration matrix (lacx)* para los aspectos clave del sprint 1..</em></p>
 
 #### 4.2.1.3. Sprint Backlog 1
 
@@ -3511,28 +4911,158 @@ Para la gestión de nuestras tareas y User Stories durante este Sprint, utilizam
 
 A continuación, se detalla la descomposición de los User Stories en Technical Tasks:
 
-| User Story | | Work-Item / Task | | | | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| US-01 | Registro y Asignación de Rol | TK-101 | Diseño de Entidades JPA | Crear entidades User, Role y Credential en Spring Boot con relaciones mapeadas. | 4 | Mathias | Done |
-| US-01 | Registro y Asignación de Rol | TK-102 | Configurar Spring Security | Implementar la configuración de seguridad y filtros JWT. | 6 | Mathias | Done |
-| US-01 | Registro y Asignación de Rol | TK-103 | IAM Controllers | Exponer los endpoints REST de `/api/v1/auth/sign-in` y `sign-up`. | 5 | Marcelo | Done |
-| US-13 | Gestión de Perfil | TK-104 | Repositorios y Servicios | Crear el UserJPARepository y UserAppService para actualizar datos. | 4 | Nickolas | Done |
-| TS-04 | Pipeline CI/CD | TK-105 | Configurar GitHub Actions | Crear el archivo .yml para compilación automática de Java/Spring. | 3 | Jhony | Done |
-| N/A | Landing Page | TK-106 | Maquetación HTML/CSS | Traducir los wireframes de Figma a código HTML semántico y CSS (Material). | 8 | Todos | Done |
-| N/A | Landing Page | TK-107 | Responsive Design | Adaptar el Landing Page para correcta visualización en móviles (Media Queries). | 5 | Todos | Done |
+<p><strong>Tabla 29.</strong> <em>A continuación, se detalla la descomposición de los User Stories en Technical Tasks:</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">User Story</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"></th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Work-Item / Task</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"></th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"></th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"></th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"></th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Id</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Title</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Id</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Title</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Description</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Estimation (Hours)</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Assigned To</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Status</strong></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-01</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registro y Asignación de Rol</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-101</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Diseño de Entidades JPA</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Crear entidades User, Role y Credential en Spring Boot con relaciones mapeadas.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-01</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registro y Asignación de Rol</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-102</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Configurar Spring Security</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Implementar la configuración de seguridad y filtros JWT.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">6</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-01</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registro y Asignación de Rol</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-103</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">IAM Controllers</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Exponer los endpoints REST de `/api/v1/auth/sign-in` y `sign-up`.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-13</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Gestión de Perfil</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-104</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Repositorios y Servicios</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Crear el UserJPARepository y UserAppService para actualizar datos.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">TS-04</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pipeline CI/CD</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-105</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Configurar GitHub Actions</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Crear el archivo .yml para compilación automática de Java/Spring.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jhony</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">N/A</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Landing Page</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-106</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Maquetación HTML/CSS</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Traducir los wireframes de Figma a código HTML semántico y CSS (Material).</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">8</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Todos</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">N/A</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Landing Page</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-107</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Responsive Design</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Adaptar el Landing Page para correcta visualización en móviles (Media Queries).</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Todos</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a a continuación, se detalla la descomposición de los user stories en technical tasks:.</em></p>
 
 #### 4.2.1.4. Development Evidence for Sprint Review
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|---|---|---|---|---|---|
-| | | | | | |
+<p><strong>Tabla 30.</strong> <em>4.2.1.4. Development Evidence for Sprint Review</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Repository</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Branch</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Id</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Message</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Message Body</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a 4.2.1.4. development evidence for sprint review.</em></p>
 
 #### 4.2.1.5. Testing Suite Evidence for Sprint Review
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|---|---|---|---|---|---|
-| | | | | | |
+<p><strong>Tabla 31.</strong> <em>4.2.1.5. Testing Suite Evidence for Sprint Review</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Repository</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Branch</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Id</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Message</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Message Body</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a 4.2.1.5. testing suite evidence for sprint review.</em></p>
 
 #### 4.2.1.6. Execution Evidence for Sprint Review
 
