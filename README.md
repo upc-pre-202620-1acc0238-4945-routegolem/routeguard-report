@@ -1,4 +1,4 @@
-﻿<p align="center"><img src="resources/cover/upc-logo.png" alt="Logo UPC" width="40"></p>
+<p align="center"><img src="resources/cover/upc-logo.png" alt="Logo UPC" width="40"></p>
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 <p align="center"><strong>Carrera de Ingeniería de Software</strong></p>
 <br>
@@ -33,7 +33,9 @@
 
 ## Registro de Versiones del Informe
 
-<p><strong>Tabla 1.</strong> <em>Registro de Versiones del Informe</em></p>
+Como se detalla en la **Tabla 1**, a continuación se presentan las versiones de este documento.
+
+<p><strong>Tabla 1.</strong> <em>Historial de Cambios y Versiones del Documento</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -136,7 +138,7 @@
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a registro de versiones del informe.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Historial detallado de las modificaciones realizadas en el informe, indicando fecha, autor y descripción de cada versión.</em></p>
 
 <div style="page-break-after: always;"></div>
 
@@ -341,7 +343,9 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 **ABET - EAC - Student Outcome 7**
 **Criterio:** La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
 
-<p><strong>Tabla 2.</strong> <em>La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.</em></p>
+Tal como se evidencia en la **Tabla 2**, el equipo ha logrado aplicar nuevos aprendizajes en el desarrollo de este proyecto.
+
+<p><strong>Tabla 2.</strong> <em>Evaluación del Student Outcome 7 (ABET)</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -363,7 +367,7 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a la capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas..</em></p>
+<p style="margin-top: 10px;"><em>Nota: Análisis de las acciones realizadas por cada integrante del equipo para cumplir con el criterio de aprendizaje autónomo y continuo.</em></p>
 
 <div style="page-break-after: always;"></div>
 
@@ -433,7 +437,9 @@ La visión de RouteGolem es consolidarse como el estándar tecnológico regional
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
-<p><strong>Tabla 3.</strong> <em>1.1.2 Perfiles de integrantes del equipo</em></p>
+Como se puede observar en la **Tabla 3**, el equipo está compuesto por perfiles complementarios orientados al éxito del proyecto.
+
+<p><strong>Tabla 3.</strong> <em>Perfiles de los Integrantes de RouteGolem</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -475,7 +481,7 @@ La visión de RouteGolem es consolidarse como el estándar tecnológico regional
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a 1.1.2 perfiles de integrantes del equipo.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Información detallada de los miembros del equipo de desarrollo, incluyendo sus roles, habilidades y motivaciones.</em></p>
 
 ## 1.2. Solution Profile
 
@@ -734,7 +740,7 @@ Este análisis nos permite conocer las características, ventajas y limitaciones
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a este análisis nos permite conocer las características, ventajas y limitaciones de las principales soluciones de transporte escolar existentes en el mercado. también ayuda a identificar oportunidades de diferenciación y áreas de mejora para saferoute..</em></p>
+<p style="margin-top: 10px;"><em>Nota: Comparativa de competidores directos e indirectos, destacando sus perfiles, ventajas competitivas y funcionalidades.</em></p>
 
 
 
@@ -930,7 +936,10 @@ A continuación, se presenta el análisis estadístico y cualitativo derivado de
 Se analizaron las entrevistas de 3 padres de familia (Manuel, Máximo y Diana) que actualmente utilizan servicios de movilidad escolar privada para sus hijos (con un rango de edad entre los 7 y 13 años).
 
 **A. Características Objetivas y Tecnológicas**
-<p><strong>Tabla 5.</strong> <em>Detalles de Característica / Hábito y Frecuencia</em></p>
+
+En la **Tabla 5** se detallan las características objetivas del segmento evaluado.
+
+<p><strong>Tabla 5.</strong> <em>Hábitos Tecnológicos y Objetivos de Padres de Familia</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -961,10 +970,13 @@ Se analizaron las entrevistas de 3 padres de familia (Manuel, Máximo y Diana) q
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de característica / hábito y frecuencia.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Resultados estadísticos sobre los canales de comunicación y hábitos operativos del segmento de padres de familia.</em></p>
 
 **B. Características Subjetivas (Pains & Gains)**
-<p><strong>Tabla 6.</strong> <em>Detalles de Percepción / Frustración y Frecuencia</em></p>
+
+La **Tabla 6** muestra los principales dolores y ganancias identificados en el análisis.
+
+<p><strong>Tabla 6.</strong> <em>Dolores y Necesidades (Pains & Gains) de Padres de Familia</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -995,7 +1007,7 @@ Se analizaron las entrevistas de 3 padres de familia (Manuel, Máximo y Diana) q
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de percepción / frustración y frecuencia.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Análisis cualitativo de las principales frustraciones y motivaciones del segmento de padres respecto al servicio actual.</em></p>
 
 **Conclusión del Segmento 1:** El arquetipo del Padre de Familia es un usuario altamente ocupado que sufre de "espera a ciegas" generada por el tráfico y la nula comunicación proactiva de la movilidad. Su principal motivación (*Gain*) es la tranquilidad mental respecto a la seguridad de su hijo, valorando enormemente las notificaciones en segundo plano.
 
@@ -1005,7 +1017,10 @@ Se analizaron las entrevistas de 3 padres de familia (Manuel, Máximo y Diana) q
 Se analizaron las entrevistas de 3 transportistas (Luis, Iván y Matías) con experiencia variada (desde 4 hasta 25 años) que manejan flotas independientes o corporativas con rutas preestablecidas.
 
 **A. Características Objetivas y Tecnológicas**
-<p><strong>Tabla 7.</strong> <em>Detalles de Característica / Hábito y Frecuencia</em></p>
+
+Como se aprecia en la **Tabla 7**, se muestran las características objetivas encontradas en los conductores.
+
+<p><strong>Tabla 7.</strong> <em>Hábitos Tecnológicos y Objetivos de Conductores</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -1036,10 +1051,13 @@ Se analizaron las entrevistas de 3 transportistas (Luis, Iván y Matías) con ex
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de característica / hábito y frecuencia.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Resultados estadísticos sobre los canales de comunicación y procesos operativos actuales del segmento de conductores escolares.</em></p>
 
 **B. Características Subjetivas (Pains & Gains)**
-<p><strong>Tabla 8.</strong> <em>Detalles de Percepción / Frustración y Frecuencia</em></p>
+
+Tal como se documenta en la **Tabla 8**, las frustraciones de los conductores son variadas.
+
+<p><strong>Tabla 8.</strong> <em>Dolores y Necesidades (Pains & Gains) de Conductores</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -1070,7 +1088,7 @@ Se analizaron las entrevistas de 3 transportistas (Luis, Iván y Matías) con ex
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de percepción / frustración y frecuencia.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Análisis cualitativo de los niveles de estrés, riesgos operativos y motivaciones de los transportistas durante sus rutas.</em></p>
 
 **Conclusión del Segmento 2:** El arquetipo del Conductor es un trabajador que sufre de sobrecarga operativa y distracciones peligrosas al volante. Su principal dolor (*Pain*) es la desorganización provocada por mensajes cruzados y la incapacidad de notificar su ubicación de forma segura. Su motivación principal (*Gain*) es formalizar su negocio y conducir en paz, estando dispuesto a invertir económicamente en una solución tecnológica.
 
@@ -1101,9 +1119,9 @@ El contraste entre ambos perfiles justifica nuestra decisión arquitectónica de
 
 El *User Task Matrix* es un artefacto fundamental en el diseño de interacción humano-computadora, ya que permite mapear la criticidad y la frecuencia de las tareas según el rol del usuario, lo que optimiza así la arquitectura de la información (Kumar & Lee, 2024).
 En el caso de RouteGuard, esta matriz justifica nuestra decisión de separar la solución en dos aplicaciones distintas: una interfaz operativa para el conductor, donde se busca que la interacción manual sea mínima (de 1 solo toque) para no incrementar la carga cognitiva ni el riesgo de accidentes viales (Smith & Johnson, 2025), y una interfaz de monitoreo pasivo para el padre de familia.
-La siguiente matriz detalla las tareas principales dentro del ecosistema y la frecuencia con la que cada segmento interactúa con ellas:
+La **Tabla 9** detalla las tareas principales dentro del ecosistema y la frecuencia con la que cada segmento interactúa con ellas:
 
-<p><strong>Tabla 9.</strong> <em>La siguiente matriz detalla las tareas principales dentro del ecosistema y la frecuencia con la que cada segmento interactúa con ellas:</em></p>
+<p><strong>Tabla 9.</strong> <em>Matriz de Tareas de Usuario (User Task Matrix)</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -1158,7 +1176,7 @@ La siguiente matriz detalla las tareas principales dentro del ecosistema y la fr
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a la siguiente matriz detalla las tareas principales dentro del ecosistema y la frecuencia con la que cada segmento interactúa con ellas:.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Relación de tareas críticas y su frecuencia de uso según los segmentos de Conductor y Padre de Familia.</em></p>
 
 ### 2.3.3. User Journey Mapping
 
@@ -1225,9 +1243,9 @@ El descubrimiento de esta línea temporal fue el insumo principal para poder agr
 
 ### 2.3.6. Ubiquitous Language
 
-Siguiendo los principios fundamentales del *Domain-Driven Design* (Evans, 2003), hemos establecido un *Ubiquitous Language* (Lenguaje Ubicuo). Este glosario estandariza los términos del negocio en inglés para garantizar que tanto el equipo de desarrollo como los expertos del dominio utilicen exactamente el mismo vocabulario, eliminando ambigüedades entre el código fuente y las reglas de negocio.
+Siguiendo los principios fundamentales del *Domain-Driven Design* (Evans, 2003), hemos establecido en la **Tabla 10** el *Ubiquitous Language* (Lenguaje Ubicuo). Este glosario estandariza los términos del negocio en inglés para garantizar que tanto el equipo de desarrollo como los expertos del dominio utilicen exactamente el mismo vocabulario, eliminando ambigüedades entre el código fuente y las reglas de negocio.
 
-<p><strong>Tabla 10.</strong> <em>Siguiendo los principios fundamentales del *Domain-Driven Design* (Evans, 2003), hemos establecido un *Ubiquitous Language* (Lenguaje Ubicuo). Este glosario estandariza los términos del negocio en inglés para garantizar que tanto el equipo de desarrollo como los expertos del dominio utilicen exactamente el mismo vocabulario, eliminando ambigüedades entre el código fuente y las reglas de negocio.</em></p>
+<p><strong>Tabla 10.</strong> <em>Glosario del Lenguaje Ubicuo (Ubiquitous Language)</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -1279,7 +1297,7 @@ Siguiendo los principios fundamentales del *Domain-Driven Design* (Evans, 2003),
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a siguiendo los principios fundamentales del *domain-driven design* (evans, 2003), hemos establecido un *ubiquitous language* (lenguaje ubicuo). este glosario estandariza los términos del negocio en inglés para garantizar que tanto el equipo de desarrollo como los expertos del dominio utilicen exactamente el mismo vocabulario, eliminando ambigüedades entre el código fuente y las reglas de negocio..</em></p>
+<p style="margin-top: 10px;"><em>Nota: Definición estandarizada de los conceptos centrales del dominio de negocio.</em></p>
 
 ## 2.4. Requirements specification
 
@@ -1293,7 +1311,9 @@ Para el caso de RouteGuard, hemos estructurado nuestras Épicas de modo que se a
 
 **EPICS (Alineadas a los Bounded Contexts)**
 
-<p><strong>Tabla 11.</strong> <em>Detalles de Epic ID y Título (Bounded Context)</em></p>
+La **Tabla 11** presenta las Épicas del proyecto, estructuradas según nuestros contextos identificados.
+
+<p><strong>Tabla 11.</strong> <em>Épicas del Proyecto RouteGuard</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -1342,7 +1362,7 @@ Para el caso de RouteGuard, hemos estructurado nuestras Épicas de modo que se a
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de epic id y título (bounded context).</em></p>
+<p style="margin-top: 10px;"><em>Nota: Épicas de alto nivel alineadas con los Bounded Contexts y sus respectivos criterios de aceptación.</em></p>
 
 <br>
 
@@ -3159,9 +3179,9 @@ Para el caso de RouteGuard, hemos estructurado nuestras Épicas de modo que se a
 
 ### 2.4.3. Product Backlog
 
-El *Product Backlog* es un artefacto vivo y emergente que centraliza y ordena todo el trabajo necesario para la evolución del producto (Schwaber & Sutherland, 2020). Para RouteGuard, las historias han sido estimadas mediante Puntos de Historia (Fibonacci) y priorizadas bajo el criterio de maximización de valor temprano (Rubin, 2012), asegurando que las funcionalidades críticas para el *Minimum Viable Product* (MVP) se desarrollen en los primeros *sprints*.
+El *Product Backlog* es un artefacto vivo y emergente que centraliza y ordena todo el trabajo necesario para la evolución del producto (Schwaber & Sutherland, 2020). Para RouteGuard, las historias han sido estimadas y priorizadas como se muestra en la **Tabla 12**, asegurando que las funcionalidades críticas para el *Minimum Viable Product* (MVP) se desarrollen en los primeros *sprints*.
 
-<p><strong>Tabla 12.</strong> <em>El *Product Backlog* es un artefacto vivo y emergente que centraliza y ordena todo el trabajo necesario para la evolución del producto (Schwaber & Sutherland, 2020). Para RouteGuard, las historias han sido estimadas mediante Puntos de Historia (Fibonacci) y priorizadas bajo el criterio de maximización de valor temprano (Rubin, 2012), asegurando que las funcionalidades críticas para el *Minimum Viable Product* (MVP) se desarrollen en los primeros *sprints*.</em></p>
+<p><strong>Tabla 12.</strong> <em>Product Backlog Priorizado</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -3490,7 +3510,7 @@ El *Product Backlog* es un artefacto vivo y emergente que centraliza y ordena to
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a el *product backlog* es un artefacto vivo y emergente que centraliza y ordena todo el trabajo necesario para la evolución del producto (schwaber & sutherland, 2020). para routeguard, las historias han sido estimadas mediante puntos de historia (fibonacci) y priorizadas bajo el criterio de maximización de valor temprano (rubin, 2012), asegurando que las funcionalidades críticas para el *minimum viable product* (mvp) se desarrollen en los primeros *sprints*..</em></p>
+<p style="margin-top: 10px;"><em>Nota: Listado de historias de usuario, técnicas y spikes priorizadas para el desarrollo.</em></p>
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
@@ -3506,9 +3526,9 @@ Para el proceso de EventStorming a nivel de diseño utilizamos la herramienta **
  
 **Paso 4: Agrupación en Bounded Contexts.** Finalmente agrupamos los eventos que se relacionan entre sí a través de los agregados y entidades que comparten, delimitando los Bounded Contexts del sistema.
  
-A lo largo del tablero utilizamos además cuatro tipos de post-it complementarios para enriquecer el modelo:
+A lo largo del tablero utilizamos cuatro tipos de post-it complementarios, los cuales se explican en la **Tabla 13**, para enriquecer el modelo.
  
-<p><strong>Tabla 13.</strong> <em>A lo largo del tablero utilizamos además cuatro tipos de post-it complementarios para enriquecer el modelo:</em></p>
+<p><strong>Tabla 13.</strong> <em>Simbología Complementaria del EventStorming</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -3540,7 +3560,7 @@ A lo largo del tablero utilizamos además cuatro tipos de post-it complementario
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a a lo largo del tablero utilizamos además cuatro tipos de post-it complementarios para enriquecer el modelo:.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Leyenda de colores y tipos de elementos utilizados en el tablero de EventStorming.</em></p>
 
 <img src="resources\chapter-2\EventStorming\paleta-colores.png" width="1000">
  
@@ -3550,9 +3570,9 @@ En esta sesión aplicamos la técnica de *Candidate Context Discovery* para iden
  
 Utilizamos las tres técnicas sugeridas de forma encadenada, ya que cada una responde una pregunta distinta. Con **start-with-simple** descompusimos la línea temporal en tres fases secuenciales —configuración y contratación, operación diaria, y cierre y postventa— para obtener un modelo manejable antes de intentar agrupar. Con **look-for-pivotal-events** identificamos los eventos que marcan cambios de estado entre partes distintas del proceso de negocio, que resultaron ser las costuras naturales del dominio. Finalmente, con **start-with-value** determinamos qué agrupaciones concentran el mayor valor para el negocio, contrastándolas con la propuesta de valor.
  
-Los eventos pivote identificados fueron los siguientes:
+La **Tabla 14** lista los eventos pivote identificados durante el análisis.
  
-<p><strong>Tabla 14.</strong> <em>Los eventos pivote identificados fueron los siguientes:</em></p>
+<p><strong>Tabla 14.</strong> <em>Eventos Pivote del Negocio</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -3591,7 +3611,7 @@ Los eventos pivote identificados fueron los siguientes:
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a los eventos pivote identificados fueron los siguientes:.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Eventos críticos que marcan transiciones de estado entre distintas fases del proceso de negocio.</em></p>
  
 Al analizar estos eventos pudimos observar que cada grupo implicaba responsabilidades, reglas y garantías de consistencia distintas dentro del sistema, lo que nos permitió agruparlos en contextos bien definidos, evitando ambigüedad y facilitando la organización del dominio.
  
@@ -3613,9 +3633,9 @@ A continuación se presenta la evolución progresiva del EventStorm durante la s
  
 <img src="resources\chapter-2\EventStorming\Design-Level-Event-Storming.jpg" width="1000">
 
-Este proceso nos llevó a definir los siguientes Bounded Contexts:
+Este proceso nos llevó a definir los Bounded Contexts descritos en la **Tabla 15**.
  
-<p><strong>Tabla 15.</strong> <em>Este proceso nos llevó a definir los siguientes Bounded Contexts:</em></p>
+<p><strong>Tabla 15.</strong> <em>Definición de Bounded Contexts Identificados</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -3657,7 +3677,7 @@ Este proceso nos llevó a definir los siguientes Bounded Contexts:
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a este proceso nos llevó a definir los siguientes bounded contexts:.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Descripción de los Bounded Contexts y los eventos principales que gestionan.</em></p>
  
 Aplicando finalmente *start-with-value*, clasificamos los contextos según su aporte estratégico. **Trip Execution & Monitoring** constituye el *Core Domain*: es el contexto donde RouteGuard concentra su ventaja competitiva, al garantizar tanto el registro de abordaje sin pérdida de datos ante la falta de conectividad como el monitoreo en tiempo real del trayecto. **Fleet & Route Management**, **Stakeholder & Asset Management** y **Notifications & Communication** son *Supporting Subdomains*: indispensables para el negocio pero no diferenciadores. **Identity & Access Management** y **Subscription & Plan Management** son *Generic Subdomains*, problemas ya resueltos por la industria en los que se prioriza la reutilización.
  
@@ -3665,7 +3685,9 @@ La capacidad que distingue a RouteGuard es la combinación de resiliencia ante l
  
 **Conexiones confirmadas entre Bounded Contexts**
  
-<p><strong>Tabla 16.</strong> <em>Detalles de # y Origen</em></p>
+Las integraciones formales identificadas entre los contextos se resumen en la **Tabla 16**.
+
+<p><strong>Tabla 16.</strong> <em>Conexiones e Integraciones entre Bounded Contexts</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -3720,7 +3742,7 @@ La capacidad que distingue a RouteGuard es la combinación de resiliencia ante l
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de # y origen.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Detalle de eventos consumidos y políticas que enlazan los distintos Bounded Contexts.</em></p>
  
 **Identity & Access Management** se conecta de forma transversal con los cinco contextos restantes a través de `User Authenticated`/`JWT Session Token Issued`, pero esta no es una política de negocio sino una dependencia de identidad.
  
@@ -3734,7 +3756,9 @@ Para cada escenario se documenta la secuencia numerada de mensajes, que es la qu
  
 **Escenario 01: Conformación del grupo de estudiantes y asignación a la ruta**
  
-<p><strong>Tabla 17.</strong> <em>Detalles de # y Tipo</em></p>
+Como se aprecia en la **Tabla 17**, este proceso requiere múltiples interacciones.
+
+<p><strong>Tabla 17.</strong> <em>Flujo de Mensajes: Escenario 01 - Conformación de Grupo</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -3797,7 +3821,7 @@ Para cada escenario se documenta la secuencia numerada de mensajes, que es la qu
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de # y tipo.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Secuencia de comandos y eventos para agrupar y asignar estudiantes a una ruta.</em></p>
  
 ![Escenario 01: Conformación de grupo y asignación a ruta](resources/chapter-2/Domain-Message-Flows/escenario-01-grupo-ruta.png)
  
@@ -3805,7 +3829,9 @@ Este es el único cruce del sistema donde la conexión pasa explícitamente por 
  
 **Escenario 02: Activación de ruta e inicio del viaje**
  
-<p><strong>Tabla 18.</strong> <em>Detalles de # y Tipo</em></p>
+Los mensajes involucrados en este escenario se enumeran en la **Tabla 18**.
+
+<p><strong>Tabla 18.</strong> <em>Flujo de Mensajes: Escenario 02 - Activación e Inicio de Viaje</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -3847,7 +3873,7 @@ Este es el único cruce del sistema donde la conexión pasa explícitamente por 
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de # y tipo.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Secuencia de comandos y eventos para la activación de la ruta operativa.</em></p>
  
 ![Escenario 02: Activación de ruta e inicio del viaje](resources/chapter-2/Domain-Message-Flows/escenario-02-activacion-inicio.png)
  
@@ -3855,7 +3881,9 @@ Este es el único cruce del sistema donde la conexión pasa explícitamente por 
  
 **Escenario 03: Transmisión de ubicación en tiempo real y alerta de geocerca**
  
-<p><strong>Tabla 19.</strong> <em>Detalles de # y Tipo</em></p>
+La **Tabla 19** especifica los mensajes intercambiados en este flujo.
+
+<p><strong>Tabla 19.</strong> <em>Flujo de Mensajes: Escenario 03 - Ubicación y Geocerca</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -3918,7 +3946,7 @@ Este es el único cruce del sistema donde la conexión pasa explícitamente por 
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de # y tipo.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Secuencia de comandos y eventos para la transmisión de ubicación y alertas de geofencing.</em></p>
  
 ![Escenario 03: Ubicación en tiempo real y alerta de geocerca](resources/chapter-2/Domain-Message-Flows/escenario-03-geofence.png)
  
@@ -3926,7 +3954,9 @@ Este escenario sustenta directamente el Objetivo SMART 4 (latencia menor a 5 seg
  
 **Escenario 04: Abordaje e incidencia notificados al padre**
  
-<p><strong>Tabla 20.</strong> <em>Detalles de # y Tipo</em></p>
+La **Tabla 20** detalla el flujo de mensajes de este escenario.
+
+<p><strong>Tabla 20.</strong> <em>Flujo de Mensajes: Escenario 04 - Abordaje e Incidencia</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -4010,7 +4040,7 @@ Este escenario sustenta directamente el Objetivo SMART 4 (latencia menor a 5 seg
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de # y tipo.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Secuencia de comandos y eventos para el registro del abordaje y la notificación de incidencias al padre.</em></p>
  
 ![Escenario 04: Abordaje e incidencia](resources/chapter-2/Domain-Message-Flows/escenario-04-abordaje-incidencia.png)
  
@@ -4024,7 +4054,9 @@ El *Bounded Context Canvas* permite representar de forma clara los límites, res
  
 ![Trip Execution and Monitoring Bounded Context Canvas](resources/chapter-2/Bounded-Context-Canvas/The-Bounded-Context-Canvas-Trip.jpg)
  
-<p><strong>Tabla 21.</strong> <em>Detalles de Campo y Contenido</em></p>
+La **Tabla 21** explica las partes constitutivas de este primer Bounded Context.
+
+<p><strong>Tabla 21.</strong> <em>Detalles del Bounded Context Canvas - Trip Execution & Monitoring</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -4067,13 +4099,15 @@ El *Bounded Context Canvas* permite representar de forma clara los límites, res
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de campo y contenido.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Elementos de dominio, reglas de negocio y dependencias del contexto Trip Execution & Monitoring.</em></p>
  
 **Canvas 2: Fleet & Route Management**
  
 ![Fleet and Route Management Bounded Context Canvas](resources/chapter-2/Bounded-Context-Canvas/The-Bounded-Context-Canvas-Fleet.jpg)
  
-<p><strong>Tabla 22.</strong> <em>Detalles de Campo y Contenido</em></p>
+La **Tabla 22** aborda la definición de este límite de contexto.
+
+<p><strong>Tabla 22.</strong> <em>Detalles del Bounded Context Canvas - Fleet & Route Management</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -4116,13 +4150,15 @@ El *Bounded Context Canvas* permite representar de forma clara los límites, res
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de campo y contenido.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Elementos de dominio, reglas de negocio y dependencias del contexto Fleet & Route Management.</em></p>
  
 **Canvas 3: Stakeholder & Asset Management**
  
 ![Stakeholder and Asset Management Bounded Context Canvas](resources/chapter-2/Bounded-Context-Canvas/The-Bounded-Context-Canvas-StakeHolder.jpg)
  
-<p><strong>Tabla 23.</strong> <em>Detalles de Campo y Contenido</em></p>
+En la **Tabla 23** se describen sus componentes clave.
+
+<p><strong>Tabla 23.</strong> <em>Detalles del Bounded Context Canvas - Stakeholder & Asset Management</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -4165,13 +4201,15 @@ El *Bounded Context Canvas* permite representar de forma clara los límites, res
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de campo y contenido.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Elementos de dominio, reglas de negocio y dependencias del contexto Stakeholder & Asset Management.</em></p>
  
 **Canvas 4: Notifications & Communication**
  
 ![Notifications and Communication Bounded Context Canvas](resources/chapter-2/Bounded-Context-Canvas/The-Bounded-Context-Canvas-Notifications.jpg)
  
-<p><strong>Tabla 24.</strong> <em>Detalles de Campo y Contenido</em></p>
+La **Tabla 24** contiene los datos específicos de este canvas.
+
+<p><strong>Tabla 24.</strong> <em>Detalles del Bounded Context Canvas - Notifications & Communication</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -4214,13 +4252,15 @@ El *Bounded Context Canvas* permite representar de forma clara los límites, res
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de campo y contenido.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Elementos de dominio, reglas de negocio y dependencias del contexto Notifications & Communication.</em></p>
  
 **Canvas 5: Identity & Access Management**
  
 ![Identity and Access Management Bounded Context Canvas](resources/chapter-2/Bounded-Context-Canvas/The-Bounded-Context-Canvas-IAM.jpg)
  
-<p><strong>Tabla 25.</strong> <em>Detalles de Campo y Contenido</em></p>
+Como se explica en la **Tabla 25**, se listan los atributos de este contexto.
+
+<p><strong>Tabla 25.</strong> <em>Detalles del Bounded Context Canvas - Identity & Access Management</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -4263,13 +4303,15 @@ El *Bounded Context Canvas* permite representar de forma clara los límites, res
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de campo y contenido.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Elementos de dominio, reglas de negocio y dependencias del contexto Identity & Access Management.</em></p>
  
 **Canvas 6: Subscription & Plan Management**
  
 ![Subscription and Plan Management Bounded Context Canvas](resources/chapter-2/Bounded-Context-Canvas/The-Bounded-Context-Canvas-Suscription.jpg)
  
-<p><strong>Tabla 26.</strong> <em>Detalles de Campo y Contenido</em></p>
+En la **Tabla 26** se desglosan los detalles correspondientes a este Bounded Context.
+
+<p><strong>Tabla 26.</strong> <em>Detalles del Bounded Context Canvas - Subscription & Plan Management</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -4312,7 +4354,7 @@ El *Bounded Context Canvas* permite representar de forma clara los límites, res
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a detalles de campo y contenido.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Elementos de dominio, reglas de negocio y dependencias del contexto Subscription & Plan Management.</em></p>
 
 ### 2.5.2. Context Mapping
 
@@ -4790,9 +4832,9 @@ En esta sección se registra y explica el avance en términos de producto y trab
 
 #### 4.2.1.1. Sprint Planning 1
 
-El Sprint Planning se llevó a cabo de manera síncrona para definir los objetivos iniciales del desarrollo, estimar los puntos de historia (Story Points) y asignar las tareas técnicas derivadas de los User Stories priorizados en el Product Backlog.
+El Sprint Planning se llevó a cabo de manera síncrona para definir los objetivos iniciales del desarrollo, estimar los puntos de historia (Story Points) y asignar las tareas técnicas derivadas de los User Stories priorizados en el Product Backlog. Estos acuerdos se consolidan en la **Tabla 27**.
 
-<p><strong>Tabla 27.</strong> <em>El Sprint Planning se llevó a cabo de manera síncrona para definir los objetivos iniciales del desarrollo, estimar los puntos de historia (Story Points) y asignar las tareas técnicas derivadas de los User Stories priorizados en el Product Backlog.</em></p>
+<p><strong>Tabla 27.</strong> <em>Resumen del Sprint Planning 1</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -4851,13 +4893,13 @@ El Sprint Planning se llevó a cabo de manera síncrona para definir los objetiv
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a el sprint planning se llevó a cabo de manera síncrona para definir los objetivos iniciales del desarrollo, estimar los puntos de historia (story points) y asignar las tareas técnicas derivadas de los user stories priorizados en el product backlog..</em></p>
+<p style="margin-top: 10px;"><em>Nota: Acuerdos, metas y velocidad proyectada para la ejecución del Sprint 1.</em></p>
 
 #### 4.2.1.2. Aspect Leaders and Collaborators
 
-Para mantener una comunicación efectiva y delegar responsabilidades, se elaboró la siguiente matriz *Leadership-and-Collaboration Matrix (LACX)* para los aspectos clave del Sprint 1.
+Para mantener una comunicación efectiva y delegar responsabilidades, se elaboró la matriz *Leadership-and-Collaboration Matrix (LACX)* para los aspectos clave del Sprint 1, la cual se detalla en la **Tabla 28**.
 
-<p><strong>Tabla 28.</strong> <em>Para mantener una comunicación efectiva y delegar responsabilidades, se elaboró la siguiente matriz *Leadership-and-Collaboration Matrix (LACX)* para los aspectos clave del Sprint 1.</em></p>
+<p><strong>Tabla 28.</strong> <em>Matriz de Liderazgo y Colaboración (LACX) del Sprint 1</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -4899,7 +4941,7 @@ Para mantener una comunicación efectiva y delegar responsabilidades, se elabor�
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a para mantener una comunicación efectiva y delegar responsabilidades, se elaboró la siguiente matriz *leadership-and-collaboration matrix (lacx)* para los aspectos clave del sprint 1..</em></p>
+<p style="margin-top: 10px;"><em>Nota: Distribución de roles de liderazgo y colaboración entre los miembros del equipo para el Sprint 1.</em></p>
 
 #### 4.2.1.3. Sprint Backlog 1
 
@@ -4909,9 +4951,9 @@ Para la gestión de nuestras tareas y User Stories durante este Sprint, utilizam
 
 ![Sprint 1 Board](resources/assets/images/chapter-4/sprint1-board.png)
 
-A continuación, se detalla la descomposición de los User Stories en Technical Tasks:
+A continuación, se detalla la descomposición de los User Stories en Technical Tasks. La **Tabla 29** muestra este desglose detallado.
 
-<p><strong>Tabla 29.</strong> <em>A continuación, se detalla la descomposición de los User Stories en Technical Tasks:</em></p>
+<p><strong>Tabla 29.</strong> <em>Descomposición de User Stories en Tareas Técnicas</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -5008,11 +5050,13 @@ A continuación, se detalla la descomposición de los User Stories en Technical 
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a a continuación, se detalla la descomposición de los user stories en technical tasks:.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Desglose de historias de usuario en tareas técnicas específicas, con estimaciones de esfuerzo y asignación de responsables para el Sprint 1.</em></p>
 
 #### 4.2.1.4. Development Evidence for Sprint Review
 
-<p><strong>Tabla 30.</strong> <em>4.2.1.4. Development Evidence for Sprint Review</em></p>
+Tal como se documenta en la **Tabla 30**, a continuación se presentan las evidencias del desarrollo.
+
+<p><strong>Tabla 30.</strong> <em>Evidencias de Desarrollo para el Sprint Review</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -5035,11 +5079,13 @@ A continuación, se detalla la descomposición de los User Stories en Technical 
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a 4.2.1.4. development evidence for sprint review.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Repositorio y enlaces a los commits y pull requests principales generados durante el ciclo de desarrollo.</em></p>
 
 #### 4.2.1.5. Testing Suite Evidence for Sprint Review
 
-<p><strong>Tabla 31.</strong> <em>4.2.1.5. Testing Suite Evidence for Sprint Review</em></p>
+Como se resume en la **Tabla 31**, se incluyen las pruebas ejecutadas durante la revisión del sprint.
+
+<p><strong>Tabla 31.</strong> <em>Evidencia del Testing Suite para el Sprint Review</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -5062,7 +5108,7 @@ A continuación, se detalla la descomposición de los User Stories en Technical 
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Resumen de los datos correspondientes a 4.2.1.5. testing suite evidence for sprint review.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Listado de pruebas de validación y verificación de la calidad del software entregado en este sprint.</em></p>
 
 #### 4.2.1.6. Execution Evidence for Sprint Review
 
