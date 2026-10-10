@@ -5170,7 +5170,7 @@ Para mantener una comunicación efectiva y delegar responsabilidades, se elabor�
 
 Para la gestión de nuestras tareas y User Stories durante este Sprint, utilizamos la herramienta ágil Trello/Jira. El tablero público donde se evidencia el movimiento de tarjetas (To Do, In Progress, In Review, Done) se puede visualizar a continuación:
 
-> **URL del Board del Sprint 1:** [Enlace a tu Trello/Jira aquí]
+> **URL del Board del Sprint 1:** [[Enlace Trello](https://trello.com/invite/b/6aaa233b7da14e3f3b292c5b/ATTI088a0337fde735af76ada946f5120d80DD2911AB/sprint-1-routeguard)]
 
 ![Sprint 1 Board](resources/assets/images/chapter-4/sprint1-board.png)
 
