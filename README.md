@@ -4876,7 +4876,7 @@ Se desarrolló un prototipo interactivo en Figma que simula el movimiento, trans
 
 ![Mobile Applications Prototyping](resources/assets/images/chapter-3/mobile-prototyping.png)
 
-*Enlace al prototipo interactivo (Figma):* `[Link a Figma - Insertar aquí]`
+*Video del prototipo en ejecución (YouTube):* [https://youtu.be/co3LZYGSF_w](https://youtu.be/co3LZYGSF_w)
 
 <div style="page-break-after: always;"></div>
 
