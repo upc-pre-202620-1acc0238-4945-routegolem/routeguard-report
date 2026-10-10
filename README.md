@@ -371,33 +371,29 @@ AV1:
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 - [UX Heuristics \& Principles Evaluation](#ux-heuristics--principles-evaluation)
-  - [SITE o APP A EVALUAR](#site-o-app-a-evaluar)
-  - [TAREAS A EVALUAR](#tareas-a-evaluar)
+  - [Usability · Inclusive Design · Information Architecture](#usability--inclusive-design--information-architecture)
+  - [TAREAS EVALUADAS](#tareas-evaluadas)
   - [ESCALA DE SEVERIDAD](#escala-de-severidad)
   - [TABLA RESUMEN](#tabla-resumen)
   - [DESCRIPCIÓN DE PROBLEMAS](#descripción-de-problemas)
-    - [PROBLEMA #1: El registro indica "PASO 3 DE 3" pero aún falta la verificación del correo](#problema-1-el-registro-indica-paso-3-de-3-pero-aún-falta-la-verificación-del-correo)
-    - [PROBLEMA #2: El mensaje "Correo verificado" dice que se validó el número](#problema-2-el-mensaje-correo-verificado-dice-que-se-validó-el-número)
-    - [PROBLEMA #3: El login pide correo pero el mensaje de error habla de documento](#problema-3-el-login-pide-correo-pero-el-mensaje-de-error-habla-de-documento)
-    - [PROBLEMA #4: Los campos de contraseña no muestran requisitos](#problema-4-los-campos-de-contraseña-no-muestran-requisitos)
-    - [PROBLEMA #5: Íconos y celdas del calendario con áreas táctiles menores a 44 px](#problema-5-íconos-y-celdas-del-calendario-con-áreas-táctiles-menores-a-44-px)
-    - [PROBLEMA #6: Textos auxiliares muy pequeños (pasos, etiquetas, leyendas)](#problema-6-textos-auxiliares-muy-pequeños-pasos-etiquetas-leyendas)
-    - [PROBLEMA #7: Los errores de validación se muestran solo en diálogos modales](#problema-7-los-errores-de-validación-se-muestran-solo-en-diálogos-modales)
-    - [PROBLEMA #8: "Reenviar código" es un texto plano sin estado ni tiempo de espera](#problema-8-reenviar-código-es-un-texto-plano-sin-estado-ni-tiempo-de-espera)
-    - [PROBLEMA #9: La fecha de nacimiento se escribe como texto libre (DD/MM/AAAA)](#problema-9-la-fecha-de-nacimiento-se-escribe-como-texto-libre-ddmmaaaa)
-    - [PROBLEMA #10: El diálogo "Correo ya registrado" no ofrece ir a iniciar sesión](#problema-10-el-diálogo-correo-ya-registrado-no-ofrece-ir-a-iniciar-sesión)
-    - [PROBLEMA #11: "Ayuda con tu cuenta" no tiene ningún canal de contacto disponible](#problema-11-ayuda-con-tu-cuenta-no-tiene-ningún-canal-de-contacto-disponible)
-    - [PROBLEMA #12: Pantallas de perfil y menores sin navegación inferior ni botón de retorno](#problema-12-pantallas-de-perfil-y-menores-sin-navegación-inferior-ni-botón-de-retorno)
-    - [PROBLEMA #13: La confirmación de adulto responsable es solo texto, sin control explícito](#problema-13-la-confirmación-de-adulto-responsable-es-solo-texto-sin-control-explícito)
-    - [PROBLEMA #14: El DNI de Lucía y de Mateo Torres difiere entre pantallas](#problema-14-el-dni-de-lucía-y-de-mateo-torres-difiere-entre-pantallas)
-    - [PROBLEMA #15: Etiqueta "Asistencia" ambigua, íconos que no coinciden con su etiqueta y no existe una opción "Perfil" en la navegación](#problema-15-etiqueta-asistencia-ambigua-íconos-que-no-coinciden-con-su-etiqueta-y-no-existe-una-opción-perfil-en-la-navegación)
-    - [PROBLEMA #16: La leyenda del calendario del historial usa "Disponible" y depende solo del color](#problema-16-la-leyenda-del-calendario-del-historial-usa-disponible-y-depende-solo-del-color)
-    - [PROBLEMA #17: El historial filtrado no ofrece "Quitar filtro"](#problema-17-el-historial-filtrado-no-ofrece-quitar-filtro)
-    - [PROBLEMA #18: El plazo de cancelación no se indica y "Cancelar reserva" está junto a la acción principal](#problema-18-el-plazo-de-cancelación-no-se-indica-y-cancelar-reserva-está-junto-a-la-acción-principal)
-    - [PROBLEMA #19: El campo de búsqueda dice "Buscar por nombre" pero busca especialidades](#problema-19-el-campo-de-búsqueda-dice-buscar-por-nombre-pero-busca-especialidades)
-    - [PROBLEMA #20: Toda la interfaz está solo en español, sin selector de idioma](#problema-20-toda-la-interfaz-está-solo-en-español-sin-selector-de-idioma)
-    - [PROBLEMA #21: Se usa "claves" y "contraseña" para el mismo concepto](#problema-21-se-usa-claves-y-contraseña-para-el-mismo-concepto)
-    - [PROBLEMA #22: Nombres distintos para la misma acción o pantalla](#problema-22-nombres-distintos-para-la-misma-acción-o-pantalla)
+    - [PROBLEMA #1: Registro de administrador sin términos y condiciones ni aceptación explícita](#problema-1-registro-de-administrador-sin-términos-y-condiciones-ni-aceptación-explícita)
+    - [PROBLEMA #2: Login sin "¿Olvidaste tu contraseña?"](#problema-2-login-sin-olvidaste-tu-contraseña)
+    - [PROBLEMA #3: Registro sin botón de volver al login](#problema-3-registro-sin-botón-de-volver-al-login)
+    - [PROBLEMA #4: "Salir" en la barra principal, a un toque, sin confirmación](#problema-4-salir-en-la-barra-principal-a-un-toque-sin-confirmación)
+    - [PROBLEMA #5: Tarjeta de estudiante con título genérico "Estudiante"](#problema-5-tarjeta-de-estudiante-con-título-genérico-estudiante)
+    - [PROBLEMA #6: Subtítulo "Viaje en curso · 0 a bordo…" cortado](#problema-6-subtítulo-viaje-en-curso--0-a-bordo-cortado)
+    - [PROBLEMA #7: "Turno Manana" sin ñ](#problema-7-turno-manana-sin-ñ)
+    - [PROBLEMA #8: Dato de ubicación desactualizado sin alerta visual](#problema-8-dato-de-ubicación-desactualizado-sin-alerta-visual)
+    - [PROBLEMA #9: Marcador rojo sin leyenda y etiquetas del mapa solapadas](#problema-9-marcador-rojo-sin-leyenda-y-etiquetas-del-mapa-solapadas)
+    - [PROBLEMA #10: Sin búsqueda ni filtros en las listas](#problema-10-sin-búsqueda-ni-filtros-en-las-listas)
+    - [PROBLEMA #11: Texto secundario muy pequeño y de bajo contraste](#problema-11-texto-secundario-muy-pequeño-y-de-bajo-contraste)
+    - [PROBLEMA #12: Vista Padre sin contacto al conductor ni ETA de la parada](#problema-12-vista-padre-sin-contacto-al-conductor-ni-eta-de-la-parada)
+    - [PROBLEMA #13: Título "Registrar padre de familia" vs. botón "Registrar padre"](#problema-13-título-registrar-padre-de-familia-vs-botón-registrar-padre)
+    - [PROBLEMA #14: Mayúsculas inconsistentes en datos de muestra](#problema-14-mayúsculas-inconsistentes-en-datos-de-muestra)
+    - [PROBLEMA #15: Color de selección en verde frente al azul de marca](#problema-15-color-de-selección-en-verde-frente-al-azul-de-marca)
+    - [PROBLEMA #16: "Seleccionado en el mapa" ambiguo y barra de escala como barra negra suelta](#problema-16-seleccionado-en-el-mapa-ambiguo-y-barra-de-escala-como-barra-negra-suelta)
+  - [OBSERVACIONES POSITIVAS](#observaciones-positivas)
+  - [PRÓXIMOS PASOS SUGERIDOS](#próximos-pasos-sugeridos)
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
     - [Video App Validation](#video-app-validation)
@@ -6488,388 +6484,281 @@ HTTP 200
 ### 4.3.3. Evaluaciones según heurísticas
 
 # UX Heuristics & Principles Evaluation
+## Usability · Inclusive Design · Information Architecture
 
-**Usability - Inclusive Design - Information Architecture**
-
-| | |
-|---|---|
+| Campo | Valor |
+| :--- | :--- |
 | **CARRERA** | Ingeniería de Software |
-| **CURSO** | 1acc0238 Aplicaciones para dispositivos móviles |
+| **CURSO** | 1ACC0238 Aplicaciones para Dispositivos Móviles |
 | **NRC** | 4945 |
-| **PROFESORES** | Todos |
-| **AUDITOR** | RouteGuard (Marcelo Pareja, Mathias de la Cruz, Manuel Francia, Nickolas Ramirez) |
-| **CLIENTE(S)** | Paula Montoya y Neo Ramos (grupo auditado: [COMPLETAR NOMBRE DEL GRUPO]) |
+| **PROFESORES** | Mayta Guillermo, Jorge Luis |
+| **AUDITOR** | Equipo RuwaLabs |
+| **CLIENTE(S)** | No aplica (evaluación heurística realizada por el equipo auditor) |
+| **APP A EVALUAR** | RouteGuard (Movilidad escolar segura) |
+| **ARCHIVO FIGMA** | RouteGuard – Móviles, página "Móvil" (revisión de solo lectura, no se modificó el archivo) |
 
-## SITE o APP A EVALUAR
+> **Alcance de esta revisión.** Se revisaron 15 pantallas. Quedaron **sin revisar** por límite de acceso a Figma: Planes (52:199, 52:202, 52:208), vista Conductor Alertas (52:214, 52:217, 52:220), vista Padre Alertas (52:228) y los ~55 frames "WhatsApp Image…" (52:269 a 52:323). Cada problema indica el ID de nodo para ubicarlo.
 
-SaludYa (Mobile Application Mock-ups) — [Archivo de Figma](https://www.figma.com/design/jPJKqqqvre7HN5jwOPVvKM/REVISION-DE-HEURISTICAS---Mobile-Application-Mockups?node-id=57-626)
+---
 
-## TAREAS A EVALUAR
+## TAREAS EVALUADAS
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
-1. Registro de un usuario nuevo (pasos 1 a 3 y verificación de correo)
-2. Verificación de identidad con DNI durante el registro
-3. Inicio de sesión de un paciente
-4. Recuperación de contraseña por enlace al correo
-5. Solicitud de ayuda cuando se perdió el acceso al correo
-6. Consulta de perfil del paciente
-7. Vinculación de un menor
-8. Consulta de la lista y el detalle de menores vinculados
-9. Consulta de citas pendientes desde el inicio
-10. Consulta del detalle de una cita (registrar llegada o cancelar reserva)
-11. Filtrado del historial de citas por fecha
-12. Inicio de una reserva: elegir especialidad, beneficiario y fecha
-13. Cierre de sesión
+1. Iniciar sesión (12:4)
+2. Registrar administrador (15:2)
+3. Listar conductores, padres y grupos (52:174, 52:178, 52:181)
+4. Registrar conductor (52:184)
+5. Registrar padre de familia (52:187)
+6. Registrar estudiante y vincular a un padre (52:190)
+7. Crear grupo de estudiantes (52:193)
+8. Definir y consultar rutas (52:196)
+9. Seguimiento de flota en vivo, Admin (52:205)
+10. Conducir una ruta, check-in de estudiantes, Conductor (52:211)
+11. Seguimiento del hijo, Padre (52:225)
 
-No están incluidas en esta versión de la evaluación las siguientes tareas:
+**No están incluidas en esta versión de la evaluación las siguientes tareas:**
 
-1. Registro de personal por el Super Admin
-2. Selección de horario y confirmación final de la reserva
-3. Notificaciones
-4. Recuperación de contraseña por código (pantallas ocultas en el prototipo)
-5. Flujos de Personal de admisión
+1. Gestión de planes (52:199, 52:202, 52:208)
+2. Alertas del Conductor (52:214, 52:217, 52:220)
+3. Alertas del Padre (52:228)
+4. Frames "WhatsApp Image…" (52:269 a 52:323)
+
+---
 
 ## ESCALA DE SEVERIDAD
 
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+Los errores se puntúan con la siguiente escala de severidad:
 
 | Nivel | Descripción |
-|---|---|
-| 1 | **Problema superficial:** puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| 2 | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de cara al siguiente release. |
-| 3 | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
-| 4 | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+| :---: | :--- |
+| **1** | *Problema superficial:* puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | *Problema menor:* puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente *release*. |
+| **3** | *Problema mayor:* ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante corregirlo y se le debe asignar una prioridad alta. |
+| **4** | *Problema muy grave:* un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento. |
+
+---
 
 ## TABLA RESUMEN
 
-| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
-|---|---|---|---|
-| 1 | El registro indica "PASO 3 DE 3" pero aún falta la verificación del correo | 2 | Usability: Visibilidad del estado del sistema |
-| 2 | El mensaje "Correo verificado" dice que se validó el número | 2 | Usability: Consistencia y estándares |
-| 3 | El login pide correo pero el mensaje de error habla de documento | 3 | Usability: Consistencia y estándares |
-| 4 | Los campos de contraseña no muestran requisitos | 3 | Usability: Prevención de errores |
-| 5 | Íconos y celdas del calendario con áreas táctiles menores a 44 px | 3 | Inclusive Design: Considera la situación |
-| 6 | Textos auxiliares muy pequeños (pasos, etiquetas, leyendas) | 2 | Inclusive Design: Prioriza el contenido |
-| 7 | Los errores de validación se muestran solo en diálogos modales | 2 | Usability: Ayudar a reconocer, diagnosticar y recuperarse de errores |
-| 8 | "Reenviar código" es un texto plano sin estado ni tiempo de espera | 2 | Usability: Visibilidad del estado del sistema |
-| 9 | La fecha de nacimiento se escribe como texto libre (DD/MM/AAAA) | 2 | Usability: Prevención de errores |
-| 10 | El diálogo "Correo ya registrado" no ofrece ir a iniciar sesión | 2 | Usability: Libertad y control del usuario |
-| 11 | "Ayuda con tu cuenta" no tiene ningún canal de contacto disponible | 3 | Usability: Ayuda y documentación |
-| 12 | Pantallas de perfil y menores sin navegación inferior ni botón de retorno | 3 | Usability: Libertad y control del usuario |
-| 13 | La confirmación de adulto responsable es solo texto, sin control explícito | 3 | Usability: Prevención de errores |
-| 14 | El DNI de Lucía y de Mateo Torres difiere entre pantallas | 2 | Usability: Consistencia y estándares |
-| 15 | Etiqueta "Asistencia" ambigua, íconos que no coinciden con su etiqueta y no existe una opción "Perfil" en la navegación | 3 | Information Architecture: Is it findable? |
-| 16 | La leyenda del calendario del historial usa "Disponible" y depende solo del color | 3 | Inclusive Design: Proporciona experiencias comparables |
-| 17 | El historial filtrado no ofrece "Quitar filtro" | 2 | Usability: Libertad y control del usuario |
-| 18 | El plazo de cancelación no se indica y "Cancelar reserva" está junto a la acción principal | 3 | Usability: Prevención de errores |
-| 19 | El campo de búsqueda dice "Buscar por nombre" pero busca especialidades | 2 | Information Architecture: Is it understandable? |
-| 20 | Toda la interfaz está solo en español, sin selector de idioma | 2 | Inclusive Design: Ofrece opciones |
-| 21 | Se usa "claves" y "contraseña" para el mismo concepto | 1 | Usability: Consistencia y estándares |
-| 22 | Nombres distintos para la misma acción o pantalla ("Reservar una cita", "Reservar cita", "Reserva tu cita", "Mis citas") | 1 | Information Architecture: Is it usable? |
+| # | Problema | Escala de severidad | Heurística / Principio violado(a) |
+| :---: | :--- | :---: | :--- |
+| 1 | Registro de administrador sin términos y condiciones ni aceptación explícita | 4 | Ética y responsabilidad / Usability: Prevención de errores |
+| 2 | Login sin "¿Olvidaste tu contraseña?" | 3 | Usability: Libertad y control del usuario |
+| 3 | Registro sin botón de volver al login | 3 | Usability: Libertad y control del usuario |
+| 4 | "Salir" en la barra principal, a un toque, sin confirmación y junto a destinos clave | 3 | Usability: Prevención de errores |
+| 5 | Tarjeta de estudiante del conductor con título genérico "Estudiante" (sin nombre) | 3 | Usability: Visibilidad del estado / Coincidencia con el mundo real |
+| 6 | Subtítulo "Viaje en curso · 0 a bordo…" cortado bajo el título | 3 | Usability: Estética y diseño minimalista / Visibilidad del estado |
+| 7 | "Turno Manana" sin ñ en dos tarjetas, mientras otra dice "Mañana" | 2 | Usability: Consistencia y estándares |
+| 8 | Dato de ubicación desactualizado ("hace 7 min", "0 km/h") sin alerta visual | 2 | Usability: Visibilidad del estado del sistema |
+| 9 | Marcador rojo del mapa sin leyenda; etiquetas del mapa solapadas | 2 | Usability: Estética / Information Architecture: Is it usable? |
+| 10 | Sin búsqueda ni filtros en listas (conductores, rutas, vincular padre) | 2 | Information Architecture: Searching systems |
+| 11 | Texto secundario muy pequeño y de bajo contraste (correos, teléfonos, subtítulos) | 2 | Inclusive Design: Legibilidad / contraste |
+| 12 | Vista Padre sin forma de contactar al conductor ni ETA de la parada de su hijo | 2 | Usability: Flexibilidad y eficiencia de uso |
+| 13 | Título "Registrar padre de familia" vs. botón "Registrar padre" | 1 | Usability: Consistencia y estándares |
+| 14 | Mayúsculas inconsistentes en datos de muestra ("camila cabello", "Licencia 3") | 1 | Usability: Consistencia y estándares |
+| 15 | Color de selección en verde (tabs y navegación) frente al azul de marca en botones | 1 | Usability: Consistencia y estándares |
+| 16 | Texto "Seleccionado en el mapa" ambiguo; barra de escala del mapa como barra negra suelta | 1 | Usability: Estética y diseño minimalista |
+
+---
 
 ## DESCRIPCIÓN DE PROBLEMAS
 
-### PROBLEMA #1: El registro indica "PASO 3 DE 3" pero aún falta la verificación del correo
+### PROBLEMA #1: Registro de administrador sin términos y condiciones ni aceptación explícita
 
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
+- **Severidad:** 4
+- **Heurística violada:** Usability – Prevención de errores (y ética y responsabilidad legal)
+- **Problema:** el formulario "Registrar Administrador" termina en el botón **Crear Cuenta** sin casilla ni enlace a **Términos y Condiciones**. El usuario puede crear la cuenta sin aceptar ninguna condición y no hay dónde consultarlas.
+- **Recomendación:** agregar una casilla "Acepto los Términos y Condiciones" con enlace al documento, y **deshabilitar Crear Cuenta** hasta que se acepte.
 
-**Problema:**
-La pantalla "03 · Registro · Datos de acceso" muestra "PASO 3 DE 3", pero al pulsar "Verificar correo" el usuario llega a la pantalla "04 · Registro · Verificar correo", que no tiene indicador de paso. El usuario cree que terminó y encuentra un paso más, por lo que no sabe cuánto falta para crear su cuenta.
+![Registro sin términos y condiciones](01_registro_sin_terminos.png)
 
-![Registro - Datos de acceso](imagenes/01-registro-datos-acceso.png)
-![Registro - Verificar correo](imagenes/02-registro-verificar-correo.png)
+---
 
-**Recomendación:**
-Pasar a "PASO 4 DE 4" o mostrar que la verificación del correo forma parte del paso 3, y mantener el indicador en la pantalla de verificación.
+### PROBLEMA #2: Login sin "¿Olvidaste tu contraseña?"
 
-### PROBLEMA #2: El mensaje "Correo verificado" dice que se validó el número
+- **Severidad:** 3
+- **Heurística violada:** Usability – Libertad y control del usuario
+- **Problema:** el inicio de sesión solo ofrece correo, contraseña e "Iniciar sesión". Un usuario que olvida su contraseña queda bloqueado, sin salida.
+- **Recomendación:** añadir el enlace "¿Olvidaste tu contraseña?" bajo el campo de contraseña, con su flujo de recuperación.
 
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Consistencia y estándares
+![Login sin recuperación de contraseña](02_login_sin_olvide_contrasena.png)
 
-**Problema:**
-El diálogo "Registro · Correo validado" tiene el título "Correo verificado", pero el texto indica "Tu número fue validado correctamente". El usuario no sabe si se verificó su correo o su celular, y el mensaje puede hacerle pensar que debe verificar otro dato.
+---
 
-![Diálogo correo verificado](imagenes/03-dialogo-correo-verificado.png)
+### PROBLEMA #3: Registro sin botón de volver al login
 
-**Recomendación:**
-Cambiar el texto a "Tu correo fue validado correctamente" para que coincida con el título y con el paso realizado.
+- **Severidad:** 3
+- **Heurística violada:** Usability – Libertad y control del usuario
+- **Problema:** a diferencia de "Registrar conductor" o "Registrar estudiante" (que sí tienen flecha atrás), el registro de administrador no ofrece forma visible de regresar al login.
+- **Recomendación:** agregar una flecha atrás o un enlace "¿Ya tienes cuenta? Inicia sesión".
 
-### PROBLEMA #3: El login pide correo pero el mensaje de error habla de documento
+![Registro sin volver al login](03_registro_sin_volver.png)
 
-**Severidad:** 3
-**Heurística violada:** Usabilidad - Consistencia y estándares
+---
 
-**Problema:**
-La pantalla "05 · Login · Paciente" solicita correo electrónico y contraseña, pero el diálogo "Credenciales incorrectas" dice "El documento o la contraseña son incorrectos". Además, el registro empieza con el DNI, por lo que el usuario no tiene claro con qué dato debe ingresar. Esto genera reintentos fallidos y frustración.
+### PROBLEMA #4: "Salir" en la barra principal, a un toque, sin confirmación
 
-![Login paciente](imagenes/04-login-paciente.png)
-![Diálogo credenciales incorrectas](imagenes/05-dialogo-credenciales-incorrectas.png)
+- **Severidad:** 3
+- **Heurística violada:** Usability – Prevención de errores
+- **Problema:** "Salir" ocupa un lugar equivalente al de los destinos de navegación y cierra la sesión con un solo toque. Un toque accidental (sobre todo junto a "Planes" o "Alertas") cierra la sesión y el usuario pierde su contexto.
+- **Recomendación:** mover "Salir" a un menú de perfil/ajustes, o pedir confirmación antes de cerrar sesión.
 
-**Recomendación:**
-Unificar el identificador de acceso (correo o DNI) en el login y en sus mensajes, e indicar en el registro con qué dato se ingresará después.
+![Salir sin confirmación](04_salir_sin_confirmacion.png)
 
-### PROBLEMA #4: Los campos de contraseña no muestran requisitos
+---
 
-**Severidad:** 3
-**Heurística violada:** Usabilidad - Prevención de errores
+### PROBLEMA #5: Tarjeta de estudiante con título genérico "Estudiante"
 
-**Problema:**
-Las pantallas "03 · Registro · Datos de acceso" y "10 · Recuperación · Nueva contraseña" piden crear una contraseña sin indicar longitud mínima, caracteres requeridos ni nivel de seguridad. El usuario descubre las reglas solo al fallar, y el único aviso previsto es el diálogo de contraseñas diferentes.
+- **Severidad:** 3
+- **Heurística violada:** Usability – Visibilidad del estado / Coincidencia entre el sistema y el mundo real
+- **Problema:** en la vista del conductor, la tarjeta con "Check-in" y "No asistió" lleva el título genérico "Estudiante". Con varios estudiantes, el conductor no sabe a quién está marcando.
+- **Recomendación:** mostrar el nombre completo (y, si aplica, la parada de recojo) en cada tarjeta.
 
-![Registro - Datos de acceso](imagenes/01-registro-datos-acceso.png)
-![Recuperación - Nueva contraseña](imagenes/06-recuperacion-nueva-contrasena.png)
+![Tarjeta de estudiante genérica](05_estudiante_generico.png)
 
-**Recomendación:**
-Mostrar bajo el campo los requisitos de la contraseña y un indicador de seguridad, y validar mientras el usuario escribe.
+---
 
-### PROBLEMA #5: Íconos y celdas del calendario con áreas táctiles menores a 44 px
+### PROBLEMA #6: Subtítulo "Viaje en curso · 0 a bordo…" cortado
 
-**Severidad:** 3
-**Heurística violada:** Inclusive Design - Considera la situación
+- **Severidad:** 3
+- **Heurística violada:** Usability – Estética y diseño minimalista / Visibilidad del estado
+- **Problema:** la línea "Viaje en curso · 0 a bordo · 0 ausentes · 3 en total" aparece recortada debajo del título, justo el resumen de estado más importante para el conductor.
+- **Recomendación:** dar altura propia a la cabecera o usar chips de resumen debajo del título.
 
-**Problema:**
-El ícono para mostrar la contraseña mide 20 x 20 px, los íconos de volver y notificaciones miden 24 x 24 px, y las celdas de día del calendario miden 40 x 32 px. Para usuarios con poca precisión motriz, manos grandes o uso en movimiento, estos elementos son difíciles de tocar. "Cerrar sesión" también es un texto de una sola línea (18 px de alto).
+![Subtítulo cortado](06_subtitulo_cortado.png)
 
-![Login paciente](imagenes/04-login-paciente.png)
-![Dashboard inicio](imagenes/07-dashboard-inicio.png)
-![Reserva - Elegir fecha](imagenes/19-reserva-fecha.png)
+---
 
-**Recomendación:**
-Garantizar áreas táctiles de al menos 44 x 44 px (o 48 x 48 dp en Android) ampliando el área sensible, aunque el ícono se mantenga pequeño.
+### PROBLEMA #7: "Turno Manana" sin ñ
 
-### PROBLEMA #6: Textos auxiliares muy pequeños (pasos, etiquetas, leyendas)
+- **Severidad:** 2
+- **Heurística violada:** Usability – Consistencia y estándares
+- **Problema:** dos tarjetas muestran "Turno Manana" (sin ñ) mientras otra dice "Mañana". Además de ser inconsistente, se percibe como descuido.
+- **Recomendación:** unificar la escritura como "Mañana" en toda la interfaz.
 
-**Severidad:** 2
-**Heurística violada:** Inclusive Design - Prioriza el contenido
+![Turno Manana sin ñ](07_turno_manana.png)
 
-**Problema:**
-Las etiquetas de la navegación inferior (15 px de alto de línea), los indicadores "PASO X DE Y" (16 px), la leyenda del calendario y las notas bajo los botones (16–17 px) corresponden a fuentes de aproximadamente 11–12 px. Para usuarios con baja visión o adultos mayores, que son parte del público de una app de salud, es difícil de leer.
+---
 
-![Dashboard inicio](imagenes/07-dashboard-inicio.png)
-![Registro - Datos de acceso](imagenes/01-registro-datos-acceso.png)
+### PROBLEMA #8: Dato de ubicación desactualizado sin alerta visual
 
-**Recomendación:**
-Usar un tamaño mínimo de 12–14 sp en textos auxiliares y verificar que la interfaz respete el tamaño de fuente configurado en el dispositivo.
+- **Severidad:** 2
+- **Heurística violada:** Usability – Visibilidad del estado del sistema
+- **Problema:** se muestran "hace 7 min" y "0 km/h" como si fueran datos actuales, sin indicar que la ubicación está desactualizada o sin señal.
+- **Recomendación:** mostrar un estado explícito ("sin señal" / "última actualización hace X min") con un aviso visual.
 
-### PROBLEMA #7: Los errores de validación se muestran solo en diálogos modales
+![Dato de ubicación desactualizado](08_dato_desactualizado.png)
 
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Ayudar a reconocer, diagnosticar y recuperarse de errores
+---
 
-**Problema:**
-Los errores de código incorrecto, identidad no coincidente o contraseñas diferentes se presentan como diálogos que cubren la pantalla. El usuario no ve el campo con el error mientras lee el mensaje, y debe recordar cuál era. Los mensajes tampoco señalan qué dato exacto corregir (por ejemplo, "Revisa el DNI, nombres, apellidos y fecha de nacimiento").
+### PROBLEMA #9: Marcador rojo sin leyenda y etiquetas del mapa solapadas
 
-![Verificar correo](imagenes/02-registro-verificar-correo.png)
+- **Severidad:** 2
+- **Heurística violada:** Usability – Estética / Information Architecture – Is it usable?
+- **Problema:** el mapa muestra un marcador rojo sin leyenda que explique su significado, y las etiquetas se superponen ("Carlos Ramirez" / "2. Parque Kennedy"), dificultando la lectura.
+- **Recomendación:** agregar una leyenda para los marcadores y evitar el solapamiento (agrupar o priorizar etiquetas).
 
-**Recomendación:**
-Mostrar errores en línea junto al campo afectado, con color, ícono y texto, y reservar los diálogos para errores globales.
+![Marcador y etiquetas del mapa](09_marcador_y_etiquetas.png)
 
-### PROBLEMA #8: "Reenviar código" es un texto plano sin estado ni tiempo de espera
+---
 
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
+### PROBLEMA #10: Sin búsqueda ni filtros en las listas
 
-**Problema:**
-En "04 · Registro · Verificar correo" la acción "Reenviar código" es un texto de 18 px de alto que no indica si ya se envió, cuánto falta para poder reenviarlo ni la vigencia del código. El usuario no sabe si debe esperar o pulsarlo de nuevo.
+- **Severidad:** 2
+- **Heurística violada:** Information Architecture – Searching systems
+- **Problema:** las listas de conductores, rutas y la pantalla de vincular padre no tienen búsqueda ni filtros; con muchos registros el usuario debe desplazarse manualmente para encontrar un elemento.
+- **Recomendación:** incorporar un buscador y filtros relevantes (nombre, licencia, estado, etc.).
 
-![Registro - Verificar correo](imagenes/02-registro-verificar-correo.png)
+![Sin búsqueda en conductores](10a_sin_busqueda_conductores.png)
 
-**Recomendación:**
-Mostrar un contador ("Reenviar en 00:30"), confirmar el envío con un aviso y presentar la acción como un botón con área táctil adecuada.
+![Sin búsqueda en rutas](10b_sin_busqueda_rutas.png)
 
-### PROBLEMA #9: La fecha de nacimiento se escribe como texto libre (DD/MM/AAAA)
+![Sin búsqueda al vincular padre](10c_sin_busqueda_vincular_padre.png)
 
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Prevención de errores
+---
 
-**Problema:**
-En "02 · Registro · Verificar identidad" y "19 · Menores · Vincular" la fecha de nacimiento es un campo de texto con el formato DD/MM/AAAA. Esto facilita errores de formato, y como la fecha se compara con el DNI, un error genera el diálogo "Datos no coincidentes".
+### PROBLEMA #11: Texto secundario muy pequeño y de bajo contraste
 
-![Registro - Verificar identidad](imagenes/08-registro-verificar-identidad.png)
-![Menores - Vincular](imagenes/13-menores-vincular.png)
+- **Severidad:** 2
+- **Heurística violada:** Inclusive Design – Legibilidad / contraste
+- **Problema:** correos, teléfonos y subtítulos usan un tamaño de letra muy pequeño y un contraste bajo respecto al fondo, lo que dificulta su lectura (especialmente para personas con baja visión).
+- **Recomendación:** aumentar el tamaño y el contraste hasta cumplir mínimos de accesibilidad (WCAG AA).
 
-**Recomendación:**
-Usar un selector de fecha nativo o un campo con máscara automática que inserte las diagonales y valide los rangos.
+![Texto pequeño y bajo contraste](11_texto_pequeno.png)
 
-### PROBLEMA #10: El diálogo "Correo ya registrado" no ofrece ir a iniciar sesión
+---
 
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Libertad y control del usuario
+### PROBLEMA #12: Vista Padre sin contacto al conductor ni ETA de la parada
 
-**Problema:**
-El diálogo indica "Este correo pertenece a otra cuenta. Usa otro o inicia sesión", pero su único botón es "Volver". Si el usuario ya tenía cuenta, debe retroceder y buscar el enlace de inicio de sesión por su cuenta.
+- **Severidad:** 2
+- **Heurística violada:** Usability – Flexibilidad y eficiencia de uso
+- **Problema:** en la vista del padre no hay forma de contactar al conductor ni de conocer la ETA (tiempo estimado) de la parada donde sube/baja su hijo, información clave para su tranquilidad.
+- **Recomendación:** incluir un botón de llamada/mensaje al conductor y mostrar la ETA de la parada del hijo.
 
-![Diálogo correo duplicado](imagenes/09-dialogo-correo-duplicado.png)
+![Vista Padre sin contacto ni ETA](12_padre_sin_contacto_eta.png)
 
-**Recomendación:**
-Agregar un botón secundario "Iniciar sesión" y mantener "Usar otro correo" como acción principal.
+---
 
-### PROBLEMA #11: "Ayuda con tu cuenta" no tiene ningún canal de contacto disponible
+### PROBLEMA #13: Título "Registrar padre de familia" vs. botón "Registrar padre"
 
-**Severidad:** 3
-**Heurística violada:** Usabilidad - Ayuda y documentación
+- **Severidad:** 1
+- **Heurística violada:** Usability – Consistencia y estándares
+- **Problema:** el título de la pantalla dice "Registrar padre de familia" mientras el botón dice "Registrar padre"; el término no es consistente.
+- **Recomendación:** usar el mismo término en el título y en el botón.
 
-**Problema:**
-La pantalla "15 · Recuperación · Ayuda" informa que "los canales de la mesa de ayuda se mostrarán cuando el establecimiento los configure". Un usuario que perdió acceso a su correo solo puede enviar una solicitud de revisión, sin saber cuánto tarda ni cómo hacer seguimiento, y no tiene teléfono, correo ni dirección de contacto.
+![Título y botón inconsistentes](13_registrar_padre_titulo_boton.png)
 
-![Recuperación - Ayuda](imagenes/10-recuperacion-ayuda.png)
+---
 
-**Recomendación:**
-Mostrar siempre un canal alternativo (teléfono o dirección del establecimiento) e indicar el plazo de respuesta y cómo se notificará el resultado.
+### PROBLEMA #14: Mayúsculas inconsistentes en datos de muestra
 
-### PROBLEMA #12: Pantallas de perfil y menores sin navegación inferior ni botón de retorno
+- **Severidad:** 1
+- **Heurística violada:** Usability – Consistencia y estándares
+- **Problema:** los datos de muestra aparecen con formato inconsistente (p. ej. "camila cabello" en minúsculas y "Licencia 3" sin formato de licencia), lo que da una impresión descuidada.
+- **Recomendación:** normalizar el formato de nombres y de los datos de licencia en los datos de muestra.
 
-**Severidad:** 3
-**Heurística violada:** Usabilidad - Libertad y control del usuario
+![Mayúsculas inconsistentes (padres)](14a_mayusculas_padres.png)
 
-**Problema:**
-Las pantallas "16 · Perfil · Paciente" y "18 · Menores · Lista" no incluyen la navegación inferior que sí existe en el dashboard, y "18 · Menores · Lista" no tiene un botón "Volver". Además, usan la cabecera grande con logo (190 px de alto) en lugar de la cabecera con flecha de retorno del dashboard. El usuario queda sin una salida clara y la experiencia cambia respecto del resto de la app.
+![Mayúsculas inconsistentes (licencia)](14b_mayusculas_licencia.png)
 
-![Perfil paciente](imagenes/11-perfil-paciente.png)
-![Menores - Lista](imagenes/12-menores-lista.png)
+---
 
-**Recomendación:**
-Usar la misma cabecera con flecha de retorno y la navegación inferior en todas las pantallas posteriores al inicio de sesión, y reservar la cabecera con logo para pantallas de acceso.
+### PROBLEMA #15: Color de selección en verde frente al azul de marca
 
-### PROBLEMA #13: La confirmación de adulto responsable es solo texto, sin control explícito
+- **Severidad:** 1
+- **Heurística violada:** Usability – Consistencia y estándares
+- **Problema:** los estados de selección (pestañas y navegación) usan verde, mientras los botones usan el azul de marca; el verde no tiene un significado claro y compite con el color principal.
+- **Recomendación:** unificar el color de selección con la identidad de la marca, o justificar el verde con una leyenda.
 
-**Severidad:** 3
-**Heurística violada:** Usabilidad - Prevención de errores
+![Color verde vs. azul de marca](15_color_verde_vs_azul.png)
 
-**Problema:**
-En "19 · Menores · Vincular", el texto "Confirmas que eres su adulto responsable." aparece sobre el botón "Verificar y vincular" sin un checkbox ni acción de aceptación. El usuario puede vincular a un menor sin haber leído ni aceptado explícitamente esta declaración, lo que es delicado por tratarse de datos de salud de un menor.
+---
 
-![Menores - Vincular](imagenes/13-menores-vincular.png)
+### PROBLEMA #16: "Seleccionado en el mapa" ambiguo y barra de escala como barra negra suelta
 
-**Recomendación:**
-Agregar un checkbox obligatorio con el texto de la declaración y mantener deshabilitado el botón hasta que se marque.
+- **Severidad:** 1
+- **Heurística violada:** Usability – Estética y diseño minimalista
+- **Problema:** el texto "Seleccionado en el mapa" no indica a qué elemento se refiere, y la barra de escala del mapa se percibe como una barra negra suelta sin función aparente.
+- **Recomendación:** precisar el mensaje (indicar el elemento seleccionado) y rediseñar o atenuar la barra de escala.
 
-### PROBLEMA #14: El DNI de Lucía y de Mateo Torres difiere entre pantallas
+![Seleccionado en el mapa y barra de escala](16_seleccionado_y_escala.png)
 
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Consistencia y estándares
+---
 
-**Problema:**
-En "18 · Menores · Lista" el menor Mateo Torres aparece con DNI "••••5678", mientras que en "R02 · Beneficiario" el mismo menor aparece con "••••2716". Lo mismo ocurre con la titular: en "16 · Perfil · Paciente" Lucía Torres tiene DNI "••••1234", pero en "R02 · Beneficiario" aparece con "••••4821". En un contexto de salud, esta diferencia puede hacer dudar al usuario de si los datos son correctos o de si está seleccionando a la persona correcta.
+## OBSERVACIONES POSITIVAS
 
-![Perfil paciente](imagenes/11-perfil-paciente.png)
-![Menores - Lista](imagenes/12-menores-lista.png)
-![Reserva - Beneficiario](imagenes/14-reserva-beneficiario.png)
+- Jerarquía clara en el login (marca, mensaje, acción principal y acción secundaria).
+- Navegación inferior consistente en la vista Admin, con estado activo bien marcado.
+- Navegación diferenciada por rol (Admin con 5 destinos; Conductor y Padre con 3).
+- Botón primario azul y acción de éxito en verde ("Check-in") bien diferenciados.
+- Mapa con ruta, parada y ETA en las vistas de seguimiento.
 
-**Recomendación:**
-Usar los mismos datos de ejemplo en todas las pantallas y verificar la coherencia antes de pasar a desarrollo.
+## PRÓXIMOS PASOS SUGERIDOS
 
-### PROBLEMA #15: Etiqueta "Asistencia" ambigua, íconos que no coinciden con su etiqueta y no existe una opción "Perfil" en la navegación
-
-**Severidad:** 3
-**Heurística violada:** Information Architecture - Is it findable?
-
-**Problema:**
-La navegación inferior tiene "Inicio", "Reservar cita", "Asistencia" y "Configuración". "Asistencia" puede interpretarse como ayuda, como registro de llegada (existe "Registrar mi llegada" en el detalle de cita) o como historial de asistencias, y su ícono es un código QR que no aclara ninguna de esas lecturas. El ícono de "Configuración" se parece más a un símbolo de brillo (un sol) que al engranaje habitual de ajustes. Además, el perfil y los menores vinculados no tienen una opción visible en la navegación, por lo que el usuario no sabe dónde encontrarlos.
-
-![Dashboard inicio](imagenes/07-dashboard-inicio.png)
-
-**Recomendación:**
-Renombrar la opción según su función ("Ayuda" o "Mi llegada"), incluir "Perfil" en la navegación o dentro de "Configuración" con una etiqueta clara, y validarlo con una prueba de card sorting.
-
-### PROBLEMA #16: La leyenda del calendario del historial usa "Disponible" y depende solo del color
-
-**Severidad:** 3
-**Heurística violada:** Inclusive Design - Proporciona experiencias comparables
-
-**Problema:**
-En "D04 · Historial · Calendario" la leyenda indica "● Disponible" y "Fecha seleccionada". "Disponible" no corresponde a un historial de citas pasadas (debería indicar días con atenciones), y la diferencia entre ambos estados se comunica solo con color. Los usuarios con daltonismo o baja visión no podrán distinguir qué días tienen citas.
-
-![Historial - Calendario](imagenes/15-historial-calendario.png)
-
-**Recomendación:**
-Cambiar la leyenda a "Día con atención", usar además una forma o un ícono distinto para marcar los días con atenciones y asegurar un contraste mínimo de 4.5:1.
-
-### PROBLEMA #17: El historial filtrado no ofrece "Quitar filtro"
-
-**Severidad:** 2
-**Heurística violada:** Usabilidad - Libertad y control del usuario
-
-**Problema:**
-En "D04 · Historial · Calendario" existe el botón "Quitar filtro", pero en "D05 · Historial filtrado" solo aparece "Cambiar fecha". Para volver a ver todo el historial, el usuario debe abrir de nuevo el calendario o retroceder con la flecha.
-
-![Historial filtrado](imagenes/16-historial-filtrado.png)
-![Historial - Calendario](imagenes/15-historial-calendario.png)
-
-**Recomendación:**
-Mostrar en la pantalla filtrada un chip con la fecha aplicada y una "x" o un botón "Quitar filtro", visibles junto al resultado.
-
-### PROBLEMA #18: El plazo de cancelación no se indica y "Cancelar reserva" está junto a la acción principal
-
-**Severidad:** 3
-**Heurística violada:** Usabilidad - Prevención de errores
-
-**Problema:**
-En "D06 · Detalle de cita" el texto "La cancelación está sujeta al plazo del establecimiento" no indica cuál es el plazo, y está al final (17 px de alto, letra pequeña). Además, "Registrar mi llegada" y "Cancelar reserva" son botones consecutivos separados por solo 14 px, con riesgo de toque equivocado.
-
-![Detalle de cita](imagenes/17-detalle-cita.png)
-
-**Recomendación:**
-Mostrar el plazo concreto (por ejemplo, "Puedes cancelar hasta 24 horas antes"), diferenciar visualmente la acción destructiva (botón de texto o color de advertencia), separarla de la acción principal y pedir confirmación antes de cancelar.
-
-### PROBLEMA #19: El campo de búsqueda dice "Buscar por nombre" pero busca especialidades
-
-**Severidad:** 2
-**Heurística violada:** Information Architecture - Is it understandable?
-
-**Problema:**
-En "R01 · Reserva tu cita" la etiqueta del campo es "Buscar especialidad", pero el placeholder indica "Buscar por nombre…". El usuario no sabe si puede escribir el nombre de un médico o solo una especialidad. Además, cada tarjeta repite "Ver disponibilidad", lo que añade ruido visual.
-
-![Reserva - Especialidades](imagenes/18-reserva-especialidad.png)
-
-**Recomendación:**
-Alinear etiqueta y placeholder ("Ej. Pediatría") y quitar el texto repetido de las tarjetas, o dejarlo solo en la primera.
-
-### PROBLEMA #20: Toda la interfaz está solo en español, sin selector de idioma
-
-**Severidad:** 2
-**Heurística violada:** Inclusive Design - Ofrece opciones
-
-**Problema:**
-En las pantallas revisadas todos los textos están en español y no hay una opción visible para cambiar de idioma. El proyecto requiere internacionalización (i18n) con inglés (en_US) y español latinoamericano (es_419), y el idioma por defecto de la interfaz debe ser el inglés.
-
-![Dashboard inicio](imagenes/07-dashboard-inicio.png)
-
-**Recomendación:**
-Incluir en "Configuración" un selector de idioma (English / Español), definir inglés como idioma por defecto y preparar las cadenas para traducción.
-
-### PROBLEMA #21: Se usa "claves" y "contraseña" para el mismo concepto
-
-**Severidad:** 1
-**Heurística violada:** Usabilidad - Consistencia y estándares
-
-**Problema:**
-El diálogo "Las claves no coinciden" usa "claves", mientras que el resto de la app usa "contraseña". Es un problema menor, pero el usuario puede pensar que se trata de otro dato.
-
-![Diálogo contraseñas diferentes](imagenes/20-dialogo-recuperacion-contrasenas-diferentes.png)
-
-**Recomendación:**
-Usar siempre "contraseña" y definir una guía de términos para la app.
-
-### PROBLEMA #22: Nombres distintos para la misma acción o pantalla
-
-**Severidad:** 1
-**Heurística violada:** Information Architecture - Is it usable?
-
-**Problema:**
-La acción de reservar aparece como "Reservar una cita" (botón de inicio), "Reservar cita" (navegación y estado vacío) y "Reserva tu cita" (título). La lista de citas se llama "Citas pendientes" y en la pantalla de error "Mis citas". Estas variaciones pueden hacer dudar si se trata de la misma función.
-
-![Dashboard inicio](imagenes/07-dashboard-inicio.png)
-![Error de carga](imagenes/21-error-carga.png)
-![Reserva - Especialidades](imagenes/18-reserva-especialidad.png)
-
-**Recomendación:**
-Definir un sistema de etiquetas y aplicar el mismo nombre en botones, navegación y títulos.
-
-<div style="page-break-after: always;"></div>
+1. Revisar las pantallas pendientes (Planes, Alertas Conductor/Padre, WhatsApp images) y completar la tabla.
+2. Priorizar la corrección de los problemas de severidad **4 y 3** (términos y condiciones, recuperación de contraseña, botón de volver, salida sin confirmación, identificación del estudiante y subtítulo cortado).
+3. Validar con usuarios de las entrevistas qué problemas aparecen en la práctica, para ajustar la severidad.
 
 # Conclusiones
 
