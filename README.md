@@ -4855,7 +4855,7 @@ Se elaboraron bocetos iniciales de las vistas críticas de la plataforma:
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 Estos diagramas evidencian la interacción entre las pantallas según las decisiones del usuario. Por ejemplo, demuestran cómo la acción simple del conductor ("Registrar Abordaje") desencadena actualizaciones visuales en el flujo de la vista del padre.
 
-<img src="resources/assets/images/chapter-3/mobile-wireflow.png" alt="Mobile Applications Wireflow Diagrams" width="420">
+![Mobile Applications Wireflow Diagrams](resources/assets/images/chapter-3/mobile-wireflow.png)
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 Los diseños de alta fidelidad muestran la interfaz terminada, aplicando la guía de estilos:
@@ -4879,7 +4879,7 @@ Cada *User Flow* representa el recorrido que sigue un usuario para cumplir un **
 
 Desde la pantalla de inicio de sesión, el usuario ingresa con su correo y contraseña o, si es un nuevo administrador, decide registrarse (*¿Registrar administrador?*) y completa empresa, nombres, apellidos, correo y contraseña.
 
-<img src="resources/chapter-2/user-flows/USERFLOW%20-%20LOGIN.png" alt="User Flow - Inicio de sesión y registro de administrador" width="560">
+![User Flow - Inicio de sesión y registro de administrador](resources/chapter-2/user-flows/USERFLOW%20-%20LOGIN.png)
 
 **User Flow 2. Navegación principal del administrador (Home)**
 
@@ -4889,7 +4889,7 @@ Desde la pantalla de inicio de sesión, el usuario ingresa con su correo y contr
 
 Tras iniciar sesión, el administrador llega a *Personas* y, desde la barra inferior, decide si desea ver la interfaz de **Rutas**, de **Flota en vivo** o de **Planes**.
 
-<img src="resources/chapter-2/user-flows/USERFLOW%20-%20HOME.png" alt="User Flow - Navegación principal del administrador (Home)" width="560">
+![User Flow - Navegación principal del administrador (Home)](resources/chapter-2/user-flows/USERFLOW%20-%20HOME.png)
 
 **User Flow 3. Consulta de personas**
 
@@ -4899,7 +4899,7 @@ Tras iniciar sesión, el administrador llega a *Personas* y, desde la barra infe
 
 Desde *Conductores, padres y grupos*, el administrador alterna entre las pestañas de conductores, padres registrados y grupos de estudiantes.
 
-<img src="resources/chapter-2/user-flows/USERFLOW%20-%20PERSONAS.png" alt="User Flow - Consulta de personas" width="560">
+![User Flow - Consulta de personas](resources/chapter-2/user-flows/USERFLOW%20-%20PERSONAS.png)
 
 **User Flow 4. Registro de un conductor**
 
@@ -4909,7 +4909,7 @@ Desde *Conductores, padres y grupos*, el administrador alterna entre las pestañ
 
 Desde la lista de conductores, *Registrar conductor* abre el formulario con nombres, apellidos, teléfono, número de licencia y correo electrónico.
 
-<img src="resources/chapter-2/user-flows/USERFLOW%20-%20REGISTRAR%20CONDUCTOR.png" alt="User Flow - Registro de un conductor" width="560">
+![User Flow - Registro de un conductor](resources/chapter-2/user-flows/USERFLOW%20-%20REGISTRAR%20CONDUCTOR.png)
 
 **User Flow 5. Registro de un padre o de un estudiante**
 
@@ -4919,7 +4919,7 @@ Desde la lista de conductores, *Registrar conductor* abre el formulario con nomb
 
 Desde la pestaña *Padres*, el administrador puede registrar un padre de familia o registrar un estudiante, que debe vincularse a un padre ya registrado.
 
-<img src="resources/chapter-2/user-flows/USERFLOW%20-%20REGISTRAR%20PADRE%20O%20ESTUDIANTE.png" alt="User Flow - Registro de un padre o de un estudiante" width="560">
+![User Flow - Registro de un padre o de un estudiante](resources/chapter-2/user-flows/USERFLOW%20-%20REGISTRAR%20PADRE%20O%20ESTUDIANTE.png)
 
 **User Flow 6. Creación de un grupo de estudiantes**
 
@@ -4929,7 +4929,7 @@ Desde la pestaña *Padres*, el administrador puede registrar un padre de familia
 
 El flujo guía paso a paso: asignar un nombre al grupo, elegir los padres, incluir a sus estudiantes vinculados y finalizar el grupo.
 
-<img src="resources/chapter-2/user-flows/USERFLOW%20-%20CREAR%20GRUPO.png" alt="User Flow - Creación de un grupo de estudiantes" width="560">
+![User Flow - Creación de un grupo de estudiantes](resources/chapter-2/user-flows/USERFLOW%20-%20CREAR%20GRUPO.png)
 
 **User Flow 7. Información de la ruta**
 
@@ -4939,7 +4939,7 @@ El flujo guía paso a paso: asignar un nombre al grupo, elegir los padres, inclu
 
 Desde *Flota en vivo*, el administrador puede ver toda la información de una ruta (paradas sobre el mapa, búsqueda de direcciones) y agregarle un vehículo y un conductor.
 
-<img src="resources/chapter-2/user-flows/USERFLOW%20-%20INFO%20DE%20LA%20RUTA.png" alt="User Flow - Información de la ruta" width="560">
+![User Flow - Información de la ruta](resources/chapter-2/user-flows/USERFLOW%20-%20INFO%20DE%20LA%20RUTA.png)
 
 **User Flow 8. Ruta en vivo**
 
@@ -4949,7 +4949,7 @@ Desde *Flota en vivo*, el administrador puede ver toda la información de una ru
 
 Relaciona las vistas del viaje en curso del conductor (paradas, check-in, alertas), el seguimiento del padre y la configuración de la ruta por el administrador (estudiantes, días de servicio, hora de salida, vehículo y conductor).
 
-<img src="resources/chapter-2/user-flows/USERFLOW%20-%20RUTA%20EN%20VIVO.png" alt="User Flow - Ruta en vivo" width="560">
+![User Flow - Ruta en vivo](resources/chapter-2/user-flows/USERFLOW%20-%20RUTA%20EN%20VIVO.png)
 
 #### 3.1.4.5. Mobile Applications Prototyping
 Se desarrolló un prototipo interactivo en Figma que simula el movimiento, transiciones y flujos entre pantallas. Este recurso sirvió de base fundamental para validar la solución con los usuarios durante las entrevistas de validación finales.
