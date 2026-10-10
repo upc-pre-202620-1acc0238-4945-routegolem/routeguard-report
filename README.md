@@ -410,46 +410,44 @@ Una hipótesis es una solución empresarial propuesta que debe validarse de la m
 * Con **[el Botón de pánico y reporte de incidencias a 1 toque accesible sin desbloquear procesos complejos en la app nativa]**.
 
 #### 1.2.2.4. Lean UX Canvas
+
 El Lean UX Canvas consolida los métodos y procesos de esta metodología en un solo documento para facilitar el entendimiento compartido del equipo (Gothelf & Seiden, 2021, p. 57).
 
-<table>
-    <tr>
-        <td valign="top" >
-            <div align="center"> <br><b>1. Business Problem</b> </div><br>
-            <p>El transporte escolar privado opera de forma manual e informal (WhatsApp/llamadas). Los padres carecen de visibilidad sobre el trayecto de sus hijos, y los conductores sufren sobrecarga y distracciones intentando reportar el servicio mientras manejan, comprometiendo la seguridad vial (Smith & Johnson, 2025).</p><br>
-        </td>
-        <td rowspan="2" valign="top">
-            <div align="center"><br><b>5. Solutions</b> </div><br>
-            <p>- App Nativa para conductor con GPS en background y soporte offline.<br>- Checklist de abordaje a 1 toque.<br>- App Cross-platform para padres con notificaciones Push y Geofencing.<br>- Botón de incidencias rápido.<br>- Plataforma SaaS de gestión de rutas y planes.</p><br>
-        </td>
-            <td valign="top">
-            <div align="center"> <br><b>2. Business Outcomes</b> </div><br>
-            <p>- Lograr que el 70% de administradores migren del Plan Básico al Intermedio/Completo en 3 meses.<br>- Reducir el tiempo promedio de recojo en paraderos en un 15%.<br>- Tasa de retención de flotas suscritas superior al 85%.</p><br>
-            </td>
-        </tr>
-    <tr>
-        <td valign="top">
-            <div align="center"><br><b>3. Users</b></div><br>
-            <p>- **Administrador:** Dueño de flota que busca gestionar rutas y profesionalizar su negocio.<br>- **Conductor:** Opera la movilidad y necesita herramientas sin distracción (offline y background).<br>- **Padres de Familia:** Buscan certeza y alertas pasivas sobre la seguridad de sus hijos.</p><br>
-        </td>
-        <td valign="top">
-            <div align="center"><br><b>4. User Outcomes & Benefits</b></div><br>
-            <p>- **Padres:** Paz mental, ahorro de tiempo, fin de la incertidumbre.<br>- **Conductores:** Conducción 100% enfocada, eliminación del estrés por reclamos, registro exacto.<br>- **Admin:** Centralización logística, mejora en la reputación del servicio.</p><br>
-        </td>
-    </tr>
-    <tr>
-        <td valign="top">
-            <div align="center"> <br><b>6. Hypotheses</b> </div><br>
-            <p>- H1: El GPS en background y soporte offline asegurarán la retención de planes de pago al eliminar la distracción del conductor.<br>- H2: Las alertas por Geofencing harán que los padres exijan la app, generando adopción orgánica.<br>- H3: El botón de incidencias reducirá masivamente las quejas formales.</p> <br>
-        </td>
-        <td valign="top">
-            <div align="center"> <br><b>7. What’s the most important thing we need to learn first?</b> </div><br><p>¿Están los administradores y conductores independientes dispuestos a pagar una suscripción mensual por un SaaS logístico que no es un marketplace de viajes?</p> <br>
-        </td>
-        <td valign="top">
-            <div align="center">  <br><b>8. What's the least amount of work we need to do to learn the next most important thing?</b> </div><br><p>Realizar de 3 a 5 entrevistas de validación profunda con dueños de movilidades escolares y padres de familia para validar la disposición de pago por "tranquilidad" y "orden operativo".</p> <br>
-        </td>
-    </tr>
-</table>
+#### 1. Business Problem
+- El transporte escolar privado se gestiona de forma manual e informal, con llamadas y grupos de WhatsApp. Los padres no saben dónde está el vehículo de sus hijos, y los conductores se distraen al reportar su avance mientras manejan. Esto genera ansiedad en las familias, riesgo vial y desorden operativo que frena el crecimiento de las pequeñas empresas de transporte.
+
+#### 2. Business Outcomes
+- Que el 70 % de los administradores pase del Plan Básico a los planes Intermedio o Completo en 3 meses.
+- Reducir en 15 % el tiempo promedio de recojo en paraderos.
+- Mantener una retención de flotas suscritas superior al 85 %.
+
+#### 3. Users
+- **Administrador:** dueño de la flota que busca gestionar rutas y formalizar su negocio.
+- **Conductor:** opera el vehículo y necesita herramientas que no lo distraigan, con soporte sin conexión.
+- **Padre de familia:** busca certeza y alertas automáticas sobre la seguridad de sus hijos.
+
+#### 4. User Outcomes & Benefits
+- **Padres:** tranquilidad, ahorro de tiempo y fin de la incertidumbre ante retrasos. En las entrevistas, 3 de 3 mostraron ansiedad por los retrasos sin aviso y disposición a recibir notificaciones automáticas.
+- **Conductores:** conducción enfocada, menos estrés por reclamos y registro exacto del viaje. 3 de 3 declararon estrés por usar el celular al conducir.
+- **Administrador:** logística centralizada y mejor reputación del servicio.
+
+#### 5. Solutions
+- App nativa para el conductor con ubicación en segundo plano y soporte sin conexión.
+- Lista de abordaje a un toque.
+- App para padres con notificaciones automáticas y alertas por geocerca.
+- Botón de incidencias rápido.
+- Plataforma SaaS de gestión de rutas y planes de suscripción.
+
+#### 6. Hypotheses
+- **H1:** We believe que lograremos una alta retención de suscripciones y upgrades a los planes Intermedio y Completo si los administradores y conductores consiguen enfocarse en conducir sin miedo a perder datos por falta de señal con la ubicación en segundo plano y la lista de abordaje con sincronización sin conexión.
+- **H2:** We believe que los padres exigirán RouteGuard como estándar de calidad si consiguen paz mental sin tener que llamar al conductor con las notificaciones automáticas y las alertas por geocerca.
+- **H3:** We believe que se reducirán las quejas hacia las empresas de transporte si los conductores consiguen comunicar emergencias o demoras de forma inmediata con el botón de incidencias a un toque.
+
+#### 7. Riskiest Assumption
+- ¿Está dispuesto el administrador, que es quien contrata el plan, a pagar una suscripción mensual por RouteGuard? Los 3 conductores entrevistados mostraron interés en pagar para proyectar una imagen formal, pero no se entrevistó a administradores, y el precio es lo que decide si el modelo de negocio funciona.
+
+#### 8. Least Work / Experiments
+- Entrevistar a 3 o 5 dueños de flotas o administradores de movilidad escolar y mostrarles los planes con su precio, para medir si lo contratarían. Es el experimento más barato, y puede hacerse con el prototipo de la app sin construir nada más.
 
 ## 1.3 Segmentos objetivo
 
