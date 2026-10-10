@@ -353,7 +353,7 @@ La magnitud del problema es masiva. Según el Censo Educativo del Ministerio de 
 Para el modelado de nuestra propuesta de valor y la mitigación de riesgos de desarrollo, aplicamos la metodología Lean UX (Gothelf & Seiden, 2021). Este enfoque iterativo nos permite validar de forma temprana nuestras asunciones mediante experimentación directa con los transportistas y padres de familia. Como señalan Gothelf y Seiden (2021), "Lean UX cambia radicalmente la forma en que enmarcamos nuestro trabajo al reintroducir el contexto estratégico para nuestras elecciones de diseño y funcionalidad y, lo que es más importante, cómo definimos el éxito" (p. 48).
 
 #### 1.2.2.1. Lean UX Problem Statements
-En el marco de Lean UX, las declaraciones de problemas de negocio reemplazan a los requerimientos tradicionales, ya que exigen explícitamente que se lleve a cabo un trabajo de descubrimiento del producto (Gothelf & Seiden, 2021, p. 68). Siguiendo la plantilla oficial para nuevas iniciativas (Gothelf & Seiden, 2021, p. 71), definimos el problema de nuestra startup de la siguiente manera:
+En el marco de Lean UX, las declaraciones de problemas de negocio reemplazan a los requisitos tradicionales, ya que exigen explícitamente que se lleve a cabo un trabajo de descubrimiento del producto (Gothelf & Seiden, 2021, p. 68). Siguiendo la plantilla oficial para nuevas iniciativas (Gothelf & Seiden, 2021, p. 71), definimos el problema de nuestra startup de la siguiente manera:
 
 El estado actual del **[transporte escolar privado]** se ha enfocado principalmente en **[la coordinación operativa y comunicación a través de métodos manuales e informales (llamadas telefónicas y grupos de WhatsApp), lo que genera puntos de dolor críticos: una constante ansiedad en los padres por desconocer el paradero exacto del vehículo y un alto nivel de distracción y sobrecarga laboral para el conductor al intentar reportar su avance mientras maneja]**, factores que multiplican el riesgo de siniestros viales (Smith & Johnson, 2025).
 
@@ -376,7 +376,7 @@ En el desarrollo de software, rara vez se cuenta con certezas absolutas. Por ell
 * Creemos que el éxito del negocio se medirá por la cantidad de rutas activas recurrentes creadas por los administradores y la tasa de actualización (upgrade) hacia los planes de suscripción de mayor nivel.
 
 **3. User Assumptions:**
-* Creemos que el "Conductor" operará la aplicación en entornos de baja conectividad a internet, por lo que el modo offline con sincronización en diferido es un requerimiento crítico.
+* Creemos que el "Conductor" operará la aplicación en entornos de baja conectividad a internet, por lo que el modo offline con sincronización en diferido es un requisito crítico.
 * Creemos que el "Padre de familia" prefiere una experiencia de usuario pasiva basada en alertas automáticas (Geofencing) en lugar de mantener la pantalla de su dispositivo encendida monitoreando un mapa todo el trayecto (Chen & Davis, 2025).
 
 **4. User Outcome and Benefit Assumptions:**
@@ -844,11 +844,11 @@ Siguiendo los principios fundamentales del *Domain-Driven Design* (Evans, 2003),
 
 ## 2.4. Requirements specification
 
-La especificación de requerimientos en entornos de desarrollo ágil reemplaza la documentación extensa y rígida por formatos ligeros que fomentan la colaboración y capturan el valor directo para el cliente (Cohn, 2004). En este proyecto, integramos técnicas de agilidad con los principios de *Domain-Driven Design* (Evans, 2003) para garantizar que las necesidades del negocio se reflejen fielmente en la estructura del software.
+La especificación de requisitos en entornos de desarrollo ágil reemplaza la documentación extensa y rígida por formatos ligeros que fomentan la colaboración y capturan el valor directo para el cliente (Cohn, 2004). En este proyecto, integramos técnicas de agilidad con los principios de *Domain-Driven Design* (Evans, 2003) para garantizar que las necesidades del negocio se reflejen fielmente en la estructura del software.
 
 ### 2.4.1. User Stories
 
-Las Historias de Usuario (*User Stories*) y las Épicas son herramientas fundamentales en Scrum y metodologías ágiles, diseñadas para desplazar el enfoque de "escribir requerimientos" hacia "fomentar conversaciones" sobre ellos (Cohn, 2004). 
+Las Historias de Usuario (*User Stories*) y las Épicas son herramientas fundamentales en Scrum y metodologías ágiles, diseñadas para desplazar el enfoque de "escribir requisitos" hacia "fomentar conversaciones" sobre ellos (Cohn, 2004). 
 
 Para el caso de RouteGuard, hemos estructurado nuestras Épicas de modo que se alineen uno a uno con los *Bounded Contexts* descubiertos en nuestro diseño estratégico. Esta decisión asegura una transición fluida entre el modelado del problema y el diseño de la solución (Vernon, 2013). A continuación, se detallan las Épicas y sus respectivas Historias de Usuario, Historias Técnicas y Spikes, estructuradas bajo el formato de Criterios de Aceptación Gherkin (*Given-When-Then*).
 
