@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <img src="resources/cover/upc-logo.png" width="150" alt="Logo de la UPC">
   <br><br>
   <strong>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong>
@@ -325,7 +325,6 @@ TB1:
     - [3.1.1. Style Guidelines](#311-style-guidelines)
       - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
     - [3.1.2. Information Architecture](#312-information-architecture)
-      - [La arquitectura de información de RouteGuard parte de dos segmentos de usuarios con metas distintas, los conductores y los padres de familia, y de dos superficies: el Landing Page, que explica y convence, y la aplicación móvil, que ejecuta las tareas. El administrador, normalmente el colegio o la empresa de transporte, no es un segmento aparte: es quien crea las cuentas de conductores y padres. Por eso el Landing se organiza como una narrativa secuencial de una sola página, y la aplicación se organiza por rol, de modo que cada usuario solo ve las funciones que le corresponden. Las decisiones se contrastaron con las heurísticas de usabilidad de Nielsen (1994).](#la-arquitectura-de-información-de-routeguard-parte-de-dos-segmentos-de-usuarios-con-metas-distintas-los-conductores-y-los-padres-de-familia-y-de-dos-superficies-el-landing-page-que-explica-y-convence-y-la-aplicación-móvil-que-ejecuta-las-tareas-el-administrador-normalmente-el-colegio-o-la-empresa-de-transporte-no-es-un-segmento-aparte-es-quien-crea-las-cuentas-de-conductores-y-padres-por-eso-el-landing-se-organiza-como-una-narrativa-secuencial-de-una-sola-página-y-la-aplicación-se-organiza-por-rol-de-modo-que-cada-usuario-solo-ve-las-funciones-que-le-corresponden-las-decisiones-se-contrastaron-con-las-heurísticas-de-usabilidad-de-nielsen-1994)
       - [3.1.2.1. Organization Systems](#3121-organization-systems)
       - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
       - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
@@ -441,7 +440,7 @@ Tal como se evidencia en la **Tabla 2**, el equipo ha logrado aplicar nuevos apr
         <strong>AV1:</strong> Adquirió nuevos conocimientos en análisis competitivo y modelado de arquitecturas mediante herramientas de <em>Diagram-as-Code</em> (Structurizr DSL y PlantUML), aplicándolos para diagramar el nivel de código y base de datos.<br>
         <strong>TB1:</strong> Profundizó en la especificación y estandarización de contratos de servicios web mediante OpenAPI 3.0 / Swagger en ASP.NET Core, así como en el diseño y ejecución de baterías de pruebas de integración automatizadas para validar la emisión de claims JWT y la consistencia relacional con Entity Framework Core.
       </td>
-      <td style="padding: 10px; border: 1px solid #ddd;">La actualización constante de conocimientos en metodologías ágiles (Lean UX), modelado de dominio (DDD táctico y estratégico), arquitectura de mensajería asíncrona (RabbitMQ/MassTransit), persistencia offline móvil (Room DB) e infraestructura en la nube (Azure App Service y PostgreSQL) fue fundamental para materializar el incremento de software funcional en el Sprint 1. Este aprendizaje autónomo y continuo permitió al equipo superar los desafíos técnicos de integración entre la API REST y la aplicación móvil nativa con estándares de calidad de la industria.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">La actualización constante de conocimientos en marcos de trabajo ágiles (Lean UX), modelado de dominio (DDD táctico y estratégico), arquitectura de mensajería asíncrona (RabbitMQ/MassTransit), persistencia offline móvil (Room DB) e infraestructura en la nube (Azure App Service y PostgreSQL) fue fundamental para materializar el incremento de software funcional en el Sprint 1. Este aprendizaje autónomo y continuo permitió al equipo superar los desafíos técnicos de integración entre la API REST y la aplicación móvil nativa con estándares de calidad de la industria.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;"><strong>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</strong></td>
@@ -469,7 +468,7 @@ Tal como se evidencia en la **Tabla 2**, el equipo ha logrado aplicar nuevos apr
 
 ## Objetivos SMART
 
-Para garantizar el desarrollo ordenado y exitoso del ecosistema RouteGuard a lo largo del ciclo académico, el equipo ha establecido los siguientes objetivos bajo la metodología SMART:
+Para garantizar el desarrollo ordenado y exitoso del ecosistema RouteGuard a lo largo del ciclo académico, el equipo ha establecido los siguientes objetivos bajo los criterios SMART:
 
 **Objetivo 1: Validación de Experiencia de Usuario (UX) y Requisitos**
 * Validar la propuesta de valor y las hipótesis establecidas en el *Lean UX* realizando 8 entrevistas a profundidad (4 a conductores y 4 a padres de familia) para elaborar el 100% de los artefactos de Needfinding y el *Product Backlog* antes de la Semana 4 del ciclo académico.
@@ -608,7 +607,7 @@ La magnitud del problema es masiva. Según el Censo Educativo del Ministerio de 
 
 ### 1.2.2 Lean UX Process
 
-Para el modelado de nuestra propuesta de valor y la mitigación de riesgos de desarrollo, aplicamos la metodología Lean UX (Gothelf & Seiden, 2021). Este enfoque iterativo nos permite validar de forma temprana nuestras asunciones mediante experimentación directa con los transportistas y padres de familia. Como señalan Gothelf y Seiden (2021), "Lean UX cambia radicalmente la forma en que enmarcamos nuestro trabajo al reintroducir el contexto estratégico para nuestras elecciones de diseño y funcionalidad y, lo que es más importante, cómo definimos el éxito" (p. 48).
+Para el modelado de nuestra propuesta de valor y la mitigación de riesgos de desarrollo, aplicamos el marco de trabajo Lean UX (Gothelf & Seiden, 2021). Este enfoque iterativo nos permite validar de forma temprana nuestras asunciones mediante experimentación directa con los transportistas y padres de familia. Como señalan Gothelf y Seiden (2021), "Lean UX cambia radicalmente la forma en que enmarcamos nuestro trabajo al reintroducir el contexto estratégico para nuestras elecciones de diseño y funcionalidad y, lo que es más importante, cómo definimos el éxito" (p. 48).
 
 #### 1.2.2.1. Lean UX Problem Statements
 En el marco de Lean UX, las declaraciones de problemas de negocio reemplazan a los requisitos tradicionales, ya que exigen explícitamente que se lleve a cabo un trabajo de descubrimiento del producto (Gothelf & Seiden, 2021, p. 68). Siguiendo la plantilla oficial para nuevas iniciativas (Gothelf & Seiden, 2021, p. 71), definimos el problema de nuestra startup de la siguiente manera:
@@ -669,7 +668,7 @@ Una hipótesis es una solución empresarial propuesta que debe validarse de la m
 
 #### 1.2.2.4. Lean UX Canvas
 
-El Lean UX Canvas consolida los métodos y procesos de esta metodología en un solo documento para facilitar el entendimiento compartido del equipo (Gothelf & Seiden, 2021, p. 57).
+El Lean UX Canvas consolida los métodos y procesos de este marco de trabajo en un solo documento para facilitar el entendimiento compartido del equipo (Gothelf & Seiden, 2021, p. 57).
 
 #### 1. Business Problem
 - El transporte escolar privado se gestiona de forma manual e informal, con llamadas y grupos de WhatsApp. Los padres no saben dónde está el vehículo de sus hijos, y los conductores se distraen al reportar su avance mientras manejan. Esto genera ansiedad en las familias, riesgo vial y desorden operativo que frena el crecimiento de las pequeñas empresas de transporte.
@@ -1405,7 +1404,7 @@ La especificación de requisitos en entornos de desarrollo ágil reemplaza la do
 
 ### 2.4.1. User Stories
 
-Las Historias de Usuario (*User Stories*) y las Épicas son herramientas fundamentales en Scrum y metodologías ágiles, diseñadas para desplazar el enfoque de "escribir requisitos" hacia "fomentar conversaciones" sobre ellos (Cohn, 2004). 
+Las Historias de Usuario (*User Stories*) y las Épicas son herramientas fundamentales en el marco de trabajo Scrum y enfoques ágiles, diseñadas para desplazar el enfoque de "escribir requisitos" hacia "fomentar conversaciones" sobre ellos (Cohn, 2004). 
 
 Para el caso de RouteGuard, hemos estructurado nuestras Épicas de modo que se alineen uno a uno con los *Bounded Contexts* descubiertos en nuestro diseño estratégico. Esta decisión asegura una transición fluida entre el modelado del problema y el diseño de la solución (Vernon, 2013). A continuación, se detallan las Épicas y sus respectivas Historias de Usuario, Historias Técnicas y Spikes, estructuradas bajo el formato de Criterios de Aceptación Gherkin (*Given-When-Then*).
 
@@ -4794,7 +4793,7 @@ Para el diseño de interfaces de RouteGuard, hemos establecido un sistema de dis
 
 ### 3.1.2. Information Architecture
 
-####  La arquitectura de información de RouteGuard parte de dos segmentos de usuarios con metas distintas, los conductores y los padres de familia, y de dos superficies: el Landing Page, que explica y convence, y la aplicación móvil, que ejecuta las tareas. El administrador, normalmente el colegio o la empresa de transporte, no es un segmento aparte: es quien crea las cuentas de conductores y padres. Por eso el Landing se organiza como una narrativa secuencial de una sola página, y la aplicación se organiza por rol, de modo que cada usuario solo ve las funciones que le corresponden. Las decisiones se contrastaron con las heurísticas de usabilidad de Nielsen (1994).
+La arquitectura de información de RouteGuard parte de dos segmentos de usuarios con metas distintas, los conductores y los padres de familia, y de dos superficies: el Landing Page, que explica y convence, y la aplicación móvil, que ejecuta las tareas. El administrador, normalmente el colegio o la empresa de transporte, no es un segmento aparte: es quien crea las cuentas de conductores y padres. Por eso el Landing se organiza como una narrativa secuencial de una sola página, y la aplicación se organiza por rol, de modo que cada usuario solo ve las funciones que le corresponden. Las decisiones se contrastaron con las heurísticas de usabilidad de Nielsen (1994).
 
 > **Alcance.** El proyecto no incluye una Web Application: la administración de la flota se realiza desde la aplicación móvil con el rol Administrador. Por ello las decisiones se documentan para el **Landing Page** y para las **aplicaciones móviles**.
 
