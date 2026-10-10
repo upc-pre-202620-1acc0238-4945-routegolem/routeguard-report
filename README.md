@@ -6571,7 +6571,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** el formulario "Registrar Administrador" termina en el botón **Crear Cuenta** sin casilla ni enlace a **Términos y Condiciones**. El usuario puede crear la cuenta sin aceptar ninguna condición y no hay dónde consultarlas.
 - **Recomendación:** agregar una casilla "Acepto los Términos y Condiciones" con enlace al documento, y **deshabilitar Crear Cuenta** hasta que se acepte.
 
-![Registro sin términos y condiciones](01_registro_sin_terminos.png)
+![Registro sin términos y condiciones](imagenes/01_registro_sin_terminos.png)
 
 ---
 
@@ -6582,7 +6582,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** el inicio de sesión solo ofrece correo, contraseña e "Iniciar sesión". Un usuario que olvida su contraseña queda bloqueado, sin salida.
 - **Recomendación:** añadir el enlace "¿Olvidaste tu contraseña?" bajo el campo de contraseña, con su flujo de recuperación.
 
-![Login sin recuperación de contraseña](02_login_sin_olvide_contrasena.png)
+![Login sin recuperación de contraseña](imagenes/02_login_sin_olvide_contrasena.png)
 
 ---
 
@@ -6593,7 +6593,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** a diferencia de "Registrar conductor" o "Registrar estudiante" (que sí tienen flecha atrás), el registro de administrador no ofrece forma visible de regresar al login.
 - **Recomendación:** agregar una flecha atrás o un enlace "¿Ya tienes cuenta? Inicia sesión".
 
-![Registro sin volver al login](03_registro_sin_volver.png)
+![Registro sin volver al login](imagenes/03_registro_sin_volver.png)
 
 ---
 
@@ -6604,7 +6604,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** "Salir" ocupa un lugar equivalente al de los destinos de navegación y cierra la sesión con un solo toque. Un toque accidental (sobre todo junto a "Planes" o "Alertas") cierra la sesión y el usuario pierde su contexto.
 - **Recomendación:** mover "Salir" a un menú de perfil/ajustes, o pedir confirmación antes de cerrar sesión.
 
-![Salir sin confirmación](04_salir_sin_confirmacion.png)
+![Salir sin confirmación](imagenes/04_salir_sin_confirmacion.png)
 
 ---
 
@@ -6615,7 +6615,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** en la vista del conductor, la tarjeta con "Check-in" y "No asistió" lleva el título genérico "Estudiante". Con varios estudiantes, el conductor no sabe a quién está marcando.
 - **Recomendación:** mostrar el nombre completo (y, si aplica, la parada de recojo) en cada tarjeta.
 
-![Tarjeta de estudiante genérica](05_estudiante_generico.png)
+![Tarjeta de estudiante genérica](imagenes/05_estudiante_generico.png)
 
 ---
 
@@ -6626,7 +6626,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** la línea "Viaje en curso · 0 a bordo · 0 ausentes · 3 en total" aparece recortada debajo del título, justo el resumen de estado más importante para el conductor.
 - **Recomendación:** dar altura propia a la cabecera o usar chips de resumen debajo del título.
 
-![Subtítulo cortado](06_subtitulo_cortado.png)
+![Subtítulo cortado](imagenes/06_subtitulo_cortado.png)
 
 ---
 
@@ -6637,7 +6637,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** dos tarjetas muestran "Turno Manana" (sin ñ) mientras otra dice "Mañana". Además de ser inconsistente, se percibe como descuido.
 - **Recomendación:** unificar la escritura como "Mañana" en toda la interfaz.
 
-![Turno Manana sin ñ](07_turno_manana.png)
+![Turno Manana sin ñ](imagenes/07_turno_manana.png)
 
 ---
 
@@ -6648,7 +6648,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** se muestran "hace 7 min" y "0 km/h" como si fueran datos actuales, sin indicar que la ubicación está desactualizada o sin señal.
 - **Recomendación:** mostrar un estado explícito ("sin señal" / "última actualización hace X min") con un aviso visual.
 
-![Dato de ubicación desactualizado](08_dato_desactualizado.png)
+![Dato de ubicación desactualizado](imagenes/08_dato_desactualizado.png)
 
 ---
 
@@ -6659,7 +6659,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** el mapa muestra un marcador rojo sin leyenda que explique su significado, y las etiquetas se superponen ("Carlos Ramirez" / "2. Parque Kennedy"), dificultando la lectura.
 - **Recomendación:** agregar una leyenda para los marcadores y evitar el solapamiento (agrupar o priorizar etiquetas).
 
-![Marcador y etiquetas del mapa](09_marcador_y_etiquetas.png)
+![Marcador y etiquetas del mapa](imagenes/09_marcador_y_etiquetas.png)
 
 ---
 
@@ -6670,11 +6670,11 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** las listas de conductores, rutas y la pantalla de vincular padre no tienen búsqueda ni filtros; con muchos registros el usuario debe desplazarse manualmente para encontrar un elemento.
 - **Recomendación:** incorporar un buscador y filtros relevantes (nombre, licencia, estado, etc.).
 
-![Sin búsqueda en conductores](10a_sin_busqueda_conductores.png)
+![Sin búsqueda en conductores](imagenes/10a_sin_busqueda_conductores.png)
 
-![Sin búsqueda en rutas](10b_sin_busqueda_rutas.png)
+![Sin búsqueda en rutas](imagenes/10b_sin_busqueda_rutas.png)
 
-![Sin búsqueda al vincular padre](10c_sin_busqueda_vincular_padre.png)
+![Sin búsqueda al vincular padre](imagenes/10c_sin_busqueda_vincular_padre.png)
 
 ---
 
@@ -6685,7 +6685,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** correos, teléfonos y subtítulos usan un tamaño de letra muy pequeño y un contraste bajo respecto al fondo, lo que dificulta su lectura (especialmente para personas con baja visión).
 - **Recomendación:** aumentar el tamaño y el contraste hasta cumplir mínimos de accesibilidad (WCAG AA).
 
-![Texto pequeño y bajo contraste](11_texto_pequeno.png)
+![Texto pequeño y bajo contraste](imagenes/11_texto_pequeno.png)
 
 ---
 
@@ -6696,7 +6696,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** en la vista del padre no hay forma de contactar al conductor ni de conocer la ETA (tiempo estimado) de la parada donde sube/baja su hijo, información clave para su tranquilidad.
 - **Recomendación:** incluir un botón de llamada/mensaje al conductor y mostrar la ETA de la parada del hijo.
 
-![Vista Padre sin contacto ni ETA](12_padre_sin_contacto_eta.png)
+![Vista Padre sin contacto ni ETA](imagenes/12_padre_sin_contacto_eta.png)
 
 ---
 
@@ -6707,7 +6707,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** el título de la pantalla dice "Registrar padre de familia" mientras el botón dice "Registrar padre"; el término no es consistente.
 - **Recomendación:** usar el mismo término en el título y en el botón.
 
-![Título y botón inconsistentes](13_registrar_padre_titulo_boton.png)
+![Título y botón inconsistentes](imagenes/13_registrar_padre_titulo_boton.png)
 
 ---
 
@@ -6718,9 +6718,9 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** los datos de muestra aparecen con formato inconsistente (p. ej. "camila cabello" en minúsculas y "Licencia 3" sin formato de licencia), lo que da una impresión descuidada.
 - **Recomendación:** normalizar el formato de nombres y de los datos de licencia en los datos de muestra.
 
-![Mayúsculas inconsistentes (padres)](14a_mayusculas_padres.png)
+![Mayúsculas inconsistentes (padres)](imagenes/14a_mayusculas_padres.png)
 
-![Mayúsculas inconsistentes (licencia)](14b_mayusculas_licencia.png)
+![Mayúsculas inconsistentes (licencia)](imagenes/14b_mayusculas_licencia.png)
 
 ---
 
@@ -6731,7 +6731,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** los estados de selección (pestañas y navegación) usan verde, mientras los botones usan el azul de marca; el verde no tiene un significado claro y compite con el color principal.
 - **Recomendación:** unificar el color de selección con la identidad de la marca, o justificar el verde con una leyenda.
 
-![Color verde vs. azul de marca](15_color_verde_vs_azul.png)
+![Color verde vs. azul de marca](imagenes/15_color_verde_vs_azul.png)
 
 ---
 
@@ -6742,7 +6742,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - **Problema:** el texto "Seleccionado en el mapa" no indica a qué elemento se refiere, y la barra de escala del mapa se percibe como una barra negra suelta sin función aparente.
 - **Recomendación:** precisar el mensaje (indicar el elemento seleccionado) y rediseñar o atenuar la barra de escala.
 
-![Seleccionado en el mapa y barra de escala](16_seleccionado_y_escala.png)
+![Seleccionado en el mapa y barra de escala](imagenes/16_seleccionado_y_escala.png)
 
 ---
 
