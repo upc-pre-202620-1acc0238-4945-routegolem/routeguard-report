@@ -3557,6 +3557,12 @@ En esta sección se especifican los aspectos principales del Sprint Planning Mee
 
 4. La priorización del *Product Backlog* por valor temprano aseguró que las historias del Core Domain (autenticación, sincronización offline, GPS y monitoreo en tiempo real) queden al inicio del desarrollo, antes que funcionalidades secundarias.
 
+**Conclusión del equipo (TB1).** 
+
+Pasar del modelado al producto desplegado obligó a cada integrante a aprender herramientas nuevas (CI/CD en la nube, diseño de interfaces, pruebas automatizadas, arquitectura de información) y a revisar su propio trabajo con criterios externos. El equipo concluye que el aprendizaje autónomo y el contraste con evidencia (código, métricas, usuarios) fueron lo que permitió detectar y corregir deficiencias antes de la entrega.
+
+
+
 ### Video App Validation
 
 ### Video About the product
