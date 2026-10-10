@@ -4869,7 +4869,87 @@ El *User Flow* diagrama las rutas obligatorias y condicionales (*Happy paths* & 
 *   **Flujo de Ejecución de Ruta (Conductor):** Login -> Seleccionar Ruta -> Modo Viaje (*GPS background tracking* activado) -> Checklists Parada a Parada -> Fin de Ruta.
 *   **Flujo de Monitoreo (Padre):** Notificación Push (Alerta Geofence) -> Toca alerta -> Pantalla de Detalles del Recorrido.
 
-![Mobile Applications User Flow Diagrams](resources/assets/images/chapter-3/mobile-user-flow.png)
+Cada *User Flow* representa el recorrido que sigue un usuario para cumplir un **objetivo (*User Goal*)** y se relaciona con las **User Stories** del *Product Backlog* que dicho recorrido cubre. Los diagramas muestran las pantallas reales de la aplicación implementada y representan con un rombo las decisiones del usuario (*Happy paths* y *Alternate paths*).
+
+**User Flow 1. Inicio de sesión y registro de administrador**
+
+- **Usuario:** Administrador (nuevo usuario).
+- **Objetivo (*User Goal*):** Ingresar a la plataforma o crear la cuenta de mi empresa de transporte para empezar a gestionar la flota.
+- **User Stories relacionadas:** **US-01** Registro y Asignación de Rol.
+
+Desde la pantalla de inicio de sesión, el usuario ingresa con su correo y contraseña o, si es un nuevo administrador, decide registrarse (*¿Registrar administrador?*) y completa empresa, nombres, apellidos, correo y contraseña.
+
+![User Flow - Inicio de sesión y registro de administrador](resources/chapter-2/user-flows/USERFLOW%20-%20LOGIN.png)
+
+**User Flow 2. Navegación principal del administrador (Home)**
+
+- **Usuario:** Administrador.
+- **Objetivo (*User Goal*):** Acceder rápidamente a las rutas, a la flota en vivo y a los planes de suscripción de mi organización.
+- **User Stories relacionadas:** **US-02** Adquisición de Plan de Suscripción; **US-16** Asignación de Conductor a Vehículo; **US-08** Monitoreo de Ruta en Tiempo Real.
+
+Tras iniciar sesión, el administrador llega a *Personas* y, desde la barra inferior, decide si desea ver la interfaz de **Rutas**, de **Flota en vivo** o de **Planes**.
+
+![User Flow - Navegación principal del administrador (Home)](resources/chapter-2/user-flows/USERFLOW%20-%20HOME.png)
+
+**User Flow 3. Consulta de personas**
+
+- **Usuario:** Administrador.
+- **Objetivo (*User Goal*):** Consultar los conductores, los padres con sus hijos y los grupos de estudiantes registrados en mi organización.
+- **User Stories relacionadas:** **US-11** Registro de Múltiples Hijos; **US-16** Asignación de Conductor a Vehículo.
+
+Desde *Conductores, padres y grupos*, el administrador alterna entre las pestañas de conductores, padres registrados y grupos de estudiantes.
+
+![User Flow - Consulta de personas](resources/chapter-2/user-flows/USERFLOW%20-%20PERSONAS.png)
+
+**User Flow 4. Registro de un conductor**
+
+- **Usuario:** Administrador.
+- **Objetivo (*User Goal*):** Dar de alta a un conductor de mi flota para poder asignarlo luego a un vehículo y a una ruta.
+- **User Stories relacionadas:** **US-01** Registro y Asignación de Rol; **US-16** Asignación de Conductor a Vehículo.
+
+Desde la lista de conductores, *Registrar conductor* abre el formulario con nombres, apellidos, teléfono, número de licencia y correo electrónico.
+
+![User Flow - Registro de un conductor](resources/chapter-2/user-flows/USERFLOW%20-%20REGISTRAR%20CONDUCTOR.png)
+
+**User Flow 5. Registro de un padre o de un estudiante**
+
+- **Usuario:** Administrador.
+- **Objetivo (*User Goal*):** Registrar a los padres de familia y vincular a sus hijos para que puedan seguir el viaje en la aplicación.
+- **User Stories relacionadas:** **US-01** Registro y Asignación de Rol; **US-11** Registro de Múltiples Hijos.
+
+Desde la pestaña *Padres*, el administrador puede registrar un padre de familia o registrar un estudiante, que debe vincularse a un padre ya registrado.
+
+![User Flow - Registro de un padre o de un estudiante](resources/chapter-2/user-flows/USERFLOW%20-%20REGISTRAR%20PADRE%20O%20ESTUDIANTE.png)
+
+**User Flow 6. Creación de un grupo de estudiantes**
+
+- **Usuario:** Administrador.
+- **Objetivo (*User Goal*):** Agrupar a los estudiantes que viajarán juntos para luego asignarlos a una ruta.
+- **User Stories relacionadas:** **US-04** Listado y Secuencia de Paradas; **US-11** Registro de Múltiples Hijos.
+
+El flujo guía paso a paso: asignar un nombre al grupo, elegir los padres, incluir a sus estudiantes vinculados y finalizar el grupo.
+
+![User Flow - Creación de un grupo de estudiantes](resources/chapter-2/user-flows/USERFLOW%20-%20CREAR%20GRUPO.png)
+
+**User Flow 7. Información de la ruta**
+
+- **Usuario:** Administrador.
+- **Objetivo (*User Goal*):** Revisar el detalle de una ruta (paradas) y asignarle un vehículo y un conductor.
+- **User Stories relacionadas:** **US-04** Listado y Secuencia de Paradas; **US-03** Gestión de Capacidad Vehicular; **US-16** Asignación de Conductor a Vehículo.
+
+Desde *Flota en vivo*, el administrador puede ver toda la información de una ruta (paradas sobre el mapa, búsqueda de direcciones) y agregarle un vehículo y un conductor.
+
+![User Flow - Información de la ruta](resources/chapter-2/user-flows/USERFLOW%20-%20INFO%20DE%20LA%20RUTA.png)
+
+**User Flow 8. Ruta en vivo**
+
+- **Usuario:** Conductor, padre de familia y administrador.
+- **Objetivo (*User Goal*):** Ejecutar y seguir el viaje: el conductor atiende las paradas, el padre sigue el recorrido y recibe alertas, y el administrador supervisa y configura la ruta.
+- **User Stories relacionadas:** **US-04** Listado y Secuencia de Paradas; **US-06** Check-in de Abordaje Offline; **US-07** Alerta de Geofencing; **US-08** Monitoreo de Ruta en Tiempo Real; **US-10** Botón de Incidencias Rápido; **US-16** Asignación de Conductor a Vehículo.
+
+Relaciona las vistas del viaje en curso del conductor (paradas, check-in, alertas), el seguimiento del padre y la configuración de la ruta por el administrador (estudiantes, días de servicio, hora de salida, vehículo y conductor).
+
+![User Flow - Ruta en vivo](resources/chapter-2/user-flows/USERFLOW%20-%20RUTA%20EN%20VIVO.png)
 
 #### 3.1.4.5. Mobile Applications Prototyping
 Se desarrolló un prototipo interactivo en Figma que simula el movimiento, transiciones y flujos entre pantallas. Este recurso sirvió de base fundamental para validar la solución con los usuarios durante las entrevistas de validación finales.
