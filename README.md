@@ -5224,14 +5224,14 @@ La landing está publicada en GitHub Pages y es accesible en la URL [https://upc
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;">Acceso a la URL pública (`GET /`)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Acceso a la URL pública (<code>GET /</code>)</td>
       <td style="padding: 10px; border: 1px solid #ddd;">HTTP 200 sobre HTTPS</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">HTTP 200 OK, servidor `GitHub.com`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">HTTP 200 OK, servidor <code>GitHub.com</code></td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">Última publicación</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Contenido actualizado</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`Last-Modified: Fri, 09 Oct 2026 09:27:08 GMT`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Last-Modified: Fri, 09 Oct 2026 09:27:08 GMT</code></td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">Secciones de la página</td>
@@ -5241,7 +5241,7 @@ La landing está publicada en GitHub Pages y es accesible en la URL [https://upc
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">Tema claro / oscuro</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Botón que alterna el tema y recuerda la preferencia</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Implementado en `script.js` (clase `dark` y preferencia en `localStorage`)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Implementado en <code>script.js</code> (clase <code>dark</code> y preferencia en <code>localStorage</code>)</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">Diseño responsive</td>
@@ -5280,77 +5280,77 @@ Los endpoints de IAM están desplegados en Azure (ver sección 4.2.1.8) y docume
   <tbody>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">1</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`POST /api/v1/users/sign-in`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST /api/v1/users/sign-in</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Credenciales válidas de un administrador</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">200 y token JWT con rol `ADMIN`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">200; token de 753 caracteres con rol `ADMIN`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">200 y token JWT con rol <code>ADMIN</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">200; token de 753 caracteres con rol <code>ADMIN</code></td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">2</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`POST /api/v1/users/sign-in`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST /api/v1/users/sign-in</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Credenciales válidas de un conductor</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">200 y token JWT con rol `DRIVER`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">200; rol `DRIVER`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">200 y token JWT con rol <code>DRIVER</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">200; rol <code>DRIVER</code></td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">3</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`POST /api/v1/users/sign-in`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST /api/v1/users/sign-in</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Credenciales válidas de un padre</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">200 y token JWT con rol `PARENT`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">200; rol `PARENT`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">200 y token JWT con rol <code>PARENT</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">200; rol <code>PARENT</code></td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">4</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`POST /api/v1/users/sign-in`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST /api/v1/users/sign-in</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Contraseña incorrecta</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Rechazo sin emitir token</td>
       <td style="padding: 10px; border: 1px solid #ddd;">400</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">5</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`POST /api/v1/users/sign-in`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST /api/v1/users/sign-in</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Cuerpo vacío</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Rechazo por validación</td>
       <td style="padding: 10px; border: 1px solid #ddd;">400</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">6</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`GET /api/v1/users`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET /api/v1/users</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Sin token</td>
       <td style="padding: 10px; border: 1px solid #ddd;">No autenticado</td>
       <td style="padding: 10px; border: 1px solid #ddd;">401</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">7</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`GET /api/v1/users`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Token de `ADMIN`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET /api/v1/users</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Token de <code>ADMIN</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Acceso permitido</td>
       <td style="padding: 10px; border: 1px solid #ddd;">200</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">8</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`GET /api/v1/users`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Token de `DRIVER`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET /api/v1/users</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Token de <code>DRIVER</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Prohibido por rol</td>
       <td style="padding: 10px; border: 1px solid #ddd;">403</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">9</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`GET /api/v1/users`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Token de `PARENT`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET /api/v1/users</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Token de <code>PARENT</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Prohibido por rol</td>
       <td style="padding: 10px; border: 1px solid #ddd;">403</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">10</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`GET /api/v1/routes`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Token de `PARENT` (recurso de otro rol)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET /api/v1/routes</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Token de <code>PARENT</code> (recurso de otro rol)</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Prohibido por rol</td>
       <td style="padding: 10px; border: 1px solid #ddd;">403</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">11</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`GET /api/v1/users`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET /api/v1/users</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Token inventado</td>
       <td style="padding: 10px; border: 1px solid #ddd;">No autenticado</td>
       <td style="padding: 10px; border: 1px solid #ddd;">401</td>
@@ -5369,28 +5369,28 @@ Los endpoints de IAM están desplegados en Azure (ver sección 4.2.1.8) y docume
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;">`nameidentifier`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>nameidentifier</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Identificador único del usuario</td>
     </tr>
     <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;">`emailaddress` y `name`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>emailaddress</code> y <code>name</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Correo y nombre completo del usuario</td>
     </tr>
     <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;">`role`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Rol del usuario (`ADMIN`, `DRIVER` o `PARENT`); con él la API autoriza cada recurso</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>role</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Rol del usuario (<code>ADMIN</code>, <code>DRIVER</code> o <code>PARENT</code>); con él la API autoriza cada recurso</td>
     </tr>
     <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;">`organizationId`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>organizationId</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Empresa de transporte a la que pertenece el usuario (aislamiento por tenant)</td>
     </tr>
     <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;">`iat`, `nbf`, `exp`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>iat</code>, <code>nbf</code>, <code>exp</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Emisión, inicio de validez y expiración; el token es válido por 7 días (10 080 minutos)</td>
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Claims verificados decodificando el token devuelto por `sign-in`.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Claims verificados decodificando el token devuelto por <code>sign-in</code>.</em></p>
 
 Adicionalmente, el 2026-10-09 se ejecutó una batería de **96 comprobaciones automáticas de integración** (autenticación, autorización por rol, flujo completo de un viaje, geocercas y notificaciones) sobre el backend con PostgreSQL, con resultado de 96 satisfactorias y ninguna fallida. Este script de pruebas aún no está versionado en el repositorio.
 
@@ -5425,43 +5425,43 @@ Esta sección documenta cómo se despliegan el *Landing Page* y el backend de Ro
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">Landing Page</td>
       <td style="padding: 10px; border: 1px solid #ddd;">GitHub Pages</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">[https://upc-pre-202620-1acc0238-4945-routegolem.github.io/routeguard-landing-page/](https://upc-pre-202620-1acc0238-4945-routegolem.github.io/routeguard-landing-page/)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`push` a la rama `develop` (carpeta raíz) de `routeguard-landing-page`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://upc-pre-202620-1acc0238-4945-routegolem.github.io/routeguard-landing-page/">https://upc-pre-202620-1acc0238-4945-routegolem.github.io/routeguard-landing-page/</a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>push</code> a la rama <code>develop</code> (carpeta raíz) de <code>routeguard-landing-page</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">HTTP 200 (servidor GitHub.com)</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">API REST de RouteGuard</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Azure App Service (contenedor Linux, plan Basic B1)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">[https://routeguard-api-mobiles-a3cza3byc3b3dpfs.brazilsouth-01.azurewebsites.net](https://routeguard-api-mobiles-a3cza3byc3b3dpfs.brazilsouth-01.azurewebsites.net)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`push` a la rama `deploy` de `routeguard-web-services`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`GET /health` responde 200 `Healthy`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://routeguard-api-mobiles-a3cza3byc3b3dpfs.brazilsouth-01.azurewebsites.net/swagger/index.html">https://routeguard-api-mobiles-a3cza3byc3b3dpfs.brazilsouth-01.azurewebsites.net/swagger/index.html</a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>push</code> a la rama <code>deploy</code> de <code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET /health</code> responde 200 <code>Healthy</code></td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">Registro de imágenes Docker</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Azure Container Registry</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`routeguardacrmobil.azurecr.io/routeguard-platform-wa`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguardacrmobil.azurecr.io/routeguard-platform-wa</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Paso de *build and push* del workflow</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Etiquetas `latest` y SHA del commit `e1af89c`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Etiquetas <code>latest</code> y SHA del commit <code>e1af89c</code></td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">Base de datos</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Azure Database for PostgreSQL (Flexible Server)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Base `routeguard`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Base <code>routeguard</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Migraciones de EF Core aplicadas al iniciar la API</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Operativa (la API responde con datos)</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">Mensajería de eventos</td>
       <td style="padding: 10px; border: 1px solid #ddd;">RabbitMQ en CloudAMQP (plan gratuito)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Variable `RABBITMQ_URL`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Variable <code>RABBITMQ_URL</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Configuración del App Service</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Conectada (MassTransit)</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">Integración y entrega continua</td>
       <td style="padding: 10px; border: 1px solid #ddd;">GitHub Actions</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`.github/workflows/deploy.yml`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`push` a `deploy` o ejecución manual (`workflow_dispatch`)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>.github/workflows/deploy.yml</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>push</code> a <code>deploy</code> o ejecución manual (<code>workflow_dispatch</code>)</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Workflow operativo</td>
     </tr>
   </tbody>
@@ -5483,7 +5483,7 @@ Last-Modified: Fri, 09 Oct 2026 09:27:08 GMT
 
 **Despliegue del Backend.** El backend se empaqueta en una imagen Docker de dos etapas (`dotnet/sdk:10.0` para compilar y `dotnet/aspnet:10.0` para ejecutar, con la API escuchando en el puerto 8080) y se publica mediante el workflow de GitHub Actions descrito en la **Tabla 36**.
 
-<p><strong>Tabla 36.</strong> <em>Pasos del workflow de despliegue (`deploy.yml`)</em></p>
+<p><strong>Tabla 36.</strong> <em>Pasos del workflow de despliegue (<code>deploy.yml</code>)</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -5496,7 +5496,7 @@ Last-Modified: Fri, 09 Oct 2026 09:27:08 GMT
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">1</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Checkout repository</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Descarga el código de la rama `deploy`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Descarga el código de la rama <code>deploy</code></td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">2</td>
@@ -5506,31 +5506,31 @@ Last-Modified: Fri, 09 Oct 2026 09:27:08 GMT
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">3</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Compile (fail fast)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`dotnet build` en modo Release; si falla, se detiene antes de construir la imagen</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>dotnet build</code> en modo Release; si falla, se detiene antes de construir la imagen</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">4</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Log in to Azure Container Registry</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Autentica con los *secrets* `ACR_LOGIN_SERVER`, `ACR_USERNAME` y `ACR_PASSWORD`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Autentica con los *secrets* <code>ACR_LOGIN_SERVER</code>, <code>ACR_USERNAME</code> y <code>ACR_PASSWORD</code></td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">5</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Build and push the Docker image</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Construye la imagen y la sube al registro con dos etiquetas: el SHA del commit y `latest`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Construye la imagen y la sube al registro con dos etiquetas: el SHA del commit y <code>latest</code></td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">6</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Deploy to Azure Web App</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Actualiza el App Service con la nueva imagen mediante el *secret* `AZURE_WEBAPP_PUBLISH_PROFILE`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Actualiza el App Service con la nueva imagen mediante el *secret* <code>AZURE_WEBAPP_PUBLISH_PROFILE</code></td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">7</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Smoke test (GET /health)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Hasta 20 intentos cada 15 s; el despliegue solo se da por bueno si `/health` responde 200</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Hasta 20 intentos cada 15 s; el despliegue solo se da por bueno si <code>/health</code> responde 200</td>
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Workflow ubicado en `routeguard-web-services/.github/workflows/deploy.yml`.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Workflow ubicado en <code>routeguard-web-services/.github/workflows/deploy.yml</code>.</em></p>
 
 Las dos capturas siguientes, tomadas del portal de Azure, evidencian la imagen publicada en el registro (etiquetas `latest` y SHA del commit, publicadas el 2026-10-09) y la configuración del App Service para ejecutar esa imagen desde el registro.
 
@@ -5567,37 +5567,37 @@ HTTP 200
   <tbody>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">App Service (variables de entorno)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`WEBSITES_PORT`, `ASPNETCORE_ENVIRONMENT`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>WEBSITES_PORT</code>, <code>ASPNETCORE_ENVIRONMENT</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Puerto del contenedor (8080) y entorno de ejecución</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">App Service (variables de entorno)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`JWT_SECRET`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>JWT_SECRET</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Clave de firma de los tokens JWT (mínimo 32 caracteres; la API no arranca sin ella)</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">App Service (variables de entorno)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`DATABASE_URL`, `DATABASE_PORT`, `DATABASE_SCHEMA`, `DATABASE_USER`, `DATABASE_PASSWORD`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>DATABASE_URL</code>, <code>DATABASE_PORT</code>, <code>DATABASE_SCHEMA</code>, <code>DATABASE_USER</code>, <code>DATABASE_PASSWORD</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Conexión a PostgreSQL</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">App Service (variables de entorno)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`RABBITMQ_URL`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>RABBITMQ_URL</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Conexión al broker RabbitMQ</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">App Service (variables de entorno)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`Seed__Enabled`, `Cors__AllowedOrigins__0`, `HardwareAdapter__ApiKey`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Seed__Enabled</code>, <code>Cors__AllowedOrigins__0</code>, <code>HardwareAdapter__ApiKey</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Datos de demostración, origen web permitido y clave del adaptador de hardware</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">GitHub Actions (*secrets*)</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`ACR_LOGIN_SERVER`, `ACR_USERNAME`, `ACR_PASSWORD`, `AZURE_WEBAPP_NAME`, `AZURE_WEBAPP_PUBLISH_PROFILE`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>ACR_LOGIN_SERVER</code>, <code>ACR_USERNAME</code>, <code>ACR_PASSWORD</code>, <code>AZURE_WEBAPP_NAME</code>, <code>AZURE_WEBAPP_PUBLISH_PROFILE</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Acceso al registro y al App Service desde el pipeline</td>
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: Ningún valor secreto forma parte del repositorio; la guía completa está en `routeguard-web-services/docs/despliegue-azure.md`.</em></p>
+<p style="margin-top: 10px;"><em>Nota: Ningún valor secreto forma parte del repositorio; la guía completa está en <code>routeguard-web-services/docs/despliegue-azure.md</code>.</em></p>
 
 <p><strong>Tabla 38.</strong> <em>Trazabilidad del despliegue (commits)</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
@@ -5613,35 +5613,35 @@ HTTP 200
   <tbody>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">routeguard-landing-page</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`develop`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`0a36c29`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>0a36c29</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">refactor(landing): move landing to repo root and fix asset paths for GitHub Pages</td>
       <td style="padding: 10px; border: 1px solid #ddd;">2026-10-08</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">routeguard-landing-page</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`develop`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`01a66f3`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>01a66f3</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">feat(landing): add hamburger menu for mobile navigation</td>
       <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">routeguard-web-services</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`main` / `deploy`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`0ed0e63`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>main</code> / <code>deploy</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>0ed0e63</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">feat: migrate persistence to PostgreSQL and prepare Azure deployment</td>
       <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">routeguard-web-services</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`main` / `deploy`</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">`e1af89c`</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>main</code> / <code>deploy</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>e1af89c</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">Merge branch 'main' (commit desplegado; etiqueta de la imagen en el registro)</td>
       <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
     </tr>
   </tbody>
 </table>
-<p style="margin-top: 10px;"><em>Nota: El commit `e1af89c` es el que aparece como etiqueta de la imagen en el Azure Container Registry.</em></p>
+<p style="margin-top: 10px;"><em>Nota: El commit <code>e1af89c</code> es el que aparece como etiqueta de la imagen en el Azure Container Registry.</em></p>
 
 #### 4.2.1.9. Team Collaboration Insights during Sprint
 
