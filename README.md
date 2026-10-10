@@ -353,7 +353,7 @@ La magnitud del problema es masiva. Según el Censo Educativo del Ministerio de 
 Para el modelado de nuestra propuesta de valor y la mitigación de riesgos de desarrollo, aplicamos la metodología Lean UX (Gothelf & Seiden, 2021). Este enfoque iterativo nos permite validar de forma temprana nuestras asunciones mediante experimentación directa con los transportistas y padres de familia. Como señalan Gothelf y Seiden (2021), "Lean UX cambia radicalmente la forma en que enmarcamos nuestro trabajo al reintroducir el contexto estratégico para nuestras elecciones de diseño y funcionalidad y, lo que es más importante, cómo definimos el éxito" (p. 48).
 
 #### 1.2.2.1. Lean UX Problem Statements
-En el marco de Lean UX, las declaraciones de problemas de negocio reemplazan a los requerimientos tradicionales, ya que exigen explícitamente que se lleve a cabo un trabajo de descubrimiento del producto (Gothelf & Seiden, 2021, p. 68). Siguiendo la plantilla oficial para nuevas iniciativas (Gothelf & Seiden, 2021, p. 71), definimos el problema de nuestra startup de la siguiente manera:
+En el marco de Lean UX, las declaraciones de problemas de negocio reemplazan a los requisitos tradicionales, ya que exigen explícitamente que se lleve a cabo un trabajo de descubrimiento del producto (Gothelf & Seiden, 2021, p. 68). Siguiendo la plantilla oficial para nuevas iniciativas (Gothelf & Seiden, 2021, p. 71), definimos el problema de nuestra startup de la siguiente manera:
 
 El estado actual del **[transporte escolar privado]** se ha enfocado principalmente en **[la coordinación operativa y comunicación a través de métodos manuales e informales (llamadas telefónicas y grupos de WhatsApp), lo que genera puntos de dolor críticos: una constante ansiedad en los padres por desconocer el paradero exacto del vehículo y un alto nivel de distracción y sobrecarga laboral para el conductor al intentar reportar su avance mientras maneja]**, factores que multiplican el riesgo de siniestros viales (Smith & Johnson, 2025).
 
@@ -376,7 +376,7 @@ En el desarrollo de software, rara vez se cuenta con certezas absolutas. Por ell
 * Creemos que el éxito del negocio se medirá por la cantidad de rutas activas recurrentes creadas por los administradores y la tasa de actualización (upgrade) hacia los planes de suscripción de mayor nivel.
 
 **3. User Assumptions:**
-* Creemos que el "Conductor" operará la aplicación en entornos de baja conectividad a internet, por lo que el modo offline con sincronización en diferido es un requerimiento crítico.
+* Creemos que el "Conductor" operará la aplicación en entornos de baja conectividad a internet, por lo que el modo offline con sincronización en diferido es un requisito crítico.
 * Creemos que el "Padre de familia" prefiere una experiencia de usuario pasiva basada en alertas automáticas (Geofencing) en lugar de mantener la pantalla de su dispositivo encendida monitoreando un mapa todo el trayecto (Chen & Davis, 2025).
 
 **4. User Outcome and Benefit Assumptions:**
@@ -410,46 +410,44 @@ Una hipótesis es una solución empresarial propuesta que debe validarse de la m
 * Con **[el Botón de pánico y reporte de incidencias a 1 toque accesible sin desbloquear procesos complejos en la app nativa]**.
 
 #### 1.2.2.4. Lean UX Canvas
+
 El Lean UX Canvas consolida los métodos y procesos de esta metodología en un solo documento para facilitar el entendimiento compartido del equipo (Gothelf & Seiden, 2021, p. 57).
 
-<table>
-    <tr>
-        <td valign="top" >
-            <div align="center"> <br><b>1. Business Problem</b> </div><br>
-            <p>El transporte escolar privado opera de forma manual e informal (WhatsApp/llamadas). Los padres carecen de visibilidad sobre el trayecto de sus hijos, y los conductores sufren sobrecarga y distracciones intentando reportar el servicio mientras manejan, comprometiendo la seguridad vial (Smith & Johnson, 2025).</p><br>
-        </td>
-        <td rowspan="2" valign="top">
-            <div align="center"><br><b>5. Solutions</b> </div><br>
-            <p>- App Nativa para conductor con GPS en background y soporte offline.<br>- Checklist de abordaje a 1 toque.<br>- App Cross-platform para padres con notificaciones Push y Geofencing.<br>- Botón de incidencias rápido.<br>- Plataforma SaaS de gestión de rutas y planes.</p><br>
-        </td>
-            <td valign="top">
-            <div align="center"> <br><b>2. Business Outcomes</b> </div><br>
-            <p>- Lograr que el 70% de administradores migren del Plan Básico al Intermedio/Completo en 3 meses.<br>- Reducir el tiempo promedio de recojo en paraderos en un 15%.<br>- Tasa de retención de flotas suscritas superior al 85%.</p><br>
-            </td>
-        </tr>
-    <tr>
-        <td valign="top">
-            <div align="center"><br><b>3. Users</b></div><br>
-            <p>- **Administrador:** Dueño de flota que busca gestionar rutas y profesionalizar su negocio.<br>- **Conductor:** Opera la movilidad y necesita herramientas sin distracción (offline y background).<br>- **Padres de Familia:** Buscan certeza y alertas pasivas sobre la seguridad de sus hijos.</p><br>
-        </td>
-        <td valign="top">
-            <div align="center"><br><b>4. User Outcomes & Benefits</b></div><br>
-            <p>- **Padres:** Paz mental, ahorro de tiempo, fin de la incertidumbre.<br>- **Conductores:** Conducción 100% enfocada, eliminación del estrés por reclamos, registro exacto.<br>- **Admin:** Centralización logística, mejora en la reputación del servicio.</p><br>
-        </td>
-    </tr>
-    <tr>
-        <td valign="top">
-            <div align="center"> <br><b>6. Hypotheses</b> </div><br>
-            <p>- H1: El GPS en background y soporte offline asegurarán la retención de planes de pago al eliminar la distracción del conductor.<br>- H2: Las alertas por Geofencing harán que los padres exijan la app, generando adopción orgánica.<br>- H3: El botón de incidencias reducirá masivamente las quejas formales.</p> <br>
-        </td>
-        <td valign="top">
-            <div align="center"> <br><b>7. What’s the most important thing we need to learn first?</b> </div><br><p>¿Están los administradores y conductores independientes dispuestos a pagar una suscripción mensual por un SaaS logístico que no es un marketplace de viajes?</p> <br>
-        </td>
-        <td valign="top">
-            <div align="center">  <br><b>8. What's the least amount of work we need to do to learn the next most important thing?</b> </div><br><p>Realizar de 3 a 5 entrevistas de validación profunda con dueños de movilidades escolares y padres de familia para validar la disposición de pago por "tranquilidad" y "orden operativo".</p> <br>
-        </td>
-    </tr>
-</table>
+#### 1. Business Problem
+- El transporte escolar privado se gestiona de forma manual e informal, con llamadas y grupos de WhatsApp. Los padres no saben dónde está el vehículo de sus hijos, y los conductores se distraen al reportar su avance mientras manejan. Esto genera ansiedad en las familias, riesgo vial y desorden operativo que frena el crecimiento de las pequeñas empresas de transporte.
+
+#### 2. Business Outcomes
+- Que el 70 % de los administradores pase del Plan Básico a los planes Intermedio o Completo en 3 meses.
+- Reducir en 15 % el tiempo promedio de recojo en paraderos.
+- Mantener una retención de flotas suscritas superior al 85 %.
+
+#### 3. Users
+- **Administrador:** dueño de la flota que busca gestionar rutas y formalizar su negocio.
+- **Conductor:** opera el vehículo y necesita herramientas que no lo distraigan, con soporte sin conexión.
+- **Padre de familia:** busca certeza y alertas automáticas sobre la seguridad de sus hijos.
+
+#### 4. User Outcomes & Benefits
+- **Padres:** tranquilidad, ahorro de tiempo y fin de la incertidumbre ante retrasos. En las entrevistas, 3 de 3 mostraron ansiedad por los retrasos sin aviso y disposición a recibir notificaciones automáticas.
+- **Conductores:** conducción enfocada, menos estrés por reclamos y registro exacto del viaje. 3 de 3 declararon estrés por usar el celular al conducir.
+- **Administrador:** logística centralizada y mejor reputación del servicio.
+
+#### 5. Solutions
+- App nativa para el conductor con ubicación en segundo plano y soporte sin conexión.
+- Lista de abordaje a un toque.
+- App para padres con notificaciones automáticas y alertas por geocerca.
+- Botón de incidencias rápido.
+- Plataforma SaaS de gestión de rutas y planes de suscripción.
+
+#### 6. Hypotheses
+- **H1:** We believe que lograremos una alta retención de suscripciones y upgrades a los planes Intermedio y Completo si los administradores y conductores consiguen enfocarse en conducir sin miedo a perder datos por falta de señal con la ubicación en segundo plano y la lista de abordaje con sincronización sin conexión.
+- **H2:** We believe que los padres exigirán RouteGuard como estándar de calidad si consiguen paz mental sin tener que llamar al conductor con las notificaciones automáticas y las alertas por geocerca.
+- **H3:** We believe que se reducirán las quejas hacia las empresas de transporte si los conductores consiguen comunicar emergencias o demoras de forma inmediata con el botón de incidencias a un toque.
+
+#### 7. Riskiest Assumption
+- ¿Está dispuesto el administrador, que es quien contrata el plan, a pagar una suscripción mensual por RouteGuard? Los 3 conductores entrevistados mostraron interés en pagar para proyectar una imagen formal, pero no se entrevistó a administradores, y el precio es lo que decide si el modelo de negocio funciona.
+
+#### 8. Least Work / Experiments
+- Entrevistar a 3 o 5 dueños de flotas o administradores de movilidad escolar y mostrarles los planes con su precio, para medir si lo contratarían. Es el experimento más barato, y puede hacerse con el prototipo de la app sin construir nada más.
 
 ## 1.3 Segmentos objetivo
 
@@ -844,11 +842,11 @@ Siguiendo los principios fundamentales del *Domain-Driven Design* (Evans, 2003),
 
 ## 2.4. Requirements specification
 
-La especificación de requerimientos en entornos de desarrollo ágil reemplaza la documentación extensa y rígida por formatos ligeros que fomentan la colaboración y capturan el valor directo para el cliente (Cohn, 2004). En este proyecto, integramos técnicas de agilidad con los principios de *Domain-Driven Design* (Evans, 2003) para garantizar que las necesidades del negocio se reflejen fielmente en la estructura del software.
+La especificación de requisitos en entornos de desarrollo ágil reemplaza la documentación extensa y rígida por formatos ligeros que fomentan la colaboración y capturan el valor directo para el cliente (Cohn, 2004). En este proyecto, integramos técnicas de agilidad con los principios de *Domain-Driven Design* (Evans, 2003) para garantizar que las necesidades del negocio se reflejen fielmente en la estructura del software.
 
 ### 2.4.1. User Stories
 
-Las Historias de Usuario (*User Stories*) y las Épicas son herramientas fundamentales en Scrum y metodologías ágiles, diseñadas para desplazar el enfoque de "escribir requerimientos" hacia "fomentar conversaciones" sobre ellos (Cohn, 2004). 
+Las Historias de Usuario (*User Stories*) y las Épicas son herramientas fundamentales en Scrum y metodologías ágiles, diseñadas para desplazar el enfoque de "escribir requisitos" hacia "fomentar conversaciones" sobre ellos (Cohn, 2004). 
 
 Para el caso de RouteGuard, hemos estructurado nuestras Épicas de modo que se alineen uno a uno con los *Bounded Contexts* descubiertos en nuestro diseño estratégico. Esta decisión asegura una transición fluida entre el modelado del problema y el diseño de la solución (Vernon, 2013). A continuación, se detallan las Épicas y sus respectivas Historias de Usuario, Historias Técnicas y Spikes, estructuradas bajo el formato de Criterios de Aceptación Gherkin (*Given-When-Then*).
 
@@ -3310,21 +3308,147 @@ Contiene las implementaciones concretas de los repositorios (`ParentRepositoryIm
 
 ### 3.1.2. Information Architecture
 
+####  La arquitectura de información de RouteGuard parte de dos segmentos de usuarios con metas distintas, los conductores y los padres de familia, y de dos superficies: el Landing Page, que explica y convence, y la aplicación móvil, que ejecuta las tareas. El administrador, normalmente el colegio o la empresa de transporte, no es un segmento aparte: es quien crea las cuentas de conductores y padres. Por eso el Landing se organiza como una narrativa secuencial de una sola página, y la aplicación se organiza por rol, de modo que cada usuario solo ve las funciones que le corresponden. Las decisiones se contrastaron con las heurísticas de usabilidad de Nielsen (1994).
+
+> **Alcance.** El proyecto no incluye una Web Application: la administración de la flota se realiza desde la aplicación móvil con el rol Administrador. Por ello las decisiones se documentan para el **Landing Page** y para las **aplicaciones móviles**.
+
 #### 3.1.2.1. Organization Systems
 
 #### 3.1.2.2. Labelling Systems
 
+**Criterios.** (1) Máximo dos palabras por etiqueta. (2) Sustantivos para secciones y verbos en infinitivo/imperativo para acciones. (3) Vocabulario tomado del **Ubiquitous Language** (sección 2.3.6): *Viaje, Ruta, Abordaje, Alerta, Grupo*, para que lo que ve el usuario coincida con lo que dice el negocio. (4) Una etiqueta = un concepto, sin sinónimos entre pantallas. (5) Español latinoamericano (`es_419`) con equivalente en inglés (`en_US`), que es el idioma por defecto exigido para la interfaz.
+
+| Contexto | Etiqueta `es_419` | Etiqueta `en_US` (default) | Qué asocia en la mente del usuario |
+|---|---|---|---|
+| Navegación del Landing | Problema | Problem | Por qué existe RouteGuard |
+| | Solución | Solution | Qué propone el producto |
+| | Funciones *(hoy figura como "Features")* | Features | Capacidades concretas |
+| | Planes | Plans | Costos y suscripción |
+| | Producto | Product | Capturas de la app |
+| | Equipo | Team | Quién lo construye |
+| Barra inferior — Administrador | Personas | People | Conductores, padres, estudiantes, grupos |
+| | Rutas | Routes | Rutas, paradas, vehículo, días |
+| | En vivo | Live | Monitoreo en tiempo real |
+| | Planes | Plans | Suscripción |
+| Barra inferior — Conductor | Viaje | Trip | Iniciar y ejecutar el recorrido |
+| | Alertas | Alerts | Avisos, incidencias, pánico |
+| Barra inferior — Padre | Seguimiento | Tracking | Ver dónde está la unidad |
+| | Alertas | Alerts | Llegada, retraso |
+| Acción global | Salir | Sign out | Cerrar sesión |
+
+> **Hallazgo a corregir.** El Landing es 100 % en español pero conserva la etiqueta en inglés **"Features"** y el `aria-label="Toggle dark mode"` del botón de tema. Para ser coherente con la regla de *una etiqueta = un idioma* conviene pasar a "Funciones" y exponer ambos textos desde una tabla i18n.
+
 #### 3.1.2.3. SEO Tags and Meta Tags
+
+#### Landing Page (sitio estático)
+
+Estado actual verificado en `index.html` frente a lo mínimo que pide el curso (Title, Description, Keywords, Author):
+
+| Tag | Valor actual | Valor propuesto |
+|---|---|---|
+| `lang` | `es` | `es-419` (y `en` en la versión por defecto) |
+| `title` | RouteGuard - Monitoreo de Transporte Escolar en Tiempo Real | *(se mantiene)* — 59 caracteres, dentro del límite recomendado |
+| `meta description` | Plataforma inteligente para la gestión de flotas y monitoreo del transporte escolar privado. Brinda seguridad a tus hijos y tranquilidad a tu familia. | *(se mantiene)* |
+| `meta keywords` | **No existe** | transporte escolar, monitoreo GPS, seguridad escolar, geofencing, control de abordaje, gestión de flotas, Lima |
+| `meta author` | **No existe** | RouteGolem |
+| `og:title` | RouteGuard - Transporte Escolar Seguro | *(se mantiene)* |
+| `og:description` | Tracking GPS en segundo plano, geofencing y control de abordaje offline. | *(se mantiene)* |
+| `og:type`, `og:url`, `og:image` | **No existen** | `website`, URL del Landing, captura del *hero* |
+| `twitter:card` | **No existe** | `summary_large_image` |
+| `canonical` | **No existe** | URL del Landing |
+| `theme-color` | **No existe** | `#1E3A8A` (color primario del sistema de diseño) |
+| `robots` | **No existe** | `index, follow` |
+
+Bloque listo para pegar dentro de `<head>`:
+
+```html
+<meta name="keywords" content="transporte escolar, monitoreo GPS, seguridad escolar, geofencing, control de abordaje, gestión de flotas, Lima">
+<meta name="author" content="RouteGolem">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1E3A8A">
+<link rel="canonical" href="https://upc-pre-202620-1acc0238-4945-routegolem.github.io/routeguard-landing-page/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://upc-pre-202620-1acc0238-4945-routegolem.github.io/routeguard-landing-page/">
+<meta property="og:image" content="https://upc-pre-202620-1acc0238-4945-routegolem.github.io/routeguard-landing-page/assets/images/p1.png">
+<meta name="twitter:card" content="summary_large_image">
+```
+
+Las 8 imágenes del Landing ya tienen atributo `alt`, lo que cubre el requisito mínimo de accesibilidad de contenido no textual (W3C, n.d.).
+
+#### Web Application
+
+No aplica: el proyecto no contempla una Web Application (ver alcance al inicio de la sección).
+
+#### Aplicaciones móviles — App Store Optimization (ASO)
+
+| Elemento | RouteGuard Driver (Android nativa) | RouteGuard Families (cross-platform) |
+|---|---|---|
+| **App title** (≤ 30) | RouteGuard Driver | RouteGuard Families |
+| **App subtitle** (≤ 30) | Drive focused, report less | School transport, safely |
+| **Short description** (≤ 80) | Background GPS and offline boarding check-in for school transport drivers. | Know your child's school transport is safe, with automatic arrival alerts. |
+| **App keywords** | school transport, school bus, GPS tracking, fleet, boarding, offline, driver | school transport, child safety, geofencing, push alerts, parents, school bus tracker |
+| **App description** | RouteGuard lets school transport drivers keep their eyes on the road. The app shares the route position in the background, records student boarding with a single tap even without internet, and syncs everything when the connection returns. | RouteGuard gives families peace of mind. Instead of calling the driver, you receive an automatic alert when the vehicle approaches your home or when something unexpected happens on the route. |
+
+*(Los textos en `es_419` se redactan a partir de los mismos puntos; el inglés es el idioma por defecto del producto.)*
+
 
 #### 3.1.2.4. Searching Systems
 
+
+**Landing Page — sin buscador (decisión justificada).** Es una página única con siete secciones y navegación por anclas; con ese volumen de información un buscador agrega ruido en lugar de ayudar. La necesidad de "encontrar algo" se resuelve con la barra de navegación fija.
+
+**Aplicaciones móviles.**
+
+| Búsqueda | Qué hace | Filtros | Cómo se ven los resultados | Estado |
+|---|---|---|---|---|
+| **Búsqueda de direcciones al crear paradas** (Administrador, módulo *Fleet & Route*) | Geocodificación directa con la API de Mapbox (`search/geocode/v6/forward`) a partir de texto libre. | País fijo en Perú (`country=pe`), máximo 5 resultados (`limit=5`), idioma español, y sesgo por cercanía (`proximity`) cuando se conoce la ubicación del administrador. | Lista corta de lugares con nombre y dirección; al elegir uno se obtienen coordenadas (latitud primero, validado por `MapboxMapperTest`) y se coloca el marcador en el mapa. | Implementado en la capa de red |
+| **Búsqueda inversa** (tocar el mapa) | Obtiene la dirección de un punto (`geocode/v6/reverse`, 1 resultado). | Idioma español. | Una sola dirección sugerida para la parada. | Implementado en la capa de red |
+| **Búsqueda dentro de *Personas*** | Filtra por nombre la lista ya cargada de conductores, padres y grupos (`GET /api/v1/drivers`, `/parents`, `/student-groups`). | Conductores: por nombre. Estudiantes: por estado de matrícula (`ACTIVE` / `INACTIVE`). Grupos: por estado (**finalizado** / en edición). | Tarjeta con nombre completo, teléfono y correo; la lista conserva el orden alfabético. | Propuesto (los atributos filtrables ya existen en el dominio) |
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="resources/assets/images/tb1/puntos.png" alt="Pantalla Agregar parada con el cuadro Buscar dirección" width="220"><br>
+      <sub><b>Figura 1.</b> Búsqueda de direcciones al crear paradas</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="resources/assets/images/tb1/mapa.png" alt="Pantalla de detalle de ruta con mapa" width="220"><br>
+      <sub><b>Figura 2.</b> Búsqueda inversa (tocar el mapa)</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="resources/assets/images/tb1/datos.png" alt="Pantalla Personas con la pestaña Padres" width="220"><br>
+      <sub><b>Figura 3.</b> Búsqueda dentro de Personas</sub>
+    </td>
+  </tr>
+</table>
+
 #### 3.1.2.5. Navigation Systems
+
+
+La navegación de RouteGuard está pensada para que cada usuario llegue rápido a lo que necesita, sin pasos innecesarios. En el sitio web de presentación (Landing Page) el visitante recorre la propuesta de valor en orden: primero el problema, luego la solución, las funciones, los planes, el producto y el equipo. Una barra superior fija, visible durante todo el recorrido, permite saltar directamente a cada sección, y el desplazamiento entre ellas es suave. Los botones de llamada a la acción, ubicados al inicio y al cierre de la página, guían al visitante hacia el contacto o la prueba del producto. Además, el sitio ofrece un conmutador de tema claro/oscuro que recuerda la preferencia del usuario.
+
+En la aplicación móvil, la navegación principal es una barra inferior que da acceso inmediato, con un solo toque, a las secciones más importantes de cada perfil:
+
+- **Administrador (colegio o empresa de transporte):** Personas, Rutas, En vivo y Planes. Desde aquí gestiona conductores, padres y grupos, define rutas y paradas, supervisa los viajes en tiempo real y administra su suscripción.
+- **Conductor:** Viaje y Alertas. Ve la ruta que debe cumplir y recibe avisos importantes.
+- **Padre de familia:** Seguimiento y Alertas. Ve en un mapa dónde va el transporte de su hijo y recibe notificaciones del viaje.
+
+Cada perfil solo ve lo que le corresponde. El padre de familia accede a una vista simple, centrada en el mapa y los avisos, mientras que el administrador dispone de herramientas de gestión más completas. Dentro de cada sección se usan pestañas y botones de acción directa; por ejemplo, en Personas el administrador alterna entre Conductores, Padres y Grupos, y desde ahí registra un padre o un estudiante. Al cambiar de sección, la aplicación recuerda en qué punto estaba el usuario, y al cerrar sesión no permite volver a pantallas privadas con el botón "atrás". Esto mantiene un flujo coherente y seguro, acorde con la naturaleza crítica del servicio.
+
+
+![Navegación de la aplicación móvil](resources/assets/images/tb1/flujo.png)
+
+
+Técnicas de navegación aplicadas: **barra de navegación inferior por rol** (alcance a un toque), **un grafo de navegación por Bounded Context** (cada módulo gestiona sus propias pantallas), **conservación de estado** al cambiar de pestaña (`saveState`/`restoreState` con `launchSingleTop`), **limpieza de la pila de retroceso** al iniciar y cerrar sesión (`popUpTo ... inclusive`) para que "atrás" nunca regrese a una pantalla protegida, y **solicitud contextual del permiso de notificaciones** en Android 13+.
+
+---
 
 ### 3.1.3. Landing Page UI Design
 
 #### 3.1.3.1. Landing Page Wireframe
 
 #### 3.1.3.2. Landing Page Mock-up
+
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
@@ -3356,22 +3480,24 @@ Contiene las implementaciones concretas de los repositorios (`ParentRepositoryIm
 
 ### 4.2.1. Sprint n
 
-#### 4.2.1.1. Sprint Planning n
+#### 4.2.1.1. Sprint Planning 1
 
-| Sprint # | Sprint n |
-|---|---|
-| Sprint Planning Background | |
-| Date | YYYY-MM-DD |
-| Time | HH:MM AM/PM |
-| Location | |
-| Prepared By | |
-| Attendees (to planning meeting) | |
-| Sprint n – 1 Review Summary | |
-| Sprint n – 1 Retrospective Summary | |
-| **Sprint Goal & User Stories** | |
-| Sprint n Goal | |
-| Sprint n Velocity | |
-| Sum of Story Points | |
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting del Sprint 1, el primer ciclo de implementación de RouteGuard, correspondiente al hito TB1. En la reunión participaron los cuatro integrantes del equipo, y el Sprint Goal se definió en línea con el Objetivo SMART 2 del informe (Landing Page y servicios de Identity & Access Management desplegados para la Semana 7).
+
+| Sprint # | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|---|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Date | [2026-10-09]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Time | [10:40 AM]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Location | [Virtual (Google Meet / Discord) o presencial]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Prepared By | [Ramirez, Nickolas]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting) | De la Cruz De los Santos, Mathias Marcelo / Francia Torres, Jhony Manuel / Pareja Calloapaza, Marcelo Fausto / Ramirez Ruiz, Nickolas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint n – 1 Review Summary | No aplica por ser el primer Sprint. Como punto de partida se tiene el hito AV1: artefactos de Needfinding a partir de 8 entrevistas, Product Backlog con 45 ítems estimados y diseño estratégico con 6 Bounded Contexts.                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint n – 1 Retrospective Summary | No aplica por ser el primer Sprint.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 1 Goal | **Our focus is on** dejar en línea la base de RouteGuard: el Landing Page y el acceso seguro a la plataforma (registro con rol, inicio de sesión y recuperación de contraseña). **We believe it delivers** a visitantes, administradores, conductores y padres de familia una forma clara de conocer RouteGuard y de crear su cuenta y entrar con el perfil que les corresponde. **This will be confirmed when** el Landing esté publicado en internet y un usuario nuevo pueda registrarse, iniciar sesión y recuperar su contraseña con el servicio desplegado, cumpliendo el 100 % de los Story Points del Sprint. |
+| Sprint 1 Velocity | 18 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sum of Story Points | 18 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 #### 4.2.1.2. Aspect Leaders and Collaborators
 
@@ -3429,6 +3555,12 @@ Contiene las implementaciones concretas de los repositorios (`ParentRepositoryIm
 
 4. La priorización del *Product Backlog* por valor temprano aseguró que las historias del Core Domain (autenticación, sincronización offline, GPS y monitoreo en tiempo real) queden al inicio del desarrollo, antes que funcionalidades secundarias.
 
+**Conclusión del equipo (TB1).** 
+
+Pasar del modelado al producto desplegado obligó a cada integrante a aprender herramientas nuevas (CI/CD en la nube, diseño de interfaces, pruebas automatizadas, arquitectura de información) y a revisar su propio trabajo con criterios externos. El equipo concluye que el aprendizaje autónomo y el contraste con evidencia (código, métricas, usuarios) fueron lo que permitió detectar y corregir deficiencias antes de la entrega.
+
+
+
 ### Video App Validation
 
 ### Video About the product
@@ -3472,6 +3604,27 @@ Contiene las implementaciones concretas de los repositorios (`ParentRepositoryIm
 * Mapbox. (2024). *Mapbox Navigation SDK for Mobile.* Mapbox. https://docs.mapbox.com/
 * PostGIS Project Steering Committee. (2024). *PostGIS: Spatial and Geographic Objects for PostgreSQL.* OSGeo. https://postgis.net/
 * VMware. (2024). *RabbitMQ: Messaging that just works.* Broadcom. https://www.rabbitmq.com/
+
+**Métodos y técnicas de ingeniería de software**
+
+* Nielsen, J. (1994). *10 usability heuristics for user interface design*. Nielsen Norman Group. https://www.nngroup.com/articles/ten-usability-heuristics/
+* Rosenfeld, L., Morville, P., & Arango, J. (2015). *Information architecture: For the web and beyond* (4th ed.). O'Reilly Media.
+* Cucumber. (s. f.). *Gherkin reference*. https://cucumber.io/docs/gherkin/reference/
+
+**Lenguajes, frameworks y herramientas**
+
+* Google. (s. f.). *Search Central: SEO starter guide*. Google for Developers. https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+* Google. (s. f.). *Navigation in Jetpack Compose*. Android Developers. https://developer.android.com/develop/ui/compose/navigation
+* Google. (s. f.). *Save data in a local database using Room*. Android Developers. https://developer.android.com/training/data-storage/room
+* Mapbox. (s. f.). *Geocoding API*. https://docs.mapbox.com/api/search/geocoding/
+* Microsoft. (s. f.). *ASP.NET Core documentation*. Microsoft Learn. https://learn.microsoft.com/aspnet/core
+* Microsoft. (s. f.). *Azure App Service documentation*. Microsoft Learn. https://learn.microsoft.com/azure/app-service/
+* OpenAPI Initiative. (2021). *OpenAPI Specification v3.1.0*. https://spec.openapis.org/oas/v3.1.0
+* W3C. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. https://www.w3.org/TR/WCAG21/
+
+
+
+
 
 <div style="page-break-after: always;"></div>
 
