@@ -3310,6 +3310,10 @@ Contiene las implementaciones concretas de los repositorios (`ParentRepositoryIm
 
 ### 3.1.2. Information Architecture
 
+####  La arquitectura de información de RouteGuard parte de dos segmentos de usuarios con metas distintas, los conductores y los padres de familia, y de dos superficies: el Landing Page, que explica y convence, y la aplicación móvil, que ejecuta las tareas. El administrador, normalmente el colegio o la empresa de transporte, no es un segmento aparte: es quien crea las cuentas de conductores y padres. Por eso el Landing se organiza como una narrativa secuencial de una sola página, y la aplicación se organiza por rol, de modo que cada usuario solo ve las funciones que le corresponden. Las decisiones se contrastaron con las heurísticas de usabilidad de Nielsen (1994).
+
+> **Alcance.** El proyecto no incluye una Web Application: la administración de la flota se realiza desde la aplicación móvil con el rol Administrador. Por ello las decisiones se documentan para el **Landing Page** y para las **aplicaciones móviles**.
+
 #### 3.1.2.1. Organization Systems
 
 #### 3.1.2.2. Labelling Systems
