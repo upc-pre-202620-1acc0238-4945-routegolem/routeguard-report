@@ -3426,6 +3426,25 @@ No aplica: el proyecto no contempla una Web Application (ver alcance al inicio d
 
 #### 3.1.2.5. Navigation Systems
 
+
+La navegación de RouteGuard está pensada para que cada usuario llegue rápido a lo que necesita, sin pasos innecesarios. En el sitio web de presentación (Landing Page) el visitante recorre la propuesta de valor en orden: primero el problema, luego la solución, las funciones, los planes, el producto y el equipo. Una barra superior fija, visible durante todo el recorrido, permite saltar directamente a cada sección, y el desplazamiento entre ellas es suave. Los botones de llamada a la acción, ubicados al inicio y al cierre de la página, guían al visitante hacia el contacto o la prueba del producto. Además, el sitio ofrece un conmutador de tema claro/oscuro que recuerda la preferencia del usuario.
+
+En la aplicación móvil, la navegación principal es una barra inferior que da acceso inmediato, con un solo toque, a las secciones más importantes de cada perfil:
+
+- **Administrador (colegio o empresa de transporte):** Personas, Rutas, En vivo y Planes. Desde aquí gestiona conductores, padres y grupos, define rutas y paradas, supervisa los viajes en tiempo real y administra su suscripción.
+- **Conductor:** Viaje y Alertas. Ve la ruta que debe cumplir y recibe avisos importantes.
+- **Padre de familia:** Seguimiento y Alertas. Ve en un mapa dónde va el transporte de su hijo y recibe notificaciones del viaje.
+
+Cada perfil solo ve lo que le corresponde. El padre de familia accede a una vista simple, centrada en el mapa y los avisos, mientras que el administrador dispone de herramientas de gestión más completas. Dentro de cada sección se usan pestañas y botones de acción directa; por ejemplo, en Personas el administrador alterna entre Conductores, Padres y Grupos, y desde ahí registra un padre o un estudiante. Al cambiar de sección, la aplicación recuerda en qué punto estaba el usuario, y al cerrar sesión no permite volver a pantallas privadas con el botón "atrás". Esto mantiene un flujo coherente y seguro, acorde con la naturaleza crítica del servicio.
+
+
+![Navegación de la aplicación móvil](resources/assets/images/tb1/flujo.png)
+
+
+Técnicas de navegación aplicadas: **barra de navegación inferior por rol** (alcance a un toque), **un grafo de navegación por Bounded Context** (cada módulo gestiona sus propias pantallas), **conservación de estado** al cambiar de pestaña (`saveState`/`restoreState` con `launchSingleTop`), **limpieza de la pila de retroceso** al iniciar y cerrar sesión (`popUpTo ... inclusive`) para que "atrás" nunca regrese a una pantalla protegida, y **solicitud contextual del permiso de notificaciones** en Android 13+.
+
+---
+
 ### 3.1.3. Landing Page UI Design
 
 #### 3.1.3.1. Landing Page Wireframe
