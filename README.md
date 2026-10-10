@@ -179,9 +179,11 @@ El equipo ha utilizado un flujo de trabajo en github: https://github.com/upc-pre
 
 AV1:
 
-![av1](/resources/assets/images/AV1.png)
+![av1](./resources/assets/images/AV1.png)
 
+TB1:
 
+![tb1](./resources/assets/images/TB1.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -323,7 +325,6 @@ AV1:
     - [3.1.1. Style Guidelines](#311-style-guidelines)
       - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
     - [3.1.2. Information Architecture](#312-information-architecture)
-      - [La arquitectura de información de RouteGuard parte de dos segmentos de usuarios con metas distintas, los conductores y los padres de familia, y de dos superficies: el Landing Page, que explica y convence, y la aplicación móvil, que ejecuta las tareas. El administrador, normalmente el colegio o la empresa de transporte, no es un segmento aparte: es quien crea las cuentas de conductores y padres. Por eso el Landing se organiza como una narrativa secuencial de una sola página, y la aplicación se organiza por rol, de modo que cada usuario solo ve las funciones que le corresponden. Las decisiones se contrastaron con las heurísticas de usabilidad de Nielsen (1994).](#la-arquitectura-de-información-de-routeguard-parte-de-dos-segmentos-de-usuarios-con-metas-distintas-los-conductores-y-los-padres-de-familia-y-de-dos-superficies-el-landing-page-que-explica-y-convence-y-la-aplicación-móvil-que-ejecuta-las-tareas-el-administrador-normalmente-el-colegio-o-la-empresa-de-transporte-no-es-un-segmento-aparte-es-quien-crea-las-cuentas-de-conductores-y-padres-por-eso-el-landing-se-organiza-como-una-narrativa-secuencial-de-una-sola-página-y-la-aplicación-se-organiza-por-rol-de-modo-que-cada-usuario-solo-ve-las-funciones-que-le-corresponden-las-decisiones-se-contrastaron-con-las-heurísticas-de-usabilidad-de-nielsen-1994)
       - [3.1.2.1. Organization Systems](#3121-organization-systems)
       - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
       - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
@@ -370,30 +371,30 @@ AV1:
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
-- [UX Heuristics \& Principles Evaluation](#ux-heuristics--principles-evaluation)
-  - [Usability · Inclusive Design · Information Architecture](#usability--inclusive-design--information-architecture)
-  - [TAREAS EVALUADAS](#tareas-evaluadas)
-  - [ESCALA DE SEVERIDAD](#escala-de-severidad)
-  - [TABLA RESUMEN](#tabla-resumen)
-  - [DESCRIPCIÓN DE PROBLEMAS](#descripción-de-problemas)
-    - [PROBLEMA #1: Registro de administrador sin términos y condiciones ni aceptación explícita](#problema-1-registro-de-administrador-sin-términos-y-condiciones-ni-aceptación-explícita)
-    - [PROBLEMA #2: Login sin "¿Olvidaste tu contraseña?"](#problema-2-login-sin-olvidaste-tu-contraseña)
-    - [PROBLEMA #3: Registro sin botón de volver al login](#problema-3-registro-sin-botón-de-volver-al-login)
-    - [PROBLEMA #4: "Salir" en la barra principal, a un toque, sin confirmación](#problema-4-salir-en-la-barra-principal-a-un-toque-sin-confirmación)
-    - [PROBLEMA #5: Tarjeta de estudiante con título genérico "Estudiante"](#problema-5-tarjeta-de-estudiante-con-título-genérico-estudiante)
-    - [PROBLEMA #6: Subtítulo "Viaje en curso · 0 a bordo…" cortado](#problema-6-subtítulo-viaje-en-curso--0-a-bordo-cortado)
-    - [PROBLEMA #7: "Turno Manana" sin ñ](#problema-7-turno-manana-sin-ñ)
-    - [PROBLEMA #8: Dato de ubicación desactualizado sin alerta visual](#problema-8-dato-de-ubicación-desactualizado-sin-alerta-visual)
-    - [PROBLEMA #9: Marcador rojo sin leyenda y etiquetas del mapa solapadas](#problema-9-marcador-rojo-sin-leyenda-y-etiquetas-del-mapa-solapadas)
-    - [PROBLEMA #10: Sin búsqueda ni filtros en las listas](#problema-10-sin-búsqueda-ni-filtros-en-las-listas)
-    - [PROBLEMA #11: Texto secundario muy pequeño y de bajo contraste](#problema-11-texto-secundario-muy-pequeño-y-de-bajo-contraste)
-    - [PROBLEMA #12: Vista Padre sin contacto al conductor ni ETA de la parada](#problema-12-vista-padre-sin-contacto-al-conductor-ni-eta-de-la-parada)
-    - [PROBLEMA #13: Título "Registrar padre de familia" vs. botón "Registrar padre"](#problema-13-título-registrar-padre-de-familia-vs-botón-registrar-padre)
-    - [PROBLEMA #14: Mayúsculas inconsistentes en datos de muestra](#problema-14-mayúsculas-inconsistentes-en-datos-de-muestra)
-    - [PROBLEMA #15: Color de selección en verde frente al azul de marca](#problema-15-color-de-selección-en-verde-frente-al-azul-de-marca)
-    - [PROBLEMA #16: "Seleccionado en el mapa" ambiguo y barra de escala como barra negra suelta](#problema-16-seleccionado-en-el-mapa-ambiguo-y-barra-de-escala-como-barra-negra-suelta)
-  - [OBSERVACIONES POSITIVAS](#observaciones-positivas)
-  - [PRÓXIMOS PASOS SUGERIDOS](#próximos-pasos-sugeridos)
+      - [UX Heuristics \& Principles Evaluation](#ux-heuristics--principles-evaluation)
+        - [Usability · Inclusive Design · Information Architecture](#usability--inclusive-design--information-architecture)
+        - [TAREAS EVALUADAS](#tareas-evaluadas)
+        - [ESCALA DE SEVERIDAD](#escala-de-severidad)
+        - [TABLA RESUMEN](#tabla-resumen)
+        - [DESCRIPCIÓN DE PROBLEMAS](#descripción-de-problemas)
+          - [PROBLEMA #1: Registro de administrador sin términos y condiciones ni aceptación explícita](#problema-1-registro-de-administrador-sin-términos-y-condiciones-ni-aceptación-explícita)
+          - [PROBLEMA #2: Login sin "¿Olvidaste tu contraseña?"](#problema-2-login-sin-olvidaste-tu-contraseña)
+          - [PROBLEMA #3: Registro sin botón de volver al login](#problema-3-registro-sin-botón-de-volver-al-login)
+          - [PROBLEMA #4: "Salir" en la barra principal, a un toque, sin confirmación](#problema-4-salir-en-la-barra-principal-a-un-toque-sin-confirmación)
+          - [PROBLEMA #5: Tarjeta de estudiante con título genérico "Estudiante"](#problema-5-tarjeta-de-estudiante-con-título-genérico-estudiante)
+          - [PROBLEMA #6: Subtítulo "Viaje en curso · 0 a bordo…" cortado](#problema-6-subtítulo-viaje-en-curso--0-a-bordo-cortado)
+          - [PROBLEMA #7: "Turno Manana" sin ñ](#problema-7-turno-manana-sin-ñ)
+          - [PROBLEMA #8: Dato de ubicación desactualizado sin alerta visual](#problema-8-dato-de-ubicación-desactualizado-sin-alerta-visual)
+          - [PROBLEMA #9: Marcador rojo sin leyenda y etiquetas del mapa solapadas](#problema-9-marcador-rojo-sin-leyenda-y-etiquetas-del-mapa-solapadas)
+          - [PROBLEMA #10: Sin búsqueda ni filtros en las listas](#problema-10-sin-búsqueda-ni-filtros-en-las-listas)
+          - [PROBLEMA #11: Texto secundario muy pequeño y de bajo contraste](#problema-11-texto-secundario-muy-pequeño-y-de-bajo-contraste)
+          - [PROBLEMA #12: Vista Padre sin contacto al conductor ni ETA de la parada](#problema-12-vista-padre-sin-contacto-al-conductor-ni-eta-de-la-parada)
+          - [PROBLEMA #13: Título "Registrar padre de familia" vs. botón "Registrar padre"](#problema-13-título-registrar-padre-de-familia-vs-botón-registrar-padre)
+          - [PROBLEMA #14: Mayúsculas inconsistentes en datos de muestra](#problema-14-mayúsculas-inconsistentes-en-datos-de-muestra)
+          - [PROBLEMA #15: Color de selección en verde frente al azul de marca](#problema-15-color-de-selección-en-verde-frente-al-azul-de-marca)
+          - [PROBLEMA #16: "Seleccionado en el mapa" ambiguo y barra de escala como barra negra suelta](#problema-16-seleccionado-en-el-mapa-ambiguo-y-barra-de-escala-como-barra-negra-suelta)
+        - [OBSERVACIONES POSITIVAS](#observaciones-positivas)
+        - [PRÓXIMOS PASOS SUGERIDOS](#próximos-pasos-sugeridos)
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
     - [Video App Validation](#video-app-validation)
@@ -439,7 +440,7 @@ Tal como se evidencia en la **Tabla 2**, el equipo ha logrado aplicar nuevos apr
         <strong>AV1:</strong> Adquirió nuevos conocimientos en análisis competitivo y modelado de arquitecturas mediante herramientas de <em>Diagram-as-Code</em> (Structurizr DSL y PlantUML), aplicándolos para diagramar el nivel de código y base de datos.<br>
         <strong>TB1:</strong> Profundizó en la especificación y estandarización de contratos de servicios web mediante OpenAPI 3.0 / Swagger en ASP.NET Core, así como en el diseño y ejecución de baterías de pruebas de integración automatizadas para validar la emisión de claims JWT y la consistencia relacional con Entity Framework Core.
       </td>
-      <td style="padding: 10px; border: 1px solid #ddd;">La actualización constante de conocimientos en metodologías ágiles (Lean UX), modelado de dominio (DDD táctico y estratégico), arquitectura de mensajería asíncrona (RabbitMQ/MassTransit), persistencia offline móvil (Room DB) e infraestructura en la nube (Azure App Service y PostgreSQL) fue fundamental para materializar el incremento de software funcional en el Sprint 1. Este aprendizaje autónomo y continuo permitió al equipo superar los desafíos técnicos de integración entre la API REST y la aplicación móvil nativa con estándares de calidad de la industria.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">La actualización constante de conocimientos en marcos de trabajo ágiles (Lean UX), modelado de dominio (DDD táctico y estratégico), arquitectura de mensajería asíncrona (RabbitMQ/MassTransit), persistencia offline móvil (Room DB) e infraestructura en la nube (Azure App Service y PostgreSQL) fue fundamental para materializar el incremento de software funcional en el Sprint 1. Este aprendizaje autónomo y continuo permitió al equipo superar los desafíos técnicos de integración entre la API REST y la aplicación móvil nativa con estándares de calidad de la industria.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;"><strong>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</strong></td>
@@ -467,7 +468,7 @@ Tal como se evidencia en la **Tabla 2**, el equipo ha logrado aplicar nuevos apr
 
 ## Objetivos SMART
 
-Para garantizar el desarrollo ordenado y exitoso del ecosistema RouteGuard a lo largo del ciclo académico, el equipo ha establecido los siguientes objetivos bajo la metodología SMART:
+Para garantizar el desarrollo ordenado y exitoso del ecosistema RouteGuard a lo largo del ciclo académico, el equipo ha establecido los siguientes objetivos bajo los criterios SMART:
 
 **Objetivo 1: Validación de Experiencia de Usuario (UX) y Requisitos**
 * Validar la propuesta de valor y las hipótesis establecidas en el *Lean UX* realizando 8 entrevistas a profundidad (4 a conductores y 4 a padres de familia) para elaborar el 100% de los artefactos de Needfinding y el *Product Backlog* antes de la Semana 4 del ciclo académico.
@@ -606,7 +607,7 @@ La magnitud del problema es masiva. Según el Censo Educativo del Ministerio de 
 
 ### 1.2.2 Lean UX Process
 
-Para el modelado de nuestra propuesta de valor y la mitigación de riesgos de desarrollo, aplicamos la metodología Lean UX (Gothelf & Seiden, 2021). Este enfoque iterativo nos permite validar de forma temprana nuestras asunciones mediante experimentación directa con los transportistas y padres de familia. Como señalan Gothelf y Seiden (2021), "Lean UX cambia radicalmente la forma en que enmarcamos nuestro trabajo al reintroducir el contexto estratégico para nuestras elecciones de diseño y funcionalidad y, lo que es más importante, cómo definimos el éxito" (p. 48).
+Para el modelado de nuestra propuesta de valor y la mitigación de riesgos de desarrollo, aplicamos el marco de trabajo Lean UX (Gothelf & Seiden, 2021). Este enfoque iterativo nos permite validar de forma temprana nuestras asunciones mediante experimentación directa con los transportistas y padres de familia. Como señalan Gothelf y Seiden (2021), "Lean UX cambia radicalmente la forma en que enmarcamos nuestro trabajo al reintroducir el contexto estratégico para nuestras elecciones de diseño y funcionalidad y, lo que es más importante, cómo definimos el éxito" (p. 48).
 
 #### 1.2.2.1. Lean UX Problem Statements
 En el marco de Lean UX, las declaraciones de problemas de negocio reemplazan a los requisitos tradicionales, ya que exigen explícitamente que se lleve a cabo un trabajo de descubrimiento del producto (Gothelf & Seiden, 2021, p. 68). Siguiendo la plantilla oficial para nuevas iniciativas (Gothelf & Seiden, 2021, p. 71), definimos el problema de nuestra startup de la siguiente manera:
@@ -667,7 +668,7 @@ Una hipótesis es una solución empresarial propuesta que debe validarse de la m
 
 #### 1.2.2.4. Lean UX Canvas
 
-El Lean UX Canvas consolida los métodos y procesos de esta metodología en un solo documento para facilitar el entendimiento compartido del equipo (Gothelf & Seiden, 2021, p. 57).
+El Lean UX Canvas consolida los métodos y procesos de este marco de trabajo en un solo documento para facilitar el entendimiento compartido del equipo (Gothelf & Seiden, 2021, p. 57).
 
 #### 1. Business Problem
 - El transporte escolar privado se gestiona de forma manual e informal, con llamadas y grupos de WhatsApp. Los padres no saben dónde está el vehículo de sus hijos, y los conductores se distraen al reportar su avance mientras manejan. Esto genera ansiedad en las familias, riesgo vial y desorden operativo que frena el crecimiento de las pequeñas empresas de transporte.
@@ -975,11 +976,11 @@ Luis Johnny es conductor y representante de *Transporte JCM SAC*, una empresa co
   ![Extrevista 3 - Máximo](resources/chapter-2/interviews/maximo.png)
 
 **Resumen de la entrevista:**
-Máximo es un padre de familia con un hijo de 7 años. Optó por contratar movilidad escolar privada para optimizar su tiempo frente al complejo tráfico de Lima, permitiéndole dirigirse directamente a su centro de labores. Su perfil es marcadamente tecnológico y analítico; está muy familiarizado con aplicativos financieros y valora la eficiencia digital, afirmando firmemente que *"quienes no se adaptan a la tecnología en el siglo XXI se quedan atrás"*.
+Máximo es un padre de familia con un hijo de 7 años. Optó por contratar movilidad escolar privada para optimizar su tiempo frente al complejo tráfico de Lima, permitiéndole dirigirse directamente a su centro de labores. Su perfil es marcadamente tecnológico y analítico; está muy familiarizado con aplicaciones financieras y valora la eficiencia digital, afirmando firmemente que *"quienes no se adaptan a la tecnología en el siglo XXI se quedan atrás"*.
 
 * **Comportamiento actual:** La comunicación que mantiene con el servicio de movilidad se da exclusivamente a través de mensajes o llamadas. Del mismo modo, el control de los pagos de la pensión escolar de su hijo se realiza por WhatsApp, donde recibe las notificaciones de cobro de manera informal y manual.
 * **Frustraciones (Pain Points):** Su principal dolor es la falta de comunicación en tiempo real y la gran angustia que esto le genera. Relató un episodio crítico donde la movilidad se retrasó 20 minutos; al no tener forma de rastrear el vehículo, sintió un altísimo nivel de estrés temiendo un accidente o un extravío, viéndose obligado a timbrar desesperadamente a la directora del colegio. Adicionalmente, encuentra ineficiente llevar el control de pagos por WhatsApp, ya que a menudo se generan confusiones, desorden y *"los montos no cuadran"*.
-* **Percepción de la solución propuesta:** Máximo aprueba rotundamente la creación de la aplicación. Debido a la alta concentración que exige su trabajo (análisis de costos), prefiere recibir **notificaciones automáticas en segundo plano** en lugar de tener que vigilar activamente un mapa. Destaca la necesidad de tener un historial integrado, tanto para registrar las horas exactas de los viajes, como para llevar un control transparente de los pagos (comparándolo con una app bancaria). Es tan firme en su postura que asegura que **descartaría de inmediato** a su transportista actual si este se negara a usar el aplicativo. Finalmente, respalda con entusiasmo la función de reportar inasistencias con un botón y la opción de incluir contactos de emergencia.
+* **Percepción de la solución propuesta:** Máximo aprueba rotundamente la creación de la aplicación. Debido a la alta concentración que exige su trabajo (análisis de costos), prefiere recibir **notificaciones automáticas en segundo plano** en lugar de tener que vigilar activamente un mapa. Destaca la necesidad de tener un historial integrado, tanto para registrar las horas exactas de los viajes, como para llevar un control transparente de los pagos (comparándolo con una app bancaria). Es tan firme en su postura que asegura que **descartaría de inmediato** a su transportista actual si este se negara a usar la aplicación. Finalmente, respalda con entusiasmo la función de reportar inasistencias con un botón y la opción de incluir contactos de emergencia.
 
 #### Entrevistado 4: Iván Oscco Cosío (Segmento: Conductor / Transportista)
 * **Edad:** 51 años
@@ -1403,7 +1404,7 @@ La especificación de requisitos en entornos de desarrollo ágil reemplaza la do
 
 ### 2.4.1. User Stories
 
-Las Historias de Usuario (*User Stories*) y las Épicas son herramientas fundamentales en Scrum y metodologías ágiles, diseñadas para desplazar el enfoque de "escribir requisitos" hacia "fomentar conversaciones" sobre ellos (Cohn, 2004). 
+Las Historias de Usuario (*User Stories*) y las Épicas son herramientas fundamentales en el marco de trabajo Scrum y enfoques ágiles, diseñadas para desplazar el enfoque de "escribir requisitos" hacia "fomentar conversaciones" sobre ellos (Cohn, 2004). 
 
 Para el caso de RouteGuard, hemos estructurado nuestras Épicas de modo que se alineen uno a uno con los *Bounded Contexts* descubiertos en nuestro diseño estratégico. Esta decisión asegura una transición fluida entre el modelado del problema y el diseño de la solución (Vernon, 2013). A continuación, se detallan las Épicas y sus respectivas Historias de Usuario, Historias Técnicas y Spikes, estructuradas bajo el formato de Criterios de Aceptación Gherkin (*Given-When-Then*).
 
@@ -4792,7 +4793,7 @@ Para el diseño de interfaces de RouteGuard, hemos establecido un sistema de dis
 
 ### 3.1.2. Information Architecture
 
-####  La arquitectura de información de RouteGuard parte de dos segmentos de usuarios con metas distintas, los conductores y los padres de familia, y de dos superficies: el Landing Page, que explica y convence, y la aplicación móvil, que ejecuta las tareas. El administrador, normalmente el colegio o la empresa de transporte, no es un segmento aparte: es quien crea las cuentas de conductores y padres. Por eso el Landing se organiza como una narrativa secuencial de una sola página, y la aplicación se organiza por rol, de modo que cada usuario solo ve las funciones que le corresponden. Las decisiones se contrastaron con las heurísticas de usabilidad de Nielsen (1994).
+La arquitectura de información de RouteGuard parte de dos segmentos de usuarios con metas distintas, los conductores y los padres de familia, y de dos superficies: el Landing Page, que explica y convence, y la aplicación móvil, que ejecuta las tareas. El administrador, normalmente el colegio o la empresa de transporte, no es un segmento aparte: es quien crea las cuentas de conductores y padres. Por eso el Landing se organiza como una narrativa secuencial de una sola página, y la aplicación se organiza por rol, de modo que cada usuario solo ve las funciones que le corresponden. Las decisiones se contrastaron con las heurísticas de usabilidad de Nielsen (1994).
 
 > **Alcance.** El proyecto no incluye una Web Application: la administración de la flota se realiza desde la aplicación móvil con el rol Administrador. Por ello las decisiones se documentan para el **Landing Page** y para las **aplicaciones móviles**.
 
@@ -5072,7 +5073,7 @@ Para el desarrollo del proyecto RouteGuard, el equipo ha configurado un entorno 
 - **Mobile (Android & Flutter):** El desarrollo de la aplicación nativa para conductores y la aplicación multiplataforma para padres se realiza utilizando **Android Studio** (Google, 2024b). Este IDE proporciona emuladores avanzados y herramientas de perfilamiento esenciales para integrar la funcionalidad de GPS en segundo plano y geofencing, características vitales para reducir la distracción cognitiva del conductor (Smith & Johnson, 2025) y mitigar la ansiedad de los padres (Chen & Davis, 2025; Chen & Zhao, 2025).
 - **Web (Landing Page):** Para el desarrollo web enfocado en la *Landing Page*, se emplea **Visual Studio Code** (Microsoft, 2024), un editor de código ligero, extensible y altamente personalizable mediante plugins, ideal para el desarrollo frontend con HTML, CSS y JavaScript.
 - **Diseño UX/UI:** La etapa de prototipado y diseño visual se lleva a cabo en **Figma** (Figma, 2024), plataforma colaborativa que permite iterar recursos gráficos alineados a las mejores prácticas de interfaces para logística y diseño de servicios (Kumar & Lee, 2024; Stickdorn et al., 2018).
-- **Gestión de Proyectos:** La planificación ágil, seguimiento de Sprints y asignación de historias de usuario se gestionan mediante **Jira Software** (Atlassian, 2024), complementado con **Trello**. Esto asegura transparencia en el flujo de trabajo y alineación con la metodología Scrum en equipos ágiles (Gothelf & Seiden, 2021; Schwaber & Sutherland, 2020).
+- **Gestión de Proyectos:** La planificación ágil, seguimiento de Sprints y asignación de historias de usuario se gestionan mediante **Jira Software** (Atlassian, 2024), complementado con **Trello**. Esto asegura transparencia en el flujo de trabajo y alineación con el marco de trabajo Scrum en equipos ágiles (Gothelf & Seiden, 2021; Schwaber & Sutherland, 2020).
 
 ### 4.1.2. Source Code Management
 
@@ -6483,8 +6484,8 @@ HTTP 200
 
 ### 4.3.3. Evaluaciones según heurísticas
 
-# UX Heuristics & Principles Evaluation
-## Usability · Inclusive Design · Information Architecture
+#### UX Heuristics & Principles Evaluation
+##### Usability · Inclusive Design · Information Architecture
 
 | Campo | Valor |
 | :--- | :--- |
@@ -6501,7 +6502,7 @@ HTTP 200
 
 ---
 
-## TAREAS EVALUADAS
+##### TAREAS EVALUADAS
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
@@ -6526,7 +6527,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ---
 
-## ESCALA DE SEVERIDAD
+##### ESCALA DE SEVERIDAD
 
 Los errores se puntúan con la siguiente escala de severidad:
 
@@ -6539,7 +6540,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-## TABLA RESUMEN
+##### TABLA RESUMEN
 
 | # | Problema | Escala de severidad | Heurística / Principio violado(a) |
 | :---: | :--- | :---: | :--- |
@@ -6562,191 +6563,191 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-## DESCRIPCIÓN DE PROBLEMAS
+##### DESCRIPCIÓN DE PROBLEMAS
 
-### PROBLEMA #1: Registro de administrador sin términos y condiciones ni aceptación explícita
+###### PROBLEMA #1: Registro de administrador sin términos y condiciones ni aceptación explícita
 
 - **Severidad:** 4
 - **Heurística violada:** Usability – Prevención de errores (y ética y responsabilidad legal)
 - **Problema:** el formulario "Registrar Administrador" termina en el botón **Crear Cuenta** sin casilla ni enlace a **Términos y Condiciones**. El usuario puede crear la cuenta sin aceptar ninguna condición y no hay dónde consultarlas.
 - **Recomendación:** agregar una casilla "Acepto los Términos y Condiciones" con enlace al documento, y **deshabilitar Crear Cuenta** hasta que se acepte.
 
-![Registro sin términos y condiciones](01_registro_sin_terminos.png)
+![Registro sin términos y condiciones](imagenes/01_registro_sin_terminos.png)
 
 ---
 
-### PROBLEMA #2: Login sin "¿Olvidaste tu contraseña?"
+###### PROBLEMA #2: Login sin "¿Olvidaste tu contraseña?"
 
 - **Severidad:** 3
 - **Heurística violada:** Usability – Libertad y control del usuario
 - **Problema:** el inicio de sesión solo ofrece correo, contraseña e "Iniciar sesión". Un usuario que olvida su contraseña queda bloqueado, sin salida.
 - **Recomendación:** añadir el enlace "¿Olvidaste tu contraseña?" bajo el campo de contraseña, con su flujo de recuperación.
 
-![Login sin recuperación de contraseña](02_login_sin_olvide_contrasena.png)
+![Login sin recuperación de contraseña](imagenes/02_login_sin_olvide_contrasena.png)
 
 ---
 
-### PROBLEMA #3: Registro sin botón de volver al login
+###### PROBLEMA #3: Registro sin botón de volver al login
 
 - **Severidad:** 3
 - **Heurística violada:** Usability – Libertad y control del usuario
 - **Problema:** a diferencia de "Registrar conductor" o "Registrar estudiante" (que sí tienen flecha atrás), el registro de administrador no ofrece forma visible de regresar al login.
 - **Recomendación:** agregar una flecha atrás o un enlace "¿Ya tienes cuenta? Inicia sesión".
 
-![Registro sin volver al login](03_registro_sin_volver.png)
+![Registro sin volver al login](imagenes/03_registro_sin_volver.png)
 
 ---
 
-### PROBLEMA #4: "Salir" en la barra principal, a un toque, sin confirmación
+###### PROBLEMA #4: "Salir" en la barra principal, a un toque, sin confirmación
 
 - **Severidad:** 3
 - **Heurística violada:** Usability – Prevención de errores
 - **Problema:** "Salir" ocupa un lugar equivalente al de los destinos de navegación y cierra la sesión con un solo toque. Un toque accidental (sobre todo junto a "Planes" o "Alertas") cierra la sesión y el usuario pierde su contexto.
 - **Recomendación:** mover "Salir" a un menú de perfil/ajustes, o pedir confirmación antes de cerrar sesión.
 
-![Salir sin confirmación](04_salir_sin_confirmacion.png)
+![Salir sin confirmación](imagenes/04_salir_sin_confirmacion.png)
 
 ---
 
-### PROBLEMA #5: Tarjeta de estudiante con título genérico "Estudiante"
+###### PROBLEMA #5: Tarjeta de estudiante con título genérico "Estudiante"
 
 - **Severidad:** 3
 - **Heurística violada:** Usability – Visibilidad del estado / Coincidencia entre el sistema y el mundo real
 - **Problema:** en la vista del conductor, la tarjeta con "Check-in" y "No asistió" lleva el título genérico "Estudiante". Con varios estudiantes, el conductor no sabe a quién está marcando.
 - **Recomendación:** mostrar el nombre completo (y, si aplica, la parada de recojo) en cada tarjeta.
 
-![Tarjeta de estudiante genérica](05_estudiante_generico.png)
+![Tarjeta de estudiante genérica](imagenes/05_estudiante_generico.png)
 
 ---
 
-### PROBLEMA #6: Subtítulo "Viaje en curso · 0 a bordo…" cortado
+###### PROBLEMA #6: Subtítulo "Viaje en curso · 0 a bordo…" cortado
 
 - **Severidad:** 3
 - **Heurística violada:** Usability – Estética y diseño minimalista / Visibilidad del estado
 - **Problema:** la línea "Viaje en curso · 0 a bordo · 0 ausentes · 3 en total" aparece recortada debajo del título, justo el resumen de estado más importante para el conductor.
 - **Recomendación:** dar altura propia a la cabecera o usar chips de resumen debajo del título.
 
-![Subtítulo cortado](06_subtitulo_cortado.png)
+![Subtítulo cortado](imagenes/06_subtitulo_cortado.png)
 
 ---
 
-### PROBLEMA #7: "Turno Manana" sin ñ
+###### PROBLEMA #7: "Turno Manana" sin ñ
 
 - **Severidad:** 2
 - **Heurística violada:** Usability – Consistencia y estándares
 - **Problema:** dos tarjetas muestran "Turno Manana" (sin ñ) mientras otra dice "Mañana". Además de ser inconsistente, se percibe como descuido.
 - **Recomendación:** unificar la escritura como "Mañana" en toda la interfaz.
 
-![Turno Manana sin ñ](07_turno_manana.png)
+![Turno Manana sin ñ](imagenes/07_turno_manana.png)
 
 ---
 
-### PROBLEMA #8: Dato de ubicación desactualizado sin alerta visual
+###### PROBLEMA #8: Dato de ubicación desactualizado sin alerta visual
 
 - **Severidad:** 2
 - **Heurística violada:** Usability – Visibilidad del estado del sistema
 - **Problema:** se muestran "hace 7 min" y "0 km/h" como si fueran datos actuales, sin indicar que la ubicación está desactualizada o sin señal.
 - **Recomendación:** mostrar un estado explícito ("sin señal" / "última actualización hace X min") con un aviso visual.
 
-![Dato de ubicación desactualizado](08_dato_desactualizado.png)
+![Dato de ubicación desactualizado](imagenes/08_dato_desactualizado.png)
 
 ---
 
-### PROBLEMA #9: Marcador rojo sin leyenda y etiquetas del mapa solapadas
+###### PROBLEMA #9: Marcador rojo sin leyenda y etiquetas del mapa solapadas
 
 - **Severidad:** 2
 - **Heurística violada:** Usability – Estética / Information Architecture – Is it usable?
 - **Problema:** el mapa muestra un marcador rojo sin leyenda que explique su significado, y las etiquetas se superponen ("Carlos Ramirez" / "2. Parque Kennedy"), dificultando la lectura.
 - **Recomendación:** agregar una leyenda para los marcadores y evitar el solapamiento (agrupar o priorizar etiquetas).
 
-![Marcador y etiquetas del mapa](09_marcador_y_etiquetas.png)
+![Marcador y etiquetas del mapa](imagenes/09_marcador_y_etiquetas.png)
 
 ---
 
-### PROBLEMA #10: Sin búsqueda ni filtros en las listas
+###### PROBLEMA #10: Sin búsqueda ni filtros en las listas
 
 - **Severidad:** 2
 - **Heurística violada:** Information Architecture – Searching systems
 - **Problema:** las listas de conductores, rutas y la pantalla de vincular padre no tienen búsqueda ni filtros; con muchos registros el usuario debe desplazarse manualmente para encontrar un elemento.
 - **Recomendación:** incorporar un buscador y filtros relevantes (nombre, licencia, estado, etc.).
 
-![Sin búsqueda en conductores](10a_sin_busqueda_conductores.png)
+![Sin búsqueda en conductores](imagenes/10a_sin_busqueda_conductores.png)
 
-![Sin búsqueda en rutas](10b_sin_busqueda_rutas.png)
+![Sin búsqueda en rutas](imagenes/10b_sin_busqueda_rutas.png)
 
-![Sin búsqueda al vincular padre](10c_sin_busqueda_vincular_padre.png)
+![Sin búsqueda al vincular padre](imagenes/10c_sin_busqueda_vincular_padre.png)
 
 ---
 
-### PROBLEMA #11: Texto secundario muy pequeño y de bajo contraste
+###### PROBLEMA #11: Texto secundario muy pequeño y de bajo contraste
 
 - **Severidad:** 2
 - **Heurística violada:** Inclusive Design – Legibilidad / contraste
 - **Problema:** correos, teléfonos y subtítulos usan un tamaño de letra muy pequeño y un contraste bajo respecto al fondo, lo que dificulta su lectura (especialmente para personas con baja visión).
 - **Recomendación:** aumentar el tamaño y el contraste hasta cumplir mínimos de accesibilidad (WCAG AA).
 
-![Texto pequeño y bajo contraste](11_texto_pequeno.png)
+![Texto pequeño y bajo contraste](imagenes/11_texto_pequeno.png)
 
 ---
 
-### PROBLEMA #12: Vista Padre sin contacto al conductor ni ETA de la parada
+###### PROBLEMA #12: Vista Padre sin contacto al conductor ni ETA de la parada
 
 - **Severidad:** 2
 - **Heurística violada:** Usability – Flexibilidad y eficiencia de uso
 - **Problema:** en la vista del padre no hay forma de contactar al conductor ni de conocer la ETA (tiempo estimado) de la parada donde sube/baja su hijo, información clave para su tranquilidad.
 - **Recomendación:** incluir un botón de llamada/mensaje al conductor y mostrar la ETA de la parada del hijo.
 
-![Vista Padre sin contacto ni ETA](12_padre_sin_contacto_eta.png)
+![Vista Padre sin contacto ni ETA](imagenes/12_padre_sin_contacto_eta.png)
 
 ---
 
-### PROBLEMA #13: Título "Registrar padre de familia" vs. botón "Registrar padre"
+###### PROBLEMA #13: Título "Registrar padre de familia" vs. botón "Registrar padre"
 
 - **Severidad:** 1
 - **Heurística violada:** Usability – Consistencia y estándares
 - **Problema:** el título de la pantalla dice "Registrar padre de familia" mientras el botón dice "Registrar padre"; el término no es consistente.
 - **Recomendación:** usar el mismo término en el título y en el botón.
 
-![Título y botón inconsistentes](13_registrar_padre_titulo_boton.png)
+![Título y botón inconsistentes](imagenes/13_registrar_padre_titulo_boton.png)
 
 ---
 
-### PROBLEMA #14: Mayúsculas inconsistentes en datos de muestra
+###### PROBLEMA #14: Mayúsculas inconsistentes en datos de muestra
 
 - **Severidad:** 1
 - **Heurística violada:** Usability – Consistencia y estándares
 - **Problema:** los datos de muestra aparecen con formato inconsistente (p. ej. "camila cabello" en minúsculas y "Licencia 3" sin formato de licencia), lo que da una impresión descuidada.
 - **Recomendación:** normalizar el formato de nombres y de los datos de licencia en los datos de muestra.
 
-![Mayúsculas inconsistentes (padres)](14a_mayusculas_padres.png)
+![Mayúsculas inconsistentes (padres)](imagenes/14a_mayusculas_padres.png)
 
-![Mayúsculas inconsistentes (licencia)](14b_mayusculas_licencia.png)
+![Mayúsculas inconsistentes (licencia)](imagenes/14b_mayusculas_licencia.png)
 
 ---
 
-### PROBLEMA #15: Color de selección en verde frente al azul de marca
+###### PROBLEMA #15: Color de selección en verde frente al azul de marca
 
 - **Severidad:** 1
 - **Heurística violada:** Usability – Consistencia y estándares
 - **Problema:** los estados de selección (pestañas y navegación) usan verde, mientras los botones usan el azul de marca; el verde no tiene un significado claro y compite con el color principal.
 - **Recomendación:** unificar el color de selección con la identidad de la marca, o justificar el verde con una leyenda.
 
-![Color verde vs. azul de marca](15_color_verde_vs_azul.png)
+![Color verde vs. azul de marca](imagenes/15_color_verde_vs_azul.png)
 
 ---
 
-### PROBLEMA #16: "Seleccionado en el mapa" ambiguo y barra de escala como barra negra suelta
+###### PROBLEMA #16: "Seleccionado en el mapa" ambiguo y barra de escala como barra negra suelta
 
 - **Severidad:** 1
 - **Heurística violada:** Usability – Estética y diseño minimalista
 - **Problema:** el texto "Seleccionado en el mapa" no indica a qué elemento se refiere, y la barra de escala del mapa se percibe como una barra negra suelta sin función aparente.
 - **Recomendación:** precisar el mensaje (indicar el elemento seleccionado) y rediseñar o atenuar la barra de escala.
 
-![Seleccionado en el mapa y barra de escala](16_seleccionado_y_escala.png)
+![Seleccionado en el mapa y barra de escala](imagenes/16_seleccionado_y_escala.png)
 
 ---
 
-## OBSERVACIONES POSITIVAS
+##### OBSERVACIONES POSITIVAS
 
 - Jerarquía clara en el login (marca, mensaje, acción principal y acción secundaria).
 - Navegación inferior consistente en la vista Admin, con estado activo bien marcado.
@@ -6754,7 +6755,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - Botón primario azul y acción de éxito en verde ("Check-in") bien diferenciados.
 - Mapa con ruta, parada y ETA en las vistas de seguimiento.
 
-## PRÓXIMOS PASOS SUGERIDOS
+##### PRÓXIMOS PASOS SUGERIDOS
 
 1. Revisar las pantallas pendientes (Planes, Alertas Conductor/Padre, WhatsApp images) y completar la tabla.
 2. Priorizar la corrección de los problemas de severidad **4 y 3** (términos y condiciones, recuperación de contraseña, botón de volver, salida sin confirmación, identificación del estudiante y subtítulo cortado).
@@ -6865,33 +6866,3 @@ Pasar del modelado al producto desplegado obligó a cada integrante a aprender h
 <div style="page-break-after: always;"></div>
 
 # Anexos
-
-ANEXO: Capturas a incluir en la carpeta `imagenes/`
-
-Las capturas se exportan desde Figma (clic derecho sobre el frame > *Copy/Paste as* o *Export* > PNG) y se guardan con el nombre indicado. Enlace base: `https://www.figma.com/design/jPJKqqqvre7HN5jwOPVvKM/?node-id=<nodo>` (cambiar `:` por `-`).
-
-| Archivo | Frame de Figma | Nodo |
-|---|---|---|
-| 01-registro-datos-acceso.png | 03 · Registro · Datos de acceso | 64:678 |
-| 02-registro-verificar-correo.png | 04 · Registro · Verificar correo | 64:708 |
-| 03-dialogo-correo-verificado.png | Diálogo · Registro · Correo validado | 64:842 |
-| 04-login-paciente.png | 05 · Login · Paciente | 64:936 |
-| 05-dialogo-credenciales-incorrectas.png | Diálogo · Login · Credenciales incorrectas | 64:834 |
-| 06-recuperacion-nueva-contrasena.png | 10 · Recuperación · Nueva contraseña | 64:914 |
-| 07-dashboard-inicio.png | D01 · Inicio | 64:1271 |
-| 08-registro-verificar-identidad.png | 02 · Registro · Verificar identidad | 64:805 |
-| 09-dialogo-correo-duplicado.png | Diálogo · Registro · Correo duplicado | 64:1198 |
-| 10-recuperacion-ayuda.png | 15 · Recuperación · Ayuda | 64:989 |
-| 11-perfil-paciente.png | 16 · Perfil · Paciente | 64:1006 |
-| 12-menores-lista.png | 18 · Menores · Lista | 64:1036 |
-| 13-menores-vincular.png | 19 · Menores · Vincular | 64:1046 |
-| 14-reserva-beneficiario.png | R02 · Beneficiario | 64:1660 |
-| 15-historial-calendario.png | D04 · Historial · Calendario | 64:1370 |
-| 16-historial-filtrado.png | D05 · Historial filtrado | 64:1481 |
-| 17-detalle-cita.png | D06 · Detalle de cita | 64:1510 |
-| 18-reserva-especialidad.png | R01 · Reserva tu cita | 64:1600 |
-| 19-reserva-fecha.png | R03 · Elegir fecha | 64:1692 |
-| 20-dialogo-recuperacion-contrasenas-diferentes.png | Diálogo · Recuperación · Contraseñas diferentes | 64:898 |
-| 21-error-carga.png | D08 · Error de carga | 64:1571 |
-
-
