@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <img src="resources/cover/upc-logo.png" width="150" alt="Logo de la UPC">
   <br><br>
   <strong>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong>
@@ -136,6 +136,36 @@ Como se detalla en la **Tabla 1**, a continuación se presentan las versiones de
       <td style="padding: 10px; border: 1px solid #ddd;">18/09/2026</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Consolidación de diagramas C4 Model (Micro-Frontend/Backend), resúmenes de entrevistas, video de Needfinding y resolución de merge conflicts (Release AV1).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>1.6</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">04/10/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Refactorización táctica del backend según Domain-Driven Design (DDD): desacoplamiento de agregados en IAM, Fleet, Trip Execution y Notifications, eliminación de claves foráneas entre Bounded Contexts y reestructuración de la app Android modularizada.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>1.7</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">06/10/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De La Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Integración del bus de mensajería asíncrona RabbitMQ (CloudAMQP) con MassTransit para eventos de dominio (StudentBoarded, IncidentReported, LocationUpdated) y configuración de Firebase Cloud Messaging (FCM) para push notifications automáticas.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>1.8</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">08/10/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jhony Manuel Francia</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Refinamiento de historias de usuario del Product Backlog, redacción de criterios de aceptación con sintaxis Gherkin para el Sprint 1 y elaboración de diagramas de User Flow para la interacción móvil de transportistas y familias.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>1.9</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">09/10/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas Ramirez</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Diseño de la Arquitectura de Información móvil, refinamiento de hipótesis del Lean UX Canvas y documentación de especificaciones OpenAPI 3.0 / Swagger para los contratos de la API REST.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>2.0</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">10/10/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja &amp; Mathias De La Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Implementación de persistencia local offline-first con Room DB en la app Android nativa, migración a PostgreSQL en Azure Flexible Server, despliegue continuo en Azure App Service con CI/CD, batería de 96 tests de integración y cierre del Sprint Review / TB1.</td>
     </tr>
   </tbody>
 </table>
@@ -350,13 +380,39 @@ Tal como se evidencia en la **Tabla 2**, el equipo ha logrado aplicar nuevos apr
   <tbody>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;"><strong>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Pareja Calloapaza, Marcelo Fausto:</strong><br><strong>AV1:</strong> Aprendió y aplicó técnicas avanzadas de Lean UX y herramientas de UX Research (UXPressia) para el diseño de entrevistas y mapeo de journeys, alineando las necesidades del negocio con la visión de la solución.<br><br><strong>Francia Torres, Jhony Manuel:</strong><br><strong>AV1:</strong> Investigó y dominó la sintaxis Gherkin (Given-When-Then) para la correcta especificación de Criterios de Aceptación, así como el uso de Impact Mapping para alinear las historias de usuario con los objetivos SMART.<br><br><strong>De la Cruz De los Santos, Mathias Marcelo:</strong><br><strong>AV1:</strong> Actualizó sus conocimientos en el modelado de arquitecturas aplicando Strategic-Level Domain-Driven Design (EventStorming, Context Mapping) y el framework C4 Model para la representación estructural del sistema.<br><br><strong>Ramirez Ruíz, Nickolas:</strong><br><strong>AV1:</strong> Adquirió nuevos conocimientos en análisis competitivo y modelado de arquitecturas mediante herramientas de <em>Diagram-as-Code</em> (Structurizr DSL y PlantUML), aplicándolos para diagramar el nivel de código y base de datos.</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">La actualización constante de conocimientos en metodologías ágiles (Lean UX), modelado de dominio (DDD) y arquitectura de software (C4 Model) fue fundamental para definir la estructura base de RouteGuard. Sin este aprendizaje autónomo y la exploración de nuevas herramientas, hubiese sido imposible traducir las necesidades operativas de los usuarios a requisitos técnicos y arquitectónicos formales.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        <strong>Pareja Calloapaza, Marcelo Fausto:</strong><br>
+        <strong>AV1:</strong> Aprendió y aplicó técnicas avanzadas de Lean UX y herramientas de UX Research (UXPressia) para el diseño de entrevistas y mapeo de journeys, alineando las necesidades del negocio con la visión de la solución.<br>
+        <strong>TB1:</strong> Dominó la implementación de patrones tácticos de Domain-Driven Design (DDD) en C# ASP.NET Core 10, desacoplando agregados mediante Value Objects locales y eventos de dominio con RabbitMQ/MassTransit. Asimismo, investigó e implementó persistencia local reactiva offline-first en Android nativo mediante Jetpack Room DB y Kotlin StateFlow para la sincronización asíncrona de abordajes.<br><br>
+        <strong>Francia Torres, Jhony Manuel:</strong><br>
+        <strong>AV1:</strong> Investigó y dominó la sintaxis Gherkin (Given-When-Then) para la correcta especificación de Criterios de Aceptación, así como el uso de Impact Mapping para alinear las historias de usuario con los objetivos SMART.<br>
+        <strong>TB1:</strong> Adquirió competencias avanzadas en el modelado del ciclo de vida y navegación móvil en Android utilizando Jetpack Navigation Component y diseño estructurado de User Flows, integrando heurísticas de usabilidad móvil y principios de Material Design 3 orientados a reducir la carga cognitiva del transportista al volante.<br><br>
+        <strong>De la Cruz De los Santos, Mathias Marcelo:</strong><br>
+        <strong>AV1:</strong> Actualizó sus conocimientos en el modelado de arquitecturas aplicando Strategic-Level Domain-Driven Design (EventStorming, Context Mapping) y el framework C4 Model para la representación estructural del sistema.<br>
+        <strong>TB1:</strong> Actualizó y aplicó competencias de infraestructura en la nube sobre Microsoft Azure (Azure App Service con contenedores Linux, Azure Container Registry y Azure Database for PostgreSQL Flexible Server), automatización de despliegue continuo mediante GitHub Actions CI/CD e integración de notificaciones push server-side mediante Firebase Admin SDK.<br><br>
+        <strong>Ramirez Ruíz, Nickolas:</strong><br>
+        <strong>AV1:</strong> Adquirió nuevos conocimientos en análisis competitivo y modelado de arquitecturas mediante herramientas de <em>Diagram-as-Code</em> (Structurizr DSL y PlantUML), aplicándolos para diagramar el nivel de código y base de datos.<br>
+        <strong>TB1:</strong> Profundizó en la especificación y estandarización de contratos de servicios web mediante OpenAPI 3.0 / Swagger en ASP.NET Core, así como en el diseño y ejecución de baterías de pruebas de integración automatizadas para validar la emisión de claims JWT y la consistencia relacional con Entity Framework Core.
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">La actualización constante de conocimientos en metodologías ágiles (Lean UX), modelado de dominio (DDD táctico y estratégico), arquitectura de mensajería asíncrona (RabbitMQ/MassTransit), persistencia offline móvil (Room DB) e infraestructura en la nube (Azure App Service y PostgreSQL) fue fundamental para materializar el incremento de software funcional en el Sprint 1. Este aprendizaje autónomo y continuo permitió al equipo superar los desafíos técnicos de integración entre la API REST y la aplicación móvil nativa con estándares de calidad de la industria.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;"><strong>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Pareja Calloapaza, Marcelo Fausto:</strong><br><strong>AV1:</strong> Reconoció la importancia de mantener un estándar de comunicación global (Ubiquitous Language) y dominar herramientas de prototipado colaborativo para asegurar la calidad de los entregables a largo plazo.<br><br><strong>Francia Torres, Jhony Manuel:</strong><br><strong>AV1:</strong> Identificó que el levantamiento de requisitos evoluciona constantemente, comprendiendo la necesidad de investigar técnicas ágiles de priorización (Product Backlog) para maximizar el valor entregado.<br><br><strong>De la Cruz De los Santos, Mathias Marcelo:</strong><br><strong>AV1:</strong> Comprendió que las arquitecturas modernas requieren una constante investigación sobre patrones de integración, evidenciando la necesidad de actualizarse continuamente en enfoques de despliegue en la nube.<br><br><strong>Ramirez Ruíz, Nickolas:</strong><br><strong>AV1:</strong> Reconoció que el estudio continuo del mercado y la adopción constante de nuevos frameworks de modelado estructural son habilidades indispensables para agilizar la documentación técnica en entornos reales.</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">El equipo concluye que el ciclo de vida del software exige una mentalidad de aprendizaje continuo. La adopción temprana de estándares de la industria, herramientas de diseño modernas (como Figma o UXPressia) y enfoques arquitectónicos avanzados no solo asegura el éxito funcional del proyecto, sino que sienta las bases para la competitividad y el crecimiento profesional individual de cada integrante en el mercado laboral.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        <strong>Pareja Calloapaza, Marcelo Fausto:</strong><br>
+        <strong>AV1:</strong> Reconoció la importancia de mantener un estándar de comunicación global (Ubiquitous Language) y dominar herramientas de prototipado colaborativo para asegurar la calidad de los entregables a largo plazo.<br>
+        <strong>TB1:</strong> Reconoció que las arquitecturas móviles modernas demandan actualización continua en mecanismos de sincronización en red inestable (offline-first) y desacoplamiento de microservicios backend para garantizar la resiliencia en sistemas de misión crítica.<br><br>
+        <strong>Francia Torres, Jhony Manuel:</strong><br>
+        <strong>AV1:</strong> Identificó que el levantamiento de requisitos evoluciona constantemente, comprendiendo la necesidad de investigar técnicas ágiles de priorización (Product Backlog) para maximizar el valor entregado.<br>
+        <strong>TB1:</strong> Identificó que los estándares de diseño de interacción móvil y experiencia de usuario evolucionan velozmente, comprendiendo la necesidad de mantenerse actualizado en guías de diseño accesible y patrones de arquitectura de software para dispositivos móviles.<br><br>
+        <strong>De la Cruz De los Santos, Mathias Marcelo:</strong><br>
+        <strong>AV1:</strong> Comprendió que las arquitecturas modernas requieren una constante investigación sobre patrones de integración, evidenciando la necesidad de actualizarse continuamente en enfoques de despliegue en la nube.<br>
+        <strong>TB1:</strong> Comprendió que el ecosistema de DevOps, orquestación de contenedores y servicios gestionados en la nube evoluciona dinámicamente, reconociendo la imperiosa necesidad de investigar continuamente sobre seguridad de credenciales (secrets management), pipelines de entrega continua y observabilidad en producción.<br><br>
+        <strong>Ramirez Ruíz, Nickolas:</strong><br>
+        <strong>AV1:</strong> Reconoció que el estudio continuo del mercado y la adopción constante de nuevos frameworks de modelado estructural son habilidades indispensables para agilizar la documentación técnica en entornos reales.<br>
+        <strong>TB1:</strong> Reconoció que la formalización rigurosa de especificaciones OpenAPI y la implementación de suites de pruebas automáticas continuas son habilidades vitales para evitar la degradación de contratos en equipos de desarrollo ágiles.
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">El equipo consolida su comprensión de que la ingeniería de software es una disciplina de aprendizaje permanente. Enfrentar los desafíos reales de despliegue en la nube, comunicación asíncrona basada en eventos y resiliencia móvil ante pérdida de conectividad demostró que el éxito del proyecto no depende únicamente de conocimientos preexistentes, sino de la capacidad de investigar, adaptarse y aplicar tecnologías emergentes con rigor profesional.</td>
     </tr>
   </tbody>
 </table>
@@ -5150,6 +5206,7 @@ Tal como se documenta en la **Tabla 30**, a continuación se presentan las evide
       <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Repository</th>
       <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Branch</th>
       <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Id</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Author</th>
       <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Message</th>
       <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Message Body</th>
       <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commited on (Date)</th>
@@ -5157,12 +5214,220 @@ Tal como se documenta en la **Tabla 30**, a continuación se presentan las evide
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>main</code> / <code>deploy</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/e1af89c"><code>e1af89c</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De la Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Merge branch 'main' of routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Consolidación de imagen Docker en Azure Container Registry con tag latest y verificación del smoke test <code>GET /health</code> en Azure App Service.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>main</code> / <code>deploy</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/0ed0e63"><code>0ed0e63</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De la Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat: migrate persistence to PostgreSQL and prepare Azure deployment</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Migración del motor relacional a PostgreSQL Flexible Server en Azure, actualización de cadenas de conexión y configuración del pipeline de despliegue en GitHub Actions.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/6c047b4"><code>6c047b4</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De la Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>fix(auth): store the session token before resolving the driver or parent profile</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Corrección del flujo de inicio de sesión asegurando la persistencia en memoria del token JWT antes de la consulta de perfil contextual en IAM.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/b2e2dd7"><code>b2e2dd7</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>fix: enable swagger in production for render testing</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Habilitación del middleware Swagger UI y OpenAPI spec para entornos de nube y verificación remota de endpoints REST.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/02442b1"><code>02442b1</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De la Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>refactor(platform): rename bounded contexts to match the report names</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Homologación de nombres de namespaces y carpetas con los 6 Bounded Contexts definidos en el Ubiquitous Language del informe técnico.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-08</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/068f381"><code>068f381</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(db): add migration RemoveCrossContextFkAndSyncModels</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Creación y aplicación de migración en EF Core eliminando claves foráneas entre Bounded Contexts para preservar la autonomía de agregados según DDD.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-04</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/d33a003"><code>d33a003</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>refactor(shared): remove domain value objects and duplicate VehicleResource from shared kernel</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Desacoplamiento del Shared Kernel eliminando Value Objects redundantes y manteniendo modelos de dominio independientes.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-04</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/d19afe8"><code>d19afe8</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>refactor(iam,fleet,notifications): split aggregate services and localize value objects</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Descomposición de servicios monolíticos en clases segregadas de CommandServices y QueryServices por agregado en IAM, Fleet y Notifications.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-04</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/6d41faa"><code>6d41faa</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(trip): add vehicle-locations adapter for legacy hardware payloads</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Implementación del controlador <code>VehicleLocationsAdapterController</code> para la ingesta telemática de tramas de dispositivos GPS externos.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-04</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/1b3287e"><code>1b3287e</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>refactor(trip): localize value objects and decouple from shared kernel</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Aislamiento de Value Objects para geolocalización, bitácora de paradas y estados de viaje en Trip Execution &amp; Monitoring.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-04</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/fc973b4"><code>fc973b4</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>refactor(subscription): split plan/subscription services and localize value objects</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Separación de servicios y repositorios de planes y suscripciones SaaS para desacoplar el ciclo de facturación de la gestión de usuarios.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-04</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/1804f3f"><code>1804f3f</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>refactor(stakeholder): split god services per aggregate and localize value objects</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Segregación de servicios y repositorios de perfiles para Conductores, Padres de Familia y Grupos de Estudiantes en Stakeholder Context.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-04</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/275e95f"><code>275e95f</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>chore(platform): register split services in DI and configure user secrets</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registro de dependencias desacopladas en el contenedor IoC de ASP.NET Core, configuración de secretos y mensajería MassTransit con RabbitMQ.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-04</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-native-app/commit/4389e9f"><code>4389e9f</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>chore(network): point BASE_URL to Render production environment</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Configuración de la URL base del cliente Retrofit para consumo directo de los servicios desplegados en la nube.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-native-app/commit/4b873b6"><code>4b873b6</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>fix(room): correct androidx.room3 imports to standard androidx.room and finalize offline persistence setup</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Estandarización de dependencias de Room DB, definición de entidades locales y DAOs para almacenamiento offline de eventos de abordaje y GPS.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-native-app/commit/bdd5cfa"><code>bdd5cfa</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(ui): rescate de paleta de colores y UI del compañero</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Integración de la identidad visual de RouteGuard, tokens de color corporativos y componentes accesibles en Material Design 3.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-native-app/commit/df87269"><code>df87269</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>refactor(ddd): move bounded contexts to root package, add value classes and ACL mappers</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Reorganización arquitectónica de la app móvil en Kotlin alineada con Bounded Contexts, Value Classes y mappers Anti-Corruption Layer.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-04</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-landing-page</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-landing-page/commit/01a66f3"><code>01a66f3</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De la Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(landing): add hamburger menu for mobile navigation</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Diseño responsivo del header institucional con menú hamburguesa colapsable para dispositivos móviles con viewport menor a 768 px.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-landing-page</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-landing-page/commit/0a36c29"><code>0a36c29</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De la Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>refactor(landing): move landing to repo root and fix asset paths for GitHub Pages</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Reestructuración del repositorio trasladando archivos estáticos al root para el build y hosting automático en GitHub Pages.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-08</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-report</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-report/commit/cd651ae"><code>cd651ae</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De la Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>docs(chapter-4): fix links and inline code in HTML tables; point API link to Swagger</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Corrección de formato de marcado HTML en tablas de evidencias, sustitución de sintaxis backtick por etiquetas code y vinculación con Swagger UI.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-10</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-report</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-report/commit/386931c"><code>386931c</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De la Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>docs(chapter-4): add Sprint 1 execution and deployment evidence</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Documentación de evidencias de ejecución de la Landing Page, endpoints IAM en producción y arquitectura de despliegue en Microsoft Azure.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-10</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-report</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-report/commit/0357d74"><code>0357d74</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jhony Manuel Francia</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>docs(README): Create userflow file</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Integración de diagramas de flujo de usuario (User Flows) para los recorridos críticos de transportistas y padres de familia.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-10</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-report</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-report/commit/3d589cb"><code>3d589cb</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas Ramirez</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>docs: fix lean ux canvas hypotheses and learning assumptions (1.2.2.4)</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Refinamiento de hipótesis del Lean UX Canvas y suposiciones de aprendizaje para el segmento de transportistas y padres de familia.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-10</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-report</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-report/commit/8c3f288"><code>8c3f288</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas Ramirez</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>docs: add sprint planning 1 with sprint goal and story points (4.2.1.1)</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Planificación y estructuración del Sprint 1, definición del Sprint Goal y estimación de puntos de historia en el Sprint Backlog.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-10</td>
     </tr>
   </tbody>
 </table>
@@ -5186,12 +5451,28 @@ Como se resume en la **Tabla 31**, se incluyen las pruebas ejecutadas durante la
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-native-app/commit/25f72b8"><code>25f72b8</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>test: add NotificationDto deserialization test and update RouteProgressTest imports</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pruebas unitarias de deserialización JSON de DTOs de notificaciones Push (FCM) y cálculo de avance en paradas de ruta con JUnit y MockK.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-04</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>deploy</code> / <code>main</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/0ed0e63"><code>0ed0e63</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat: migrate persistence to PostgreSQL and prepare Azure deployment</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Batería de 96 pruebas automáticas de integración sobre PostgreSQL validando autenticación, autorización por rol, ciclo de vida de viajes y disparador de geocercas (96/96 satisfactorias).</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>deploy</code> / <code>main</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/upc-pre-202620-1acc0238-4945-routegolem/routeguard-web-services/commit/e1af89c"><code>e1af89c</code></a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Merge branch 'main' of routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Prueba de disponibilidad continua (Smoke Test) en GitHub Actions validando respuesta HTTP 200 Healthy en <code>GET /health</code> en Azure App Service.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-09</td>
     </tr>
   </tbody>
 </table>
@@ -5404,13 +5685,437 @@ La aplicación Android consume `sign-in` y, según el rol del token, presenta un
 
 #### 4.2.1.7. Services Documentation Evidence for Sprint Review
 
+El backend de RouteGuard implementa una arquitectura orientada al dominio (*Domain-Driven Design*), construida sobre **ASP.NET Core (.NET 10)** y desplegada en **Azure App Service (Linux Containers)**. Toda la superficie de la API REST está documentada mediante la especificación OpenAPI v3 y expuesta de forma interactiva a través de **Swagger UI**, permitiendo la inspección de esquemas, parámetros y pruebas de invocación en vivo.
+
+* **Base URL de Producción:** <a href="https://routeguard-api-mobiles-a3cza3byc3b3dpfs.brazilsouth-01.azurewebsites.net"><code>https://routeguard-api-mobiles-a3cza3byc3b3dpfs.brazilsouth-01.azurewebsites.net</code></a>
+* **Documentación Interactiva (Swagger UI):** <a href="https://routeguard-api-mobiles-a3cza3byc3b3dpfs.brazilsouth-01.azurewebsites.net/swagger/index.html"><code>https://routeguard-api-mobiles-a3cza3byc3b3dpfs.brazilsouth-01.azurewebsites.net/swagger/index.html</code></a>
+* **Especificación OpenAPI (JSON):** <a href="https://routeguard-api-mobiles-a3cza3byc3b3dpfs.brazilsouth-01.azurewebsites.net/swagger/v1/swagger.json"><code>https://routeguard-api-mobiles-a3cza3byc3b3dpfs.brazilsouth-01.azurewebsites.net/swagger/v1/swagger.json</code></a>
+* **Esquema de Seguridad:** La API implementa autenticación basada en tokens JWT (*JSON Web Tokens*). Todas las peticiones a endpoints protegidos deben incluir el encabezado HTTP:
+  ```http
+  Authorization: Bearer <token_jwt>
+  ```
+  Los únicos endpoints públicos de libre acceso son el registro inicial (<code>POST /api/v1/users</code>), el inicio de sesión (<code>POST /api/v1/users/sign-in</code>), el sondeo de disponibilidad (<code>GET /health</code>) y la consola de documentación Swagger.
+
+Como se detalla en la **Tabla 35**, a continuación se presenta el catálogo consolidado de endpoints REST distribuidos por Bounded Context:
+
+<p><strong>Tabla 35.</strong> <em>Catálogo de Servicios y Endpoints REST de la Plataforma RouteGuard</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Bounded Context</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Método</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Ruta (Endpoint)</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Descripción de Operación</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Autorización</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5" style="padding: 10px; border: 1px solid #ddd;"><strong>Identity &amp; Access Management (IAM)</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/users</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registra una cuenta de usuario asignando el rol especificado (<code>ROLE_ADMIN</code>, <code>ROLE_DRIVER</code>, <code>ROLE_PARENT</code>).</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Público (Anónimo)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/users/sign-in</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Autentica credenciales y emite el token JWT de sesión con claims de identidad y rol.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Público (Anónimo)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/users/{userId}</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Recupera los datos de perfil y estado de cuenta del usuario identificado por su GUID.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/organizations</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Crea una organización escolar o empresa de movilidad vinculada al administrador.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Admin)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/organizations/{organizationId}</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Obtiene el perfil corporativo, razón social y configuración de la organización.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code></td>
+    </tr>
+    <tr>
+      <td rowspan="8" style="padding: 10px; border: 1px solid #ddd;"><strong>Fleet &amp; Route Management</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/routes</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Define una nueva ruta de transporte escolar asociada a una organización.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Admin)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/routes</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Lista todas las rutas vigentes registradas, con filtro opcional por <code>organizationId</code>.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/routes/{routeId}</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Obtiene el detalle completo de la ruta: waypoints, paradas, conductor y vehículo asignado.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/routes/{routeId}/stops</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Agrega un punto de parada (*Stop*) con coordenadas geográficas y radio de geocerca en metros.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Admin)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>PUT</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/routes/{routeId}/vehicle</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Asigna una unidad vehicular de la flota como responsable operativa de la ruta.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Admin)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>PUT</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/routes/{routeId}/driver</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Asigna formalmente al conductor titular encargado de operar el recorrido.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Admin)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/routes/{routeId}/activate</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Valida precondiciones y cambia el estado a activa, publicando <code>RouteActivationFinalized</code>.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Admin)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/vehicles</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registra un vehículo en la flota escolar (placa, modelo, capacidad de pasajeros y SOAT).</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Admin)</td>
+    </tr>
+    <tr>
+      <td rowspan="6" style="padding: 10px; border: 1px solid #ddd;"><strong>Stakeholder &amp; Asset Management</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/drivers</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registra el perfil del conductor, número de brevete y datos de contacto de emergencia.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/drivers/{driverId}</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Consulta la información detallada del transportista registrado.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/parents</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Crea el perfil de padre de familia o apoderado responsable en el sistema.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/parents/{parentId}/children</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registra y vincula un hijo/estudiante al perfil del apoderado (nombre, edad, colegio).</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Parent/Admin)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/student-groups</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Agrupa estudiantes vinculados para consolidar la nómina de pasajeros de una movilidad.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Admin)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/student-groups/{groupId}/finalize</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Cierra el grupo y emite <code>GroupFinalized</code> para exportar el manifiesto hacia la ruta.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Admin)</td>
+    </tr>
+    <tr>
+      <td rowspan="9" style="padding: 10px; border: 1px solid #ddd;"><strong>Trip Execution &amp; Monitoring</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/trips</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Crea la instancia física de viaje del día basada en el plan de ruta activo.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Driver/Admin)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/trips/{tripId}/start</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Inicia la ejecución del viaje, publica <code>TripStarted</code> en RabbitMQ y abre la sesión telemática.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Driver)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/trips/{tripId}/locations</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Recibe las coordenadas GPS en tiempo real transmitidas por la app nativa en segundo plano.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Driver)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/trips/{tripId}/locations/latest</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Retorna la última coordenada, velocidad y timestamp registrados del vehículo en ruta.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/trips/{tripId}/boarding</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registra el estado de abordaje del estudiante (<code>Boarded</code>, <code>DroppedOff</code>, <code>Absent</code>) y notifica al padre.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Driver)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/trips/{tripId}/offline-sync</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sincroniza en lote registros de abordaje y telemetría acumulados en Room DB durante desconexión.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Driver)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/trips/{tripId}/incidents</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Reporta incidencias mecánicas o viales; propaga evento crítico a la cola de RabbitMQ.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Driver)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/trips/{tripId}/complete</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Finaliza la operación del viaje, archiva la bitácora y publica <code>TripCompleted</code>.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Driver)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/parents/{parentId}/active-trip</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Permite al padre monitorear en tiempo real el viaje en curso donde viaja su hijo.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code> (Parent)</td>
+    </tr>
+    <tr>
+      <td rowspan="4" style="padding: 10px; border: 1px solid #ddd;"><strong>Notifications &amp; Communication</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/users/{userId}/device-tokens</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Registra o actualiza el token de dispositivo Firebase Cloud Messaging (FCM) del usuario.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/notifications</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Crea y encola una notificación interna dirigida a un apoderado o conductor.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>GET</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/notifications</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Consulta la bandeja de notificaciones recibidas, filtrable por <code>parentId</code>.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>POST</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>/api/v1/notifications/{notificationId}/dispatch</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Despacha la notificación de forma inmediata hacia el dispositivo móvil mediante Firebase Admin SDK.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>Bearer JWT</code></td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Catálogo exhaustivo de endpoints REST expuestos en Azure App Service, alineados con los 6 Bounded Contexts y protegidos mediante JWT Bearer tokens.</em></p>
+
+##### Estructura de Peticiones y Respuestas Principales (Payloads JSON)
+
+A continuación se documentan los contratos de datos (Request y Response) de las transacciones operativas esenciales del sistema:
+
+###### 1. Autenticación y Emisión de Token JWT (Identity & Access Management)
+
+* **Endpoint:** `POST /api/v1/users/sign-in`
+* **Cabecera:** `Content-Type: application/json`
+
+**Petición (Request):**
+```json
+{
+  "username": "admin@routeguard.com",
+  "password": "Password123!"
+}
+```
+
+**Respuesta Exitosa (Response - HTTP 200 OK):**
+```json
+{
+  "id": "e4b1a8d0-23a4-4f11-9a7b-8c4d2e1a3b5c",
+  "username": "admin@routeguard.com",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlNGIxYThkMC0yM2E0LTRmMTEtOWE3Yi04YzRkMmUxYTNiNWNlIiwidW5pcXVlX25hbWUiOiJhZG1pbkByb3V0ZWd1YXJkLmNvbSIsInJvbGUiOiJST0xFX0FETUlOIiwiaXNzIjoiUm91dGVHdWFyZC5QbGF0Zm9ybSIsImV4cCI6MTc2MDE1MDQwMH0...",
+  "roles": [
+    "ROLE_ADMIN"
+  ]
+}
+```
+
+###### 2. Definición y Creación de Ruta de Transporte (Fleet & Route Management)
+
+* **Endpoint:** `POST /api/v1/routes`
+* **Cabecera:** `Authorization: Bearer <token_jwt>`, `Content-Type: application/json`
+
+**Petición (Request):**
+```json
+{
+  "organizationId": "b1a2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+  "name": "Ruta Matutina Miraflores - San Isidro"
+}
+```
+
+**Respuesta Exitosa (Response - HTTP 201 Created):**
+```json
+{
+  "id": "c2b3a4d5-e6f7-8a9b-0c1d-2e3f4a5b6c7d",
+  "organizationId": "b1a2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+  "name": "Ruta Matutina Miraflores - San Isidro",
+  "state": "DRAFT",
+  "departureTime": "07:15",
+  "serviceDays": [
+    "MONDAY",
+    "TUESDAY",
+    "WEDNESDAY",
+    "THURSDAY",
+    "FRIDAY"
+  ],
+  "vehicle": null,
+  "assignment": null,
+  "stops": []
+}
+```
+
+###### 3. Transmisión de Telemetría GPS en Tiempo Real (Trip Execution & Monitoring)
+
+* **Endpoint:** `POST /api/v1/trips/{tripId}/locations`
+* **Cabecera:** `Authorization: Bearer <token_jwt>`, `Content-Type: application/json`
+
+**Petición (Request):**
+```json
+{
+  "latitude": -12.086438,
+  "longitude": -77.081745,
+  "speedKmh": 28.5,
+  "headingDegrees": 182.0,
+  "recordedAt": "2026-10-10T14:32:00Z"
+}
+```
+
+**Respuesta Exitosa (Response - HTTP 200 OK):**
+```json
+{
+  "tripId": "7f8a9b0c-1d2e-3f4a-5b6c-7d8e9f0a1b2c",
+  "latitude": -12.086438,
+  "longitude": -77.081745,
+  "speedKmh": 28.5,
+  "headingDegrees": 182.0,
+  "recordedAt": "2026-10-10T14:32:00Z",
+  "geofenceBreached": true,
+  "approachingStopId": "3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8e"
+}
+```
+
+###### 4. Registro de Abordaje de Estudiante (Trip Execution & Monitoring)
+
+* **Endpoint:** `POST /api/v1/trips/{tripId}/boarding`
+* **Cabecera:** `Authorization: Bearer <token_jwt>`, `Content-Type: application/json`
+
+**Petición (Request):**
+```json
+{
+  "studentId": "9a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d",
+  "stopId": "3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8e",
+  "status": "Boarded",
+  "timestamp": "2026-10-10T14:35:12Z"
+}
+```
+
+**Respuesta Exitosa (Response - HTTP 200 OK):**
+```json
+{
+  "boardingRecordId": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+  "tripId": "7f8a9b0c-1d2e-3f4a-5b6c-7d8e9f0a1b2c",
+  "studentId": "9a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d",
+  "status": "Boarded",
+  "recordedAt": "2026-10-10T14:35:12Z",
+  "notificationDispatched": true
+}
+```
+
+###### 5. Sincronización por Lotes de Bitácora Offline (Room DB a Backend)
+
+* **Endpoint:** `POST /api/v1/trips/{tripId}/offline-sync`
+* **Cabecera:** `Authorization: Bearer <token_jwt>`, `Content-Type: application/json`
+
+**Petición (Request):**
+```json
+{
+  "deviceId": "samsung-sm-g991b-driver01",
+  "cachedRecords": [
+    {
+      "type": "Boarding",
+      "studentId": "9a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d",
+      "status": "Boarded",
+      "recordedAt": "2026-10-10T14:28:40Z"
+    },
+    {
+      "type": "Location",
+      "latitude": -12.089201,
+      "longitude": -77.083110,
+      "speedKmh": 22.0,
+      "recordedAt": "2026-10-10T14:29:15Z"
+    }
+  ]
+}
+```
+
+**Respuesta Exitosa (Response - HTTP 200 OK):**
+```json
+{
+  "syncBatchId": "d9e8f7a6-b5c4-3d2e-1f0a-9b8c7d6e5f4a",
+  "recordsProcessed": 2,
+  "recordsFailed": 0,
+  "synchronizedAt": "2026-10-10T14:36:02Z",
+  "status": "Completed"
+}
+```
+
+###### 6. Registro de Token FCM para Notificaciones Push (Notifications & Communication)
+
+* **Endpoint:** `POST /api/v1/users/{userId}/device-tokens`
+* **Cabecera:** `Authorization: Bearer <token_jwt>`, `Content-Type: application/json`
+
+**Petición (Request):**
+```json
+{
+  "token": "fGa8Y3lQrK...1a2b3c_fcm_token_sample",
+  "platform": "Android",
+  "deviceModel": "Pixel 7 Pro"
+}
+```
+
+**Respuesta Exitosa (Response - HTTP 201 Created):**
+```json
+{
+  "deviceTokenId": "e3f4a5b6-c7d8-9e0f-1a2b-3c4d5e6f7a8b",
+  "userId": "e4b1a8d0-23a4-4f11-9a7b-8c4d2e1a3b5c",
+  "platform": "Android",
+  "isActive": true,
+  "registeredAt": "2026-10-10T14:38:00Z"
+}
+```
+
+###### 7. Formato Estandarizado de Errores (RFC 7807 Problem Details)
+
+En concordancia con el estándar RFC 7807, ante cualquier petición con credenciales inválidas o datos no conformes, la API retorna una respuesta uniforme estructurada:
+
+**Ejemplo de Error de Validación (HTTP 400 Bad Request):**
+```json
+{
+  "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+  "title": "One or more validation errors occurred.",
+  "status": 400,
+  "detail": "The Latitude field must be between -90 and 90.",
+  "instance": "/api/v1/trips/7f8a9b0c-1d2e-3f4a-5b6c-7d8e9f0a1b2c/locations"
+}
+```
+
 #### 4.2.1.8. Software Deployment Evidence for Sprint Review
 
 Esta sección documenta cómo se despliegan el *Landing Page* y el backend de RouteGuard, los recursos en la nube utilizados y las evidencias de que ambos servicios están publicados y operativos. El despliegue es automático: cada *push* a la rama configurada dispara la publicación sin pasos manuales.
 
 > **Nota:** respecto a lo previsto en la sección 4.1.4 (Railway y Vercel), la implementación efectiva usa **Azure** para el backend y **GitHub Pages** para la landing, y el backend está construido con **ASP.NET Core (.NET 10)** y **PostgreSQL**.
 
-<p><strong>Tabla 35.</strong> <em>Componentes desplegados y estado verificado</em></p>
+<p><strong>Tabla 36.</strong> <em>Componentes desplegados y estado verificado</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -5481,9 +6186,9 @@ Server: GitHub.com
 Last-Modified: Fri, 09 Oct 2026 09:27:08 GMT
 ```
 
-**Despliegue del Backend.** El backend se empaqueta en una imagen Docker de dos etapas (`dotnet/sdk:10.0` para compilar y `dotnet/aspnet:10.0` para ejecutar, con la API escuchando en el puerto 8080) y se publica mediante el workflow de GitHub Actions descrito en la **Tabla 36**.
+**Despliegue del Backend.** El backend se empaqueta en una imagen Docker de dos etapas (`dotnet/sdk:10.0` para compilar y `dotnet/aspnet:10.0` para ejecutar, con la API escuchando en el puerto 8080) y se publica mediante el workflow de GitHub Actions descrito en la **Tabla 37**.
 
-<p><strong>Tabla 36.</strong> <em>Pasos del workflow de despliegue (<code>deploy.yml</code>)</em></p>
+<p><strong>Tabla 37.</strong> <em>Pasos del workflow de despliegue (<code>deploy.yml</code>)</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -5555,7 +6260,7 @@ HTTP 200
 
 *Documentación Swagger (OpenAPI 3.0) servida por la API desplegada en Azure.*
 
-<p><strong>Tabla 37.</strong> <em>Configuración del entorno de producción (nombres de variables)</em></p>
+<p><strong>Tabla 38.</strong> <em>Configuración del entorno de producción (nombres de variables)</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -5599,7 +6304,7 @@ HTTP 200
 </table>
 <p style="margin-top: 10px;"><em>Nota: Ningún valor secreto forma parte del repositorio; la guía completa está en <code>routeguard-web-services/docs/despliegue-azure.md</code>.</em></p>
 
-<p><strong>Tabla 38.</strong> <em>Trazabilidad del despliegue (commits)</em></p>
+<p><strong>Tabla 39.</strong> <em>Trazabilidad del despliegue (commits)</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
