@@ -41,6 +41,16 @@
 | **0.3** | 06/09/2026 | Marcelo Pareja | Integración del proceso Lean UX respetando los templates oficiales (Problem Statements, 5 tipos de Assumptions e Hipótesis). |
 | **0.4** | 06/09/2026 | Marcelo Pareja | Definición de los Segmentos Objetivo (Padres y Conductores) incorporando información estadística de sustento (MINEDU y ATU). |
 | **0.5** | 06/09/2026 | Marcelo Pareja | Incorporación de los Objetivos SMART, tabla de Student Outcome mapeada a la rúbrica y generación de la Tabla de Contenidos automatizada. |
+| **0.6** | 09/09/2026 | Marcelo Pareja | Diseño de guiones de entrevista, elaboración del User Task Matrix, User Personas y definición del Ubiquitous Language. |
+| **0.7** | 10/09/2026 | Marcelo Pareja | Integración visual del Big Picture EventStorming y desarrollo de los User Journey Maps (As-Is). |
+| **0.8** | 13/09/2026 | Manuel Francia | Definición de Épicas, creación del Product Backlog inicial y redacción de User Stories con criterios de aceptación Gherkin. |
+| **0.9** | 14/09/2026 | Mathias De La Cruz | Desarrollo del Strategic-Level DDD (EventStorming, Candidate Context Discovery, Domain Message Flows y Bounded Context Canvases). |
+| **1.0** | 14/09/2026 | Nickolas Ramirez | Redacción del Análisis Competitivo, definición de Estrategias frente a competidores y elaboración del Empathy Mapping. |
+| **1.1** | 16/09/2026 | Marcelo Pareja | Estructuración del Tactical-Level DDD, refinamiento del backlog e integración de arquitectura inicial para Tracking/Notifications. |
+| **1.2** | 17/09/2026 | Manuel Francia | Elaboración del Impact Mapping y actualización integral del formato de especificación de requerimientos. |
+| **1.3** | 18/09/2026 | Mathias De La Cruz | Diseño de diagramas de Software Architecture (Context, Container, Deployment) y refinamiento del Context Mapping. |
+| **1.4** | 18/09/2026 | Nickolas Ramirez | Modelado completo del Bounded Context de Stakeholder (Domain, Interface, Application, Infra) y diagramas C4 a nivel de código. |
+| **1.5** | 18/09/2026 | Marcelo Pareja | Consolidación de diagramas C4 Model (Micro-Frontend/Backend), resúmenes de entrevistas, video de Needfinding y resolución de merge conflicts (Release AV1). |
 
 <div style="page-break-after: always;"></div>
 
@@ -124,7 +134,7 @@ AV1:
     - [2.5.3. Software Architecture](#253-software-architecture)
       - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
       - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
-      - [2.5.3.3. Software Architecture Components Diagrams](#2533-software-architecture-components-diagrams)
+      - [2.5.3.3. Software Architecture Components Level Diagrams](#2533-software-architecture-components-level-diagrams)
       - [2.5.3.4. Software Architecture Deployment Diagrams](#2534-software-architecture-deployment-diagrams)
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
     - [2.6.1. Bounded Context: Trip Execution \& Monitoring](#261-bounded-context-trip-execution--monitoring)
@@ -186,7 +196,6 @@ AV1:
     - [3.1.1. Style Guidelines](#311-style-guidelines)
       - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
     - [3.1.2. Information Architecture](#312-information-architecture)
-      - [3.1.2.1. Organization Systems](#3121-organization-systems)
       - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
       - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
       - [3.1.2.4. Searching Systems](#3124-searching-systems)
@@ -234,15 +243,14 @@ AV1:
 
 ## Student Outcome
 
-El curso contribuye al cumplimiento del Student Outcome ABET: 
-* **Outcome 7 (Criterios 7.c1, 7.c2):** Capacidad para adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje adecuadas.
-* **Outcome 3 (Criterio 3.c2):** Capacidad para comunicarse efectivamente con una variedad de audiencias.
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET - EAC - Student Outcome 7**
+**Criterio:** La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| **Outcome 7 (7.c1):** Identificación de problemáticas, UX Research, y diseño de arquitectura (DDD, RESTful). | Mediante el proceso de *Lean UX* y *UX Research*, investigamos a los usuarios y sus dolores. Aplicamos *Domain-Driven Design (DDD)* para diseñar los Bounded Contexts y diagramar la arquitectura del sistema, asegurando el cumplimiento de principios RESTful. | La investigación estructurada y el diseño guiado por el dominio nos permitió comprender la complejidad del transporte escolar y plantear una arquitectura de software robusta, escalable y centrada en las necesidades reales de seguridad. |
-| **Outcome 7 (7.c2):** Implementación de soluciones (Native/Cross-Platform), ciclo de vida ágil y mejora continua. | Investigamos e implementamos tecnologías nuevas fuera de clase (GPS en *background*, modo *offline*) para la app de conductores (Nativa) y la app de padres (Cross-Platform). Aplicamos marco de trabajo ágil con GitFlow, *Conventional Commits* y realizamos entrevistas de validación. | El aprendizaje autónomo de tecnologías nativas y servicios en segundo plano fue vital para resolver la necesidad del usuario operativo. Aplicar un flujo de CI/CD (GitFlow) garantizó el desarrollo colaborativo sin conflictos. |
-| **Outcome 3 (3.c2):** Comunicación oral y escrita objetiva, respetando estructuras y estándares. | Redactamos el presente informe técnico respetando las normas APA 7, la estructura exigida, un *Ubiquitous Language* en inglés, y produjimos videos explicativos para sustentar el progreso del Sprint de manera profesional. | Documentar el proyecto con un lenguaje técnico estandarizado mejora drásticamente la transferencia de conocimiento. La comunicación efectiva fue clave para alinear las expectativas de todos los miembros del equipo. |
+| :--- | :--- | :--- |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Pareja Calloapaza, Marcelo Fausto:**<br>**AV1:** Aprendió y aplicó técnicas avanzadas de Lean UX y herramientas de UX Research (UXPressia) para el diseño de entrevistas y mapeo de journeys, alineando las necesidades del negocio con la visión de la solución.<br><br>**Francia Torres, Jhony Manuel:**<br>**AV1:** Investigó y dominó la sintaxis Gherkin (Given-When-Then) para la correcta especificación de Criterios de Aceptación, así como el uso de Impact Mapping para alinear las historias de usuario con los objetivos SMART.<br><br>**De la Cruz De los Santos, Mathias Marcelo:**<br>**AV1:** Actualizó sus conocimientos en el modelado de arquitecturas aplicando Strategic-Level Domain-Driven Design (EventStorming, Context Mapping) y el framework C4 Model para la representación estructural del sistema.<br><br>**Ramirez Ruíz, Nickolas:**<br>**AV1:** Adquirió nuevos conocimientos en análisis competitivo y modelado de arquitecturas mediante herramientas de *Diagram-as-Code* (Structurizr DSL y PlantUML), aplicándolos para diagramar el nivel de código y base de datos. | La actualización constante de conocimientos en metodologías ágiles (Lean UX), modelado de dominio (DDD) y arquitectura de software (C4 Model) fue fundamental para definir la estructura base de RouteGuard. Sin este aprendizaje autónomo y la exploración de nuevas herramientas, hubiese sido imposible traducir las necesidades operativas de los usuarios a requerimientos técnicos y arquitectónicos formales. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Pareja Calloapaza, Marcelo Fausto:**<br>**AV1:** Reconoció la importancia de mantener un estándar de comunicación global (Ubiquitous Language) y dominar herramientas de prototipado colaborativo para asegurar la calidad de los entregables a largo plazo.<br><br>**Francia Torres, Jhony Manuel:**<br>**AV1:** Identificó que el levantamiento de requerimientos evoluciona constantemente, comprendiendo la necesidad de investigar técnicas ágiles de priorización (Product Backlog) para maximizar el valor entregado.<br><br>**De la Cruz De los Santos, Mathias Marcelo:**<br>**AV1:** Comprendió que las arquitecturas modernas requieren una constante investigación sobre patrones de integración, evidenciando la necesidad de actualizarse continuamente en enfoques de despliegue en la nube.<br><br>**Ramirez Ruíz, Nickolas:**<br>**AV1:** Reconoció que el estudio continuo del mercado y la adopción constante de nuevos frameworks de modelado estructural son habilidades indispensables para agilizar la documentación técnica en entornos reales. | El equipo concluye que el ciclo de vida del software exige una mentalidad de aprendizaje continuo. La adopción temprana de estándares de la industria, herramientas de diseño modernas (como Figma o UXPressia) y enfoques arquitectónicos avanzados no solo asegura el éxito funcional del proyecto, sino que sienta las bases para la competitividad y el crecimiento profesional individual de cada integrante en el mercado laboral. |
 
 <div style="page-break-after: always;"></div>
 
@@ -479,7 +487,7 @@ Para el ecosistema de RouteGuard, hemos identificado dos segmentos de usuarios c
 
 Este análisis nos permite conocer las características, ventajas y limitaciones de las principales soluciones de transporte escolar existentes en el mercado. También ayuda a identificar oportunidades de diferenciación y áreas de mejora para SafeRoute.
 
-| Categoría | Subcategoría | **RouteGuard**![RouteGuard](/resources/assets/images/RouteGuard.jpg)                                                                                                  | **OnTrack School**![OnTrack School](./resources/assets/images/OnTrackSchool.png)| **SafeRoute Parent** ![SafeRoute Parent](./resources/assets/images/SafeRouteParent.png)| **BusRight**![BusRight](./resources/assets/images/BusRight.png)                                            |
+| Categoría | Subcategoría | **RouteGuard** ![RouteGuard](/resources/assets/images/RouteGuard.jpg)                                                                                                  | **OnTrack School** ![OnTrack School](./resources/assets/images/OnTrackSchool.png)| **SafeRoute Parent** ![SafeRoute Parent](./resources/assets/images/SafeRouteParent.png)| **BusRight** ![BusRight](./resources/assets/images/BusRight.png)                                            |
 |---|---|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|------------------------------------------------------------------------------------------------------------|
 | **Perfil** | Overview | Plataforma de monitoreo y gestión de transporte escolar.                                                                                                              | Plataforma de gestión de transporte escolar para colegios, instituciones educativas y empresas de transporte. | Plataforma de monitoreo y seguridad del transporte escolar enfocada principalmente en padres de familia. | Plataforma integral para la gestión y optimización del transporte escolar y sus operaciones.               |
 | | Ventaja Competitiva | Roles específicos tanto para el padre como para el conductor y herramientas para la gestión de los viajes escolares.                                                  | Integra la gestión del transporte, seguimiento en tiempo real, control de acceso y otros servicios escolares en una sola plataforma. | Enfoque en seguridad, seguimiento en tiempo real, alertas y tranquilidad para los padres durante el traslado. | Combina planificación de rutas, GPS, gestión de estudiantes, conductores y comunicación con los padres.    |
@@ -592,8 +600,8 @@ El objetivo de estas entrevistas es validar la magnitud de los problemas de comu
 #### Entrevistado 1: Manuel Jesús Francia Huambachano (Segmento: Padres de Familia)
 * **Edad:** 50
 * **Distrito de residencia:** Lurín, Lima
-* **URL de la entrevista:** [Ingresar URL del video subido a OneDrive]
-* **Timing de inicio:** 00:00:01
+* **URL de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411627_upc_edu_pe/IQCkcavPTPPXTp1o41Ed0EQjAXYwEDw-mDTgQKu7Ced_1NY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c7Cjd8)
+* **Timing de inicio:** 00:00:05
 * **Screenshot del video:**
   ![Extrevista 1 - Manuel](resources/chapter-2/interviews/manuel.png)
 
@@ -607,8 +615,8 @@ Manuel es un padre de familia con un hijo de 13 años, quien contrató el servic
 #### Entrevistado 2: Luis Johnny Jesús Mendoza (Segmento: Conductor / Transportista)
 * **Edad:** 57
 * **Distrito de residencia:** Lurín, Lima
-* **URL de la entrevista:** [Ingresar URL del video subido a OneDrive]
-* **Timing de inicio:** []
+* **URL de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411627_upc_edu_pe/IQCkcavPTPPXTp1o41Ed0EQjAXYwEDw-mDTgQKu7Ced_1NY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c7Cjd8)
+* **Timing de inicio:** 00:10:51
 * **Screenshot del video:**
   ![Extrevista 2 - Luis](resources/chapter-2/interviews/luis.png)
 
@@ -620,10 +628,10 @@ Luis Johnny es conductor y representante de *Transporte JCM SAC*, una empresa co
 * **Percepción de la solución propuesta:** Luis considera que una aplicación móvil de monitoreo y gestión sería una herramienta invaluable, especialmente para escalar su negocio. Reconoce que actualmente lleva el control "así nomás" (hojas y chats), pero entiende que para manejar flotas más grandes un software de trazabilidad es obligatorio. Ve un impacto muy positivo en el uso de la app para transmitir una **imagen más formal y profesional** frente a sus clientes corporativos, y afirmó estar dispuesto a pagar una suscripción mensual por esta tecnología conforme su empresa de transportes siga creciendo.
 
 #### Entrevistado 3: Máximo Quevedo (Segmento: Padres de Familia)
-* **Edad:** [Ingresar Edad]
-* **Distrito de residencia:** [Ingresar Distrito]
-* **URL de la entrevista:** [Ingresar URL del video subido a OneDrive]
-* **Timing de inicio:** []
+* **Edad:** 22 años
+* **Distrito de residencia:** Lima, Lima
+* **URL de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411627_upc_edu_pe/IQCkcavPTPPXTp1o41Ed0EQjAXYwEDw-mDTgQKu7Ced_1NY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c7Cjd8)
+* **Timing de inicio:** 27:55:22
 * **Screenshot del video:**
   ![Extrevista 3 - Máximo](resources/chapter-2/interviews/maximo.png)
 
@@ -637,8 +645,8 @@ Máximo es un padre de familia con un hijo de 7 años. Optó por contratar movil
 #### Entrevistado 4: Iván Oscco Cosío (Segmento: Conductor / Transportista)
 * **Edad:** 51 años
 * **Distrito de residencia:** Santiago de Surco, Lima
-* **URL de la entrevista:** [Ingresar URL del video subido a OneDrive]
-* **Timing de inicio:** []
+* **URL de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411627_upc_edu_pe/IQCkcavPTPPXTp1o41Ed0EQjAXYwEDw-mDTgQKu7Ced_1NY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c7Cjd8)
+* **Timing de inicio:** 36:03:18
 * **Screenshot del video:**
   ![Extrevista 4 - Iván](resources/chapter-2/interviews/ivan.png)
 
@@ -652,8 +660,8 @@ Iván es un conductor independiente con más de 25 años de experiencia en el tr
 #### Entrevistada 5: Diana Chávez Omonte (Segmento: Padres de Familia)
 * **Edad:** 31 años
 * **Distrito de residencia:** Santiago de Surco, Lima
-* **URL de la entrevista:** [Ingresar URL del video subido a OneDrive]
-* **Timing de inicio:** []
+* **URL de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411627_upc_edu_pe/IQCkcavPTPPXTp1o41Ed0EQjAXYwEDw-mDTgQKu7Ced_1NY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c7Cjd8)
+* **Timing de inicio:** 45:01:26
 * **Screenshot del video:**
   ![Extrevista 5 - Diana](resources/chapter-2/interviews/diana.png)
 
@@ -667,8 +675,8 @@ Diana es una madre de familia trabajadora con un hijo de 8 años. Decidió contr
 #### Entrevistado 6: Matías Aguilar (Segmento: Conductor / Transportista)
 * **Edad:** 24 años
 * **Distrito de residencia:** Santiago de Surco, Lima
-* **URL de la entrevista:** [Ingresar URL del video subido a OneDrive]
-* **Timing de inicio:** [Ingresar timing, ej: 00:00:00]
+* **URL de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411627_upc_edu_pe/IQCkcavPTPPXTp1o41Ed0EQjAXYwEDw-mDTgQKu7Ced_1NY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c7Cjd8)
+* **Timing de inicio:** 54:10:00
 * **Screenshot del video:**
   ![Extrevista 6 - Matías](resources/chapter-2/interviews/matias.jpeg)
 
@@ -3305,6 +3313,18 @@ Contiene las implementaciones concretas de los repositorios (`ParentRepositoryIm
 ### 3.1.1. Style Guidelines
 
 #### 3.1.1.1. General Style Guidelines
+Para el diseño de interfaces de RouteGuard, hemos establecido un sistema de diseño enfocado en la accesibilidad, el contraste y la jerarquía visual, asegurando que ambos segmentos de usuarios (padres y conductores) logren sus objetivos sin esfuerzo cognitivo y con rapidez.
+
+*   **Branding y Logotipo:** El isotipo de RouteGuard representa protección y ruta. Se ha diseñado pensando en su escalabilidad para pantallas móviles pequeñas y plataformas web.
+*   **Colores:**
+    *   **Color Principal (Primary):** Azul Marino Oscuro (`#1A365D`). Transmite seguridad, profesionalismo y confianza, esencial para brindar tranquilidad a los padres y formalidad a los conductores.
+    *   **Color Secundario (Secondary):** Naranja de Seguridad (`#F59E0B`). Utilizado como color de acento y para elementos críticos como los botones de emergencia y alertas.
+    *   **Colores de Estado:**
+        *   **Éxito:** Verde (`#10B981`) para confirmación de abordaje y llegadas a destino.
+        *   **Peligro/Error:** Rojo (`#EF4444`) para incidentes o notificaciones urgentes.
+        *   **Fondo:** Gris Claro (`#F3F4F6`) y Blanco (`#FFFFFF`) para minimizar la fatiga visual.
+*   **Tipografía:** Se emplea la familia tipográfica **Inter**, elegida por su alta legibilidad en pantallas digitales, particularmente en condiciones de movimiento o exteriores (crucial para el conductor).
+*   **Tono de Voz:** El tono es profesional, proactivo, directo y tranquilizador. Las alertas se redactan en oraciones cortas, precisas y sin ambigüedades (ej. "El alumno abordó el vehículo" en lugar de mensajes extensos).
 
 ### 3.1.2. Information Architecture
 
@@ -3445,22 +3465,55 @@ Técnicas de navegación aplicadas: **barra de navegación inferior por rol** (a
 
 ### 3.1.3. Landing Page UI Design
 
+La *Landing Page* tiene como objetivo principal captar a dueños de flotas de transporte y presentar las ventajas competitivas de las aplicaciones a los padres.
+
 #### 3.1.3.1. Landing Page Wireframe
+A continuación, se presentan los wireframes de baja fidelidad que estructuran la propuesta de la web de aterrizaje, estableciendo el *Hero section*, beneficios, testimonios y *Call to Actions (CTA)*.
+
+![Landing Page Wireframe](resources/assets/images/chapter-3/landing-wireframe.png)
 
 #### 3.1.3.2. Landing Page Mock-up
+El diseño final de la Landing Page aplica nuestros colores corporativos y tipografías. Busca convencer visualmente al administrador de transportes para iniciar una prueba gratuita y adquirir nuestros planes.
+
+![Landing Page Mock-up](resources/assets/images/chapter-3/landing-mockup.png)
 
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
+El núcleo de RouteGuard reside en sus aplicaciones móviles, diseñadas teniendo en cuenta las fuertes diferencias en el contexto y entorno de uso de ambos usuarios objetivo.
+
 #### 3.1.4.1. Mobile Applications Wireframes
+Se elaboraron bocetos iniciales de las vistas críticas de la plataforma:
+*   **App Conductor:** Pantalla de selección de ruta, vista de checklist modo offline con botones grandes y accesibles, y botón de incidente a 1 toque.
+*   **App Padres:** Panel de estado principal, mapa de monitoreo pasivo, e historial de notificaciones.
+
+![Mobile Applications Wireframes](resources/assets/images/chapter-3/mobile-wireframes.png)
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+Estos diagramas evidencian la interacción entre las pantallas según las decisiones del usuario. Por ejemplo, demuestran cómo la acción simple del conductor ("Registrar Abordaje") desencadena actualizaciones visuales en el flujo de la vista del padre.
+
+![Mobile Applications Wireflow Diagrams](resources/assets/images/chapter-3/mobile-wireflow.png)
 
 #### 3.1.4.3. Mobile Applications Mock-ups
+Los diseños de alta fidelidad muestran la interfaz terminada, aplicando la guía de estilos:
+*   En la vista del conductor, predominan controles grandes e intuitivos que evitan la sobrecarga cognitiva durante el viaje.
+*   En la vista de los padres, la interfaz es amigable y resume en una vista el estado de seguridad de sus hijos mediante mapas y tarjetas de estado.
+
+![Mobile Applications Mock-ups](resources/assets/images/chapter-3/mobile-mockups.png)
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+El *User Flow* diagrama las rutas obligatorias y condicionales (*Happy paths* & *Alternate paths*). Destacan:
+*   **Flujo de Ejecución de Ruta (Conductor):** Login -> Seleccionar Ruta -> Modo Viaje (*GPS background tracking* activado) -> Checklists Parada a Parada -> Fin de Ruta.
+*   **Flujo de Monitoreo (Padre):** Notificación Push (Alerta Geofence) -> Toca alerta -> Pantalla de Detalles del Recorrido.
+
+![Mobile Applications User Flow Diagrams](resources/assets/images/chapter-3/mobile-user-flow.png)
 
 #### 3.1.4.5. Mobile Applications Prototyping
+Se desarrolló un prototipo interactivo en Figma que simula el movimiento, transiciones y flujos entre pantallas. Este recurso sirvió de base fundamental para validar la solución con los usuarios durante las entrevistas de validación finales.
+
+![Mobile Applications Prototyping](resources/assets/images/chapter-3/mobile-prototyping.png)
+
+*Enlace al prototipo interactivo (Figma):* `[Link a Figma - Insertar aquí]`
 
 <div style="page-break-after: always;"></div>
 
@@ -3588,11 +3641,14 @@ Pasar del modelado al producto desplegado obligó a cada integrante a aprender h
 * Adzic, G. (2012). *Impact Mapping: Making a big impact with software products and projects.* Provoking Thoughts.
 * Brandolini, A. (2021). *Introducing EventStorming: An Act of Deliberate Collective Learning.* Leanpub.
 * Chen, Y., & Zhao, M. (2025). Passive monitoring and location-based notifications in family tracking applications. *Journal of Mobile Human-Computer Interaction,* 15(2), 45-60. https://doi.org/10.1016/j.jmhci.2025.104221
-* Cooper, A. (1999). *The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity.* Sams Publishing.
 * Cohn, M. (2004). *User Stories Applied: For Agile Software Development.* Addison-Wesley Professional.
+* Cooper, A. (1999). *The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity.* Sams Publishing.
+* Enge, E., Spencer, S., & Stricchiola, J. (2015). *The Art of SEO: Mastering Search Engine Optimization* (3rd ed.). O'Reilly Media.
 * Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software.* Addison-Wesley Professional.
 * Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing Great Products with Agile Teams* (3rd ed.). O'Reilly Media.
 * Kumar, A., & Lee, S. (2024). Role-based task frequency analysis in mobile interface design for logistics. *International Journal of Human-Computer Studies,* 182, 103-118. https://doi.org/10.1016/j.ijhcs.2024.103118
+* Nielsen, J. (1994). *Usability Engineering*. Morgan Kaufmann.
+* Rosenfeld, L., Morville, P., & Arango, J. (2015). *Information Architecture: For the Web and Beyond* (4th ed.). O'Reilly Media.
 * Rubin, K. S. (2012). *Essential Scrum: A Practical Guide to the Most Popular Agile Process.* Addison-Wesley.
 * Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide.* Scrum.org.
 * Stickdorn, M., Hormess, M. E., Lawrence, A., & Schneider, J. (2018). *This Is Service Design Doing: Applying Service Design Thinking in the Real World*. O'Reilly Media.
