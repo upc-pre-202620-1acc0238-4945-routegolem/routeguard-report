@@ -179,9 +179,11 @@ El equipo ha utilizado un flujo de trabajo en github: https://github.com/upc-pre
 
 AV1:
 
-![av1](/resources/assets/images/AV1.png)
+![av1](./resources/assets/images/AV1.png)
 
+TB1:
 
+![tb1](./resources/assets/images/TB1.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -741,7 +743,7 @@ Este análisis nos permite conocer las características, ventajas y limitaciones
     <tr style="background-color: #003366; color: white;">
       <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Categoría</th>
       <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Subcategoría</th>
-      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"><strong>RouteGuard</strong> <img src="/resources/assets/images/RouteGuard.jpg" alt="RouteGuard"></th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"><strong>RouteGuard</strong> <img src="./resources/assets/images/RouteGuard.jpg" alt="RouteGuard"></th>
       <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"><strong>OnTrack School</strong> <img src="./resources/assets/images/OnTrackSchool.png" alt="OnTrack School"></th>
       <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"><strong>SafeRoute Parent</strong> <img src="./resources/assets/images/SafeRouteParent.png" alt="SafeRoute Parent"></th>
       <th style="padding: 10px; border: 1px solid #ddd; text-align: left;"><strong>BusRight</strong> <img src="./resources/assets/images/BusRight.png" alt="BusRight"></th>
