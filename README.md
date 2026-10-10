@@ -9,7 +9,7 @@
   <br>
   NRC: <strong>4945</strong>
   <br><br>
-  <strong>Informe de AV1</strong>
+  <strong>Informe de TB1</strong>
   <br><br>
   Docente:<br>
   <strong>Jorge Luis Mayta Guillermo</strong>
@@ -27,7 +27,7 @@
   [u202415551] - Ramirez Ruíz, Nickolas<br>
   <br><br>
   <strong>Periodo 2026-02</strong><br>
-  <strong>Setiembre 2026</strong>
+  <strong>Octubre 2026</strong>
 </div>
 
 <div style="page-break-after: always;"></div>
