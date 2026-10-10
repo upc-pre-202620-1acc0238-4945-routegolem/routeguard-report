@@ -3318,6 +3318,28 @@ Contiene las implementaciones concretas de los repositorios (`ParentRepositoryIm
 
 #### 3.1.2.2. Labelling Systems
 
+**Criterios.** (1) Máximo dos palabras por etiqueta. (2) Sustantivos para secciones y verbos en infinitivo/imperativo para acciones. (3) Vocabulario tomado del **Ubiquitous Language** (sección 2.3.6): *Viaje, Ruta, Abordaje, Alerta, Grupo*, para que lo que ve el usuario coincida con lo que dice el negocio. (4) Una etiqueta = un concepto, sin sinónimos entre pantallas. (5) Español latinoamericano (`es_419`) con equivalente en inglés (`en_US`), que es el idioma por defecto exigido para la interfaz.
+
+| Contexto | Etiqueta `es_419` | Etiqueta `en_US` (default) | Qué asocia en la mente del usuario |
+|---|---|---|---|
+| Navegación del Landing | Problema | Problem | Por qué existe RouteGuard |
+| | Solución | Solution | Qué propone el producto |
+| | Funciones *(hoy figura como "Features")* | Features | Capacidades concretas |
+| | Planes | Plans | Costos y suscripción |
+| | Producto | Product | Capturas de la app |
+| | Equipo | Team | Quién lo construye |
+| Barra inferior — Administrador | Personas | People | Conductores, padres, estudiantes, grupos |
+| | Rutas | Routes | Rutas, paradas, vehículo, días |
+| | En vivo | Live | Monitoreo en tiempo real |
+| | Planes | Plans | Suscripción |
+| Barra inferior — Conductor | Viaje | Trip | Iniciar y ejecutar el recorrido |
+| | Alertas | Alerts | Avisos, incidencias, pánico |
+| Barra inferior — Padre | Seguimiento | Tracking | Ver dónde está la unidad |
+| | Alertas | Alerts | Llegada, retraso |
+| Acción global | Salir | Sign out | Cerrar sesión |
+
+> **Hallazgo a corregir.** El Landing es 100 % en español pero conserva la etiqueta en inglés **"Features"** y el `aria-label="Toggle dark mode"` del botón de tema. Para ser coherente con la regla de *una etiqueta = un idioma* conviene pasar a "Funciones" y exponer ambos textos desde una tabla i18n.
+
 #### 3.1.2.3. SEO Tags and Meta Tags
 
 #### 3.1.2.4. Searching Systems
