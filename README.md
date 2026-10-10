@@ -977,11 +977,11 @@ Luis Johnny es conductor y representante de *Transporte JCM SAC*, una empresa co
   ![Extrevista 3 - Máximo](resources/chapter-2/interviews/maximo.png)
 
 **Resumen de la entrevista:**
-Máximo es un padre de familia con un hijo de 7 años. Optó por contratar movilidad escolar privada para optimizar su tiempo frente al complejo tráfico de Lima, permitiéndole dirigirse directamente a su centro de labores. Su perfil es marcadamente tecnológico y analítico; está muy familiarizado con aplicativos financieros y valora la eficiencia digital, afirmando firmemente que *"quienes no se adaptan a la tecnología en el siglo XXI se quedan atrás"*.
+Máximo es un padre de familia con un hijo de 7 años. Optó por contratar movilidad escolar privada para optimizar su tiempo frente al complejo tráfico de Lima, permitiéndole dirigirse directamente a su centro de labores. Su perfil es marcadamente tecnológico y analítico; está muy familiarizado con aplicaciones financieras y valora la eficiencia digital, afirmando firmemente que *"quienes no se adaptan a la tecnología en el siglo XXI se quedan atrás"*.
 
 * **Comportamiento actual:** La comunicación que mantiene con el servicio de movilidad se da exclusivamente a través de mensajes o llamadas. Del mismo modo, el control de los pagos de la pensión escolar de su hijo se realiza por WhatsApp, donde recibe las notificaciones de cobro de manera informal y manual.
 * **Frustraciones (Pain Points):** Su principal dolor es la falta de comunicación en tiempo real y la gran angustia que esto le genera. Relató un episodio crítico donde la movilidad se retrasó 20 minutos; al no tener forma de rastrear el vehículo, sintió un altísimo nivel de estrés temiendo un accidente o un extravío, viéndose obligado a timbrar desesperadamente a la directora del colegio. Adicionalmente, encuentra ineficiente llevar el control de pagos por WhatsApp, ya que a menudo se generan confusiones, desorden y *"los montos no cuadran"*.
-* **Percepción de la solución propuesta:** Máximo aprueba rotundamente la creación de la aplicación. Debido a la alta concentración que exige su trabajo (análisis de costos), prefiere recibir **notificaciones automáticas en segundo plano** en lugar de tener que vigilar activamente un mapa. Destaca la necesidad de tener un historial integrado, tanto para registrar las horas exactas de los viajes, como para llevar un control transparente de los pagos (comparándolo con una app bancaria). Es tan firme en su postura que asegura que **descartaría de inmediato** a su transportista actual si este se negara a usar el aplicativo. Finalmente, respalda con entusiasmo la función de reportar inasistencias con un botón y la opción de incluir contactos de emergencia.
+* **Percepción de la solución propuesta:** Máximo aprueba rotundamente la creación de la aplicación. Debido a la alta concentración que exige su trabajo (análisis de costos), prefiere recibir **notificaciones automáticas en segundo plano** en lugar de tener que vigilar activamente un mapa. Destaca la necesidad de tener un historial integrado, tanto para registrar las horas exactas de los viajes, como para llevar un control transparente de los pagos (comparándolo con una app bancaria). Es tan firme en su postura que asegura que **descartaría de inmediato** a su transportista actual si este se negara a usar la aplicación. Finalmente, respalda con entusiasmo la función de reportar inasistencias con un botón y la opción de incluir contactos de emergencia.
 
 #### Entrevistado 4: Iván Oscco Cosío (Segmento: Conductor / Transportista)
 * **Edad:** 51 años
@@ -5074,7 +5074,7 @@ Para el desarrollo del proyecto RouteGuard, el equipo ha configurado un entorno 
 - **Mobile (Android & Flutter):** El desarrollo de la aplicación nativa para conductores y la aplicación multiplataforma para padres se realiza utilizando **Android Studio** (Google, 2024b). Este IDE proporciona emuladores avanzados y herramientas de perfilamiento esenciales para integrar la funcionalidad de GPS en segundo plano y geofencing, características vitales para reducir la distracción cognitiva del conductor (Smith & Johnson, 2025) y mitigar la ansiedad de los padres (Chen & Davis, 2025; Chen & Zhao, 2025).
 - **Web (Landing Page):** Para el desarrollo web enfocado en la *Landing Page*, se emplea **Visual Studio Code** (Microsoft, 2024), un editor de código ligero, extensible y altamente personalizable mediante plugins, ideal para el desarrollo frontend con HTML, CSS y JavaScript.
 - **Diseño UX/UI:** La etapa de prototipado y diseño visual se lleva a cabo en **Figma** (Figma, 2024), plataforma colaborativa que permite iterar recursos gráficos alineados a las mejores prácticas de interfaces para logística y diseño de servicios (Kumar & Lee, 2024; Stickdorn et al., 2018).
-- **Gestión de Proyectos:** La planificación ágil, seguimiento de Sprints y asignación de historias de usuario se gestionan mediante **Jira Software** (Atlassian, 2024), complementado con **Trello**. Esto asegura transparencia en el flujo de trabajo y alineación con la metodología Scrum en equipos ágiles (Gothelf & Seiden, 2021; Schwaber & Sutherland, 2020).
+- **Gestión de Proyectos:** La planificación ágil, seguimiento de Sprints y asignación de historias de usuario se gestionan mediante **Jira Software** (Atlassian, 2024), complementado con **Trello**. Esto asegura transparencia en el flujo de trabajo y alineación con el marco de trabajo Scrum en equipos ágiles (Gothelf & Seiden, 2021; Schwaber & Sutherland, 2020).
 
 ### 4.1.2. Source Code Management
 
@@ -6867,33 +6867,3 @@ Pasar del modelado al producto desplegado obligó a cada integrante a aprender h
 <div style="page-break-after: always;"></div>
 
 # Anexos
-
-ANEXO: Capturas a incluir en la carpeta `imagenes/`
-
-Las capturas se exportan desde Figma (clic derecho sobre el frame > *Copy/Paste as* o *Export* > PNG) y se guardan con el nombre indicado. Enlace base: `https://www.figma.com/design/jPJKqqqvre7HN5jwOPVvKM/?node-id=<nodo>` (cambiar `:` por `-`).
-
-| Archivo | Frame de Figma | Nodo |
-|---|---|---|
-| 01-registro-datos-acceso.png | 03 · Registro · Datos de acceso | 64:678 |
-| 02-registro-verificar-correo.png | 04 · Registro · Verificar correo | 64:708 |
-| 03-dialogo-correo-verificado.png | Diálogo · Registro · Correo validado | 64:842 |
-| 04-login-paciente.png | 05 · Login · Paciente | 64:936 |
-| 05-dialogo-credenciales-incorrectas.png | Diálogo · Login · Credenciales incorrectas | 64:834 |
-| 06-recuperacion-nueva-contrasena.png | 10 · Recuperación · Nueva contraseña | 64:914 |
-| 07-dashboard-inicio.png | D01 · Inicio | 64:1271 |
-| 08-registro-verificar-identidad.png | 02 · Registro · Verificar identidad | 64:805 |
-| 09-dialogo-correo-duplicado.png | Diálogo · Registro · Correo duplicado | 64:1198 |
-| 10-recuperacion-ayuda.png | 15 · Recuperación · Ayuda | 64:989 |
-| 11-perfil-paciente.png | 16 · Perfil · Paciente | 64:1006 |
-| 12-menores-lista.png | 18 · Menores · Lista | 64:1036 |
-| 13-menores-vincular.png | 19 · Menores · Vincular | 64:1046 |
-| 14-reserva-beneficiario.png | R02 · Beneficiario | 64:1660 |
-| 15-historial-calendario.png | D04 · Historial · Calendario | 64:1370 |
-| 16-historial-filtrado.png | D05 · Historial filtrado | 64:1481 |
-| 17-detalle-cita.png | D06 · Detalle de cita | 64:1510 |
-| 18-reserva-especialidad.png | R01 · Reserva tu cita | 64:1600 |
-| 19-reserva-fecha.png | R03 · Elegir fecha | 64:1692 |
-| 20-dialogo-recuperacion-contrasenas-diferentes.png | Diálogo · Recuperación · Contraseñas diferentes | 64:898 |
-| 21-error-carga.png | D08 · Error de carga | 64:1571 |
-
-
