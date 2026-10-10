@@ -3601,6 +3601,27 @@ En esta sección se especifican los aspectos principales del Sprint Planning Mee
 * PostGIS Project Steering Committee. (2024). *PostGIS: Spatial and Geographic Objects for PostgreSQL.* OSGeo. https://postgis.net/
 * VMware. (2024). *RabbitMQ: Messaging that just works.* Broadcom. https://www.rabbitmq.com/
 
+**Métodos y técnicas de ingeniería de software**
+
+* Nielsen, J. (1994). *10 usability heuristics for user interface design*. Nielsen Norman Group. https://www.nngroup.com/articles/ten-usability-heuristics/
+* Rosenfeld, L., Morville, P., & Arango, J. (2015). *Information architecture: For the web and beyond* (4th ed.). O'Reilly Media.
+* Cucumber. (s. f.). *Gherkin reference*. https://cucumber.io/docs/gherkin/reference/
+
+**Lenguajes, frameworks y herramientas**
+
+* Google. (s. f.). *Search Central: SEO starter guide*. Google for Developers. https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+* Google. (s. f.). *Navigation in Jetpack Compose*. Android Developers. https://developer.android.com/develop/ui/compose/navigation
+* Google. (s. f.). *Save data in a local database using Room*. Android Developers. https://developer.android.com/training/data-storage/room
+* Mapbox. (s. f.). *Geocoding API*. https://docs.mapbox.com/api/search/geocoding/
+* Microsoft. (s. f.). *ASP.NET Core documentation*. Microsoft Learn. https://learn.microsoft.com/aspnet/core
+* Microsoft. (s. f.). *Azure App Service documentation*. Microsoft Learn. https://learn.microsoft.com/azure/app-service/
+* OpenAPI Initiative. (2021). *OpenAPI Specification v3.1.0*. https://spec.openapis.org/oas/v3.1.0
+* W3C. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. https://www.w3.org/TR/WCAG21/
+
+
+
+
+
 <div style="page-break-after: always;"></div>
 
 # Anexos
