@@ -3342,7 +3342,87 @@ Contiene las implementaciones concretas de los repositorios (`ParentRepositoryIm
 
 #### 3.1.2.3. SEO Tags and Meta Tags
 
+#### Landing Page (sitio estático)
+
+Estado actual verificado en `index.html` frente a lo mínimo que pide el curso (Title, Description, Keywords, Author):
+
+| Tag | Valor actual | Valor propuesto |
+|---|---|---|
+| `lang` | `es` | `es-419` (y `en` en la versión por defecto) |
+| `title` | RouteGuard - Monitoreo de Transporte Escolar en Tiempo Real | *(se mantiene)* — 59 caracteres, dentro del límite recomendado |
+| `meta description` | Plataforma inteligente para la gestión de flotas y monitoreo del transporte escolar privado. Brinda seguridad a tus hijos y tranquilidad a tu familia. | *(se mantiene)* |
+| `meta keywords` | **No existe** | transporte escolar, monitoreo GPS, seguridad escolar, geofencing, control de abordaje, gestión de flotas, Lima |
+| `meta author` | **No existe** | RouteGolem |
+| `og:title` | RouteGuard - Transporte Escolar Seguro | *(se mantiene)* |
+| `og:description` | Tracking GPS en segundo plano, geofencing y control de abordaje offline. | *(se mantiene)* |
+| `og:type`, `og:url`, `og:image` | **No existen** | `website`, URL del Landing, captura del *hero* |
+| `twitter:card` | **No existe** | `summary_large_image` |
+| `canonical` | **No existe** | URL del Landing |
+| `theme-color` | **No existe** | `#1E3A8A` (color primario del sistema de diseño) |
+| `robots` | **No existe** | `index, follow` |
+
+Bloque listo para pegar dentro de `<head>`:
+
+```html
+<meta name="keywords" content="transporte escolar, monitoreo GPS, seguridad escolar, geofencing, control de abordaje, gestión de flotas, Lima">
+<meta name="author" content="RouteGolem">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1E3A8A">
+<link rel="canonical" href="https://upc-pre-202620-1acc0238-4945-routegolem.github.io/routeguard-landing-page/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://upc-pre-202620-1acc0238-4945-routegolem.github.io/routeguard-landing-page/">
+<meta property="og:image" content="https://upc-pre-202620-1acc0238-4945-routegolem.github.io/routeguard-landing-page/assets/images/p1.png">
+<meta name="twitter:card" content="summary_large_image">
+```
+
+Las 8 imágenes del Landing ya tienen atributo `alt`, lo que cubre el requisito mínimo de accesibilidad de contenido no textual (W3C, n.d.).
+
+#### Web Application
+
+No aplica: el proyecto no contempla una Web Application (ver alcance al inicio de la sección).
+
+#### Aplicaciones móviles — App Store Optimization (ASO)
+
+| Elemento | RouteGuard Driver (Android nativa) | RouteGuard Families (cross-platform) |
+|---|---|---|
+| **App title** (≤ 30) | RouteGuard Driver | RouteGuard Families |
+| **App subtitle** (≤ 30) | Drive focused, report less | School transport, safely |
+| **Short description** (≤ 80) | Background GPS and offline boarding check-in for school transport drivers. | Know your child's school transport is safe, with automatic arrival alerts. |
+| **App keywords** | school transport, school bus, GPS tracking, fleet, boarding, offline, driver | school transport, child safety, geofencing, push alerts, parents, school bus tracker |
+| **App description** | RouteGuard lets school transport drivers keep their eyes on the road. The app shares the route position in the background, records student boarding with a single tap even without internet, and syncs everything when the connection returns. | RouteGuard gives families peace of mind. Instead of calling the driver, you receive an automatic alert when the vehicle approaches your home or when something unexpected happens on the route. |
+
+*(Los textos en `es_419` se redactan a partir de los mismos puntos; el inglés es el idioma por defecto del producto.)*
+
+
 #### 3.1.2.4. Searching Systems
+
+
+**Landing Page — sin buscador (decisión justificada).** Es una página única con siete secciones y navegación por anclas; con ese volumen de información un buscador agrega ruido en lugar de ayudar. La necesidad de "encontrar algo" se resuelve con la barra de navegación fija.
+
+**Aplicaciones móviles.**
+
+| Búsqueda | Qué hace | Filtros | Cómo se ven los resultados | Estado |
+|---|---|---|---|---|
+| **Búsqueda de direcciones al crear paradas** (Administrador, módulo *Fleet & Route*) | Geocodificación directa con la API de Mapbox (`search/geocode/v6/forward`) a partir de texto libre. | País fijo en Perú (`country=pe`), máximo 5 resultados (`limit=5`), idioma español, y sesgo por cercanía (`proximity`) cuando se conoce la ubicación del administrador. | Lista corta de lugares con nombre y dirección; al elegir uno se obtienen coordenadas (latitud primero, validado por `MapboxMapperTest`) y se coloca el marcador en el mapa. | Implementado en la capa de red |
+| **Búsqueda inversa** (tocar el mapa) | Obtiene la dirección de un punto (`geocode/v6/reverse`, 1 resultado). | Idioma español. | Una sola dirección sugerida para la parada. | Implementado en la capa de red |
+| **Búsqueda dentro de *Personas*** | Filtra por nombre la lista ya cargada de conductores, padres y grupos (`GET /api/v1/drivers`, `/parents`, `/student-groups`). | Conductores: por nombre. Estudiantes: por estado de matrícula (`ACTIVE` / `INACTIVE`). Grupos: por estado (**finalizado** / en edición). | Tarjeta con nombre completo, teléfono y correo; la lista conserva el orden alfabético. | Propuesto (los atributos filtrables ya existen en el dominio) |
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="resources/assets/images/tb1/puntos.png" alt="Pantalla Agregar parada con el cuadro Buscar dirección" width="220"><br>
+      <sub><b>Figura 1.</b> Búsqueda de direcciones al crear paradas</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="resources/assets/images/tb1/mapa.png" alt="Pantalla de detalle de ruta con mapa" width="220"><br>
+      <sub><b>Figura 2.</b> Búsqueda inversa (tocar el mapa)</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="resources/assets/images/tb1/datos.png" alt="Pantalla Personas con la pestaña Padres" width="220"><br>
+      <sub><b>Figura 3.</b> Búsqueda dentro de Personas</sub>
+    </td>
+  </tr>
+</table>
 
 #### 3.1.2.5. Navigation Systems
 
