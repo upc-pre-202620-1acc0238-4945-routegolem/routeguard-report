@@ -372,30 +372,30 @@ TB1:
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
-- [UX Heuristics \& Principles Evaluation](#ux-heuristics--principles-evaluation)
-  - [Usability · Inclusive Design · Information Architecture](#usability--inclusive-design--information-architecture)
-  - [TAREAS EVALUADAS](#tareas-evaluadas)
-  - [ESCALA DE SEVERIDAD](#escala-de-severidad)
-  - [TABLA RESUMEN](#tabla-resumen)
-  - [DESCRIPCIÓN DE PROBLEMAS](#descripción-de-problemas)
-    - [PROBLEMA #1: Registro de administrador sin términos y condiciones ni aceptación explícita](#problema-1-registro-de-administrador-sin-términos-y-condiciones-ni-aceptación-explícita)
-    - [PROBLEMA #2: Login sin "¿Olvidaste tu contraseña?"](#problema-2-login-sin-olvidaste-tu-contraseña)
-    - [PROBLEMA #3: Registro sin botón de volver al login](#problema-3-registro-sin-botón-de-volver-al-login)
-    - [PROBLEMA #4: "Salir" en la barra principal, a un toque, sin confirmación](#problema-4-salir-en-la-barra-principal-a-un-toque-sin-confirmación)
-    - [PROBLEMA #5: Tarjeta de estudiante con título genérico "Estudiante"](#problema-5-tarjeta-de-estudiante-con-título-genérico-estudiante)
-    - [PROBLEMA #6: Subtítulo "Viaje en curso · 0 a bordo…" cortado](#problema-6-subtítulo-viaje-en-curso--0-a-bordo-cortado)
-    - [PROBLEMA #7: "Turno Manana" sin ñ](#problema-7-turno-manana-sin-ñ)
-    - [PROBLEMA #8: Dato de ubicación desactualizado sin alerta visual](#problema-8-dato-de-ubicación-desactualizado-sin-alerta-visual)
-    - [PROBLEMA #9: Marcador rojo sin leyenda y etiquetas del mapa solapadas](#problema-9-marcador-rojo-sin-leyenda-y-etiquetas-del-mapa-solapadas)
-    - [PROBLEMA #10: Sin búsqueda ni filtros en las listas](#problema-10-sin-búsqueda-ni-filtros-en-las-listas)
-    - [PROBLEMA #11: Texto secundario muy pequeño y de bajo contraste](#problema-11-texto-secundario-muy-pequeño-y-de-bajo-contraste)
-    - [PROBLEMA #12: Vista Padre sin contacto al conductor ni ETA de la parada](#problema-12-vista-padre-sin-contacto-al-conductor-ni-eta-de-la-parada)
-    - [PROBLEMA #13: Título "Registrar padre de familia" vs. botón "Registrar padre"](#problema-13-título-registrar-padre-de-familia-vs-botón-registrar-padre)
-    - [PROBLEMA #14: Mayúsculas inconsistentes en datos de muestra](#problema-14-mayúsculas-inconsistentes-en-datos-de-muestra)
-    - [PROBLEMA #15: Color de selección en verde frente al azul de marca](#problema-15-color-de-selección-en-verde-frente-al-azul-de-marca)
-    - [PROBLEMA #16: "Seleccionado en el mapa" ambiguo y barra de escala como barra negra suelta](#problema-16-seleccionado-en-el-mapa-ambiguo-y-barra-de-escala-como-barra-negra-suelta)
-  - [OBSERVACIONES POSITIVAS](#observaciones-positivas)
-  - [PRÓXIMOS PASOS SUGERIDOS](#próximos-pasos-sugeridos)
+      - [UX Heuristics \& Principles Evaluation](#ux-heuristics--principles-evaluation)
+        - [Usability · Inclusive Design · Information Architecture](#usability--inclusive-design--information-architecture)
+        - [TAREAS EVALUADAS](#tareas-evaluadas)
+        - [ESCALA DE SEVERIDAD](#escala-de-severidad)
+        - [TABLA RESUMEN](#tabla-resumen)
+        - [DESCRIPCIÓN DE PROBLEMAS](#descripción-de-problemas)
+          - [PROBLEMA #1: Registro de administrador sin términos y condiciones ni aceptación explícita](#problema-1-registro-de-administrador-sin-términos-y-condiciones-ni-aceptación-explícita)
+          - [PROBLEMA #2: Login sin "¿Olvidaste tu contraseña?"](#problema-2-login-sin-olvidaste-tu-contraseña)
+          - [PROBLEMA #3: Registro sin botón de volver al login](#problema-3-registro-sin-botón-de-volver-al-login)
+          - [PROBLEMA #4: "Salir" en la barra principal, a un toque, sin confirmación](#problema-4-salir-en-la-barra-principal-a-un-toque-sin-confirmación)
+          - [PROBLEMA #5: Tarjeta de estudiante con título genérico "Estudiante"](#problema-5-tarjeta-de-estudiante-con-título-genérico-estudiante)
+          - [PROBLEMA #6: Subtítulo "Viaje en curso · 0 a bordo…" cortado](#problema-6-subtítulo-viaje-en-curso--0-a-bordo-cortado)
+          - [PROBLEMA #7: "Turno Manana" sin ñ](#problema-7-turno-manana-sin-ñ)
+          - [PROBLEMA #8: Dato de ubicación desactualizado sin alerta visual](#problema-8-dato-de-ubicación-desactualizado-sin-alerta-visual)
+          - [PROBLEMA #9: Marcador rojo sin leyenda y etiquetas del mapa solapadas](#problema-9-marcador-rojo-sin-leyenda-y-etiquetas-del-mapa-solapadas)
+          - [PROBLEMA #10: Sin búsqueda ni filtros en las listas](#problema-10-sin-búsqueda-ni-filtros-en-las-listas)
+          - [PROBLEMA #11: Texto secundario muy pequeño y de bajo contraste](#problema-11-texto-secundario-muy-pequeño-y-de-bajo-contraste)
+          - [PROBLEMA #12: Vista Padre sin contacto al conductor ni ETA de la parada](#problema-12-vista-padre-sin-contacto-al-conductor-ni-eta-de-la-parada)
+          - [PROBLEMA #13: Título "Registrar padre de familia" vs. botón "Registrar padre"](#problema-13-título-registrar-padre-de-familia-vs-botón-registrar-padre)
+          - [PROBLEMA #14: Mayúsculas inconsistentes en datos de muestra](#problema-14-mayúsculas-inconsistentes-en-datos-de-muestra)
+          - [PROBLEMA #15: Color de selección en verde frente al azul de marca](#problema-15-color-de-selección-en-verde-frente-al-azul-de-marca)
+          - [PROBLEMA #16: "Seleccionado en el mapa" ambiguo y barra de escala como barra negra suelta](#problema-16-seleccionado-en-el-mapa-ambiguo-y-barra-de-escala-como-barra-negra-suelta)
+        - [OBSERVACIONES POSITIVAS](#observaciones-positivas)
+        - [PRÓXIMOS PASOS SUGERIDOS](#próximos-pasos-sugeridos)
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
     - [Video App Validation](#video-app-validation)
@@ -6485,8 +6485,8 @@ HTTP 200
 
 ### 4.3.3. Evaluaciones según heurísticas
 
-# UX Heuristics & Principles Evaluation
-## Usability · Inclusive Design · Information Architecture
+#### UX Heuristics & Principles Evaluation
+##### Usability · Inclusive Design · Information Architecture
 
 | Campo | Valor |
 | :--- | :--- |
@@ -6503,7 +6503,7 @@ HTTP 200
 
 ---
 
-## TAREAS EVALUADAS
+##### TAREAS EVALUADAS
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
@@ -6528,7 +6528,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ---
 
-## ESCALA DE SEVERIDAD
+##### ESCALA DE SEVERIDAD
 
 Los errores se puntúan con la siguiente escala de severidad:
 
@@ -6541,7 +6541,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-## TABLA RESUMEN
+##### TABLA RESUMEN
 
 | # | Problema | Escala de severidad | Heurística / Principio violado(a) |
 | :---: | :--- | :---: | :--- |
@@ -6564,9 +6564,9 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-## DESCRIPCIÓN DE PROBLEMAS
+##### DESCRIPCIÓN DE PROBLEMAS
 
-### PROBLEMA #1: Registro de administrador sin términos y condiciones ni aceptación explícita
+###### PROBLEMA #1: Registro de administrador sin términos y condiciones ni aceptación explícita
 
 - **Severidad:** 4
 - **Heurística violada:** Usability – Prevención de errores (y ética y responsabilidad legal)
@@ -6577,7 +6577,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #2: Login sin "¿Olvidaste tu contraseña?"
+###### PROBLEMA #2: Login sin "¿Olvidaste tu contraseña?"
 
 - **Severidad:** 3
 - **Heurística violada:** Usability – Libertad y control del usuario
@@ -6588,7 +6588,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #3: Registro sin botón de volver al login
+###### PROBLEMA #3: Registro sin botón de volver al login
 
 - **Severidad:** 3
 - **Heurística violada:** Usability – Libertad y control del usuario
@@ -6599,7 +6599,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #4: "Salir" en la barra principal, a un toque, sin confirmación
+###### PROBLEMA #4: "Salir" en la barra principal, a un toque, sin confirmación
 
 - **Severidad:** 3
 - **Heurística violada:** Usability – Prevención de errores
@@ -6610,7 +6610,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #5: Tarjeta de estudiante con título genérico "Estudiante"
+###### PROBLEMA #5: Tarjeta de estudiante con título genérico "Estudiante"
 
 - **Severidad:** 3
 - **Heurística violada:** Usability – Visibilidad del estado / Coincidencia entre el sistema y el mundo real
@@ -6621,7 +6621,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #6: Subtítulo "Viaje en curso · 0 a bordo…" cortado
+###### PROBLEMA #6: Subtítulo "Viaje en curso · 0 a bordo…" cortado
 
 - **Severidad:** 3
 - **Heurística violada:** Usability – Estética y diseño minimalista / Visibilidad del estado
@@ -6632,7 +6632,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #7: "Turno Manana" sin ñ
+###### PROBLEMA #7: "Turno Manana" sin ñ
 
 - **Severidad:** 2
 - **Heurística violada:** Usability – Consistencia y estándares
@@ -6643,7 +6643,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #8: Dato de ubicación desactualizado sin alerta visual
+###### PROBLEMA #8: Dato de ubicación desactualizado sin alerta visual
 
 - **Severidad:** 2
 - **Heurística violada:** Usability – Visibilidad del estado del sistema
@@ -6654,7 +6654,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #9: Marcador rojo sin leyenda y etiquetas del mapa solapadas
+###### PROBLEMA #9: Marcador rojo sin leyenda y etiquetas del mapa solapadas
 
 - **Severidad:** 2
 - **Heurística violada:** Usability – Estética / Information Architecture – Is it usable?
@@ -6665,7 +6665,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #10: Sin búsqueda ni filtros en las listas
+###### PROBLEMA #10: Sin búsqueda ni filtros en las listas
 
 - **Severidad:** 2
 - **Heurística violada:** Information Architecture – Searching systems
@@ -6680,7 +6680,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #11: Texto secundario muy pequeño y de bajo contraste
+###### PROBLEMA #11: Texto secundario muy pequeño y de bajo contraste
 
 - **Severidad:** 2
 - **Heurística violada:** Inclusive Design – Legibilidad / contraste
@@ -6691,7 +6691,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #12: Vista Padre sin contacto al conductor ni ETA de la parada
+###### PROBLEMA #12: Vista Padre sin contacto al conductor ni ETA de la parada
 
 - **Severidad:** 2
 - **Heurística violada:** Usability – Flexibilidad y eficiencia de uso
@@ -6702,7 +6702,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #13: Título "Registrar padre de familia" vs. botón "Registrar padre"
+###### PROBLEMA #13: Título "Registrar padre de familia" vs. botón "Registrar padre"
 
 - **Severidad:** 1
 - **Heurística violada:** Usability – Consistencia y estándares
@@ -6713,7 +6713,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #14: Mayúsculas inconsistentes en datos de muestra
+###### PROBLEMA #14: Mayúsculas inconsistentes en datos de muestra
 
 - **Severidad:** 1
 - **Heurística violada:** Usability – Consistencia y estándares
@@ -6726,7 +6726,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #15: Color de selección en verde frente al azul de marca
+###### PROBLEMA #15: Color de selección en verde frente al azul de marca
 
 - **Severidad:** 1
 - **Heurística violada:** Usability – Consistencia y estándares
@@ -6737,7 +6737,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-### PROBLEMA #16: "Seleccionado en el mapa" ambiguo y barra de escala como barra negra suelta
+###### PROBLEMA #16: "Seleccionado en el mapa" ambiguo y barra de escala como barra negra suelta
 
 - **Severidad:** 1
 - **Heurística violada:** Usability – Estética y diseño minimalista
@@ -6748,7 +6748,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-## OBSERVACIONES POSITIVAS
+##### OBSERVACIONES POSITIVAS
 
 - Jerarquía clara en el login (marca, mensaje, acción principal y acción secundaria).
 - Navegación inferior consistente en la vista Admin, con estado activo bien marcado.
@@ -6756,7 +6756,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 - Botón primario azul y acción de éxito en verde ("Check-in") bien diferenciados.
 - Mapa con ruta, parada y ETA en las vistas de seguimiento.
 
-## PRÓXIMOS PASOS SUGERIDOS
+##### PRÓXIMOS PASOS SUGERIDOS
 
 1. Revisar las pantallas pendientes (Planes, Alertas Conductor/Padre, WhatsApp images) y completar la tabla.
 2. Priorizar la corrección de los problemas de severidad **4 y 3** (términos y condiciones, recuperación de contraseña, botón de volver, salida sin confirmación, identificación del estudiante y subtítulo cortado).
