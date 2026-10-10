@@ -4799,7 +4799,72 @@ La arquitectura de información de RouteGuard parte de dos segmentos de usuarios
 
 #### 3.1.2.1. Organization Systems
 
-#### 3.1.2.2. Labelling Systems
+En RouteGuard, la organización de la información se diseñó para reducir la sobrecarga cognitiva de los usuarios, adaptando la presentación de los datos al contexto de uso crítico (conducción vehicular para los transportistas y monitoreo inmediato para los padres de familia). Siguiendo las directrices de Rosenfeld et al. (2015), se implementan estructuras visuales y esquemas de categorización adaptados a cada superficie:
+
+##### A. Estructuras de Organización Visual del Contenido
+
+1. **Organización Jerárquica (Visual Hierarchy):**
+   * **Aplicación Móvil (Módulo Administrador):** La información se estructura en niveles descendentes (*top-down*). En el nivel superior se encuentra la organización escolar o empresa de transporte; en el segundo nivel, las rutas vehiculares; en el tercer nivel, las paradas geográficas (*Stops*); y en el nivel base, los estudiantes vinculados a cada parada. Esta jerarquía garantiza que el administrador navegue de lo general a lo particular sin saturación de elementos en pantalla.
+   * **Aplicación Móvil (Módulo Padre):** La jerarquía visual prioriza de manera prominente el estado actual del estudiante (en casa, a bordo del bus o en el colegio) en la tarjeta principal superior, subordinando los detalles secundarios (datos del conductor, modelo de placa y velocidad) en tarjetas inferiores plegables.
+
+2. **Organización Secuencial (Step-by-Step to Accomplish):**
+   * **Landing Page:** Se adopta una narrativa secuencial lineal de desplazamiento continuo (*single-page narrative*). La secuencia guía al visitante a través de un túnel de conversión predecible: *Presentación del Problema → Solución RouteGuard → Características Clave → Planes y Tarifas → Testimonios de Confianza → Llamado a la Acción (CTA)*.
+   * **Flujo de Ejecución de Viaje (Conductor):** La ejecución del recorrido escolar sigue un flujo estrictamente lineal y asistido: *Verificación de lista de salida → Inicio de viaje → Parada 1 (Registro de abordaje de estudiantes) → Paradas intermedias → Llegada a destino → Cierre de recorrido*. No se permite saltar pasos sin confirmación para asegurar la trazabilidad del servicio.
+   * **Flujo de Registro (Onboarding):** Formulario escalonado por pasos (*stepper*) para dar de alta unidades, conductores y vincular hijos mediante código de invitación familiar.
+
+3. **Organización Matricial:**
+   * **Matriz de Asignación y Programación de Rutas:** Empleada en las vistas de gestión del Administrador para cruzar múltiples dimensiones en una sola pantalla: *Día de la semana vs. Turno horario (Mañana / Tarde) vs. Vehículo y Conductor asignado*, permitiendo detectar solapamientos o vacíos operativos al instante.
+
+##### B. Esquemas de Categorización del Contenido
+
+* **Según Audiencia y Rol (Audience-specific scheme):** Es el esquema rector de la experiencia móvil. Al autenticarse mediante JWT, la arquitectura de la aplicación bifurca por completo la navegación y el contenido expuesto según el rol del usuario:
+  * *Administrador:* Vistas de gestión de recursos, personal, flota, asignación de rutas y planes de suscripción.
+  * *Conductor:* Interfaz de alto contraste, elementos táctiles amplios (*tap targets* grandes) y navegación enfocada únicamente en la ruta en curso, alertas operativas y botón de pánico de acceso directo.
+  * *Padre de Familia:* Interfaz centrada exclusivamente en sus hijos matriculados, mapa en vivo con geocerca y tiempo estimado de arribo (ETA).
+* **Esquema Cronológico:** Utilizado en el historial de viajes realizados, en la visualización de registros de eventos telemáticos (bitácora de auditoría GPS) y en la bandeja de notificaciones y alertas push, presentadas de la más reciente a la más antigua con marcas temporales relativas (*hace 5 min, hace 1 hora*).
+* **Esquema por Tópicos (Topic-based scheme):** Empleado en la sección de Soporte y Preguntas Frecuentes (FAQ) del Landing Page y la app móvil, agrupando los artículos por categorías lógicas: *Seguridad y Privacidad de Datos*, *Monitoreo GPS y Notificaciones*, y *Facturación y Planes*.
+* **Esquema Alfabético:** Aplicado en los listados extensos de consulta y asignación (directorio de conductores registrados, catálogo de colegios asociados y lista general de alumnos) complementado con indexación rápida y barra de filtrado dinámico.
+
+<p><strong>Matriz de Organización.</strong> <em>Sistemas y Esquemas de Organización de la Información en RouteGuard</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Superficie / Producto</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Estructura Visual Principal</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Esquema de Categorización</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Justificación y Objetivo de UX</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Landing Page</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Secuencial (Narrativa continua)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Por Tópicos / Audiencia</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Guía al visitante desde la empatía con el problema hasta el registro sin distracciones cognitivas.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>App Móvil (Conductor)</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Secuencial asistida</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Cronológico / Por Tarea activa</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Minimiza la interacción con la pantalla durante el manejo vehicular, mostrando solo el paso inmediato.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>App Móvil (Padre)</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jerárquica focalizada</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Por Audiencia (Hijo) / Cronológico</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Alivia la ansiedad parental al presentar el estado del menor en primer plano y en tiempo real.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>App Móvil (Admin)</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jerárquica y Matricial</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Alfabético / Por Tópicos / Roles</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Facilita la administración de grandes volúmenes de estudiantes, rutas y vehículos con máxima trazabilidad.</td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-top: 10px;"><em>Nota: Matriz de correspondencia entre productos digitales de RouteGuard, sus estructuras visuales y los esquemas de organización adoptados para optimizar la experiencia de usuario.</em></p>
+
+
 
 **Criterios.** (1) Máximo dos palabras por etiqueta. (2) Sustantivos para secciones y verbos en infinitivo/imperativo para acciones. (3) Vocabulario tomado del **Ubiquitous Language** (sección 2.3.6): *Viaje, Ruta, Abordaje, Alerta, Grupo*, para que lo que ve el usuario coincida con lo que dice el negocio. (4) Una etiqueta = un concepto, sin sinónimos entre pantallas. (5) Español latinoamericano (`es_419`) con equivalente en inglés (`en_US`), que es el idioma por defecto exigido para la interfaz.
 
