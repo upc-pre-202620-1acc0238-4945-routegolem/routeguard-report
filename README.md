@@ -6872,6 +6872,7 @@ Para garantizar que RouteGuard cumpla con los estándares globales de software y
    - Integración con el middleware estándar `Microsoft.AspNetCore.Localization` configurando `RequestLocalizationOptions` con culturas soportadas `es-PE`, `es`, `en-US` y `en`.
    - Detección automática del idioma a través del encabezado HTTP estándar `Accept-Language` enviado por clientes móviles y web.
    - Centralización de mensajes de error de dominio y validación mediante `IStringLocalizer` en los Application Services.
+   - Cobertura y verificación mediante suite de pruebas unitarias xUnit (`RouteGuard.Platform.Tests`, 10 pruebas ejecutadas, 10 superadas con 0 errores), validando la resolución exacta de mensajes localizados para errores de IAM, Fleet, Trip y mensajes comunes de servidor en ambos idiomas.
 
 ---
 
