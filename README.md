@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <img src="resources/cover/upc-logo.png" width="150" alt="Logo de la UPC">
   <br><br>
   <strong>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</strong>
@@ -6825,6 +6825,100 @@ Los errores se puntúan con la siguiente escala de severidad:
 1. Revisar las pantallas pendientes (Planes, Alertas Conductor/Padre, WhatsApp images) y completar la tabla.
 2. Priorizar la corrección de los problemas de severidad **4 y 3** (términos y condiciones, recuperación de contraseña, botón de volver, salida sin confirmación, identificación del estudiante y subtítulo cortado).
 3. Validar con usuarios de las entrevistas qué problemas aparecen en la práctica, para ajustar la severidad.
+
+---
+
+#### 4.3.3.1. Plan de Acción y Subsanación de Hallazgos Heurísticos por el Equipo RouteGuard
+
+Tras la auditoría heurística externa realizada por el equipo auditor (RuwaLabs), el equipo de desarrollo de RouteGuard llevó a cabo una sesión de triaje técnico para priorizar, diseñar e implementar las soluciones a los hallazgos reportados. Especial atención fue dirigida a los problemas de **Severidad 4 (Catastrófico)** y **Severidad 3 (Mayor)**, así como a las inconsistencias de diseño visual y navegación.
+
+Adicionalmente, como parte integral del plan de mejora de la experiencia de usuario y accesibilidad internacional, se implementó el soporte completo de **Internacionalización (i18n)** bilingüe (Español e Inglés) tanto en la interfaz nativa móvil como en la arquitectura de servicios web.
+
+##### A. Matriz de Tratamiento y Subsanación de Hallazgos
+
+| ID | Hallazgo Heurístico (RuwaLabs) | Severidad | Estado | Solución Técnica Implementada por RouteGuard |
+|---|---|:---:|:---:|---|
+| **#1** | Falta de Términos y Condiciones en el registro | **4** | **Subsanado** | Se agregó un componente `Checkbox` con estado reactivo en `RegisterAdministratorViewModel` (`acceptedTerms`), enlace interactivo con subrayado de marca y un `AlertDialog` modal en Jetpack Compose que despliega los Términos y Políticas de Privacidad y GPS escolar. El botón de registro permanece inhabilitado hasta su aceptación explícita. |
+| **#2** | Sin opción visible para recuperar contraseña en Login | **3** | **Subsanado** | Se implementó el enlace textual interactivo *"¿Olvidaste tu contraseña?"* / *"Forgot your password?"* alineado a la derecha en `LoginScreen`, desplegando un diálogo accesible con el protocolo de restablecimiento seguro vía administración institucional y soporte oficial (`soporte@routeguard.pe`). |
+| **#3** | Sin botón de volver en pantalla de registro | **3** | **Subsanado / Verificado** | El componente de cabecera reutilizable `BrandHeader` integra el icono de navegación vectorial con acción `onBack()` delegada al controlador de navegación de Jetpack Compose (`NavHost`). |
+| **#4** | Cierre de sesión accidental sin confirmación | **3** | **Subsanado** | En `MainShell.kt`, la acción de logout desde la barra de navegación activa un diálogo de confirmación `AlertDialog` (*"¿Cerrar sesión?"* / *"Sign out?"*) con opción destructiva diferenciada, evitando la pérdida accidental de sesión o detención involuntaria del servicio. |
+| **#5** | Falta nombre del estudiante en waypoint de parada | **3** | **Subsanado / Verificado** | La tarjeta `WaypointCard` en Compose renderiza dinámicamente el nombre completo del estudiante junto con su dirección y hora estimada de recogida (ETA). |
+| **#6** | Subtítulo cortado en tarjeta de estado de viaje | **3** | **Subsanado / Verificado** | Se configuró el `Text` composable con auto-wrap y `overflow = TextOverflow.Ellipsis` garantizando legibilidad total en cualquier factor de forma o resolución de pantalla. |
+| **#7** | Tipografía poco legible en logo de cabecera | **2** | **Ajustado** | Se estilizó el badge corporativo de cabecera con tipografía con jerarquía visual y contraste adecuado sobre fondo curvo azul marino (`#1B365D`). |
+| **#8** | Sin botón de salida en vistas de Conductor y Padre | **2** | **Subsanado** | Se unificó la barra de navegación `NavigationBar` con pestaña persistente de cierre de sesión protegida por diálogo modal de confirmación en todos los roles del sistema. |
+| **#9** | Iconos de mapa como puntos simples sin orientación | **2** | **Subsanado / Verificado** | Se configuraron marcadores vectoriales en Mapbox (`PointAnnotation`) diferenciados por tipo: vehículo escolar, parada de recogida y destino institucional. |
+| **#10** | Selector de pestañas no parece clickeable en Personas | **2** | **Ajustado** | Se aplicaron componentes `FilterChip` de Material 3 con estados de elevación, colores de fondo activos y bordes visibles que comunican claramente su condición de filtro interactivo. |
+| **#11** | Botón "Iniciar viaje" muy prominente en reposo | **2** | **Ajustado** | La acción de inicio se condiciona al ciclo de vida del recorrido (`TripStatus.NOT_STARTED`), previniendo disparos de viaje duplicados o accidentales. |
+| **#12** | Botón "Registrar estudiante" sin icono distintivo | **2** | **Ajustado** | Se estandarizó la botonera con diseño de botón primario elevado y texto unificado. |
+| **#13** | Logotipo de marca no interactivo en login | **1** | **Analizado** | En la guía de estilos de Android Material 3, el isotipo en la pantalla de autenticación opera como identificador estático de marca y confianza, reservando los gestos táctiles para los campos de entrada y botones de acción. |
+| **#14** | Contraste de texto secundario en temas claros | **1** | **Optimizado** | Se actualizaron las variables de color a `MaterialTheme.colorScheme.onSurfaceVariant`, garantizando un ratio de contraste superior a 4.5:1 conforme a WCAG 2.1 nivel AA. |
+| **#15** | Color verde de navegación desentona con azul corporativo | **1** | **Subsanado** | Se personalizó el indicador de la pestaña seleccionada en `NavigationBarItemDefaults.colors(indicatorColor = MaterialTheme.colorScheme.primaryContainer)`, alineándolo con el azul institucional de RouteGuard. |
+| **#16** | Leyenda de selección y barra de escala en mapa | **1** | **Subsanado** | Se optimizaron las capas de superposición de Mapbox Compose para integrar la escala cartográfica y leyendas contextuales legibles. |
+
+---
+
+##### B. Arquitectura de Internacionalización (i18n): Español e Inglés
+
+Para garantizar que RouteGuard cumpla con los estándares globales de software y esté preparado para su despliegue en múltiples mercados, se diseñó e implementó una arquitectura de localización en dos niveles:
+
+1. **Frontend Móvil (Android Nativo - Kotlin & Jetpack Compose):**
+   - **Localización por Recursos XML:** Todos los literales de texto de la aplicación fueron migrados desde cadenas en duro hacia archivos de recursos tipados:
+     - `app/src/main/res/values/strings.xml` (Idioma por defecto: Español).
+     - `app/src/main/res/values-en/strings.xml` (Idioma alternativo: Inglés).
+   - **Consumo Declarativo:** Uso universal del composable `stringResource(R.string.<id>)` en pantallas (`LoginScreen`, `RegisterAdministratorScreen`, `MainShell`), cabeceras y diálogos modales.
+   - **Soporte Per-App Language Preferences (Android 13+):** La aplicación detecta dinámicamente el idioma preferido del dispositivo o el idioma configurado específicamente para la aplicación vía `cmd locale set-app-locales`, adaptando todos los textos, validaciones y diálogos en tiempo real sin requerir reinicio del terminal.
+
+2. **Backend Services (ASP.NET Core DDD & Web API):**
+   - Integración con el middleware estándar `Microsoft.AspNetCore.Localization` configurando `RequestLocalizationOptions` con culturas soportadas `es-PE`, `es`, `en-US` y `en`.
+   - Detección automática del idioma a través del encabezado HTTP estándar `Accept-Language` enviado por clientes móviles y web.
+   - Centralización de mensajes de error de dominio y validación mediante `IStringLocalizer` en los Application Services.
+
+---
+
+##### C. Matriz de Servicios Externos e Infraestructura Verificada en Vivo
+
+A continuación, se resume la matriz de verificación técnica de los servicios e integraciones externas desplegadas en producción y validadas en el entorno móvil real:
+
+| Tecnología / Servicio Externo | Estado en Backend (.NET 10 + Render) | Estado en App Móvil (Android Kotlin) | Verificación en Vivo |
+|---|---|---|---|
+| **PostgreSQL (Aiven)** | Conectado y con migraciones + Seed activo | Consume todos los endpoints REST con DTOs tipados | Login y datos reales validados en emulador y producción |
+| **Firebase Cloud Messaging (FCM)** | FirebaseAdmin SDK + Secret resiliente en Render | `firebase-messaging` + `AppFirebaseMessagingService` | Push notification recibido exitosamente en barra de estado |
+| **RabbitMQ + MassTransit (CloudAMQP)** | Bus de eventos en vivo (`woodpecker.rmq.cloudamqp.com`) | Dispara evento de dominio al sincronizar offline | Consumer activo verificado en logs de Render |
+| **Room Persistence (Offline-First)** | Endpoint batch `/offline-sync` transaccional | `AppDatabase` + DAOs + `SyncOfflineRecordsUseCase` | Compilado, persistencia local y sincronización exitosa |
+| **Mapbox Maps & Directions** | Proveedor de coordenadas y geocodificación de paradas | `mapbox-maps-compose` + `MapboxAdapterImpl` | Renderizado interactivo de rutas escolares y pines |
+| **Stripe Billing / Checkout** | `Stripe.net` + `/subscriptions/payment-intent` | `stripe-android` + `PaymentSheet` | Pasarela en modo test probada y cambio de plan exitoso |
+
+---
+
+##### D. Evidencia Visual de Subsanaciones en Vivo (Bilingüe: Español / Inglés)
+
+A continuación, se presentan las capturas directas del emulador Pixel 7 (Android API 33) que demuestran la subsanación de los hallazgos de mayor severidad y la operatividad del sistema bilingüe (i18n):
+
+###### 1. Pantalla de Inicio de Sesión y Recuperación de Contraseña (Hallazgo #2 - Severidad 3)
+
+| Versión en Español (`es-PE`) | Versión en Inglés (`en-US`) |
+|:---:|:---:|
+| <img src="imagenes/heuristic_es_01_login.png" width="320"/> | <img src="imagenes/heuristic_en_01_login.png" width="320"/> |
+| *Login con enlace "¿Olvidaste tu contraseña?"* | *Login with "Forgot your password?" link* |
+| <img src="imagenes/heuristic_es_02_forgot_password.png" width="320"/> | <img src="imagenes/heuristic_en_02_forgot_password.png" width="320"/> |
+| *Diálogo modal de restablecimiento de contraseña* | *Password reset instructions modal dialog* |
+
+###### 2. Registro con Términos y Condiciones (Hallazgos #1 y #3 - Severidades 4 y 3)
+
+| Versión en Español (`es-PE`) | Versión en Inglés (`en-US`) |
+|:---:|:---:|
+| <img src="imagenes/heuristic_es_03_register_terms.png" width="320"/> | <img src="imagenes/heuristic_en_03_register_terms.png" width="320"/> |
+| *Pantalla de registro con checkbox y botón bloqueado* | *Registration screen with terms checkbox & disabled submit* |
+| <img src="imagenes/heuristic_es_04_terms_dialog.png" width="320"/> | <img src="imagenes/heuristic_en_04_terms_dialog.png" width="320"/> |
+| *Modal con Términos y Condiciones legales* | *Modal with Terms & Conditions legal disclaimer* |
+
+###### 3. Cierre de Sesión con Diálogo de Confirmación (Hallazgos #4 y #15 - Severidades 3 y 1)
+
+| Versión en Español (`es-PE`) | Versión en Inglés (`en-US`) |
+|:---:|:---:|
+| <img src="imagenes/heuristic_es_05_signout_confirm.png" width="320"/> | <img src="imagenes/heuristic_en_05_signout_confirm.png" width="320"/> |
+| *Alerta de confirmación de salida e indicador azul* | *Sign out confirmation alert & brand blue tab indicator* |
+
 
 # Conclusiones
 
