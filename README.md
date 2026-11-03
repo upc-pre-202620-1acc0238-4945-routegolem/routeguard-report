@@ -6867,6 +6867,178 @@ La **Tabla 43** presenta la descomposición de los User Stories priorizados en t
   </tbody>
 </table>
 
+#### 4.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, todo el código fuente fue gestionado bajo el flujo de trabajo GitFlow en los repositorios oficiales de la organización, utilizando ramas de características (`feature/*`), fusiones explícitas sin avance rápido (`--no-ff`) y mensajes bajo el estándar *Conventional Commits*.
+
+La **Tabla 44** detalla los commits representativos desplegados y auditados para este Sprint Review.
+
+<p><strong>Tabla 44.</strong> <em>Evidencia de Commits para Sprint Review (GitFlow y Conventional Commits)</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Repositorio</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Rama</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Hash</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Mensaje de Commit</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Autor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>3cc5cce</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">feat(core): initialize Flutter project with Material 3 theme, session manager, and auth login module</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>bd46bca</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">feat(tracking): implement live GPS tracking map with openstreetmap, polylines, and vehicle markers</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De la Cruz</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>a3b0a7c</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">feat(data): implement tracking REST client repository and data models for student stops and telemetry</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jhony Francia</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code> / <code>main</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>be5d649</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">feat(alerts-profile): implement notifications screen, profile settings with sign-out dialog, and test suites</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas Ramirez</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>01d1b0b</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Merge branch 'feature/profile-screen-and-logout' into develop</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feature/profile-screen-and-logout</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>7ed16c0</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">feat(iam): add profile screen and move sign out to account settings</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>3719863</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Merge branch 'feature/heuristic-error-handling' into develop</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De la Cruz</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feature/heuristic-error-handling</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>34d0740</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">feat(ui): implement friendly error banners conforming to Nielsen heuristic 9 and i18n</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De la Cruz</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>aa92fce</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Merge branch 'feature/backend-i18n-extended-tests' into develop</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas Ramirez</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feature/backend-i18n-extended-tests</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>a613583</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">test(i18n): add ProblemDetailsFactory localization tests for IAM errors</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas Ramirez</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>26ef005</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">merge: integrate feature/stripe-payment-integration into develop</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jhony Francia</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feature/stripe-payment-integration</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>2785b76</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">feat(subscriptions): integrate Stripe.net SDK and payment-intent endpoint</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jhony Francia</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.2.5. Testing Suite Evidence for Sprint Review
+
+Para asegurar que cada funcionalidad construida sea inmune a regresiones, se implementó una suite integral de pruebas automatizadas que abarca pruebas unitarias de modelos en Flutter, pruebas de widgets para renderizado de interfaces y pruebas xUnit en la solución backend.
+
+La ejecución de pruebas en Flutter mediante `flutter test` arroja un **100% de pruebas exitosas (5 de 5)** con 0 errores reportados por `flutter analyze`. La **Tabla 45** resume la cobertura y resultados de la suite de pruebas automatizadas.
+
+<p><strong>Tabla 45.</strong> <em>Evidencia de Pruebas Automatizadas para Sprint Review</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Módulo / Proyecto</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Archivo de Prueba</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Tipo de Prueba</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Casos Evaluados</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Flutter Auth</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>test/auth_model_test.dart</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Unit Test</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">• Deserialización JSON de UserAccount<br>• Serialización a JSON preservando tipos de datos</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><span style="color: green; font-weight: bold;">Passed (2/2)</span></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Flutter Tracking</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>test/tracking_model_test.dart</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Unit Test</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">• Mapeo de telemetría de viaje (velocidad, conductor)<br>• Mapeo de paraderos de estudiantes con coordenadas</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><span style="color: green; font-weight: bold;">Passed (2/2)</span></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Flutter UI</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>test/widget_test.dart</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Widget Test</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">• Renderizado de LoginScreen con campos de texto, títulos de marca y botones Material 3</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><span style="color: green; font-weight: bold;">Passed (1/1)</span></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Backend IAM i18n</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>ProblemDetailsFactoryLocalizationTests.cs</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">xUnit Test</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">• Resolución de mensajes localizados (es/en) ante credenciales inválidas y tokens expirados</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><span style="color: green; font-weight: bold;">Passed (4/4)</span></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Backend Subscriptions</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>SubscriptionControllerTests.cs</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">xUnit Test</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">• Creación de PaymentIntent y cálculo de montos en céntimos con Stripe SDK</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><span style="color: green; font-weight: bold;">Passed (3/3)</span></td>
+    </tr>
+  </tbody>
+</table>
+
+```text
+=== Salida de Consola: flutter test ===
+00:00 +0: loading test/auth_model_test.dart
+00:00 +1: test/auth_model_test.dart: UserAccount Model Test creates UserAccount from valid json
+00:00 +2: test/auth_model_test.dart: UserAccount Model Test serializes UserAccount to json correctly
+00:00 +3: test/tracking_model_test.dart: Tracking Models Tests creates TripTelemetry from valid json
+00:00 +4: test/tracking_model_test.dart: Tracking Models Tests creates StudentStop from valid json
+00:01 +5: test/widget_test.dart: LoginScreen renders brand elements and inputs
+00:03 +5: All tests passed!
+```
+
 #### 4.2.2.6. Execution Evidence for Sprint Review
 
 A continuación se presentan las evidencias visuales del software funcional desplegado y evaluado durante la revisión del Sprint 2, abarcando tanto la nueva aplicación multiplataforma en Flutter para Padres de Familia como las mejoras de usabilidad integradas en la aplicación Android nativa.
@@ -6968,6 +7140,21 @@ La **Tabla 46** resume la trazabilidad de los artefactos desplegados en producci
   </tbody>
 </table>
 
+#### 4.2.2.9. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, la dinámica del equipo RouteGolem maduró significativamente frente al incremento de complejidad que significó mantener dos aplicaciones cliente en paralelo (la aplicación nativa Android en Kotlin y la aplicación multiplataforma en Flutter):
+
+*   **Puntos Positivos:**
+    *   La reutilización de contratos REST estandarizados permitió que el desarrollo de la aplicación Flutter avanzara velozmente sin requerir cambios estructurales en el backend.
+    *   La división clara de tareas con responsabilidades cruzadas (código, texto y video) promovió un alto sentido de pertenencia y compromiso compartido entre los cuatro integrantes.
+    *   La resolución oportuna de las 16 heurísticas de usabilidad identificadas por el equipo auditor garantizó que las interfaces móviles alcanzaran un nivel profesional de accesibilidad y prevención de errores.
+*   **Dificultades Superadas:**
+    *   Inicialmente surgieron discrepancias sintácticas en la configuración de temas en Flutter 3.47 (como `CardThemeData` y bordes decorativos en `BoxDecoration`), las cuales fueron rápidamente subsanadas y consolidadas en pruebas automatizadas.
+    *   La integración de mapas interactivos requirió evaluar opciones libres de cuotas comerciales de facturación, optándose con gran éxito por la combinación de `flutter_map` y OpenStreetMap.
+*   **Compromisos para el Sprint Final:**
+    *   Integrar pruebas de extremo a extremo (E2E) con Flutter Driver / Integration Test y profundizar en el monitoreo de telemetría de eventos de seguridad ante cortes de señal GPS.
+
+---
 
 
 ## 4.3. Validation Interviews
