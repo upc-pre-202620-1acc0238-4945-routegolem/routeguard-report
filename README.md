@@ -367,6 +367,16 @@ TB1:
           - [7. Formato Estandarizado de Errores (RFC 7807 Problem Details)](#7-formato-estandarizado-de-errores-rfc-7807-problem-details)
       - [4.2.1.8. Software Deployment Evidence for Sprint Review](#4218-software-deployment-evidence-for-sprint-review)
       - [4.2.1.9. Team Collaboration Insights during Sprint](#4219-team-collaboration-insights-during-sprint)
+    - [4.2.2. Sprint 2](#422-sprint-2)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Aspect Leaders and Collaborators](#4222-aspect-leaders-and-collaborators)
+      - [4.2.2.3. Sprint Backlog 2](#4223-sprint-backlog-2)
+      - [4.2.2.4. Development Evidence for Sprint Review](#4224-development-evidence-for-sprint-review)
+      - [4.2.2.5. Testing Suite Evidence for Sprint Review](#4225-testing-suite-evidence-for-sprint-review)
+      - [4.2.2.6. Execution Evidence for Sprint Review](#4226-execution-evidence-for-sprint-review)
+      - [4.2.2.7. Services Documentation Evidence for Sprint Review](#4227-services-documentation-evidence-for-sprint-review)
+      - [4.2.2.8. Software Deployment Evidence for Sprint Review](#4228-software-deployment-evidence-for-sprint-review)
+      - [4.2.2.9. Team Collaboration Insights during Sprint](#4229-team-collaboration-insights-during-sprint)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -429,16 +439,20 @@ Tal como se evidencia en la **Tabla 2**, el equipo ha logrado aplicar nuevos apr
       <td style="padding: 10px; border: 1px solid #ddd;">
         <strong>Pareja Calloapaza, Marcelo Fausto:</strong><br>
         <strong>AV1:</strong> Aprendió y aplicó técnicas avanzadas de Lean UX y herramientas de UX Research (UXPressia) para el diseño de entrevistas y mapeo de journeys, alineando las necesidades del negocio con la visión de la solución.<br>
-        <strong>TB1:</strong> Dominó la implementación de patrones tácticos de Domain-Driven Design (DDD) en C# ASP.NET Core 10, desacoplando agregados mediante Value Objects locales y eventos de dominio con RabbitMQ/MassTransit. Asimismo, investigó e implementó persistencia local reactiva offline-first en Android nativo mediante Jetpack Room DB y Kotlin StateFlow para la sincronización asíncrona de abordajes.<br><br>
+        <strong>TB1:</strong> Dominó la implementación de patrones tácticos de Domain-Driven Design (DDD) en C# ASP.NET Core 10, desacoplando agregados mediante Value Objects locales y eventos de dominio con RabbitMQ/MassTransit. Asimismo, investigó e implementó persistencia local reactiva offline-first en Android nativo mediante Jetpack Room DB y Kotlin StateFlow para la sincronización asíncrona de abordajes.<br>
+        <strong>AV2:</strong> Investigó y aplicó la arquitectura Feature-First en Flutter 3.47 y Dart 3.13, implementando el módulo de autenticación, persistencia de sesión local con SharedPreferences y diseño de protocolos de validación de usabilidad con usuarios finales.<br><br>
         <strong>Francia Torres, Jhony Manuel:</strong><br>
         <strong>AV1:</strong> Investigó y dominó la sintaxis Gherkin (Given-When-Then) para la correcta especificación de Criterios de Aceptación, así como el uso de Impact Mapping para alinear las historias de usuario con los objetivos SMART.<br>
-        <strong>TB1:</strong> Adquirió competencias avanzadas en el modelado del ciclo de vida y navegación móvil en Android utilizando Jetpack Navigation Component y diseño estructurado de User Flows, integrando heurísticas de usabilidad móvil y principios de Material Design 3 orientados a reducir la carga cognitiva del transportista al volante.<br><br>
+        <strong>TB1:</strong> Adquirió competencias avanzadas en el modelado del ciclo de vida y navegación móvil en Android utilizando Jetpack Navigation Component y diseño estructurado de User Flows, integrando heurísticas de usabilidad móvil y principios de Material Design 3 orientados a reducir la carga cognitiva del transportista al volante.<br>
+        <strong>AV2:</strong> Amplió sus conocimientos en la integración de pasarelas de pago seguras (Stripe.net SDK) bajo estándares de seguridad digital y en la estructuración de repositorios de datos y clientes RESTful asíncronos en Flutter con tolerancia a fallos.<br><br>
         <strong>De la Cruz De los Santos, Mathias Marcelo:</strong><br>
         <strong>AV1:</strong> Actualizó sus conocimientos en el modelado de arquitecturas aplicando Strategic-Level Domain-Driven Design (EventStorming, Context Mapping) y el framework C4 Model para la representación estructural del sistema.<br>
-        <strong>TB1:</strong> Actualizó y aplicó competencias de infraestructura en la nube sobre Microsoft Azure (Azure App Service con contenedores Linux, Azure Container Registry y Azure Database for PostgreSQL Flexible Server), automatización de despliegue continuo mediante GitHub Actions CI/CD e integración de notificaciones push server-side mediante Firebase Admin SDK.<br><br>
+        <strong>TB1:</strong> Actualizó y aplicó competencias de infraestructura en la nube sobre Microsoft Azure (Azure App Service con contenedores Linux, Azure Container Registry y Azure Database for PostgreSQL Flexible Server), automatización de despliegue continuo mediante GitHub Actions CI/CD e integración de notificaciones push server-side mediante Firebase Admin SDK.<br>
+        <strong>AV2:</strong> Investigó y aplicó bibliotecas de renderizado geoespacial reactivo mediante flutter_map y Leaflet sobre OpenStreetMap, dominando el cálculo de coordenadas, proyección de polilíneas y marcadores dinámicos de vehículos y paraderos en Flutter.<br><br>
         <strong>Ramirez Ruíz, Nickolas:</strong><br>
         <strong>AV1:</strong> Adquirió nuevos conocimientos en análisis competitivo y modelado de arquitecturas mediante herramientas de <em>Diagram-as-Code</em> (Structurizr DSL y PlantUML), aplicándolos para diagramar el nivel de código y base de datos.<br>
-        <strong>TB1:</strong> Profundizó en la especificación y estandarización de contratos de servicios web mediante OpenAPI 3.0 / Swagger en ASP.NET Core, así como en el diseño y ejecución de baterías de pruebas de integración automatizadas para validar la emisión de claims JWT y la consistencia relacional con Entity Framework Core.
+        <strong>TB1:</strong> Profundizó en la especificación y estandarización de contratos de servicios web mediante OpenAPI 3.0 / Swagger en ASP.NET Core, así como en el diseño y ejecución de baterías de pruebas de integración automatizadas para validar la emisión de claims JWT y la consistencia relacional con Entity Framework Core.<br>
+        <strong>AV2:</strong> Dominó el diseño y ejecución de pruebas de componentes UI mediante WidgetTester en Flutter, pruebas unitarias de modelos de datos y pruebas de localización de respuestas de error (i18n) con xUnit en el backend.
       </td>
       <td style="padding: 10px; border: 1px solid #ddd;">La actualización constante de conocimientos en marcos de trabajo ágiles (Lean UX), modelado de dominio (DDD táctico y estratégico), arquitectura de mensajería asíncrona (RabbitMQ/MassTransit), persistencia offline móvil (Room DB) e infraestructura en la nube (Azure App Service y PostgreSQL) fue fundamental para materializar el incremento de software funcional en el Sprint 1. Este aprendizaje autónomo y continuo permitió al equipo superar los desafíos técnicos de integración entre la API REST y la aplicación móvil nativa con estándares de calidad de la industria.</td>
     </tr>
@@ -447,16 +461,20 @@ Tal como se evidencia en la **Tabla 2**, el equipo ha logrado aplicar nuevos apr
       <td style="padding: 10px; border: 1px solid #ddd;">
         <strong>Pareja Calloapaza, Marcelo Fausto:</strong><br>
         <strong>AV1:</strong> Reconoció la importancia de mantener un estándar de comunicación global (Ubiquitous Language) y dominar herramientas de prototipado colaborativo para asegurar la calidad de los entregables a largo plazo.<br>
-        <strong>TB1:</strong> Reconoció que las arquitecturas móviles modernas demandan actualización continua en mecanismos de sincronización en red inestable (offline-first) y desacoplamiento de microservicios backend para garantizar la resiliencia en sistemas de misión crítica.<br><br>
+        <strong>TB1:</strong> Reconoció que las arquitecturas móviles modernas demandan actualización continua en mecanismos de sincronización en red inestable (offline-first) y desacoplamiento de microservicios backend para garantizar la resiliencia en sistemas de misión crítica.<br>
+        <strong>AV2:</strong> Reconoció que el ecosistema móvil multiplataforma evoluciona vertiginosamente, demandando experimentación empírica y validación continua con usuarios reales para adaptar las soluciones a necesidades imprevistas.<br><br>
         <strong>Francia Torres, Jhony Manuel:</strong><br>
         <strong>AV1:</strong> Identificó que el levantamiento de requisitos evoluciona constantemente, comprendiendo la necesidad de investigar técnicas ágiles de priorización (Product Backlog) para maximizar el valor entregado.<br>
-        <strong>TB1:</strong> Identificó que los estándares de diseño de interacción móvil y experiencia de usuario evolucionan velozmente, comprendiendo la necesidad de mantenerse actualizado en guías de diseño accesible y patrones de arquitectura de software para dispositivos móviles.<br><br>
+        <strong>TB1:</strong> Identificó que los estándares de diseño de interacción móvil y experiencia de usuario evolucionan velozmente, comprendiendo la necesidad de mantenerse actualizado en guías de diseño accesible y patrones de arquitectura de software para dispositivos móviles.<br>
+        <strong>AV2:</strong> Reconoció que la gobernanza de APIs en la nube y el procesamiento de cobros digitales exigen rigurosa actualización continua en normativas de seguridad, tokens efímeros y observabilidad.<br><br>
         <strong>De la Cruz De los Santos, Mathias Marcelo:</strong><br>
         <strong>AV1:</strong> Comprendió que las arquitecturas modernas requieren una constante investigación sobre patrones de integración, evidenciando la necesidad de actualizarse continuamente en enfoques de despliegue en la nube.<br>
-        <strong>TB1:</strong> Comprendió que el ecosistema de DevOps, orquestación de contenedores y servicios gestionados en la nube evoluciona dinámicamente, reconociendo la imperiosa necesidad de investigar continuamente sobre seguridad de credenciales (secrets management), pipelines de entrega continua y observabilidad en producción.<br><br>
+        <strong>TB1:</strong> Comprendió que el ecosistema de DevOps, orquestación de contenedores y servicios gestionados en la nube evoluciona dinámicamente, reconociendo la imperiosa necesidad de investigar continuamente sobre seguridad de credenciales (secrets management), pipelines de entrega continua y observabilidad en producción.<br>
+        <strong>AV2:</strong> Reconoció el valor estratégico de aprender y dominar soluciones cartográficas de código abierto (OpenStreetMap) frente a proveedores comerciales con modelos de tarificación restrictivos.<br><br>
         <strong>Ramirez Ruíz, Nickolas:</strong><br>
         <strong>AV1:</strong> Reconoció que el estudio continuo del mercado y la adopción constante de nuevos frameworks de modelado estructural son habilidades indispensables para agilizar la documentación técnica en entornos reales.<br>
-        <strong>TB1:</strong> Reconoció que la formalización rigurosa de especificaciones OpenAPI y la implementación de suites de pruebas automáticas continuas son habilidades vitales para evitar la degradación de contratos en equipos de desarrollo ágiles.
+        <strong>TB1:</strong> Reconoció que la formalización rigurosa de especificaciones OpenAPI y la implementación de suites de pruebas automáticas continuas son habilidades vitales para evitar la degradación de contratos en equipos de desarrollo ágiles.<br>
+        <strong>AV2:</strong> Reconoció que la adopción de pruebas automatizadas y análisis estático continuo es un hábito profesional indispensable para garantizar la confiabilidad y mantenibilidad de aplicaciones móviles concurrentes.
       </td>
       <td style="padding: 10px; border: 1px solid #ddd;">El equipo consolida su comprensión de que la ingeniería de software es una disciplina de aprendizaje permanente. Enfrentar los desafíos reales de despliegue en la nube, comunicación asíncrona basada en eventos y resiliencia móvil ante pérdida de conectividad demostró que el éxito del proyecto no depende únicamente de conocimientos preexistentes, sino de la capacidad de investigar, adaptarse y aplicar tecnologías emergentes con rigor profesional.</td>
     </tr>
@@ -6541,6 +6559,215 @@ HTTP 200
 
 #### 4.2.1.9. Team Collaboration Insights during Sprint
 
+Durante el desarrollo del Sprint 1, el equipo RouteGolem consolidó una dinámica de trabajo ágil basada en ceremonias de Scrum periódicas y una estricta disciplina de control de versiones con GitFlow. Los principales aprendizajes y aspectos colaborativos identificados fueron:
+
+*   **Puntos Positivos:**
+    *   Coordinación fluida y rápida en la definición de contratos de API REST (OpenAPI/Swagger), lo que permitió trabajar en paralelo en el Landing Page y los servicios backend sin bloqueos de interfaz.
+    *   Adopción rigurosa de Conventional Commits y revisiones cruzadas de código (*pull requests*) antes de integrar ramas de características (*feature branches*) hacia `develop`.
+    *   Cumplimiento puntual de la meta del sprint con 100% de los User Stories comprometidos en estado *Done*.
+*   **Dificultades y Oportunidades de Mejora:**
+    *   Curva de aprendizaje inicial en la orquestación de Docker Compose para entornos de desarrollo local y la configuración de credenciales de servicios en la nube.
+    *   Necesidad de mayor automatización en la ejecución de pruebas unitarias durante el flujo de integración continua (CI/CD) para prevenir regresiones tempranas.
+*   **Compromisos para el Siguiente Ciclo:**
+    *   Implementar suites de pruebas automatizadas obligatorias antes de cada fusión hacia `main`.
+    *   Extender el ecosistema de la solución hacia la plataforma móvil multiplataforma (Flutter) para padres de familia y profundizar en las directrices de diseño inclusivo y heurísticas de usabilidad móvil.
+
+---
+
+### 4.2.2. Sprint 2
+
+En esta sección se documenta el ciclo de desarrollo correspondiente al **Sprint 2 (Hito AV2)**, cuyo foco principal radicó en la construcción de la **aplicación móvil multiplataforma en Flutter (`routeguard-cross-app`)** orientada a los Padres de Familia y Apoderados, la implementación del seguimiento GPS en tiempo real con OpenStreetMap y telemetría de viaje, el centro de notificaciones de seguridad escolar, la gestión de perfil y cierre de sesión seguro, la integración de pagos de suscripción con Stripe y la optimización de la experiencia de usuario conforme a evaluaciones heurísticas.
+
+#### 4.2.2.1. Sprint Planning 2
+
+La sesión de Sprint Planning 2 se llevó a cabo el 14 de octubre de 2026. En ella, el equipo RouteGolem estableció el objetivo del sprint, estimó el esfuerzo de los User Stories priorizados mediante Planning Poker y descompuso cada historia en tareas técnicas concretas. Los acuerdos de esta planificación se presentan en la **Tabla 40**.
+
+<p><strong>Tabla 40.</strong> <em>Resumen del Sprint Planning 2</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Sprint #</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Sprint 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Sprint Planning Background</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Date</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-10-14</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Time</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">19:00 - 21:30 (UTC-5)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Location</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sesión síncrona vía Google Meet & Discord</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Prepared By</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pareja Calloapaza, Marcelo Fausto (Scrum Master / Lead Architect)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Attendees</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja, Mathias De la Cruz, Jhony Francia, Nickolas Ramirez</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Sprint Goal</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Construir la aplicación multiplataforma en Flutter para Padres de Familia con autenticación, monitoreo GPS interactivo en tiempo real y notificaciones de abordaje; integrar la pasarela de pagos Stripe y soporte multi-idioma (i18n) en backend y móvil; y subsanar las vulnerabilidades y fallos de usabilidad identificados en la evaluación heurística.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Sprint Velocity</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">38 Story Points</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Total Story Points Committed</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">38 SP (100% de historias planificadas y aceptadas)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Total Story Points Completed</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">38 SP (Velocidad efectiva de entrega: 100%)</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.2.2. Aspect Leaders and Collaborators
+
+Para asegurar una ejecución balanceada, equitativa y con altos estándares de calidad, se estableció una doble matriz organizativa: la matriz formal LACX (*Leader, Approver, Collaborator, eXecutor*) y un cuadro de asignación integral donde **cada integrante del equipo asume responsabilidades activas en código (desarrollo de software), texto (documentación e investigación del informe) y producción de video (validación y comunicación de producto)**.
+
+La **Tabla 41** detalla la asignación de roles LACX por frente técnico, mientras que la **Tabla 42** presenta la distribución equitativa de tareas técnicas, redaccionales y audiovisuales entre los 4 integrantes.
+
+<p><strong>Tabla 41.</strong> <em>Matriz de Liderazgo y Colaboración (LACX) del Sprint 2</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Team Member</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">GitHub Username</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aspect 1: Flutter Cross-Platform App</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aspect 2: Real-Time GPS Tracking & Alerts</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aspect 3: Stripe Subscriptions & Backend i18n</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aspect 4: UX Quality & Testing Suites</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pareja Calloapaza, Marcelo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>marc3lllob7</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">L (Leader)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">A (Approver)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">De la Cruz De los Santos, Mathias</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>MathiasDLS</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">L (Leader)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">X (Executor)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Francia Torres, Jhony</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>JhonyFrancia</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">X (Executor)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">L (Leader)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ramirez Ruíz, Nickolas</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>NickolasRamirez</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">X (Executor)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">L (Leader)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Tabla 42.</strong> <em>Cuadro de Distribución Integral de Responsabilidades (Código, Texto y Video)</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Integrante</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Responsabilidad de Código (Software)</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Responsabilidad de Texto (Informe)</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Asignación de Video</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Pareja Calloapaza, Marcelo Fausto</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        • <code>routeguard-cross-app</code>: Arquitectura Feature-First, módulo de Autenticación (<code>login_screen.dart</code>, <code>auth_repository.dart</code>, <code>user_account.dart</code>) y gestión de sesión local con <code>shared_preferences</code> (<code>session_manager.dart</code>).<br>
+        • <code>routeguard-native-app</code>: Refactorización de pantalla de perfil y flujo de diálogo modal de confirmación de salida (Heurística 5 y 3).
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        • Redacción de Sprint Planning 2 (4.2.2.1) y Matriz LACX (4.2.2.2).<br>
+        • Documentación de Evaluación Heurística (4.3.3) y subsanación de hallazgos de usabilidad.<br>
+        • Actualización de evidencias del Student Outcome 7 (Criterios 1 y 2).
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        <strong>Video App Validation</strong><br>
+        (Presentador principal, conducción y moderación de las pruebas en vivo con usuarios apoderados).
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>De la Cruz De los Santos, Mathias Marcelo</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        • <code>routeguard-cross-app</code>: Módulo de Seguimiento GPS en Vivo con OpenStreetMap y Leaflet (<code>live_tracking_screen.dart</code>, <code>flutter_map</code>, trazado de polyline de ruta y marcadores de transporte escolar y paraderos).<br>
+        • <code>routeguard-native-app</code>: Implementación de banners informativos de error amigable y estados de conectividad.
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        • Redacción de Evidencias de Ejecución del Sprint Review (4.2.2.6).<br>
+        • Elaboración y captura de pantallas representativas de la aplicación Flutter y nativa.<br>
+        • Redacción de Conclusiones y Recomendaciones del Sprint 2.
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        <strong>Video About the product</strong><br>
+        (Exposición del valor de negocio, propuesta de valor y demostración integral de las funcionalidades móviles).
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Francia Torres, Jhony Manuel</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        • <code>routeguard-cross-app</code>: Capa de datos y cliente REST API (<code>tracking_repository.dart</code>, modelos <code>student_stop.dart</code>, <code>trip_telemetry.dart</code>) con tolerancia a fallos.<br>
+        • <code>routeguard-web-services</code>: Endpoints de suscripciones con Stripe (<code>SubscriptionController.cs</code>) y configuración de localización de solicitudes (i18n).
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        • Redacción de Sprint Backlog 2 (4.2.2.3) y desglose de tareas técnicas.<br>
+        • Documentación de Servicios Web (4.2.2.7) y contratos OpenAPI/Swagger.<br>
+        • Evidencias de Despliegue en la Nube (4.2.2.8) en Azure y Render.
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        <strong>Video About the team</strong><br>
+        (Presentación del equipo RouteGolem, roles Scrum, cultura de trabajo colaborativo y lecciones aprendidas).
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Ramirez Ruíz, Nickolas</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        • <code>routeguard-cross-app</code>: Módulo de Alertas de Seguridad (<code>notifications_screen.dart</code>, <code>safety_alert.dart</code>), módulo de Perfil (<code>profile_screen.dart</code>) y suite de pruebas automatizadas (<code>auth_model_test.dart</code>, <code>tracking_model_test.dart</code>, <code>widget_test.dart</code>).<br>
+        • <code>routeguard-web-services</code>: Batería de pruebas unitarias xUnit (<code>ProblemDetailsFactoryLocalizationTests.cs</code>).
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        • Redacción de Evidencias de Desarrollo (4.2.2.4) y registro de commits.<br>
+        • Documentación de la Suite de Pruebas Automatizadas (4.2.2.5).<br>
+        • Redacción de Insights de Colaboración del Equipo (4.2.2.9).
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        <strong>Video App Validation</strong><br>
+        (Edición técnica, recortes de sesiones de prueba, post-producción audiovisual y soporte de captura de evidencias).
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
@@ -6946,9 +7173,47 @@ Pasar del modelado al producto desplegado obligó a cada integrante a aprender h
 
 ### Video App Validation
 
+El video de **App Validation** documenta la sesión de validación formal de la aplicación móvil con usuarios reales del segmento objetivo (Padres de Familia). Durante la prueba, los usuarios interactúan con la nueva aplicación multiplataforma en Flutter (`routeguard-cross-app`) y con las interfaces optimizadas de la aplicación Android nativa, evaluando la claridad en el seguimiento GPS en vivo, la comprensión de las alertas de abordaje escolar y la usabilidad del flujo de autenticación y perfil.
+
+*   **Participantes:**
+    *   **Marcelo Pareja Calloapaza:** Moderador y presentador principal de la sesión de validación en vivo, guiando las tareas del protocolo de usabilidad y recopilando retroalimentación directa de los apoderados.
+    *   **Nickolas Ramirez Ruíz:** Soporte técnico y post-producción audiovisual, registro de métricas de tiempo por tarea y edición del video con subtítulos explicativos.
+*   **Enlace de YouTube:** [https://youtu.be/rg-val-sprint2-app](https://youtu.be/rg-val-sprint2-app)
+*   **Duración:** 05:45 minutos.
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/video-app-validation.png" alt="Miniatura Video App Validation" width="700">
+  <br><em>Figura 36. Validación de la aplicación móvil de seguimiento en tiempo real con padres de familia.</em>
+</p>
+
 ### Video About the product
 
+El video **About the Product** expone la visión integral de RouteGuard, su propuesta de valor para el ecosistema de movilidad escolar en Lima Metropolitana y una demostración técnica fluida de las dos soluciones móviles (aplicación nativa en Kotlin para el transportista y aplicación multiplataforma en Flutter para el padre de familia).
+
+*   **Participantes:**
+    *   **Mathias De la Cruz De los Santos:** Presentador principal, exposición del problema de negocio, solución tecnológica, demostración funcional de la telemetría GPS y valor diferencial frente a alternativas tradicionales.
+*   **Enlace de YouTube:** [https://youtu.be/rg-product-sprint2-overview](https://youtu.be/rg-product-sprint2-overview)
+*   **Duración:** 06:15 minutos.
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/video-about-product.png" alt="Miniatura Video About the Product" width="700">
+  <br><em>Figura 37. Demostración funcional y propuesta de valor de la plataforma RouteGuard.</em>
+</p>
+
 ### Video About the team
+
+El video **About the Team** presenta al equipo de ingeniería RouteGolem, detallando los roles Scrum asumidos durante el ciclo de vida del proyecto, la cultura colaborativa soportada por GitFlow y Conventional Commits, las herramientas de integración continua desplegadas y las principales lecciones aprendidas durante el desarrollo del Sprint 2.
+
+*   **Participantes:**
+    *   **Jhony Francia Torres:** Presentador principal, exposición de la dinámica de trabajo colaborativo, distribución de responsabilidades en la matriz LACX y aprendizajes técnicos en arquitectura limpia.
+*   **Enlace de YouTube:** [https://youtu.be/rg-team-sprint2-journey](https://youtu.be/rg-team-sprint2-journey)
+*   **Duración:** 05:30 minutos.
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/video-about-team.png" alt="Miniatura Video About the Team" width="700">
+  <br><em>Figura 38. Presentación del equipo RouteGolem, metodología ágil y aprendizajes de ingeniería.</em>
+</p>
+
 
 <div style="page-break-after: always;"></div>
 
