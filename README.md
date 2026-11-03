@@ -6766,6 +6766,172 @@ La **Tabla 41** detalla la asignación de roles LACX por frente técnico, mientr
   </tbody>
 </table>
 
+#### 4.2.2.3. Sprint Backlog 2
+
+Durante el Sprint 2, la gestión visual del flujo de trabajo se canalizó a través de un tablero Kanban/Scrum en Trello/Jira, monitoreando las transiciones de estado de cada tarjeta (*To Do*, *In Progress*, *In Review*, *Done*).
+
+> **URL del Board del Sprint 2:** [https://trello.com/invite/b/6aaa233b7da14e3f3b292c5b/ATTI088a0337fde735af76ada946f5120d80DD2911AB/sprint-2-routeguard](https://trello.com/invite/b/6aaa233b7da14e3f3b292c5b/ATTI088a0337fde735af76ada946f5120d80DD2911AB/sprint-2-routeguard)
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/sprint2-board.png" alt="Sprint 2 Board" width="850">
+  <br><em>Figura 29. Tablero del Sprint 2 en Trello con el 100% de historias y tareas técnicas en estado Done.</em>
+</p>
+
+La **Tabla 43** presenta la descomposición de los User Stories priorizados en tareas técnicas, su estimación en horas-hombre, el responsable asignado y el estado final de cumplimiento.
+
+<p><strong>Tabla 43.</strong> <em>Descomposición de User Stories en Tareas Técnicas (Sprint Backlog 2)</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">User Story Id</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">User Story Title</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Work-Item Id</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Work-Item Title</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Descripción Técnica</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Estimación (Horas)</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Asignado A</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Monitoreo en Tiempo Real del Transporte Escolar</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-201</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Inicialización y Estructura Base Flutter</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Crear el proyecto `routeguard-cross-app` con Flutter 3.47 y Dart 3.13 bajo arquitectura Feature-First.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Monitoreo en Tiempo Real del Transporte Escolar</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-202</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Módulo de Seguimiento GPS con flutter_map</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Integrar Leaflet/OpenStreetMap con `flutter_map`, trazado de polyline de ruta y marcadores de transporte y paradas.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">8</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-06</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Monitoreo en Tiempo Real del Transporte Escolar</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-203</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Panel de Telemetría de Viaje</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Construir panel inferior con telemetría en vivo: conductor a cargo, velocidad (km/h) y estado operativo del bus.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jhony</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-07</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Notificaciones de Abordaje y Desembarque</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-204</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Centro de Alertas y Notificaciones</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Implementar pantalla de notificaciones en Flutter con listado clasificado por tipos (abordaje, tráfico, llegada).</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">6</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-08</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Gestión de Perfil y Cierre de Sesión Seguro</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-205</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Módulo de Perfil y Diálogo de Salida</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Desarrollar pantalla de perfil en Flutter y Android nativo con confirmación modal para prevenir desconexiones accidentales.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-09</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Integración de Pagos de Suscripción con Stripe</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-206</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Servicio Backend Stripe Payment-Intent</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Integrar SDK Stripe.net en ASP.NET Core y exponer endpoint `/subscriptions/payment-intent` con validación de montos.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">6</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jhony</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">US-10</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Soporte Multi-idioma y Manejo Amigable de Errores</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">TK-207</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Internacionalización y Banners Nielsen</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Configurar localización de solicitudes es/en en backend y banners de error no intrusivos en la aplicación nativa.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.2.7. Services Documentation Evidence for Sprint Review
+
+La API RESTful de RouteGuard construida en C# ASP.NET Core 10 se encuentra desplegada y documentada mediante OpenAPI 3.0 / Swagger UI, garantizando la compatibilidad tanto con la aplicación Android nativa como con la nueva aplicación multiplataforma en Flutter.
+
+> **URL de la API en Producción (Render):** [https://routeguard-web-services.onrender.com/swagger](https://routeguard-web-services.onrender.com/swagger)  
+> **URL Base de Endpoints:** `https://routeguard-web-services.onrender.com/api/v1`
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/sprint2-swagger-render.png" alt="Swagger UI en Producción" width="850">
+  <br><em>Figura 34. Interfaz interactiva de Swagger UI con los contratos de autenticación, monitoreo y suscripciones Stripe.</em>
+</p>
+
+Los contratos principales consumidos por la aplicación Flutter durante el Sprint 2 son:
+*   `POST /api/v1/authentication/sign-in`: Autenticación de credenciales de apoderado y emisión de token JWT.
+*   `GET /api/v1/trips/active`: Recuperación del viaje en curso asociado a la movilidad escolar del estudiante.
+*   `GET /api/v1/monitoring/telemetry/{tripId}`: Telemetría instantánea de geolocalización, rumbo y velocidad del vehículo.
+*   `POST /api/v1/subscriptions/payment-intent`: Generación de intención de cobro con tarjeta mediante Stripe SDK.
+
+#### 4.2.2.8. Software Deployment Evidence for Sprint Review
+
+El despliegue del backend se ejecuta mediante integración y entrega continua (CI/CD) utilizando contenedores Docker orquestados en Microsoft Azure y en Render. Cada inserción de código hacia la rama `main` dispara la compilación automatizada del contenedor Linux y la sincronización con la base de datos administrada PostgreSQL.
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/sprint2-render-deployment.png" alt="Consola de Despliegue en la Nube" width="850">
+  <br><em>Figura 35. Consola del centro de despliegue en la nube certificando el estado Healthy y en ejecución continua.</em>
+</p>
+
+La **Tabla 46** resume la trazabilidad de los artefactos desplegados en producción para el Sprint 2.
+
+<p><strong>Tabla 46.</strong> <em>Trazabilidad del Despliegue en Producción (Sprint 2 / AV2)</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Repositorio</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Rama Desplegada</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Desplegado</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Plataforma / Destino</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Fecha de Despliegue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>main</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>aa92fce</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Render Cloud / Azure App Service (PostgreSQL)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-11-02</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>main</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>be5d649</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">GitHub Releases / Flutter Multiplatform APK & Web</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-11-02</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>main</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>01d1b0b</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">GitHub Releases / Android Native APK (Mapbox & Room)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-11-02</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 ## 4.3. Validation Interviews
