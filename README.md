@@ -6841,7 +6841,7 @@ Adicionalmente, como parte integral del plan de mejora de la experiencia de usua
 | **#1** | Falta de Términos y Condiciones en el registro | **4** | **Subsanado** | Se agregó un componente `Checkbox` con estado reactivo en `RegisterAdministratorViewModel` (`acceptedTerms`), enlace interactivo con subrayado de marca y un `AlertDialog` modal en Jetpack Compose que despliega los Términos y Políticas de Privacidad y GPS escolar. El botón de registro permanece inhabilitado hasta su aceptación explícita. |
 | **#2** | Sin opción visible para recuperar contraseña en Login | **3** | **Subsanado** | Se implementó el enlace textual interactivo *"¿Olvidaste tu contraseña?"* / *"Forgot your password?"* alineado a la derecha en `LoginScreen`, desplegando un diálogo accesible con el protocolo de restablecimiento seguro vía administración institucional y soporte oficial (`soporte@routeguard.pe`). |
 | **#3** | Sin botón de volver en pantalla de registro | **3** | **Subsanado / Verificado** | El componente de cabecera reutilizable `BrandHeader` integra el icono de navegación vectorial con acción `onBack()` delegada al controlador de navegación de Jetpack Compose (`NavHost`). |
-| **#4** | Cierre de sesión accidental sin confirmación | **3** | **Subsanado** | En `MainShell.kt`, la acción de logout desde la barra de navegación activa un diálogo de confirmación `AlertDialog` (*"¿Cerrar sesión?"* / *"Sign out?"*) con opción destructiva diferenciada, evitando la pérdida accidental de sesión o detención involuntaria del servicio. |
+| **#4** | Cierre de sesión accidental en barra de navegación | **3** | **Subsanado Integralmente** | Siguiendo las directrices de Nielsen Heuristic #4 (Prevención de errores) y las pautas de Material Design 3 (entre 3 y 5 destinos de navegación), se removió la acción directa de "Salir" de la barra inferior y se creó el destino dedicado **Mi Perfil** (`ProfileScreen.kt` en `identityaccessmanagement`). La barra inferior cuenta ahora con exactamente 5 pestañas para Administrador y 3 para Conductor/Padre. Para cerrar sesión, el usuario accede a su perfil y presiona el botón protegido por diálogo modal de confirmación (`AlertDialog`). Asimismo, la pantalla de perfil centraliza los datos de identidad, la versión de la aplicación y el acceso directo a la Guía interactiva del asistente. |
 | **#5** | Falta nombre del estudiante en waypoint de parada | **3** | **Subsanado / Verificado** | La tarjeta `WaypointCard` en Compose renderiza dinámicamente el nombre completo del estudiante junto con su dirección y hora estimada de recogida (ETA). |
 | **#6** | Subtítulo cortado en tarjeta de estado de viaje | **3** | **Subsanado / Verificado** | Se configuró el `Text` composable con auto-wrap y `overflow = TextOverflow.Ellipsis` garantizando legibilidad total en cualquier factor de forma o resolución de pantalla. |
 | **#7** | Tipografía poco legible en logo de cabecera | **2** | **Ajustado** | Se estilizó el badge corporativo de cabecera con tipografía con jerarquía visual y contraste adecuado sobre fondo curvo azul marino (`#1B365D`). |
@@ -6913,12 +6913,16 @@ A continuación, se presentan las capturas directas del emulador Pixel 7 (Androi
 | <img src="imagenes/heuristic_es_04_terms_dialog.png" width="320"/> | <img src="imagenes/heuristic_en_04_terms_dialog.png" width="320"/> |
 | *Modal con Términos y Condiciones legales* | *Modal with Terms & Conditions legal disclaimer* |
 
-###### 3. Cierre de Sesión con Diálogo de Confirmación (Hallazgos #4 y #15 - Severidades 3 y 1)
+###### 3. Pantalla de Perfil de Usuario y Cierre de Sesión Protegido (Hallazgos #4, #8 y #15 - Severidades 3, 2 y 1)
 
-| Versión en Español (`es-PE`) | Versión en Inglés (`en-US`) |
+Para prevenir toques accidentales que cierren la sesión inesperadamente (Heurística de Usabilidad #4: Prevención de Errores) y cumplir estrictamente las directrices de Material Design 3 de Android (máximo 5 destinos en la barra de navegación), la opción directa de "Salir" fue eliminada de la barra inferior. En su lugar se introdujo la pantalla de **Mi Perfil** (`ProfileScreen.kt` en el contexto `identityaccessmanagement`), dejando la barra con exactamente 5 pestañas para el perfil de Administrador (`Personas`, `Rutas`, `En vivo`, `Planes`, `Perfil`) y 3 para Conductor y Padre.
+
+Desde la pantalla de perfil, el usuario puede consultar su identidad, rol institucional y organización, acceder nuevamente a la Guía interactiva del asistente tutorial y activar el botón de "Cerrar sesión", el cual despliega el diálogo modal de confirmación antes de finalizar la sesión:
+
+| Pantalla de Mi Perfil (`ProfileScreen`) | Diálogo Modal de Confirmación de Salida |
 |:---:|:---:|
-| <img src="imagenes/heuristic_es_05_signout_confirm.png" width="320"/> | <img src="imagenes/heuristic_en_05_signout_confirm.png" width="320"/> |
-| *Alerta de confirmación de salida e indicador azul* | *Sign out confirmation alert & brand blue tab indicator* |
+| <img src="imagenes/heuristic_es_06_profile_screen.png" width="320"/> | <img src="imagenes/heuristic_es_07_profile_signout_dialog.png" width="320"/> |
+| *Pestaña Perfil con datos de usuario, guía interactiva y botón de cierre* | *Diálogo modal de confirmación con acción destructiva diferenciada* |
 
 
 # Conclusiones
