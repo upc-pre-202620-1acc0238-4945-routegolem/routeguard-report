@@ -6867,6 +6867,42 @@ La **Tabla 43** presenta la descomposición de los User Stories priorizados en t
   </tbody>
 </table>
 
+#### 4.2.2.6. Execution Evidence for Sprint Review
+
+A continuación se presentan las evidencias visuales del software funcional desplegado y evaluado durante la revisión del Sprint 2, abarcando tanto la nueva aplicación multiplataforma en Flutter para Padres de Familia como las mejoras de usabilidad integradas en la aplicación Android nativa.
+
+**a) Aplicación Multiplataforma en Flutter (Padres de Familia):**
+
+1.  **Inicio de Sesión y Autenticación:**
+    La interfaz de inicio de sesión implementa la identidad visual institucional de RouteGuard con el azul marino de marca (`#1B365D`), campos con visibilidad de contraseña conmutable y acceso directo para demostración o recuperación de contraseña.
+    <p align="center">
+      <img src="resources/assets/images/chapter-4/sprint2-flutter-login.png" alt="Flutter Login Screen" width="320">
+      <br><em>Figura 30. Pantalla de inicio de sesión de RouteGuard Cross-App en Flutter.</em>
+    </p>
+
+2.  **Seguimiento GPS en Tiempo Real (OpenStreetMap & flutter_map):**
+    Visualización interactiva de la ruta escolar con mapa dinámico provisto por OpenStreetMap. Los marcadores diferencian la posición actual del autobús escolar en tránsito y las paradas residenciales asignadas a cada estudiante. En la parte inferior, un panel flotante de telemetría indica el nombre del chofer, la velocidad en tiempo real y el estado del viaje.
+    <p align="center">
+      <img src="resources/assets/images/chapter-4/sprint2-flutter-tracking.png" alt="Flutter Live Tracking Screen" width="320">
+      <br><em>Figura 31. Monitoreo GPS en tiempo real con trazado de polilíneas y telemetría de ruta.</em>
+    </p>
+
+3.  **Centro de Alertas y Notificaciones de Seguridad:**
+    Canaliza notificaciones críticas para la tranquilidad de los apoderados: alertas de abordaje con sello temporal ("Tu hijo ha subido al transporte"), avisos de tráfico o demoras imprevistas y confirmaciones de arribo seguro al colegio.
+    <p align="center">
+      <img src="resources/assets/images/chapter-4/sprint2-flutter-alerts.png" alt="Flutter Alerts Screen" width="320">
+      <br><em>Figura 32. Listado cronológico de alertas de seguridad y confirmaciones de abordaje.</em>
+    </p>
+
+4.  **Gestión de Perfil y Salida Segura:**
+    Muestra la información de la cuenta del apoderado, el rol asignado y el nombre del estudiante vinculado. Al solicitar el cierre de sesión, se despliega un diálogo modal de confirmación (*AlertDialog*) para prevenir toques accidentales que interrumpan el monitoreo del estudiante.
+    <p align="center">
+      <img src="resources/assets/images/chapter-4/sprint2-flutter-profile.png" alt="Flutter Profile Screen" width="320">
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="resources/assets/images/chapter-4/sprint2-flutter-signout.png" alt="Flutter Sign Out Dialog" width="320">
+      <br><em>Figura 33. Pantalla de perfil de usuario y diálogo modal de confirmación de salida.</em>
+    </p>
+
 #### 4.2.2.7. Services Documentation Evidence for Sprint Review
 
 La API RESTful de RouteGuard construida en C# ASP.NET Core 10 se encuentra desplegada y documentada mediante OpenAPI 3.0 / Swagger UI, garantizando la compatibilidad tanto con la aplicación Android nativa como con la nueva aplicación multiplataforma en Flutter.
