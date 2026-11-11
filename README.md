@@ -7161,7 +7161,82 @@ Durante el Sprint 2, la dinámica del equipo RouteGolem maduró significativamen
 
 ### 4.3.1. Diseño de Entrevistas
 
+Siguiendo las pautas metodológicas y directrices académicas impartidas por el docente de la asignatura, el diseño de las entrevistas de validación para el Hito AV2 se enfoca en la ejecución de **pruebas de usabilidad moderadas con usuarios reales de los dos segmentos objetivo del producto**, fundamentadas en la técnica de **Modelado de Flujos de Negocio (*Business Flow Modeling / User Flows*)**. 
+
+En lugar de aislar elementos técnicos abstractos, cada sesión sitúa al usuario ante un flujo completo de valor que agrupa de manera natural múltiples historias de usuario (*User Stories*) del Product Backlog, permitiendo evaluar la efectividad, eficiencia y satisfacción de la solución en condiciones reales de interacción.
+
+#### 4.3.1.1. Definición de Segmentos Objetivo y Criterios de Selección
+
+Para garantizar la representatividad y autenticidad del proceso de validación, se establecieron dos muestras independientes correspondientes a los segmentos primarios de la solución (con una meta mínima de 2 participantes reales por segmento):
+
+1.  **Segmento 1: Padres de Familia y Apoderados (Parent Persona):**
+    *   *Perfil del participante:* Padres o madres de familia con hijos en etapa escolar (inicial o primaria) que actualmente contratan o evalúan servicios de movilidad escolar en Lima Metropolitana.
+    *   *Criterio de inclusión:* Uso habitual de teléfonos inteligentes (Android o iOS) y experiencia cotidiana en aplicaciones de mensajería y mapas.
+    *   *Plataforma evaluada:* Aplicación móvil multiplataforma desarrollada en Flutter (`routeguard-cross-app`).
+2.  **Segmento 2: Conductores y Transportistas Escolares (Driver Persona):**
+    *   *Perfil del participante:* Transportistas con credencial oficial de movilidad escolar y experiencia activa conduciendo rutas escolares urbanas.
+    *   *Criterio de inclusión:* Conducción diaria de unidades de transporte escolar y necesidad de gestionar listas de asistencia y eventos en ruta.
+    *   *Plataforma evaluada:* Aplicación móvil nativa desarrollada en Android con Kotlin y Jetpack Compose (`routeguard-native-app`).
+
+#### 4.3.1.2. Mapeo de Flujos de Negocio (*User Flows*) a User Stories
+
+De acuerdo con lo establecido en las sesiones síncronas de asesoría técnica, los User Stories priorizados del Sprint 2 se consolidan en dos macro-flujos de validación:
+
+##### a) Flujo 1: "Monitoreo Seguro y Acompañamiento del Estudiante" (Padres de Familia)
+Este flujo integra las historias de usuario orientadas a mitigar la incertidumbre del apoderado respecto al traslado de sus hijos:
+*   **US-01:** *Autenticación y Control de Acceso:* Acceso seguro con credenciales de apoderado y token JWT.
+*   **US-06:** *Monitoreo en Tiempo Real del Transporte Escolar:* Visualización geoespacial interactiva del autobús en tránsito sobre OpenStreetMap (`flutter_map`), trazado de ruta y telemetría de viaje (velocidad en km/h, conductor a cargo y estado operativo).
+*   **US-07:** *Notificaciones de Abordaje y Desembarque:* Recepción y lectura cronológica de avisos de seguridad con sello temporal (confirmación de abordaje y alertas de tráfico).
+*   **US-08:** *Gestión de Perfil y Salida Segura:* Consulta de datos de cuenta y comprobación del diálogo modal de confirmación (*AlertDialog*) para prevenir abandonos involuntarios de sesión (Heurística de Nielsen #5).
+
+##### b) Flujo 2: "Operación de Ruta Asistida y Manejo Resiliente" (Conductores de Transporte)
+Este flujo valida la usabilidad en cabina y la tolerancia a fallos del transportista escolar:
+*   **US-04:** *Ejecución de Viaje Asistida:* Guía interactiva de inicio de jornada mediante la mascota virtual (*coach marks* / asistente Poké Boy) para reducir la carga cognitiva al volante.
+*   **US-05:** *Control de Asistencia de Menores:* Marcado de abordaje/desembarque de estudiantes en paraderos intermedios con persistencia local (*offline-first* en Room DB).
+*   **US-10:** *Manejo Amigable de Errores e Internacionalización:* Comprensión inmediata de banners superiores ante interrupciones de conectividad en lenguaje natural y en español (Heurística de Nielsen #9).
+
+#### 4.3.1.3. Protocolo de Conducción y Guía de Tareas de Usabilidad
+
+Las sesiones de validación se ejecutan aplicando el protocolo de **Pensar en Voz Alta (*Think Aloud Protocol*)**, donde el moderador asigna tareas orientadas a objetivos sin inducir las respuestas del participante.
+
+##### Guía de Tareas: Segmento Padres de Familia (Flutter Cross-App)
+1.  **Tarea 1: Acceso a la Cuenta Institucional (US-01 / US-08):**
+    *   *Consigna:* "Acaba de descargar la aplicación de RouteGuard. Ingrese a su cuenta utilizando las credenciales asignadas por el servicio de movilidad escolar."
+    *   *Puntos de observación:* Localización de campos, uso del conmutador de visibilidad de contraseña y claridad ante validaciones de formato.
+    *   *Pregunta post-tarea (SEQ 1-7):* "Del 1 al 7, ¿qué tan sencillo le resultó ingresar a su cuenta?"
+2.  **Tarea 2: Localización y Telemetría del Autobús en Vivo (US-06):**
+    *   *Consigna:* "Son las 7:15 AM y su hijo se alista para salir. Ingrese a la pantalla de seguimiento y localice dónde se encuentra la movilidad escolar y a qué velocidad se está desplazando."
+    *   *Puntos de observación:* Diferenciación visual entre el icono del vehículo y los paraderos de la ruta, interpretación de la línea de ruta (*polyline*) y lectura del panel flotante de velocidad (km/h) y conductor.
+    *   *Pregunta de validación:* "¿La información de la velocidad y la ruta le brinda certeza sobre la llegada del transporte a su domicilio?"
+3.  **Tarea 3: Verificación de Alertas de Abordaje y Contingencia (US-07):**
+    *   *Consigna:* "Verifique si su hijo ya subió a la movilidad escolar o si el conductor reportó algún retraso o congestión en el camino."
+    *   *Puntos de observación:* Navegación hacia la pestaña de Alertas, interpretación de la tipología de avisos (abordaje vs. tráfico) y claridad del formato de fecha/hora.
+    *   *Pregunta de validación:* "¿El mensaje de confirmación de abordaje con hora exacta responde a su necesidad de seguridad?"
+4.  **Tarea 4: Revisión de Perfil y Cierre de Sesión Seguro (US-08):**
+    *   *Consigna:* "Consulte el perfil de su estudiante vinculado y luego simule que desea cerrar su sesión en el teléfono."
+    *   *Puntos de observación:* Identificación de la opción Perfil, aparición del cuadro de diálogo modal de confirmación y comprensión de la acción destructiva diferenciada.
+    *   *Pregunta de validación:* "¿Considera útil que la aplicación le pida confirmación antes de salir para no perder las notificaciones en vivo?"
+
+##### Guía de Tareas: Segmento Conductores (Android Nativo)
+1.  **Tarea 1: Inducción Interactiva al Inicio de Ruta (US-04):**
+    *   *Consigna:* "Inicie su turno de transporte escolar e interactúe con las indicaciones que le brinda el asistente en pantalla para comenzar su recorrido."
+    *   *Puntos de observación:* Comprensión del recorrido guiado por la mascota (*coach marks*), facilidad para avanzar o descartar el tutorial si requiere iniciar la marcha de inmediato.
+2.  **Tarea 2: Registro de Abordaje de Estudiante (US-05):**
+    *   *Consigna:* "Llega al primer paradero de la lista y el estudiante sube a la unidad. Registre su abordaje en la aplicación."
+    *   *Puntos de observación:* Tiempo de ejecución con un solo toque, respuesta visual del cambio de estado y legibilidad del texto en cabina.
+3.  **Tarea 3: Reacción ante Pérdida Temporal de Conexión (US-10):**
+    *   *Consigna:* "Imagine que atraviesa una zona sin cobertura celular o un paso a desnivel. Observe la advertencia en pantalla e indique qué acción debe realizar."
+    *   *Puntos de observación:* Lectura del banner de error amigable en español (sin códigos técnicos como 401 o 500) y comprensión de que los datos continúan respaldados localmente en el dispositivo.
+
+#### 4.3.1.4. Métricas de Evaluación de Usabilidad
+
+Cada entrevista concluye con la recolección de las siguientes métricas cuantitativas y cualitativas:
+*   **Tasa de Finalización de Tarea (*Task Completion Rate - TCR*):** Porcentaje de tareas completadas exitosamente sin asistencia crítica.
+*   **Facilidad de Tarea Única (*Single Ease Question - SEQ*):** Puntuación escalar de 1 ("Muy difícil") a 7 ("Muy fácil") aplicada al concluir cada tarea.
+*   **Cuestionario de Usabilidad del Sistema (*SUS - System Usability Scale reducida*):** Batería de afirmaciones con escala Likert de 1 a 5 para evaluar la intuición global, consistencia y confianza transmitida por la aplicación móvil.
+
 ### 4.3.2. Registro de Entrevistas
+
 
 ### 4.3.3. Evaluaciones según heurísticas
 
