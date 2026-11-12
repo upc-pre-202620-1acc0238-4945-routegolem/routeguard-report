@@ -7095,11 +7095,19 @@ Los contratos principales consumidos por la aplicación Flutter durante el Sprin
 
 #### 4.2.2.8. Software Deployment Evidence for Sprint Review
 
-El despliegue del backend se ejecuta mediante integración y entrega continua (CI/CD) utilizando contenedores Docker orquestados en Microsoft Azure y en Render. Cada inserción de código hacia la rama `main` dispara la compilación automatizada del contenedor Linux y la sincronización con la base de datos administrada PostgreSQL.
+El despliegue de las soluciones del ecosistema RouteGuard se ejecuta mediante prácticas rigurosas de integración y entrega continua (CI/CD):
+
+1. **Backend y Servicios Cloud:** Contenedores Docker orquestados en Render Cloud y Microsoft Azure, sincronizados automáticamente con la base de datos PostgreSQL.
+2. **Aplicación Móvil para Conductores (Android Nativo):** Despliegue móvil gestionado mediante **Firebase App Distribution** (`pe.edu.upc.routeguard`), permitiendo la distribución controlada de versiones ejecutables APK hacia el equipo de pruebas y evaluadores académicos.
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/sprint2-render-deployment.png" alt="Consola de Despliegue en la Nube" width="850">
-  <br><em>Figura 35. Consola del centro de despliegue en la nube certificando el estado Healthy y en ejecución continua.</em>
+  <br><em>Figura 35. Consola del centro de despliegue en la nube certificando el estado Healthy y en ejecución continua del backend.</em>
+</p>
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/sprint2-firebase-app-distribution.png" alt="Consola de Firebase App Distribution" width="850">
+  <br><em>Figura 36. Consola oficial de Firebase App Distribution certificando el despliegue del release 1.0 (1) de RouteGuard Mobile con 5 verificadores invitados.</em>
 </p>
 
 La **Tabla 46** resume la trazabilidad de los artefactos desplegados en producción para el Sprint 2.
@@ -7134,7 +7142,7 @@ La **Tabla 46** resume la trazabilidad de los artefactos desplegados en producci
       <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>main</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>01d1b0b</code></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">GitHub Releases / Android Native APK (Mapbox & Room)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Firebase App Distribution (android:pe.edu.upc.routeguard) & GitHub Releases</td>
       <td style="padding: 10px; border: 1px solid #ddd;">2026-11-02</td>
     </tr>
   </tbody>
