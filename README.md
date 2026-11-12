@@ -27,7 +27,7 @@
   u202415551 - Ramirez Ruíz, Nickolas<br>
   <br><br>
   <strong>Periodo 2026-02</strong><br>
-  <strong>Octubre 2026</strong>
+  <strong>Noviembre 2026</strong>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -166,6 +166,66 @@ Como se detalla en la **Tabla 1**, a continuación se presentan las versiones de
       <td style="padding: 10px; border: 1px solid #ddd;">10/10/2026</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja &amp; Mathias De La Cruz</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Implementación de persistencia local offline-first con Room DB en la app Android nativa, migración a PostgreSQL en Azure Flexible Server, despliegue continuo en Azure App Service con CI/CD, batería de 96 tests de integración y cierre del Sprint Review / TB1.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>2.1</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">24/10/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Planificación del Sprint 2: definición de Sprint Backlog, historias de usuario US-01, US-06, US-07, US-08 para padres y US-04, US-05, US-09, US-10 para conductores. Inicialización y estructura Clean BLoC de la app Flutter multiplataforma (routeguard-cross-app).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>2.2</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">28/10/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De La Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Integración de pasarela de pagos con Stripe SDK en el backend C# .NET y endpoint de Intención de Pago (/api/v1/subscriptions/payment-intent) para cobro automatizado de suscripciones.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>2.3</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">02/11/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Implementación de la heurística de ayuda y documentación (Nielsen #10) en la app Android nativa: diseño y vinculación del asistente Poké Boy en cabina para guía paso a paso y feedback visual.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>2.4</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">04/11/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jhony Manuel Francia</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Soporte de internacionalización integral (i18n) en backend (RequestLocalization español/inglés y recursos .resx) y configuración multilingüe en la app móvil.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>2.5</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">07/11/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas Ramirez</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Diseño y elaboración de wireframes UX de alta fidelidad en Figma para la aplicación Flutter multiplataforma (9 pantallas completas, soporte responsive y modal de checkout seguro).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>2.6</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">09/11/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De La Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Implementación de resiliencia en notificaciones push con Firebase Admin SDK y manejo desacoplado de credenciales para despliegues en contenedores Docker y servicios cloud en Render.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>2.7</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">10/11/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Desarrollo de la app Flutter multiplataforma: arquitectura Clean BLoC, consumo de API REST en producción, seguimiento GPS en vivo con flutter_map y conmutación dinámica de roles.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>2.8</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">11/11/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jhony Manuel Francia</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Diseño del protocolo de entrevistas de validación (Sección 4.3.1), estructuración de guiones de moderación minuto a minuto para padres y conductores, y elaboración de la matriz de tareas y métricas SEQ / SUS.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>2.9</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">12/11/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas Ramirez</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Despliegue y distribución del APK Android nativo v1.0 (1) en Firebase App Distribution (android:pe.edu.upc.routeguard), registro de verificadores del equipo e incorporación de evidencia de release en el informe.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>3.0</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">12/11/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja &amp; Mathias De La Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ejecución y registro de entrevistas sincrónicas de validación con conductores y padres de familia (grabaciones y verbatims), consolidación de métricas de usabilidad (TCR 100%, SUS 86.25/100), documentación de videos de entrega y cierre oficial del Hito AV2 (Sprint 2).</td>
     </tr>
   </tbody>
 </table>
