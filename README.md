@@ -7295,20 +7295,35 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
 * **Hallazgos y Acciones de Mejora:** Recomendó mantener el contraste alto en los botones verde y rojo para facilitar su lectura en días de mucho brillo solar en cabina.
 
 ##### Ficha de Validación V-04: Iván Oscco Cosío (Conductor Independiente)
-* **Edad:** 51 años | **Distrito:** Santiago de Surco | **Unidad:** Toyota HiAce | **Experiencia:** 25 años como conductor escolar independiente.
-* **Plataforma evaluada:** `routeguard-native-app` (Android nativo Kotlin + Jetpack Compose) en teléfono Motorola Moto G84.
-* **Flujo Evaluado:** *Flujo 2: Operación de Ruta Asistida y Manejo Resiliente*.
-* **Tasa de Finalización de Tareas (TCR):** 100% (4 de 4 tareas completadas).
+* **Entrevistado:** Don Iván Oscco Cosío | **Edad:** 51 años | **Experiencia:** 25 años como conductor de movilidad escolar independiente en Lima Metropolitana.
+* **Modalidad y Duración:** Entrevista remota y prueba sincrónica vía Zoom (duración grabada: 11 min 12 s, 12 de noviembre de 2026). Moderador: Marcelo Pareja.
+* **Plataforma evaluada:** `routeguard-native-app` (Android nativo Kotlin + Jetpack Compose) en modo cabina de conductor.
+* **Flujo Evaluado:** *Flujo 2: Operación de Ruta Asistida, Checklist de Abordaje y Manejo Resiliente*.
+* **Tasa de Finalización de Tareas (TCR):** 100% (4 de 4 tareas completadas con éxito).
 * **Métricas de Facilidad de Tarea Única (SEQ 1-7):**
-  * Tarea 1 (Inicio de jornada y guía): **6 / 7**.
-  * Tarea 2 (Checklist de abordaje con respuesta visual): **7 / 7**.
-  * Tarea 3 (Tolerancia a fallos offline y reconexión): **7 / 7**.
-  * Tarea 4 (Envío de aviso de retraso por congestión): **7 / 7**.
+  * Tarea 1 (Navegación e inducción inicial interactiva): **6 / 7**.
+  * Tarea 2 (Checklist de abordaje [Subió] / [No asistió] con feedback visual): **7 / 7**.
+  * Tarea 3 (Publicación de aviso y reporte de incidencia en ruta): **7 / 7**.
+  * Tarea 4 (Comprensión del estado de viaje y alerta preventiva): **7 / 7**.
   * **Promedio SEQ:** **6.75 / 7.0**.
-* **Puntuación de Usabilidad del Sistema (SUS):** **85.0 / 100** (Grado A, altamente intuitiva).
-* **Testimonio literal del conductor (Verbatim):**
-  > *"Yo llevo 25 años en esto y siempre usé hojas de papel o notas en el teléfono. Lo mejor de la aplicación es que si un papá cancela tarde o hay tráfico, tocas un botón y no tienes que estar escribiendo mensajes mientras manejas. Es justo lo que le pedíamos a los padres para no tener distracciones al volante."*
-* **Hallazgos y Acciones de Mejora:** Sugirió que el reporte de incidencia tenga una opción rápida de 'Demora de 5 a 10 min' predeterminada para tocarla con un solo dedo.
+* **Puntuación de Usabilidad del Sistema (SUS):** **85.0 / 100** (Grado A, altamente intuitiva y adaptada a conductores veteranos).
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/sprint2-interview-ivan-oscco.jpg" alt="Validación con Conductor Don Iván Oscco" width="750">
+  <br><em>Figura 42. Sesión sincrónica de validación de usabilidad de la cabina de conductor con Don Iván Oscco Cosío (Conductor Escolar, 25 años de experiencia).</em>
+</p>
+
+* **Fricción de Usabilidad Detectada y Recuperación del Usuario (Error Recovery):**
+  * *Confusión inicial de rol (Heurística de Nielsen #2: Correspondencia entre el sistema y el mundo real):* Al iniciar el checklist de abordaje en el minuto 03:00, Don Iván consultó si el botón de check-in lo accionaba él como padre o el alumno (*"¿El check-in quién lo da, yo como papá o lo da mi hijo o lo da el de la movilidad?"*), debido a que en el entorno de transporte tradicional se asocia el término con el pasajero. El moderador aclaró que la pantalla correspondía exclusivamente a la cabina del conductor escolar. Don Iván asimiló la mecánica de inmediato (*"Ah, ya... yo busco su nombre y le doy check-in para indicar que ese niño ha subido a la movilidad"*), completando el registro de los alumnos en menos de 2.5 segundos por niño.
+* **Testimonios literales del conductor (Verbatims reales grabados):**
+  > *"Lo básico está bien y a veces lo básico es suficiente, ¿no? Porque estamos hablando de que yo como conductor no desearía tener mucha perturbación al volante, pero sí que los papás tengan la información necesaria nada más, para que tampoco estén preocupados o llamando mientras uno maneja."*
+  > 
+  > *"Con tanto tema de inseguridad siempre es bueno tener la alternativa de que los padres se enteren más por uno mismo de lo que puede haber sucedido... un accidente o tráfico... Por ese lado de tener el registro diario de quiénes subieron y quiénes no, me da tranquilidad."*
+  > 
+  > *"Para comenzar al menos, está bien. Puede haber mejoras pero para punto de partida está bien."*
+* **Hallazgos Clave y Acciones de Mejora para el Sprint 3:**
+  1. **Control y libertad del usuario (Heurística de Nielsen #3):** En el tutorial interactivo inicial (minuto 02:00), Don Iván señaló que ante una emergencia o prisa matutina, debe existir siempre la opción visible de *'Omitir / Saltar tutorial'* para no retener la pantalla.
+  2. **Flexibilidad y eficiencia de uso (Heurística de Nielsen #7):** Don Iván propuso un mecanismo de *'Check-out automático o masivo'* al llegar al colegio (minuto 06:30): *"Cuando se llega al colegio bajan todos juntos; sería ideal que el sistema haga el check-out de todos en ese momento para no marcar uno por uno cuando ya se entregaron los niños"*. Se incorporará como historia técnica para el cierre de viaje en el Sprint 3.
 
 ---
 
