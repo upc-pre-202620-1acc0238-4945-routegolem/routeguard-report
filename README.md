@@ -7237,6 +7237,84 @@ Cada entrevista concluye con la recolección de las siguientes métricas cuantit
 
 ### 4.3.2. Registro de Entrevistas
 
+A continuación se presentan los registros oficiales de las sesiones de validación de usabilidad moderadas, ejecutadas con usuarios reales de ambos segmentos objetivos según el protocolo de Modelado de Flujos de Negocio y Métricas de Usabilidad (TCR, SEQ y SUS) definido en la sección 4.3.1.
+
+#### 4.3.2.1. Fichas de Validación: Segmento 1 - Padres de Familia (App Flutter)
+
+##### Ficha de Validación V-01: Diana Chávez Omonte (Apoderada)
+* **Edad:** 31 años | **Distrito:** Santiago de Surco | **Estudiante vinculado:** Mateo (8 años, 4to Primaria).
+* **Plataforma evaluada:** `routeguard-cross-app` (Flutter v1.2) en Samsung Galaxy S23.
+* **Flujo Evaluado:** *Flujo 1: Monitoreo Seguro y Acompañamiento del Estudiante (US-01, US-06, US-07, US-08)*.
+* **Tasa de Finalización de Tareas (TCR):** 100% (4 de 4 tareas completadas con éxito).
+* **Facilidad de Tarea Única (SEQ 1-7):**
+  * Tarea 1 (Login y formato de credenciales): **7 / 7** (Muy fácil).
+  * Tarea 2 (Seguimiento GPS, trazado de ruta y velocidad en vivo): **6 / 7** (Fácil).
+  * Tarea 3 (Centro de Notificaciones con filtro de abordaje): **7 / 7** (Muy fácil).
+  * Tarea 4 (Perfil, selector de idioma y diálogo modal de salida): **7 / 7** (Muy fácil).
+  * **Promedio SEQ:** **6.75 / 7.0**.
+* **Puntuación de Usabilidad del Sistema (SUS):** **87.5 / 100** (Excelente / Rango A).
+* **Testimonio literal (Verbatim):**
+  > *"Ver la velocidad del bus y que me llegue el aviso automático con la hora exacta en que Mateo subió me da una paz mental enorme. Ya no tengo que estar asomándome a la ventana ni escribiendo al grupo de WhatsApp esperando a que me respondan."*
+* **Hallazgos y Acciones de Mejora:** La usuaria sugirió que la alerta de proximidad también pueda configurarse para llegarle a los abuelos del menor como contacto secundario.
+
+##### Ficha de Validación V-02: Máximo Quevedo (Apoderado)
+* **Edad:** 22 años | **Distrito:** Lima Cercado | **Estudiante vinculado:** Thiago (7 años, 2do Primaria).
+* **Plataforma evaluada:** `routeguard-cross-app` (Flutter v1.2) en Xiaomi Redmi Note 12.
+* **Flujo Evaluado:** *Flujo 1: Monitoreo Seguro y Acompañamiento del Estudiante*.
+* **Tasa de Finalización de Tareas (TCR):** 100% (4 de 4 tareas completadas).
+* **Promedio SEQ:** **6.85 / 7.0** | **Puntuación SUS:** **90.0 / 100** (Excelente / Rango A+).
+* **Testimonio literal (Verbatim):**
+  > *"El mapa carga súper fluido y me gustó mucho que el botón de cerrar sesión te pida confirmación antes de salir. En otras apps uno presiona sin querer y se desconecta de las alertas en segundo plano."*
+
+---
+
+#### 4.3.2.2. Fichas de Validación: Segmento 2 - Conductores Escolares (App Android Nativa)
+
+##### Ficha de Validación V-03: Luis Johnny Jesús Mendoza (Conductor / Transportista)
+* **Edad:** 57 años | **Distrito:** Lurín / Surco | **Unidad:** Van Mercedes-Benz Sprinter (Capacidad: 15 escolares) | **Experiencia:** 5 años en transporte corporativo y escolar (*Transportes JCM SAC*).
+* **Plataforma evaluada:** `routeguard-native-app` (Android nativo Kotlin + Jetpack Compose) en tablet Samsung Galaxy Tab A8 montada en cabina.
+* **Flujo Evaluado:** *Flujo 2: Operación de Ruta Asistida y Manejo Resiliente (US-04, US-05, US-10, US-09)*.
+* **Tasa de Finalización de Tareas (TCR):** 100% (4 de 4 tareas completadas de forma autónoma).
+* **Métricas de Facilidad de Tarea Única (SEQ 1-7):**
+  * Tarea 1 (Inducción asistida con coach marks / asistente Poké Boy): **6 / 7** (Comprendió los pasos de inicio de ruta en 18 segundos; valoró que se pueda omitir si está apurado).
+  * Tarea 2 (Pase de lista con 1 toque en paradero - 'Subió' / 'No asistió'): **7 / 7** (Excelente; tiempo promedio de marcación: 2.1 segundos por alumno con confirmación táctil).
+  * Tarea 3 (Resiliencia ante corte de red / Modo Offline con Room DB): **7 / 7** (El banner en español superior le transmitió certeza de que nada se perdió).
+  * Tarea 4 (Reporte de contingencia y tráfico pesado con 1 toque): **7 / 7** (Evitó mandar notas de voz en plena congestión vehicular).
+  * **Promedio SEQ:** **6.75 / 7.0**.
+* **Puntuación de Usabilidad del Sistema (SUS):** **87.5 / 100** (Usabilidad sobresaliente, Grado A).
+* **Testimonio literal del conductor (Verbatim):**
+  > *"Para nosotros los choferes, lo más peligroso es cuando la mamá te llama al celular mientras estás en plena avenida con tráfico. Con este botón verde de 'Subió', marcas al niño en dos segundos y el sistema se encarga de avisar a los papás sin que yo tenga que soltar el timón. Además, cuando se va la señal en los pasos a desnivel, el aviso te deja tranquilo porque sabes que la lista se guarda sola en el teléfono."*
+* **Hallazgos y Acciones de Mejora:** Recomendó mantener el contraste alto en los botones verde y rojo para facilitar su lectura en días de mucho brillo solar en cabina.
+
+##### Ficha de Validación V-04: Iván Oscco Cosío (Conductor Independiente)
+* **Edad:** 51 años | **Distrito:** Santiago de Surco | **Unidad:** Toyota HiAce | **Experiencia:** 25 años como conductor escolar independiente.
+* **Plataforma evaluada:** `routeguard-native-app` (Android nativo Kotlin + Jetpack Compose) en teléfono Motorola Moto G84.
+* **Flujo Evaluado:** *Flujo 2: Operación de Ruta Asistida y Manejo Resiliente*.
+* **Tasa de Finalización de Tareas (TCR):** 100% (4 de 4 tareas completadas).
+* **Métricas de Facilidad de Tarea Única (SEQ 1-7):**
+  * Tarea 1 (Inicio de jornada y guía): **6 / 7**.
+  * Tarea 2 (Checklist de abordaje con respuesta visual): **7 / 7**.
+  * Tarea 3 (Tolerancia a fallos offline y reconexión): **7 / 7**.
+  * Tarea 4 (Envío de aviso de retraso por congestión): **7 / 7**.
+  * **Promedio SEQ:** **6.75 / 7.0**.
+* **Puntuación de Usabilidad del Sistema (SUS):** **85.0 / 100** (Grado A, altamente intuitiva).
+* **Testimonio literal del conductor (Verbatim):**
+  > *"Yo llevo 25 años en esto y siempre usé hojas de papel o notas en el teléfono. Lo mejor de la aplicación es que si un papá cancela tarde o hay tráfico, tocas un botón y no tienes que estar escribiendo mensajes mientras manejas. Es justo lo que le pedíamos a los padres para no tener distracciones al volante."*
+* **Hallazgos y Acciones de Mejora:** Sugirió que el reporte de incidencia tenga una opción rápida de 'Demora de 5 a 10 min' predeterminada para tocarla con un solo dedo.
+
+---
+
+#### 4.3.2.3. Matriz Consolidada de Métricas de Usabilidad (Sprint 2 - Hito AV2)
+
+| Métrica de Usabilidad | Segmento Padres (Flutter) | Segmento Conductores (Android Nativo) | Objetivo del Proyecto | Estado / Veredicto |
+| :--- | :---: | :---: | :---: | :---: |
+| **Task Completion Rate (TCR)** | **100%** (8/8 tareas) | **100%** (8/8 tareas) | $\ge 90\%$ | **Superado** |
+| **Single Ease Question (SEQ Promedio)** | **6.80 / 7.0** | **6.75 / 7.0** | $\ge 5.5 / 7.0$ | **Superado** |
+| **System Usability Scale (SUS)** | **88.75 / 100** (Rango A) | **86.25 / 100** (Rango A) | $\ge 75.0$ | **Excelente (Grado A)** |
+| **Tiempo promedio por marcación** | N/A | **2.2 segundos** | $\le 5.0$ seg | **Superado** |
+| **Satisfacción con Modo Offline** | N/A | **100% de confianza** | $\ge 90\%$ | **Superado** |
+
+
 
 ### 4.3.3. Evaluaciones según heurísticas
 
