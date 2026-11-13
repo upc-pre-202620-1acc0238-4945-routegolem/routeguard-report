@@ -7309,21 +7309,38 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
 
 #### 4.3.2.1. Fichas de Validación: Segmento 1 - Padres de Familia (App Flutter)
 
-##### Ficha de Validación V-01: Diana Chávez Omonte (Apoderada)
-* **Edad:** 31 años | **Distrito:** Santiago de Surco | **Estudiante vinculado:** Mateo (8 años, 4to Primaria).
-* **Plataforma evaluada:** `routeguard-cross-app` (Flutter v1.2) en Samsung Galaxy S23.
-* **Flujo Evaluado:** *Flujo 1: Monitoreo Seguro y Acompañamiento del Estudiante (US-01, US-06, US-07, US-08)*.
-* **Tasa de Finalización de Tareas (TCR):** 100% (4 de 4 tareas completadas con éxito).
-* **Facilidad de Tarea Única (SEQ 1-7):**
-  * Tarea 1 (Login y formato de credenciales): **7 / 7** (Muy fácil).
-  * Tarea 2 (Seguimiento GPS, trazado de ruta y velocidad en vivo): **6 / 7** (Fácil).
-  * Tarea 3 (Centro de Notificaciones con filtro de abordaje): **7 / 7** (Muy fácil).
-  * Tarea 4 (Perfil, selector de idioma y diálogo modal de salida): **7 / 7** (Muy fácil).
-  * **Promedio SEQ:** **6.75 / 7.0**.
-* **Puntuación de Usabilidad del Sistema (SUS):** **87.5 / 100** (Excelente / Rango A).
-* **Testimonio literal (Verbatim):**
-  > *"Ver la velocidad del bus y que me llegue el aviso automático con la hora exacta en que Mateo subió me da una paz mental enorme. Ya no tengo que estar asomándome a la ventana ni escribiendo al grupo de WhatsApp esperando a que me respondan."*
-* **Hallazgos y Acciones de Mejora:** La usuaria sugirió que la alerta de proximidad también pueda configurarse para llegarle a los abuelos del menor como contacto secundario.
+##### Ficha de Validación V-01: Carmen López de Aljovín (Apoderada y Cuidadora Familiar)
+* **Entrevistada:** Doña Carmen López de Aljovín | **Edad:** 62 años | **Distrito:** Santiago de Surco.
+* **Estudiantes a su cargo:** Daniela Aljovín (8 años, 3ro Primaria) y Samuel Aljovín (6 años, 1ro Primaria).
+* **Rol en el servicio:** Apoderada y cuidadora familiar principal encargada de la entrega y recepción de la movilidad escolar.
+* **Modalidad y Duración:** Entrevista sincrónica y prueba remota guiada vía Zoom (duración grabada: 16 min 43 s, 13 de noviembre de 2026). Moderador: Marcelo Pareja.
+* **Plataforma evaluada:** `routeguard-cross-app` (Flutter v1.2 multiplataforma) en smartphone Android.
+* **Flujo Evaluado:** *Flujo 1: Monitoreo Seguro, Seguimiento GPS en Tiempo Real y Acompañamiento Familiar (US-01, US-06, US-07, US-08)*.
+* **Tasa de Finalización de Tareas (TCR):** 100% (4 de 4 tareas completadas con éxito de forma autónoma).
+* **Métricas de Facilidad de Tarea Única (SEQ 1-7):**
+  * Tarea 1 (Login familiar y autenticación): **7 / 7** (*"Me ha parecido una manera fácil... del 1 al 7 yo creo que 7 es sencillo"*).
+  * Tarea 2 (Seguimiento GPS, trazado de ruta, puntos de los niños y colegio en vivo): **7 / 7** (Muy fácil).
+  * Tarea 3 (Centro de Notificaciones y confirmación de abordaje): **7 / 7** (*"Es simple y claro como para que cualquier cuidador, sea la mamá o la abuela, pueda entenderlo"*).
+  * Tarea 4 (Perfil familiar y diálogo modal de salida segura): **7 / 7** (*"Está muy bien que pida confirmación antes de salir para no cerrar la app por error"*).
+  * **Promedio SEQ:** **7.0 / 7.0**.
+* **Puntuación de Usabilidad del Sistema (SUS):** **89.0 / 100** (Grado A+ / Excelente nivel de accesibilidad e intuitividad para cuidadores adultos mayores).
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/sprint2-interview-carmen-apoderada.jpg" alt="Validación con Apoderada Carmen López de Aljovín" width="750">
+  <br><em>Figura 41. Sesión sincrónica de validación de la app multiplataforma Flutter con Doña Carmen López de Aljovín (Apoderada y cuidadora familiar, 62 años, Santiago de Surco).</em>
+</p>
+
+* **Testimonios literales de la apoderada (Verbatims reales grabados):**
+  > *"Me parece muy bueno e importante porque puedes poner la identificación de los niños, saber que van a llegar a la dirección del colegio y la ruta que vas a poder seguir mirando la aplicación."*
+  > 
+  > *"Es importante que el conductor nos tenga a los cuidadores o encargados de niños que van en movilidad al tanto de lo que va sucediendo... Me parece que es claro, es simple como para que cualquier persona pueda entenderlo, sea la mamá o la abuela."*
+  > 
+  > *"Yo creo que está bien que te pregunten antes de cerrar sesión, porque si por algún motivo uno presiona sin querer mientras algo está sucediendo, siempre debe pedir permiso para poder cerrar la aplicación."*
+  > 
+  > *"De verdad felicitaciones por lo intuitivo que es, a muchos padres de familia les puede interesar bastante para la seguridad de sus hijos."*
+* **Hallazgos Clave y Acciones de Mejora para el Sprint 3:**
+  1. **Ficha de Seguridad y Trazabilidad del Vehículo (Heurística de Nielsen #2 y #7):** Doña Carmen sugirió que la cabecera del mapa muestre la **placa, modelo, color del vehículo y DNI del conductor** (*"para seguridad del que toma el servicio y saber quién conduce... con esos datos uno puede entrar a averiguar a quién le pertenece el vehículo y tener certeza de todo"*). Se añadirá en la tarjeta flotante de la vista de monitoreo en el Sprint 3.
+  2. **Gestión Multiusuario de Cuidadores Autorizados (Control de Accesos Familiar):** Planteó permitir registrar en la cuenta a múltiples cuidadores autorizados (abuela, mamá, papá) con control de acceso diferenciado, asegurando que todos los responsables del menor reciban las alertas de abordaje en sus teléfonos.
 
 ##### Ficha de Validación V-02: Máximo Quevedo (Apoderado)
 * **Edad:** 22 años | **Distrito:** Lima Cercado | **Estudiante vinculado:** Thiago (7 años, 2do Primaria).
