@@ -7345,14 +7345,37 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
   1. **Ficha de Seguridad y Trazabilidad del Vehículo (Heurística de Nielsen #2 y #7):** Doña Carmen sugirió que la cabecera del mapa muestre la **placa, modelo, color del vehículo y DNI del conductor** (*"para seguridad del que toma el servicio y saber quién conduce... con esos datos uno puede entrar a averiguar a quién le pertenece el vehículo y tener certeza de todo"*). Se añadirá en la tarjeta flotante de la vista de monitoreo en el Sprint 3.
   2. **Gestión Multiusuario de Cuidadores Autorizados (Control de Accesos Familiar):** Planteó permitir registrar en la cuenta a múltiples cuidadores autorizados (abuela, mamá, papá) con control de acceso diferenciado, asegurando que todos los responsables del menor reciban las alertas de abordaje en sus teléfonos.
 
-##### Ficha de Validación V-02: Máximo Quevedo (Apoderado)
-* **Edad:** 22 años | **Distrito:** Lima Cercado | **Estudiante vinculado:** Thiago (7 años, 2do Primaria).
-* **Plataforma evaluada:** `routeguard-cross-app` (Flutter v1.2) en Xiaomi Redmi Note 12.
-* **Flujo Evaluado:** *Flujo 1: Monitoreo Seguro y Acompañamiento del Estudiante*.
-* **Tasa de Finalización de Tareas (TCR):** 100% (4 de 4 tareas completadas).
-* **Promedio SEQ:** **6.85 / 7.0** | **Puntuación SUS:** **90.0 / 100** (Excelente / Rango A+).
-* **Testimonio literal (Verbatim):**
-  > *"El mapa carga súper fluido y me gustó mucho que el botón de cerrar sesión te pida confirmación antes de salir. En otras apps uno presiona sin querer y se desconecta de las alertas en segundo plano."*
+##### Ficha de Validación V-02: Sra. Roxana (Madre de Familia y Apoderada Escolar)
+* **Entrevistada:** Señora Roxana | **Rol:** Madre de familia y apoderada con hijos en servicio de movilidad escolar privada.
+* **Modalidad y Duración:** Entrevista remota y prueba de usabilidad sincrónica en video 1080p (duración grabada: 07 min 02 s, 13 de noviembre de 2026). **Moderador:** Nickolas Ramirez Ruíz.
+* **Plataforma evaluada:** `routeguard-cross-app` (Flutter v1.2 multiplataforma) en smartphone Android.
+* **Flujo Evaluado:** *Flujo 1: Monitoreo Seguro, Seguimiento GPS en Tiempo Real y Acompañamiento Familiar (US-01, US-02, US-03, US-08)*.
+* **Tasa de Finalización de Tareas (TCR):** 100% (5 de 5 tareas completadas con éxito de forma autónoma).
+* **Métricas de Facilidad de Tarea Única (SEQ 1-7):**
+  * Tarea 1 (Inicio de sesión y visibilidad de contraseña): **7 / 7** (10/10 en facilidad percibida; consideró la interfaz muy limpia y directa).
+  * Tarea 2 (Tutorial y bienvenida interactiva con coach marks): **7 / 7** (Comprendió las tres secciones clave y avanzó con el botón 'Entendido').
+  * Tarea 3 (Seguimiento GPS en vivo de la ruta 'Ruta San Martín' y puntos de parada): **6 / 7** (Visualizó el trayecto y la información básica de sus hijos y colegio; sugirió diferenciar mejor el icono del vehículo).
+  * Tarea 4 (Centro de Alertas de pánico y avisos con hora exacta de inicio/fin): **7 / 7** (Destacó la certeza que transmite tener la marca temporal precisa).
+  * Tarea 5 (Perfil familiar y navegación de soporte): **7 / 7**.
+  * **Promedio SEQ:** **6.80 / 7.0**.
+* **Puntuación de Usabilidad del Sistema (SUS):** **88.5 / 100** (Grado A, Usabilidad excelente).
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/sprint2-interview-roxana-apoderada.jpg" alt="Validación con Madre de Familia Roxana moderada por Nickolas Ramirez" width="750">
+  <br><em>Figura 42. Sesión sincrónica de validación de la app multiplataforma Flutter moderada por Nickolas Ramirez Ruíz con la Sra. Roxana (Madre de familia).</em>
+</p>
+
+* **Fricciones de Usabilidad Detectadas y Recuperación del Usuario (Error Recovery):**
+  * *Diferenciación de Marcadores en el Mapa (Heurística de Nielsen #2: Correspondencia entre el sistema y el mundo real):* En el minuto 03:20, al explorar el seguimiento cartográfico, la entrevistada consultó cómo diferenciar el vehículo de los paraderos programados, dado que la unidad móvil se renderizaba como un punto circular azul. El moderador le aclaró que dicho punto representaba la van escolar en movimiento. La apoderada sugirió que el marcador adopte la silueta explícita de un vehículo escolar para una lectura más intuitiva.
+* **Testimonios literales de la apoderada (Verbatims reales grabados):**
+  > *"Lo que más confianza y tranquilidad me transmitió es el seguimiento que hace de para dónde están llevando la movilidad de mis hijos... es muy tranquilizador ver que de repente el carro no se desvía o va por otro camino."*
+  > 
+  > *"El mensaje con la hora exacta en que se inició o resolvió una alerta me parece muy claro, te brinda bastante seguridad y confianza."*
+  > 
+  > *"Está muy interesante el proyecto, me parece muy buena propuesta y es fácil de entender."*
+* **Hallazgos Clave y Acciones de Mejora para el Sprint 3:**
+  1. **Iconografía vehicular dedicada:** Reemplazar el punto azul genérico de Mapbox por un isotipo representativo de movilidad escolar con indicación direccional de avance para enriquecer la lectura rápida del mapa.
+  2. **Tarjeta de resumen escolar desplegable:** Incluir un acceso rápido para visualizar los datos del chofer y la lista de paraderos restantes directamente desde la vista del mapa.
 
 ---
 
@@ -7375,7 +7398,7 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/sprint2-interview-manuel-conductor.jpg" alt="Validación con Conductor Escolar moderada por Manuel Francia" width="750">
-  <br><em>Figura 42. Sesión sincrónica de validación de usabilidad de la cabina de conductor y resiliencia offline moderada por Jhony Manuel Francia Torres con transportista escolar.</em>
+  <br><em>Figura 43. Sesión sincrónica de validación de usabilidad de la cabina de conductor y resiliencia offline moderada por Jhony Manuel Francia Torres con transportista escolar.</em>
 </p>
 
 * **Fricciones de Usabilidad Detectadas y Recuperación del Usuario (Error Recovery):**
@@ -7407,7 +7430,7 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/sprint2-interview-ivan-oscco.jpg" alt="Validación con Conductor Don Iván Oscco" width="750">
-  <br><em>Figura 43. Sesión sincrónica de validación de usabilidad de la cabina de conductor con Don Iván Oscco Cosío (Conductor Escolar, 25 años de experiencia).</em>
+  <br><em>Figura 44. Sesión sincrónica de validación de usabilidad de la cabina de conductor con Don Iván Oscco Cosío (Conductor Escolar, 25 años de experiencia).</em>
 </p>
 
 * **Fricción de Usabilidad Detectada y Recuperación del Usuario (Error Recovery):**
@@ -7783,7 +7806,7 @@ Los errores identificados son puntuados tomando en cuenta la escala de severidad
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/heuristics-flutter/01-login-sin-crear-cuenta.png" alt="Problema 1 - Login sin opción de crear cuenta" width="700">
-  <br><em>Figura 44. Pantalla de inicio de sesión en Flutter sin acceso directo para el registro de nuevos usuarios.</em>
+  <br><em>Figura 45. Pantalla de inicio de sesión en Flutter sin acceso directo para el registro de nuevos usuarios.</em>
 </p>
 
 * **Problema:**  
@@ -7805,7 +7828,7 @@ Los errores identificados son puntuados tomando en cuenta la escala de severidad
   <br>
   <img src="resources/assets/images/chapter-4/heuristics-flutter/02c-perfil-bottom-nav.png" alt="Problema 2 - Perfil" width="380">
   <img src="resources/assets/images/chapter-4/heuristics-flutter/02d-turno-bottom-nav.png" alt="Problema 2 - Recorrido Conductor" width="380">
-  <br><em>Figura 45. Barra de navegación inferior con excesiva dispersión horizontal entre ítems en las vistas de Seguimiento, Alertas, Perfil y Recorrido.</em>
+  <br><em>Figura 46. Barra de navegación inferior con excesiva dispersión horizontal entre ítems en las vistas de Seguimiento, Alertas, Perfil y Recorrido.</em>
 </p>
 
 * **Problema:**  
@@ -7823,7 +7846,7 @@ Los errores identificados son puntuados tomando en cuenta la escala de severidad
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/heuristics-flutter/03-turno-botones-con-subio.png" alt="Problema 3 - Botones en tarjetas con estado Subió" width="700">
-  <br><em>Figura 46. Persistencia innecesaria de botones de acción en tarjetas de estudiantes cuyo abordaje ya fue registrado.</em>
+  <br><em>Figura 47. Persistencia innecesaria de botones de acción en tarjetas de estudiantes cuyo abordaje ya fue registrado.</em>
 </p>
 
 * **Problema:**  
@@ -7955,10 +7978,10 @@ Pasar del modelado al producto desplegado obligó a cada integrante a aprender h
 El video de **App Validation** documenta la sesión de validación formal de la aplicación móvil con usuarios reales del segmento objetivo (Padres de Familia). Durante la prueba, los usuarios interactúan con la nueva aplicación multiplataforma en Flutter (`routeguard-cross-app`) y con las interfaces optimizadas de la aplicación Android nativa, evaluando la claridad en el seguimiento GPS en vivo, la comprensión de las alertas de abordaje escolar y la usabilidad del flujo de autenticación y perfil.
 
 *   **Participantes:**
-    *   **Marcelo Pareja Calloapaza:** Moderador y presentador principal de la sesión de validación en vivo, guiando las tareas del protocolo de usabilidad y recopilando retroalimentación directa de los apoderados.
-    *   **Nickolas Ramirez Ruíz:** Soporte técnico y post-producción audiovisual, registro de métricas de tiempo por tarea y edición del video con subtítulos explicativos.
+    *   **Nickolas Ramirez Ruíz:** Moderador y presentador principal de la sesión de validación en vivo con padres de familia, guiando las tareas del protocolo de usabilidad y recopilando retroalimentación cualitativa.
+    *   **Marcelo Pareja Calloapaza:** Coordinación metodológica de pruebas de usabilidad y soporte en diseño de instrumentos de evaluación.
 *   **Enlace de YouTube:** [https://youtu.be/rg-val-sprint2-app](https://youtu.be/rg-val-sprint2-app)
-*   **Duración:** 05:45 minutos.
+*   **Duración:** 07:02 minutos.
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/video-app-validation.png" alt="Miniatura Video App Validation" width="700">
