@@ -8014,7 +8014,7 @@ El video de **App Validation** documenta las sesiones de validación formal de u
     *   **Moderadores y Evaluadores:** Marcelo Pareja Calloapaza, Nickolas Ramirez Ruíz, Mathias De la Cruz De los Santos.
     *   **Contenido:** Conducción de pruebas sincrónicas de monitoreo GPS en vivo, inducción interactiva, recepción de alertas con marca temporal y validación de perfil con apoderadas reales (Doña Carmen López de Aljovín, Doña Roxana Vanessa Ramírez y Doña Miriam De los Santos).
 *   **Parte 2: Validación con Conductores Escolares (App Nativa Android en Cabina):**
-    *   **Enlace de YouTube:** *(Enlace de la segunda entrega / procesamiento)*
+    *   **Enlace de YouTube:** [https://youtu.be/C8YxwnOsweI](https://youtu.be/C8YxwnOsweI)
     *   **Moderadores y Evaluadores:** Marcelo Pareja Calloapaza, Jhony Manuel Francia Torres.
     *   **Contenido:** Operación de ruta asistida en cabina, pase de lista de abordaje con confirmación táctil de un toque, reporte de incidencias mecánicas y prueba de resiliencia sin conexión (*Offline-First* con Room DB) con conductores escolares en actividad (Don Iván Oscco Cosío y Don Luis Johnny Jesús Mendoza).
 
