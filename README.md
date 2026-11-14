@@ -441,6 +441,9 @@ TB1:
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+      - [4.3.3.1. Evaluación Heurística 1: Aplicación Móvil Multiplataforma Android (Auditoría RuwaLabs)](#4331-evaluación-heurística-1-aplicación-móvil-multiplataforma-android-auditoría-ruwalabs)
+      - [4.3.3.2. Evaluación Heurística 2: Aplicación Móvil Multiplataforma Flutter (Auditoría RuwaLabs)](#4332-evaluación-heurística-2-aplicación-móvil-multiplataforma-flutter-auditoría-ruwalabs)
+      - [4.3.3.3. Plan de Acción y Subsanación de Hallazgos Heurísticos por el Equipo RouteGuard](#4333-plan-de-acción-y-subsanación-de-hallazgos-heurísticos-por-el-equipo-routeguard)
       - [UX Heuristics \& Principles Evaluation](#ux-heuristics--principles-evaluation)
         - [Usability · Inclusive Design · Information Architecture](#usability--inclusive-design--information-architecture)
         - [TAREAS EVALUADAS](#tareas-evaluadas)
@@ -7418,7 +7421,7 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
 
 ### 4.3.3. Evaluaciones según heurísticas
 
-#### UX Heuristics & Principles Evaluation
+#### 4.3.3.1. Evaluación Heurística 1: Aplicación Móvil Multiplataforma Android (Auditoría RuwaLabs)
 ##### Usability · Inclusive Design · Information Architecture
 
 | Campo | Valor |
@@ -7697,7 +7700,124 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ---
 
-#### 4.3.3.1. Plan de Acción y Subsanación de Hallazgos Heurísticos por el Equipo RouteGuard
+#### 4.3.3.2. Evaluación Heurística 2: Aplicación Móvil Multiplataforma Flutter (Auditoría RuwaLabs)
+
+##### Usability · Inclusive Design · Information Architecture
+
+| Campo | Valor |
+|---|---|
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | 1ACC0238 Aplicaciones para Dispositivos Móviles |
+| **NRC** | 4945 |
+| **PROFESORES** | Mayta Guillermo, Jorge Luis |
+| **AUDITOR** | Equipo RuwaLabs |
+| **CLIENTE(S)** | RouteGolem (Marcelo Pareja, Mathias De la Cruz, Jhony Francia, Nickolas Ramirez) |
+
+##### SITE O APP A EVALUAR
+
+**RouteGuard** — Aplicación móvil multiplataforma (Flutter v1.2) de seguimiento y seguridad del transporte escolar.
+
+##### TAREAS EVALUADAS
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas en el aplicativo Flutter:
+
+1. Iniciar sesión.
+2. Navegar entre las secciones principales (Seguimiento/Recorrido, Alertas y Perfil).
+3. Confirmar el abordaje de estudiantes durante un turno (perfil Conductor).
+
+**No están incluidas en esta versión de la evaluación las siguientes tareas:**
+1. Seguimiento de la ruta en vivo.
+2. Revisión de alertas.
+3. Suscripción y pago de planes (Checkout con Stripe).
+4. Reporte de incidencias en ruta.
+5. Cierre de sesión.
+
+---
+
+##### ESCALA DE SEVERIDAD
+
+Los errores identificados son puntuados tomando en cuenta la escala de severidad estándar:
+
+| Nivel | Descripción |
+| :---: | :---|
+| **1** | **Problema superficial:** puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de cara al siguiente *release*. |
+| **3** | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| **4** | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+##### TABLA RESUMEN
+
+| # | Problema | Escala de severidad | Heurística / Principio violado(a) |
+| :---: | :---| :---: | :---|
+| 1 | La pantalla de inicio de sesión no ofrece una opción para crear una cuenta | **3** | *Information Architecture: Is it findable?* |
+| 2 | En la barra de navegación inferior (*bottom navigation bar*) los íconos están muy separados entre sí | **2** | *Inclusive Design: Considera la situación del usuario* |
+| 3 | En la pantalla de turno se muestran botones de acción en estudiantes que ya tienen el estado "Subió" | **2** | *Usability: Diseño estético y minimalista* |
+
+---
+
+##### DESCRIPCIÓN DETALLADA DE PROBLEMAS
+
+###### PROBLEMA #1: La pantalla de inicio de sesión no ofrece una opción para crear una cuenta
+
+* **Severidad:** 3 (Problema mayor)
+* **Heurística violada:** *Information Architecture - Is it findable?*
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/heuristics-flutter/01-login-sin-crear-cuenta.png" alt="Problema 1 - Login sin opción de crear cuenta" width="700">
+  <br><em>Figura 43. Pantalla de inicio de sesión en Flutter sin acceso directo para el registro de nuevos usuarios.</em>
+</p>
+
+* **Problema:**  
+  La pantalla de inicio de sesión solo contiene los campos de correo y contraseña, el enlace "¿Olvidaste tu contraseña?" y el botón "Iniciar sesión". Un usuario nuevo no encuentra en ningún lugar cómo registrarse, por lo que no puede comenzar a usar la aplicación por sí mismo. En la captura, el recuadro rojo señala el espacio donde debería ubicarse esta opción.
+
+* **Recomendación:**  
+  Agregar, debajo del botón "Iniciar sesión", una opción secundaria "¿No tienes cuenta? Crear cuenta" que dirija al flujo de registro. Allí se debe incluir también el enlace a los términos y condiciones del servicio.
+
+---
+
+###### PROBLEMA #2: Los íconos de la barra de navegación inferior están muy separados entre sí
+
+* **Severidad:** 2 (Problema menor)
+* **Heurística violada:** *Inclusive Design - Considera la situación del usuario*
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/heuristics-flutter/02a-seguimiento-bottom-nav.png" alt="Problema 2 - Seguimiento" width="380">
+  <img src="resources/assets/images/chapter-4/heuristics-flutter/02b-alertas-bottom-nav.png" alt="Problema 2 - Alertas" width="380">
+  <br>
+  <img src="resources/assets/images/chapter-4/heuristics-flutter/02c-perfil-bottom-nav.png" alt="Problema 2 - Perfil" width="380">
+  <img src="resources/assets/images/chapter-4/heuristics-flutter/02d-turno-bottom-nav.png" alt="Problema 2 - Recorrido Conductor" width="380">
+  <br><em>Figura 44. Barra de navegación inferior con excesiva dispersión horizontal entre ítems en las vistas de Seguimiento, Alertas, Perfil y Recorrido.</em>
+</p>
+
+* **Problema:**  
+  En todas las pantallas principales, los tres elementos de la barra de navegación inferior se reparten a lo largo de todo el ancho de la pantalla. Los extremos (Seguimiento/Recorrido y Perfil) quedan muy lejos del centro y del pulgar, lo que dificulta alcanzarlos con una sola mano y hace que la barra se perciba dispersa. Los recuadros rojos señalan la barra en cada pantalla donde se presenta el problema.
+
+* **Recomendación:**  
+  Reducir la separación entre los íconos agrupándolos de forma más compacta y centrada, manteniendo un área táctil mínima de 48x48 dp por elemento y aplicando el mismo espaciado en todas las pantallas para conservar la consistencia ergonómica.
+
+---
+
+###### PROBLEMA #3: Se muestran botones de acción en estudiantes que ya tienen el estado "Subió"
+
+* **Severidad:** 2 (Problema menor)
+* **Heurística violada:** *Usability - Diseño estético y minimalista*
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/heuristics-flutter/03-turno-botones-con-subio.png" alt="Problema 3 - Botones en tarjetas con estado Subió" width="700">
+  <br><em>Figura 45. Persistencia innecesaria de botones de acción en tarjetas de estudiantes cuyo abordaje ya fue registrado.</em>
+</p>
+
+* **Problema:**  
+  En la pantalla "Ruta 02 - Turno Mañana", las tarjetas de Mateo Gómez y Luciana Nery ya muestran la etiqueta "Subió", pero conservan los botones "No asistió" y "Confirmado". Esta información es redundante, ya que el estado ya fue registrado, y los botones ocupan espacio, añaden ruido visual y pueden generar toques accidentales que cambien un estado ya confirmado. Los recuadros rojos señalan los botones que sobran.
+
+* **Recomendación:**  
+  Mostrar únicamente la tarjeta con los datos del estudiante y la etiqueta "Subió" cuando el abordaje ya fue confirmado, sin botones. Reservar los botones "No asistió" y "Subió" exclusivamente para el estudiante cuya parada es la próxima en la secuencia de la ruta.
+
+---
+
+#### 4.3.3.3. Plan de Acción y Subsanación de Hallazgos Heurísticos por el Equipo RouteGuard
 
 Tras la auditoría heurística externa realizada por el equipo auditor (RuwaLabs), el equipo de desarrollo de RouteGuard llevó a cabo una sesión de triaje técnico para priorizar, diseñar e implementar las soluciones a los hallazgos reportados. Especial atención fue dirigida a los problemas de **Severidad 4 (Catastrófico)** y **Severidad 3 (Mayor)**, así como a las inconsistencias de diseño visual y navegación.
 
