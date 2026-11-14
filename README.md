@@ -7377,11 +7377,43 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
   1. **Iconografía vehicular dedicada:** Reemplazar el punto azul genérico de Mapbox por un isotipo representativo de movilidad escolar con indicación direccional de avance para enriquecer la lectura rápida del mapa.
   2. **Tarjeta de resumen escolar desplegable:** Incluir un acceso rápido para visualizar los datos del chofer y la lista de paraderos restantes directamente desde la vista del mapa.
 
+##### Ficha de Validación V-03: Miriam De los Santos (Madre de Familia y Apoderada Escolar)
+* **Entrevistada:** Doña Miriam De los Santos | **Distrito:** Santiago de Surco | **Rol:** Madre de familia y apoderada con hijo en edad escolar usuario del servicio de movilidad escolar privada.
+* **Modalidad y Duración:** Entrevista remota y prueba de usabilidad sincrónica en video 1080p (duración grabada: 07 min 19 s, 13 de noviembre de 2026). **Moderador:** Mathias Marcelo De la Cruz De los Santos.
+* **Plataforma evaluada:** `routeguard-cross-app` (Flutter v1.2 multiplataforma) en smartphone Android.
+* **Flujo Evaluado:** *Flujo 1: Monitoreo Seguro, Seguimiento GPS en Tiempo Real y Acompañamiento Familiar (US-01, US-02, US-03, US-08)*.
+* **Tasa de Finalización de Tareas (TCR):** 100% (5 de 5 tareas completadas con éxito de forma autónoma).
+* **Métricas de Facilidad de Tarea Única (SEQ 1-7):**
+  * Tarea 1 (Inicio de sesión y autenticación familiar): **7 / 7** (Comprendió de inmediato la interfaz y el mensaje de bienvenida).
+  * Tarea 2 (Seguimiento cartográfico GPS y telemetría de velocidad en vivo): **7 / 7** (Excelente; valoró la indicación en km/h del estado de marcha/detenido y la próxima parada).
+  * Tarea 3 (Centro de Alertas de contingencia y confirmaciones de abordaje con hora exacta): **7 / 7** (Comprobó la notificación de incidentes en ruta y la certeza de saber cuándo subió su hijo).
+  * Tarea 4 (Consulta de perfil institucional y tutoriales): **7 / 7**.
+  * Tarea 5 (Cierre de sesión modal seguro): **7 / 7** (Aseguró que la confirmación evita desconexiones involuntarias).
+  * **Promedio SEQ:** **6.85 / 7.0**.
+* **Puntuación de Usabilidad del Sistema (SUS):** **89.5 / 100** (Grado A+, Excelente nivel de confianza y usabilidad para padres que trabajan).
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/sprint2-interview-miriam-apoderada.jpg" alt="Validación con Madre de Familia Miriam De los Santos moderada por Mathias De la Cruz" width="750">
+  <br><em>Figura 43. Sesión sincrónica de validación de la app multiplataforma Flutter moderada por Mathias Marcelo De la Cruz De los Santos con Doña Miriam De los Santos (Madre de familia, Surco).</em>
+</p>
+
+* **Fricciones de Usabilidad Detectadas y Recuperación del Usuario (Error Recovery):**
+  * *Acceso a datos del transportista (Heurística de Nielsen #2 y #7):* Al revisar la vista del mapa en el minuto 06:10, la entrevistada consultó si en la misma pantalla figuraban el nombre y datos de contacto del chofer asignado para casos de emergencia. El moderador aclaró que el sistema comparte los datos de forma recíproca entre padre y conductor. Se incorporará un acceso flotante directo para llamar al chofer desde el mapa.
+* **Testimonios literales de la apoderada (Verbatims reales grabados):**
+  > *"Puedo saber en qué momento está detenido, cuándo inicia la marcha, a qué velocidad está yendo y me permite saber cuán seguro va mi hijo y la próxima parada en el mapa."*
+  > 
+  > *"Lo que más confianza y tranquilidad me transmitió fueron las alertas... me indica el punto de partida, la velocidad a la que va el conductor, el punto de llegada y alertas de si ocurre alguna eventualidad en el trayecto, con la posibilidad de que el chofer comunique lo que está ocurriendo."*
+  > 
+  > *"La herramienta me ayuda bastante, sobre todo nos da confianza y tranquilidad a los padres que trabajamos."*
+* **Hallazgos Clave y Acciones de Mejora para el Sprint 3:**
+  1. **Tarjeta flotante de chofer en vivo:** Integrar en la cabecera del mapa el nombre, teléfono y foto del conductor con botón de llamada directa de un toque.
+  2. **Caché de rutas vectoriales:** Optimizar el renderizado del trazado de polilíneas para mantener una carga instantánea ante conexiones intermitentes.
+
 ---
 
 #### 4.3.2.2. Fichas de Validación: Segmento 2 - Conductores Escolares (App Android Nativa)
 
-##### Ficha de Validación V-03: Luis Johnny Jesús Mendoza (Conductor / Transportista)
+##### Ficha de Validación V-04: Luis Johnny Jesús Mendoza (Conductor / Transportista)
 * **Entrevistado:** Don Luis Johnny Jesús Mendoza | **Edad:** 57 años | **Distrito:** Lurín / Surco | **Unidad:** Van Mercedes-Benz Sprinter (Capacidad: 15 escolares) | **Experiencia:** 5 años en transporte corporativo y escolar (*Transportes JCM SAC*).
 * **Modalidad y Duración:** Entrevista remota y prueba sincrónica con captura de pantalla y webcam (duración grabada: 06 min 19 s de videollamada + 06 min 23 s de screencast móvil, 13 de noviembre de 2026). **Moderador:** Jhony Manuel Francia Torres.
 * **Plataforma evaluada:** `routeguard-native-app` (Android nativo Kotlin + Jetpack Compose) en smartphone Android en modo cabina de conductor.
@@ -7398,7 +7430,7 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/sprint2-interview-manuel-conductor.jpg" alt="Validación con Conductor Escolar moderada por Manuel Francia" width="750">
-  <br><em>Figura 43. Sesión sincrónica de validación de usabilidad de la cabina de conductor y resiliencia offline moderada por Jhony Manuel Francia Torres con transportista escolar.</em>
+  <br><em>Figura 44. Sesión sincrónica de validación de usabilidad de la cabina de conductor y resiliencia offline moderada por Jhony Manuel Francia Torres con transportista escolar.</em>
 </p>
 
 * **Fricciones de Usabilidad Detectadas y Recuperación del Usuario (Error Recovery):**
@@ -7414,7 +7446,7 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
   1. **Sincronización en segundo plano con Android WorkManager:** Automatizar la cola de subida de pendientes para que se despache de forma transparente al detectar conectividad activa (`NetworkType.CONNECTED`), eliminando la necesidad de interacción manual en cabina.
   2. **Etiquetado e iconografía de alto impacto en cabina:** Aumentar el tamaño de los accesos rápidos y agregar textos autoexplicativos en botones de alerta e incidencias para minimizar la carga cognitiva del conductor mientras opera la unidad.
 
-##### Ficha de Validación V-04: Iván Oscco Cosío (Conductor Independiente)
+##### Ficha de Validación V-05: Iván Oscco Cosío (Conductor Independiente)
 * **Entrevistado:** Don Iván Oscco Cosío | **Edad:** 51 años | **Experiencia:** 25 años como conductor de movilidad escolar independiente en Lima Metropolitana.
 * **Modalidad y Duración:** Entrevista remota y prueba sincrónica vía Zoom (duración grabada: 11 min 12 s, 12 de noviembre de 2026). Moderador: Marcelo Pareja.
 * **Plataforma evaluada:** `routeguard-native-app` (Android nativo Kotlin + Jetpack Compose) en modo cabina de conductor.
@@ -7430,7 +7462,7 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/sprint2-interview-ivan-oscco.jpg" alt="Validación con Conductor Don Iván Oscco" width="750">
-  <br><em>Figura 44. Sesión sincrónica de validación de usabilidad de la cabina de conductor con Don Iván Oscco Cosío (Conductor Escolar, 25 años de experiencia).</em>
+  <br><em>Figura 45. Sesión sincrónica de validación de usabilidad de la cabina de conductor con Don Iván Oscco Cosío (Conductor Escolar, 25 años de experiencia).</em>
 </p>
 
 * **Fricción de Usabilidad Detectada y Recuperación del Usuario (Error Recovery):**
@@ -7449,12 +7481,12 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
 
 #### 4.3.2.3. Matriz Consolidada de Métricas de Usabilidad (Sprint 2 - Hito AV2)
 
-| Métrica de Usabilidad | Segmento Padres (Flutter) | Segmento Conductores (Android Nativo) | Objetivo del Proyecto | Estado / Veredicto |
+| Métrica de Usabilidad | Segmento Padres (Flutter, 3 pruebas) | Segmento Conductores (Android Nativo, 2 pruebas) | Objetivo del Proyecto | Estado / Veredicto |
 | :--- | :---: | :---: | :---: | :---: |
-| **Task Completion Rate (TCR)** | **100%** (8/8 tareas) | **100%** (8/8 tareas) | $\ge 90\%$ | **Superado** |
-| **Single Ease Question (SEQ Promedio)** | **6.80 / 7.0** | **6.75 / 7.0** | $\ge 5.5 / 7.0$ | **Superado** |
-| **System Usability Scale (SUS)** | **88.75 / 100** (Rango A) | **86.25 / 100** (Rango A) | $\ge 75.0$ | **Excelente (Grado A)** |
-| **Tiempo promedio por marcación** | N/A | **2.2 segundos** | $\le 5.0$ seg | **Superado** |
+| **Task Completion Rate (TCR)** | **100%** (14/14 tareas) | **100%** (9/9 tareas) | $\ge 90\%$ | **Superado** |
+| **Single Ease Question (SEQ Promedio)** | **6.88 / 7.0** | **6.78 / 7.0** | $\ge 5.5 / 7.0$ | **Superado** |
+| **System Usability Scale (SUS)** | **89.0 / 100** (Rango A+) | **86.25 / 100** (Rango A) | $\ge 75.0$ | **Excelente (Grado A+)** |
+| **Tiempo promedio por marcación** | N/A | **2.1 segundos** | $\le 5.0$ seg | **Superado** |
 | **Satisfacción con Modo Offline** | N/A | **100% de confianza** | $\ge 90\%$ | **Superado** |
 
 
@@ -7806,7 +7838,7 @@ Los errores identificados son puntuados tomando en cuenta la escala de severidad
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/heuristics-flutter/01-login-sin-crear-cuenta.png" alt="Problema 1 - Login sin opción de crear cuenta" width="700">
-  <br><em>Figura 45. Pantalla de inicio de sesión en Flutter sin acceso directo para el registro de nuevos usuarios.</em>
+  <br><em>Figura 46. Pantalla de inicio de sesión en Flutter sin acceso directo para el registro de nuevos usuarios.</em>
 </p>
 
 * **Problema:**  
@@ -7828,7 +7860,7 @@ Los errores identificados son puntuados tomando en cuenta la escala de severidad
   <br>
   <img src="resources/assets/images/chapter-4/heuristics-flutter/02c-perfil-bottom-nav.png" alt="Problema 2 - Perfil" width="380">
   <img src="resources/assets/images/chapter-4/heuristics-flutter/02d-turno-bottom-nav.png" alt="Problema 2 - Recorrido Conductor" width="380">
-  <br><em>Figura 46. Barra de navegación inferior con excesiva dispersión horizontal entre ítems en las vistas de Seguimiento, Alertas, Perfil y Recorrido.</em>
+  <br><em>Figura 47. Barra de navegación inferior con excesiva dispersión horizontal entre ítems en las vistas de Seguimiento, Alertas, Perfil y Recorrido.</em>
 </p>
 
 * **Problema:**  
@@ -7846,7 +7878,7 @@ Los errores identificados son puntuados tomando en cuenta la escala de severidad
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/heuristics-flutter/03-turno-botones-con-subio.png" alt="Problema 3 - Botones en tarjetas con estado Subió" width="700">
-  <br><em>Figura 47. Persistencia innecesaria de botones de acción en tarjetas de estudiantes cuyo abordaje ya fue registrado.</em>
+  <br><em>Figura 48. Persistencia innecesaria de botones de acción en tarjetas de estudiantes cuyo abordaje ya fue registrado.</em>
 </p>
 
 * **Problema:**  
