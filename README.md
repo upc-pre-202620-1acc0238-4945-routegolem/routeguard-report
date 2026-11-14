@@ -7345,8 +7345,8 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
   1. **Ficha de Seguridad y Trazabilidad del Vehículo (Heurística de Nielsen #2 y #7):** Doña Carmen sugirió que la cabecera del mapa muestre la **placa, modelo, color del vehículo y DNI del conductor** (*"para seguridad del que toma el servicio y saber quién conduce... con esos datos uno puede entrar a averiguar a quién le pertenece el vehículo y tener certeza de todo"*). Se añadirá en la tarjeta flotante de la vista de monitoreo en el Sprint 3.
   2. **Gestión Multiusuario de Cuidadores Autorizados (Control de Accesos Familiar):** Planteó permitir registrar en la cuenta a múltiples cuidadores autorizados (abuela, mamá, papá) con control de acceso diferenciado, asegurando que todos los responsables del menor reciban las alertas de abordaje en sus teléfonos.
 
-##### Ficha de Validación V-02: Sra. Roxana (Madre de Familia y Apoderada Escolar)
-* **Entrevistada:** Señora Roxana | **Rol:** Madre de familia y apoderada con hijos en servicio de movilidad escolar privada.
+##### Ficha de Validación V-02: Roxana Vanessa Ramírez (Madre de Familia y Apoderada Escolar)
+* **Entrevistada:** Doña Roxana Vanessa Ramírez | **Edad:** 38 años | **Rol:** Madre de familia y apoderada con hijos en servicio de movilidad escolar privada.
 * **Modalidad y Duración:** Entrevista remota y prueba de usabilidad sincrónica en video 1080p (duración grabada: 07 min 02 s, 13 de noviembre de 2026). **Moderador:** Nickolas Ramirez Ruíz.
 * **Plataforma evaluada:** `routeguard-cross-app` (Flutter v1.2 multiplataforma) en smartphone Android.
 * **Flujo Evaluado:** *Flujo 1: Monitoreo Seguro, Seguimiento GPS en Tiempo Real y Acompañamiento Familiar (US-01, US-02, US-03, US-08)*.
@@ -7361,8 +7361,8 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
 * **Puntuación de Usabilidad del Sistema (SUS):** **88.5 / 100** (Grado A, Usabilidad excelente).
 
 <p align="center">
-  <img src="resources/assets/images/chapter-4/sprint2-interview-roxana-apoderada.jpg" alt="Validación con Madre de Familia Roxana moderada por Nickolas Ramirez" width="750">
-  <br><em>Figura 42. Sesión sincrónica de validación de la app multiplataforma Flutter moderada por Nickolas Ramirez Ruíz con la Sra. Roxana (Madre de familia).</em>
+  <img src="resources/assets/images/chapter-4/sprint2-interview-roxana-apoderada.jpg" alt="Validación con Madre de Familia Roxana Vanessa Ramírez moderada por Nickolas Ramirez" width="750">
+  <br><em>Figura 42. Sesión sincrónica de validación de la app multiplataforma Flutter moderada por Nickolas Ramirez Ruíz con Doña Roxana Vanessa Ramírez (Madre de familia, 38 años).</em>
 </p>
 
 * **Fricciones de Usabilidad Detectadas y Recuperación del Usuario (Error Recovery):**
