@@ -8007,17 +8007,20 @@ Pasar del modelado al producto desplegado obligó a cada integrante a aprender h
 
 ### Video App Validation
 
-El video de **App Validation** documenta la sesión de validación formal de la aplicación móvil con usuarios reales del segmento objetivo (Padres de Familia). Durante la prueba, los usuarios interactúan con la nueva aplicación multiplataforma en Flutter (`routeguard-cross-app`) y con las interfaces optimizadas de la aplicación Android nativa, evaluando la claridad en el seguimiento GPS en vivo, la comprensión de las alertas de abordaje escolar y la usabilidad del flujo de autenticación y perfil.
+El video de **App Validation** documenta las sesiones de validación formal de usabilidad realizadas con usuarios reales de los dos segmentos objetivo del ecosistema RouteGuard (Padres de Familia y Conductores Escolares). Debido a la exhaustividad de las pruebas y la extensión técnica de las sesiones moderadas, la entrega audiovisual de validación se estructuró en dos partes complementarias:
 
-*   **Participantes:**
-    *   **Nickolas Ramirez Ruíz:** Moderador y presentador principal de la sesión de validación en vivo con padres de familia, guiando las tareas del protocolo de usabilidad y recopilando retroalimentación cualitativa.
-    *   **Marcelo Pareja Calloapaza:** Coordinación metodológica de pruebas de usabilidad y soporte en diseño de instrumentos de evaluación.
-*   **Enlace de YouTube:** [https://youtu.be/rg-val-sprint2-app](https://youtu.be/rg-val-sprint2-app)
-*   **Duración:** 07:02 minutos.
+*   **Parte 1: Validación con Padres de Familia (App Multiplataforma Flutter):**
+    *   **Enlace de YouTube:** [https://youtu.be/HkJ7oVC4pis](https://youtu.be/HkJ7oVC4pis)
+    *   **Moderadores y Evaluadores:** Marcelo Pareja Calloapaza, Nickolas Ramirez Ruíz, Mathias De la Cruz De los Santos.
+    *   **Contenido:** Conducción de pruebas sincrónicas de monitoreo GPS en vivo, inducción interactiva, recepción de alertas con marca temporal y validación de perfil con apoderadas reales (Doña Carmen López de Aljovín, Doña Roxana Vanessa Ramírez y Doña Miriam De los Santos).
+*   **Parte 2: Validación con Conductores Escolares (App Nativa Android en Cabina):**
+    *   **Enlace de YouTube:** *(Enlace de la segunda entrega / procesamiento)*
+    *   **Moderadores y Evaluadores:** Marcelo Pareja Calloapaza, Jhony Manuel Francia Torres.
+    *   **Contenido:** Operación de ruta asistida en cabina, pase de lista de abordaje con confirmación táctil de un toque, reporte de incidencias mecánicas y prueba de resiliencia sin conexión (*Offline-First* con Room DB) con conductores escolares en actividad (Don Iván Oscco Cosío y Don Luis Johnny Jesús Mendoza).
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/video-app-validation.png" alt="Miniatura Video App Validation" width="700">
-  <br><em>Figura 36. Validación de la aplicación móvil de seguimiento en tiempo real con padres de familia.</em>
+  <br><em>Figura 36. Validación de la aplicación móvil de seguimiento en tiempo real con padres de familia y conductores escolares.</em>
 </p>
 
 ### Video About the product
