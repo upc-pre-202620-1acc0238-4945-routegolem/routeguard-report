@@ -7359,20 +7359,37 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
 #### 4.3.2.2. Fichas de Validación: Segmento 2 - Conductores Escolares (App Android Nativa)
 
 ##### Ficha de Validación V-03: Luis Johnny Jesús Mendoza (Conductor / Transportista)
-* **Edad:** 57 años | **Distrito:** Lurín / Surco | **Unidad:** Van Mercedes-Benz Sprinter (Capacidad: 15 escolares) | **Experiencia:** 5 años en transporte corporativo y escolar (*Transportes JCM SAC*).
-* **Plataforma evaluada:** `routeguard-native-app` (Android nativo Kotlin + Jetpack Compose) en tablet Samsung Galaxy Tab A8 montada en cabina.
-* **Flujo Evaluado:** *Flujo 2: Operación de Ruta Asistida y Manejo Resiliente (US-04, US-05, US-10, US-09)*.
-* **Tasa de Finalización de Tareas (TCR):** 100% (4 de 4 tareas completadas de forma autónoma).
+* **Entrevistado:** Don Luis Johnny Jesús Mendoza | **Edad:** 57 años | **Distrito:** Lurín / Surco | **Unidad:** Van Mercedes-Benz Sprinter (Capacidad: 15 escolares) | **Experiencia:** 5 años en transporte corporativo y escolar (*Transportes JCM SAC*).
+* **Modalidad y Duración:** Entrevista remota y prueba sincrónica con captura de pantalla y webcam (duración grabada: 06 min 19 s de videollamada + 06 min 23 s de screencast móvil, 13 de noviembre de 2026). **Moderador:** Jhony Manuel Francia Torres.
+* **Plataforma evaluada:** `routeguard-native-app` (Android nativo Kotlin + Jetpack Compose) en smartphone Android en modo cabina de conductor.
+* **Flujo Evaluado:** *Flujo 2: Operación de Ruta Asistida, Checklist de Abordaje y Manejo Resiliente Offline-First (US-04, US-05, US-10, US-09)*.
+* **Tasa de Finalización de Tareas (TCR):** 100% (5 de 5 tareas completadas con éxito de forma autónoma).
 * **Métricas de Facilidad de Tarea Única (SEQ 1-7):**
-  * Tarea 1 (Inducción asistida con coach marks / asistente Poké Boy): **6 / 7** (Comprendió los pasos de inicio de ruta en 18 segundos; valoró que se pueda omitir si está apurado).
-  * Tarea 2 (Pase de lista con 1 toque en paradero - 'Subió' / 'No asistió'): **7 / 7** (Excelente; tiempo promedio de marcación: 2.1 segundos por alumno con confirmación táctil).
-  * Tarea 3 (Resiliencia ante corte de red / Modo Offline con Room DB): **7 / 7** (El banner en español superior le transmitió certeza de que nada se perdió).
-  * Tarea 4 (Reporte de contingencia y tráfico pesado con 1 toque): **7 / 7** (Evitó mandar notas de voz en plena congestión vehicular).
-  * **Promedio SEQ:** **6.75 / 7.0**.
+  * Tarea 1 (Inicio de sesión y arranque de ruta 'Ruta San Martín - Turno Mañana'): **7 / 7** (Inició el recorrido en menos de 15 segundos sin bloqueos).
+  * Tarea 2 (Monitoreo y pase de lista de estudiantes - 'Subió' / 'No asistió'): **7 / 7** (Excelente; tiempo promedio de marcación: 2.1 segundos por alumno con confirmación táctil).
+  * Tarea 3 (Resiliencia ante corte de red / Modo Offline y subida de pendientes): **6 / 7** (Completó el registro de asistencia sin conexión y comprobó la cola de subida).
+  * Tarea 4 (Envío de reporte de incidencia vehicular / alerta preventiva a padres): **7 / 7** (Apreció la rapidez del botón directo desde la lista sin redactar texto en plena conducción).
+  * Tarea 5 (Finalización formal de la ruta): **7 / 7** (Cierre de ruta exitoso).
+  * **Promedio SEQ:** **6.80 / 7.0**.
 * **Puntuación de Usabilidad del Sistema (SUS):** **87.5 / 100** (Usabilidad sobresaliente, Grado A).
-* **Testimonio literal del conductor (Verbatim):**
-  > *"Para nosotros los choferes, lo más peligroso es cuando la mamá te llama al celular mientras estás en plena avenida con tráfico. Con este botón verde de 'Subió', marcas al niño en dos segundos y el sistema se encarga de avisar a los papás sin que yo tenga que soltar el timón. Además, cuando se va la señal en los pasos a desnivel, el aviso te deja tranquilo porque sabes que la lista se guarda sola en el teléfono."*
-* **Hallazgos y Acciones de Mejora:** Recomendó mantener el contraste alto en los botones verde y rojo para facilitar su lectura en días de mucho brillo solar en cabina.
+
+<p align="center">
+  <img src="resources/assets/images/chapter-4/sprint2-interview-manuel-conductor.jpg" alt="Validación con Conductor Escolar moderada por Manuel Francia" width="750">
+  <br><em>Figura 42. Sesión sincrónica de validación de usabilidad de la cabina de conductor y resiliencia offline moderada por Jhony Manuel Francia Torres con transportista escolar.</em>
+</p>
+
+* **Fricciones de Usabilidad Detectadas y Recuperación del Usuario (Error Recovery):**
+  * *Sincronización Offline (Heurística de Nielsen #7: Flexibilidad y eficiencia de uso):* Al probar la recuperación tras el corte deliberado de conectividad (minuto 03:40), el conductor accionó el botón manual para subir los registros pendientes hacia el servidor. Durante la retroalimentación final (minuto 05:15), Don Luis Johnny reflexionó que en el trabajo de campo la señal móvil puede fluctuar constantemente, por lo que la sincronización no debería demandar la atención manual del chofer: *"En ruta se puede ir la señal y apenas tengas nuevamente la señal debería sincronizar la información solo, de manera automática, sin estar presionando un botón"*.
+  * *Organización y Claridad de Accesos en Cabina (Heurística de Nielsen #8: Diseño estético y minimalista):* Al iniciar la navegación por primera vez (minuto 05:40), el transportista indicó que las opciones requerían un orden visual más intuitivo y específico: *"Al inicio no había un orden exacto para encontrar las opciones... cada opción debería ser más específica y clara para no dudar al elegir"*.
+* **Testimonios literales del conductor (Verbatims reales grabados):**
+  > *"Para nosotros lo mejor es alertar a los padres desde la lista nada más, en lugar de estar escribiendo. Si estás al volante, mientras menos tengas que escribir y más opciones directas tengas, mucho mejor."*
+  > 
+  > *"El tema de la sincronización cuando se va la señal es clave, porque en la ruta se te puede ir la señal en cualquier momento. Apenas tengas nuevamente la señal debería sincronizar la información de manera automática y no estar pendiente de presionar un botón."*
+  > 
+  > *"Al inicio no había un orden exacto para encontrar las opciones de cada cosa... cada opción debería ser más específica para entender al instante qué hace cada botón."*
+* **Hallazgos Clave y Acciones de Mejora para el Sprint 3:**
+  1. **Sincronización en segundo plano con Android WorkManager:** Automatizar la cola de subida de pendientes para que se despache de forma transparente al detectar conectividad activa (`NetworkType.CONNECTED`), eliminando la necesidad de interacción manual en cabina.
+  2. **Etiquetado e iconografía de alto impacto en cabina:** Aumentar el tamaño de los accesos rápidos y agregar textos autoexplicativos en botones de alerta e incidencias para minimizar la carga cognitiva del conductor mientras opera la unidad.
 
 ##### Ficha de Validación V-04: Iván Oscco Cosío (Conductor Independiente)
 * **Entrevistado:** Don Iván Oscco Cosío | **Edad:** 51 años | **Experiencia:** 25 años como conductor de movilidad escolar independiente en Lima Metropolitana.
@@ -7390,7 +7407,7 @@ A continuación se presentan los registros oficiales de las sesiones de validaci
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/sprint2-interview-ivan-oscco.jpg" alt="Validación con Conductor Don Iván Oscco" width="750">
-  <br><em>Figura 42. Sesión sincrónica de validación de usabilidad de la cabina de conductor con Don Iván Oscco Cosío (Conductor Escolar, 25 años de experiencia).</em>
+  <br><em>Figura 43. Sesión sincrónica de validación de usabilidad de la cabina de conductor con Don Iván Oscco Cosío (Conductor Escolar, 25 años de experiencia).</em>
 </p>
 
 * **Fricción de Usabilidad Detectada y Recuperación del Usuario (Error Recovery):**
@@ -7766,7 +7783,7 @@ Los errores identificados son puntuados tomando en cuenta la escala de severidad
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/heuristics-flutter/01-login-sin-crear-cuenta.png" alt="Problema 1 - Login sin opción de crear cuenta" width="700">
-  <br><em>Figura 43. Pantalla de inicio de sesión en Flutter sin acceso directo para el registro de nuevos usuarios.</em>
+  <br><em>Figura 44. Pantalla de inicio de sesión en Flutter sin acceso directo para el registro de nuevos usuarios.</em>
 </p>
 
 * **Problema:**  
@@ -7788,7 +7805,7 @@ Los errores identificados son puntuados tomando en cuenta la escala de severidad
   <br>
   <img src="resources/assets/images/chapter-4/heuristics-flutter/02c-perfil-bottom-nav.png" alt="Problema 2 - Perfil" width="380">
   <img src="resources/assets/images/chapter-4/heuristics-flutter/02d-turno-bottom-nav.png" alt="Problema 2 - Recorrido Conductor" width="380">
-  <br><em>Figura 44. Barra de navegación inferior con excesiva dispersión horizontal entre ítems en las vistas de Seguimiento, Alertas, Perfil y Recorrido.</em>
+  <br><em>Figura 45. Barra de navegación inferior con excesiva dispersión horizontal entre ítems en las vistas de Seguimiento, Alertas, Perfil y Recorrido.</em>
 </p>
 
 * **Problema:**  
@@ -7806,7 +7823,7 @@ Los errores identificados son puntuados tomando en cuenta la escala de severidad
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/heuristics-flutter/03-turno-botones-con-subio.png" alt="Problema 3 - Botones en tarjetas con estado Subió" width="700">
-  <br><em>Figura 45. Persistencia innecesaria de botones de acción en tarjetas de estudiantes cuyo abordaje ya fue registrado.</em>
+  <br><em>Figura 46. Persistencia innecesaria de botones de acción en tarjetas de estudiantes cuyo abordaje ya fue registrado.</em>
 </p>
 
 * **Problema:**  
