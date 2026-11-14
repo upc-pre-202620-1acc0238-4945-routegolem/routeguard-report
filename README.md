@@ -7968,8 +7968,8 @@ El video **About the Team** presenta al equipo de ingeniería RouteGolem, detall
 
 *   **Participantes:**
     *   **Jhony Francia Torres:** Presentador principal, exposición de la dinámica de trabajo colaborativo, distribución de responsabilidades en la matriz LACX y aprendizajes técnicos en arquitectura limpia.
-*   **Enlace de YouTube:** [https://youtu.be/rg-team-sprint2-journey](https://youtu.be/rg-team-sprint2-journey)
-*   **Duración:** 05:30 minutos.
+*   **Enlace de YouTube:** [https://youtu.be/LM1fuvgD5DM](https://youtu.be/LM1fuvgD5DM)
+*   **Duración:** 04:17 minutos.
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/video-about-team.png" alt="Miniatura Video About the Team" width="700">
