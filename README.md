@@ -7954,7 +7954,7 @@ El video **About the Product** expone la visión integral de RouteGuard, su prop
 
 *   **Participantes:**
     *   **Mathias De la Cruz De los Santos:** Presentador principal, exposición del problema de negocio, solución tecnológica, demostración funcional de la telemetría GPS y valor diferencial frente a alternativas tradicionales.
-*   **Enlace de YouTube:** [https://youtu.be/rg-product-sprint2-overview](https://youtu.be/rg-product-sprint2-overview)
+*   **Enlace de YouTube:** [https://youtu.be/3tTIf0rH-jA](https://youtu.be/3tTIf0rH-jA)
 *   **Duración:** 06:15 minutos.
 
 <p align="center">
