@@ -8007,16 +8007,16 @@ Pasar del modelado al producto desplegado obligó a cada integrante a aprender h
 
 ### Video App Validation
 
-El video de **App Validation** documenta las sesiones de validación formal de usabilidad realizadas con usuarios reales de los dos segmentos objetivo del ecosistema RouteGuard (Padres de Familia y Conductores Escolares). Debido a la exhaustividad de las pruebas y la extensión técnica de las sesiones moderadas, la entrega audiovisual de validación se estructuró en dos partes complementarias:
+El video de **App Validation** documenta las sesiones de validación formal de usabilidad realizadas con usuarios reales del ecosistema RouteGuard. Debido a la exhaustividad de las pruebas y la extensión de las grabaciones, la entrega audiovisual se estructuró en dos partes:
 
-*   **Parte 1: Validación con Padres de Familia (App Multiplataforma Flutter):**
+*   **Parte 1:**
     *   **Enlace de YouTube:** [https://youtu.be/HkJ7oVC4pis](https://youtu.be/HkJ7oVC4pis)
-    *   **Moderadores y Evaluadores:** Marcelo Pareja Calloapaza, Nickolas Ramirez Ruíz, Mathias De la Cruz De los Santos.
-    *   **Contenido:** Conducción de pruebas sincrónicas de monitoreo GPS en vivo, inducción interactiva, recepción de alertas con marca temporal y validación de perfil con apoderadas reales (Doña Carmen López de Aljovín, Doña Roxana Vanessa Ramírez y Doña Miriam De los Santos).
-*   **Parte 2: Validación con Conductores Escolares (App Nativa Android en Cabina):**
+    *   **Participantes y Moderadores:** Marcelo Pareja Calloapaza, Nickolas Ramirez Ruíz, Mathias De la Cruz De los Santos, Jhony Manuel Francia Torres.
+    *   **Contenido:** Sesiones sincrónicas de prueba guiada, navegación interactiva y validación de flujos de negocio en las aplicaciones de RouteGuard con usuarios finales.
+*   **Parte 2:**
     *   **Enlace de YouTube:** [https://youtu.be/C8YxwnOsweI](https://youtu.be/C8YxwnOsweI)
-    *   **Moderadores y Evaluadores:** Marcelo Pareja Calloapaza, Jhony Manuel Francia Torres.
-    *   **Contenido:** Operación de ruta asistida en cabina, pase de lista de abordaje con confirmación táctil de un toque, reporte de incidencias mecánicas y prueba de resiliencia sin conexión (*Offline-First* con Room DB) con conductores escolares en actividad (Don Iván Oscco Cosío y Don Luis Johnny Jesús Mendoza).
+    *   **Participantes y Moderadores:** Marcelo Pareja Calloapaza, Nickolas Ramirez Ruíz, Mathias De la Cruz De los Santos, Jhony Manuel Francia Torres.
+    *   **Contenido:** Continuación de las pruebas de usabilidad, evaluación de tareas críticas, gestión de alertas y resiliencia del sistema ante contingencias operativas.
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/video-app-validation.png" alt="Miniatura Video App Validation" width="700">
