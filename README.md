@@ -233,6 +233,12 @@ Como se detalla en la **Tabla 1**, a continuación se presentan las versiones de
       <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Incorporación de la sección 4.2.3 (Sprint 3 - TB2), actualización de la configuración de despliegue móvil (4.1.4), documentación de paridad visual e internacionalización reactiva (ES/EN) en Android Native y Flutter, y automatización CI/CD con GitHub Actions y Firebase App Distribution (RouteGuard Mobile y RouteGuard Flutter).</td>
     </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>3.2</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">26/11/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Implementación y verificación de 10 historias de usuario adicionales (US-09, US-12, US-14, US-15, US-17, US-18, US-19, US-21, US-23 y US-29) en Android Native y Flutter, ampliación de suites de pruebas (25 pruebas en Android Native y 50 en Flutter), actualización de capturas de ejecución en emulador y sincronización de la sección 4.2.3.</td>
+    </tr>
   </tbody>
 </table>
 <p style="margin-top: 10px;"><em>Nota: Historial detallado de las modificaciones realizadas en el informe, indicando fecha, autor y descripción de cada versión.</em></p>
@@ -7525,6 +7531,48 @@ Durante el Sprint 3 se completó la paridad funcional y visual entre la aplicaci
       <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(i18n,ci): complete ES/EN localization, update README and add Firebase deploy workflow</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">25/11/2026</td>
     </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>6cdf5bb</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>test(native): add AttendanceReportFormatterTest, TripDomainAndIncidentTest and ES/EN i18n keys</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">26/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>a7d5a23</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(native): implement password recovery, FAQ, support tickets and SOAT docs verification</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">26/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>b337479</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(native): implement trip history, absence report, rating, roadblock, force majeure cancel and CSV report</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">26/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>07fef77</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>fix(native): wrap ComponentActivity in ContextWrapper so HiltViewModel works with live ES/EN locale</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">26/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>aa9f698</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(cross-app): add password recovery, FAQ, support tickets, SOAT docs and EN/ES keys</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">26/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>fbd8b9e</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(cross-app): implement trip history, early absence, rating, roadblock, cancel trip, CSV report and 50 tests</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">26/11/2026</td>
+    </tr>
   </tbody>
 </table>
 
@@ -7532,12 +7580,12 @@ Durante el Sprint 3 se completó la paridad funcional y visual entre la aplicaci
 
 En el Sprint 3 se ejecutaron de manera automatizada tanto en entorno local como dentro de los flujos de trabajo de GitHub Actions las suites de pruebas de ambas aplicaciones móviles:
 
-*   **Android Native (`routeguard-native-app`):** Ejecución de `./gradlew testDebugUnitTest`, alcanzando **17 pruebas unitarias aprobadas**, incluyendo la verificación automática de paridad de claves entre `values/strings.xml` y `values-en/strings.xml` (`StringsXmlParityTest`).
-*   **Flutter (`routeguard-cross-app`):** Ejecución de `flutter analyze` (sin incidencias) y `flutter test`, alcanzando **43 pruebas unitarias y de widgets aprobadas**, cubriendo modelos de dominio, repositorios en modo offline, navegación multi-rol (`MainShell`), asistente interactivo y paridad de internacionalización (`test/localization_test.dart`).
+*   **Android Native (`routeguard-native-app`):** Ejecución de `./gradlew testDebugUnitTest assembleDebug`, alcanzando **25 pruebas unitarias aprobadas en 8 suites** sin fallos, incluyendo la verificación de paridad de claves entre `values/strings.xml` y `values-en/strings.xml` (`StringsXmlParityTest`), formato de reporte de asistencia (`AttendanceReportFormatterTest`) y reglas de dominio e incidencias (`TripDomainAndIncidentTest`).
+*   **Flutter (`routeguard-cross-app`):** Ejecución de `flutter analyze` (sin incidencias) y `flutter test`, alcanzando **50 pruebas unitarias y de widgets aprobadas**, cubriendo modelos de dominio, repositorios en modo offline, navegación multi-rol (`MainShell`), asistente interactivo, nuevas historias de usuario (`test/user_stories_test.dart`) y paridad de internacionalización (`test/localization_test.dart`).
 
 #### 4.2.3.6. Execution Evidence for Sprint Review
 
-Durante el Sprint 3 se verificó en ejecución la paridad visual y funcional de ambas aplicaciones móviles, destacando el soporte multi-rol en Flutter (Administrador, Conductor y Apoderado), la red de cuidadores autorizados, el selector de foto de perfil, el marcador telefónico directo al conductor, el cambio reactivo de idioma (`es-419` / `en-US`) y el modo demostrativo offline:
+Durante el Sprint 3 se verificó en ejecución la paridad visual y funcional de ambas aplicaciones móviles, destacando el soporte multi-rol en Flutter (Administrador, Conductor y Apoderado), la red de cuidadores autorizados, el selector de foto de perfil, el marcador telefónico directo al conductor, el cambio reactivo de idioma (`es-419` / `en-US`) y el modo demostrativo offline. Asimismo, se incorporaron y validaron en emulador las capacidades complementarias de recuperación de contraseña, verificación documental (SOAT y licencia), reporte anticipado de ausencia, historial y calificación de viajes, alertas de bloqueo de vía, cancelación por fuerza mayor, centro de ayuda (FAQ y tickets) y exportación de reporte CSV de asistencia:
 
 *   **Aplicación Multiplataforma Flutter (`routeguard-cross-app`):**
 
@@ -7557,6 +7605,27 @@ Durante el Sprint 3 se verificó en ejecución la paridad visual y funcional de 
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="resources/assets/images/chapter-3/mobile-mockups/native/native_14_parent_perfil.png" alt="Android Native Perfil Apoderado" width="260">
   <br><em>Figura 39. Ejecución en Android Native mostrando la vista operativa de viaje y la gestión de perfil con paridad visual respecto a Flutter.</em>
+</p>
+
+*   **Nuevas Historias de Usuario Validadas en Emulador (`US-09` a `US-29` — Flutter y Android Native):**
+
+<p align="center">
+  <img src="resources/assets/images/sprint3/s3_flutter_home.png" alt="Flutter Seguimiento con SOAT, Historial y Calificación" width="205">
+  &nbsp;&nbsp;
+  <img src="resources/assets/images/sprint3/s3_flutter_trip_history.png" alt="Flutter Historial de Viajes" width="205">
+  &nbsp;&nbsp;
+  <img src="resources/assets/images/sprint3/s3_flutter_rate_dialog.png" alt="Flutter Calificar Servicio" width="205">
+  &nbsp;&nbsp;
+  <img src="resources/assets/images/sprint3/s3_flutter_driver_view.png" alt="Flutter Vista Conductor con Bloqueo y Reporte CSV" width="205">
+  <br><br>
+  <img src="resources/assets/images/sprint3/s3_flutter_help_center.png" alt="Flutter Centro de Ayuda y Soporte" width="205">
+  &nbsp;&nbsp;
+  <img src="resources/assets/images/sprint3/s3_native_login.png" alt="Android Native Login y Recuperación de Contraseña" width="205">
+  &nbsp;&nbsp;
+  <img src="resources/assets/images/sprint3/s3_native_parent.png" alt="Android Native Vehículo y Seguridad SOAT Vigente" width="205">
+  &nbsp;&nbsp;
+  <img src="resources/assets/images/sprint3/s3_native_help.png" alt="Android Native Perfil y Centro de Ayuda y Soporte" width="205">
+  <br><em>Figura 40. Capturas en emulador (Pixel 7) de las nuevas funcionalidades implementadas en Flutter y Android Native: documentación vehicular (SOAT), historial y calificación de viajes, vista de conductor (bloqueo de vía y reporte CSV), recuperación de contraseña y Centro de Ayuda y Soporte (FAQ y tickets).</em>
 </p>
 
 #### 4.2.3.7. Services Documentation Evidence for Sprint Review
