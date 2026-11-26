@@ -7573,15 +7573,37 @@ Durante el Sprint 3 se completó la paridad funcional y visual entre la aplicaci
       <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(cross-app): implement trip history, early absence, rating, roadblock, cancel trip, CSV report and 50 tests</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">26/11/2026</td>
     </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-web-services</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>ee098dd</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(backend): add full US-20/24/26/27/28/30 entities, endpoints, mobile parity data and seeding</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">26/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>409aceb</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(native): implement US-20/24/26/27/28/30, Room v2 sync cache and remove hardcoded state</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">26/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>e7326da</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(cross-app): add sqflite offline cache, US-20/24/26/27/28/30 dialogs and live DB parity</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">26/11/2026</td>
+    </tr>
   </tbody>
 </table>
 
 #### 4.2.3.5. Testing Suite Evidence for Sprint Review
 
-En el Sprint 3 se ejecutaron de manera automatizada tanto en entorno local como dentro de los flujos de trabajo de GitHub Actions las suites de pruebas de ambas aplicaciones móviles:
+En el Sprint 3 se ejecutaron de manera automatizada tanto en entorno local como dentro de los flujos de trabajo de GitHub Actions las suites de pruebas de las tres soluciones del ecosistema:
 
-*   **Android Native (`routeguard-native-app`):** Ejecución de `./gradlew testDebugUnitTest assembleDebug`, alcanzando **25 pruebas unitarias aprobadas en 8 suites** sin fallos, incluyendo la verificación de paridad de claves entre `values/strings.xml` y `values-en/strings.xml` (`StringsXmlParityTest`), formato de reporte de asistencia (`AttendanceReportFormatterTest`) y reglas de dominio e incidencias (`TripDomainAndIncidentTest`).
-*   **Flutter (`routeguard-cross-app`):** Ejecución de `flutter analyze` (sin incidencias) y `flutter test`, alcanzando **50 pruebas unitarias y de widgets aprobadas**, cubriendo modelos de dominio, repositorios en modo offline, navegación multi-rol (`MainShell`), asistente interactivo, nuevas historias de usuario (`test/user_stories_test.dart`) y paridad de internacionalización (`test/localization_test.dart`).
+*   **Backend API (`routeguard-web-services`):** Ejecución de `dotnet test RouteGuard.Platform.Tests`, alcanzando **18 pruebas de dominio e integración aprobadas en verde** sobre los nuevos agregados y migración de PostgreSQL (`AddFullUserStoriesAndMobileParity`).
+*   **Android Native (`routeguard-native-app`):** Ejecución de `./gradlew testDebugUnitTest assembleDebug`, alcanzando **26 pruebas unitarias aprobadas en 8 suites** sin fallos (`0` errores, `0` omitidas), incluyendo la verificación de paridad de claves entre `values/strings.xml` y `values-en/strings.xml` (`StringsXmlParityTest`), formato de reporte de asistencia (`AttendanceReportFormatterTest`), reglas de dominio e incidencias (`TripDomainAndIncidentTest`) y compilación con persistencia local Room v2.
+*   **Flutter (`routeguard-cross-app`):** Ejecución de `flutter analyze` (sin incidencias) y `flutter test`, alcanzando **50 pruebas unitarias y de widgets aprobadas**, cubriendo modelos de dominio, repositorios en modo offline con arquitectura dual (`SharedPreferences` para preferencias ligeras y `sqflite` para caché SQLite estructurada y cola de sincronización), navegación multi-rol (`MainShell`), asistente interactivo, historias de usuario (`test/user_stories_test.dart`) y paridad de internacionalización (`test/localization_test.dart`), además de compilación de lanzamiento (`app-release.apk`).
 
 #### 4.2.3.6. Execution Evidence for Sprint Review
 
@@ -7630,7 +7652,7 @@ Durante el Sprint 3 se verificó en ejecución la paridad visual y funcional de 
 
 #### 4.2.3.7. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 3, la API RESTful de RouteGuard (C# ASP.NET Core 10) mantuvo el **100% de cobertura** de *endpoints* documentados y operativos bajo **OpenAPI 3.0 / Swagger UI** alcanzados en el Hito AV2, sin requerir nuevos *endpoints* ni cambios disruptivos de contrato. Ambos clientes móviles (Android Native y Flutter) consumen de forma consistente los mismos esquemas de autenticación JWT, gestión de rutas, seguimiento GPS, alertas de seguridad, suscripciones con Stripe y localización de respuestas (`es-419` / `en-US`).
+Durante el Sprint 3, la API RESTful de RouteGuard (C# ASP.NET Core 10) amplió su contrato documentado bajo **OpenAPI 3.0 / Swagger UI** incorporando el esquema migrado en PostgreSQL (`AddFullUserStoriesAndMobileParity`) para cubrir el **100 % del *Product Backlog* (30 de 30 historias de usuario)**, incluyendo persistencia de foto de perfil (`/users/me/photo`), preferencia de idioma (`/users/me/language`), recuperación de contraseña (`/users/forgot-password`, `/users/reset-password`), cuidadores autorizados (`/caregivers`), incidencias de soporte (`/support-tickets`), ausencias tempranas (`/absences`), reasignación optimizada de paradas (`/routes/{routeId}/optimized-stops`), mantenimientos y gastos operativos (`/maintenances`, `/expenses`), foro de anuncios (`/announcements`), cambios temporales de recojo (`/pickup-changes`) y chat interno conductor–apoderado (`/chat`). Ambos clientes móviles (Android Native con Room v2 y Flutter con `SharedPreferences` más `sqflite`) consumen de forma unificada estos recursos sin depender de datos estáticos locales.
 
 #### 4.2.3.8. Software Deployment Evidence for Sprint Review
 
@@ -7669,7 +7691,7 @@ Durante el Sprint 3, los cuatro integrantes del equipo RouteGolem consolidaron l
     *   Durante la puesta en marcha de los flujos de trabajo en GitHub Actions se presentaron incidencias de permisos de ejecución en el script `gradlew` sobre corredores Linux y de nomenclatura del parámetro `appId` en la acción de Firebase App Distribution, las cuales fueron diagnosticadas y resueltas en equipo hasta lograr ejecuciones exitosas en ambos repositorios.
     *   La unificación de cadenas y estados en modo offline requirió alinear las claves de recursos XML en Kotlin (`StringsXmlParityTest`) con los mapas de localización reactiva en Dart (`localization_test.dart`) para evitar textos sin traducir ante cambios de rol o de idioma en tiempo real.
 *   **Cierre del Ciclo de Desarrollo:**
-    *   Con ambas aplicaciones desplegadas en Firebase App Distribution, el backend RESTful operativo al 100% y las suites automatizadas en verde (17 pruebas en Android Native y 43 en Flutter), el equipo deja establecida una base reproducible y lista para validación continua en dispositivos físicos.
+    *   Con ambas aplicaciones desplegadas en Firebase App Distribution, el backend RESTful actualizado al 100 % en Render + PostgreSQL (`30/30` historias de usuario operativas con Room v2 y `SharedPreferences` + `sqflite`) y las suites automatizadas en verde (**18** pruebas en Backend .NET, **26** en Android Native y **50** en Flutter), el equipo deja establecida una base reproducible y lista para validación continua en dispositivos físicos.
 
 ---
 
