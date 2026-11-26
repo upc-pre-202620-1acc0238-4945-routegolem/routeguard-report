@@ -227,6 +227,12 @@ Como se detalla en la **Tabla 1**, a continuación se presentan las versiones de
       <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja &amp; Mathias De La Cruz</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Ejecución y registro de entrevistas sincrónicas de validación con conductores y padres de familia (grabaciones y verbatims), consolidación de métricas de usabilidad (TCR 100%, SUS 86.25/100), documentación de videos de entrega y cierre oficial del Hito AV2 (Sprint 2).</td>
     </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>3.1</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">25/11/2026</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Incorporación de la sección 4.2.3 (Sprint 3 - TB2), actualización de la configuración de despliegue móvil (4.1.4), documentación de paridad visual e internacionalización reactiva (ES/EN) en Android Native y Flutter, y automatización CI/CD con GitHub Actions y Firebase App Distribution (RouteGuard Mobile y RouteGuard Flutter).</td>
+    </tr>
   </tbody>
 </table>
 <p style="margin-top: 10px;"><em>Nota: Historial detallado de las modificaciones realizadas en el informe, indicando fecha, autor y descripción de cada versión.</em></p>
@@ -441,6 +447,16 @@ AV2:
       - [4.2.2.7. Services Documentation Evidence for Sprint Review](#4227-services-documentation-evidence-for-sprint-review)
       - [4.2.2.8. Software Deployment Evidence for Sprint Review](#4228-software-deployment-evidence-for-sprint-review)
       - [4.2.2.9. Team Collaboration Insights during Sprint](#4229-team-collaboration-insights-during-sprint)
+    - [4.2.3. Sprint 3](#423-sprint-3)
+      - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
+      - [4.2.3.2. Aspect Leaders and Collaborators](#4232-aspect-leaders-and-collaborators)
+      - [4.2.3.3. Sprint Backlog 3](#4233-sprint-backlog-3)
+      - [4.2.3.4. Development Evidence for Sprint Review](#4234-development-evidence-for-sprint-review)
+      - [4.2.3.5. Testing Suite Evidence for Sprint Review](#4235-testing-suite-evidence-for-sprint-review)
+      - [4.2.3.6. Execution Evidence for Sprint Review](#4236-execution-evidence-for-sprint-review)
+      - [4.2.3.7. Services Documentation Evidence for Sprint Review](#4237-services-documentation-evidence-for-sprint-review)
+      - [4.2.3.8. Software Deployment Evidence for Sprint Review](#4238-software-deployment-evidence-for-sprint-review)
+      - [4.2.3.9. Team Collaboration Insights during Sprint](#4239-team-collaboration-insights-during-sprint)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -5242,6 +5258,7 @@ Para mantener un código limpio, legible y mantenible a lo largo de los diferent
 El despliegue de las distintas soluciones de RouteGuard se realiza aprovechando plataformas de *Platform as a Service (PaaS)* y servicios en la nube para asegurar alta disponibilidad y escalabilidad:
 - **Backend:** Los microservicios y la API de Spring Boot son desplegados en servicios modernos en la nube como **Railway** (Railway, 2024), los cuales ofrecen integración continua (CI/CD) directamente desde el repositorio de GitHub y aprovisionamiento automático de bases de datos PostgreSQL con extensiones espaciales como PostGIS (PostGIS Project Steering Committee, 2024). Esto es crítico para soportar la carga operativa y logística urbana de forma ininterrumpida (García, López & Torres, 2024).
 - **Landing Page:** La aplicación web estática (Landing Page) se despliega utilizando **Vercel** (Vercel, 2024) o alternativamente **GitHub Pages**, herramientas especializadas en alojamiento rápido de frontend que proveen redes de entrega de contenido (CDN) globales y certificados SSL integrados para asegurar un rendimiento óptimo y seguro.
+- **Aplicaciones Móviles (Android Native y Flutter):** La compilación, verificación automatizada y distribución continua de los binarios Android (`.apk`) se automatiza mediante **GitHub Actions** y **Firebase App Distribution** (Google, 2024). Ante cada actualización en las ramas `main` o `develop`, el flujo de trabajo ejecuta las pruebas unitarias y análisis estático correspondientes, genera el paquete `.apk`, resguarda el artefacto de compilación en GitHub Actions y distribuye la nueva versión al grupo de evaluadores (`testers`) registrado en Firebase App Distribution utilizando credenciales de cuenta de servicio resguardadas en *GitHub Repository Secrets* (`FIREBASE_SERVICE_CREDENTIALS`, `FIREBASE_APP_ID` y, en el proyecto nativo, `GOOGLE_SERVICES_JSON` y `MAPBOX_ACCESS_TOKEN`).
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
@@ -7228,6 +7245,354 @@ Durante el Sprint 2, la dinámica del equipo RouteGolem maduró significativamen
     *   La integración de mapas interactivos requirió evaluar opciones libres de cuotas comerciales de facturación, optándose con gran éxito por la combinación de `flutter_map` y OpenStreetMap.
 *   **Compromisos para el Sprint Final:**
     *   Integrar pruebas de extremo a extremo (E2E) con Flutter Driver / Integration Test y profundizar en el monitoreo de telemetría de eventos de seguridad ante cortes de señal GPS.
+
+---
+
+### 4.2.3. Sprint 3
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el **Sprint 3 (Hito TB2 - Release Review)**, enfocado en la paridad visual y funcional entre las aplicaciones Android Native y Flutter, la internacionalización completa (`es-419` / `en-US`) de forma reactiva, la subsanación de hallazgos heurísticos y la automatización del despliegue continuo hacia **Firebase App Distribution**.
+
+#### 4.2.3.1. Sprint Planning 3
+
+El *Sprint Planning 3* consolidó los objetivos de cierre del ciclo para garantizar la estabilidad en producción, la cobertura de pruebas unitarias y de interfaz, y la entrega continua de compilaciones verificadas a los evaluadores en Firebase App Distribution.
+
+<p><strong>Tabla:</strong> <em>Resumen del Sprint Planning 3</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Sprint #</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Sprint 3 (Release Review - TB2)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Sprint Planning Background</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Date</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">2026-11-18</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Time</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">08:30 PM</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Location</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sesión síncrona virtual (Discord / Google Meet)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Prepared By</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pareja Calloapaza, Marcelo</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Attendees</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pareja Calloapaza, Marcelo / De la Cruz De los Santos, Mathias / Francia Torres, Jhony / Ramirez Ruíz, Nickolas</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sprint 2 Review Summary</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Se consolidaron las vistas principales en Android Native y Flutter, así como la integración con el backend RESTful y las entrevistas de validación heurística del Hito AV2.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sprint 2 Retrospective Summary</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Se identificó la necesidad de unificar el diseño visual entre ambas plataformas, completar la internacionalización reactiva (ES/EN), incorporar pruebas de paridad y automatizar el despliegue de archivos APK hacia Firebase App Distribution.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Sprint Goal &amp; User Stories</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sprint 3 Goal</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Our focus is on delivering visual parity, full ES/EN reactive localization, and automated APK distribution via Firebase App Distribution for both Native and Flutter mobile applications. We believe it delivers a consistent, accessible, and continuously verifiable mobile experience to parents, drivers, and fleet administrators. This will be confirmed when both CI/CD pipelines build, test, and distribute installable APKs to the <code>testers</code> group on every push to <code>develop</code> or <code>main</code>.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sprint 3 Velocity</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">24 Story Points</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Sum of Story Points</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">24 SP (6 historias/ítems técnicos completados: paridad multi-rol en Flutter, diseño visual y modo demo offline en Native, localización reactiva ES/EN, pruebas de paridad, CI/CD en GitHub Actions y distribución en Firebase App Distribution)</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.3.2. Aspect Leaders and Collaborators
+
+Para el cierre del proyecto en el Sprint 3, la **Tabla 43** detalla la asignación de responsabilidades según la matriz **LACX** (*Leader, Approver, Collaborator, eXecutor*) sobre los cuatro frentes ejecutados: paridad funcional multi-rol en Flutter, paridad visual y modo offline en Android Native, internacionalización reactiva (`es-419` / `en-US`) con suites de pruebas, y automatización CI/CD hacia Firebase App Distribution.
+
+<p><strong>Tabla 43.</strong> <em>Matriz de Liderazgo y Colaboración (LACX) del Sprint 3</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Team Member</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">GitHub Username</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aspect 1: Flutter Multi-Role &amp; UX Parity</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aspect 2: Native Visual Parity &amp; Offline Demo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aspect 3: Reactive i18n (ES/EN) &amp; Testing Suites</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aspect 4: CI/CD &amp; Firebase App Distribution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pareja Calloapaza, Marcelo</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>marc3lllob7</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">L (Leader)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">A (Approver)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">L (Leader)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">De la Cruz De los Santos, Mathias</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>MathiasDLS</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">L (Leader)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">X (Executor)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Francia Torres, Jhony</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>JhonyFrancia</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">X (Executor)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">L (Leader)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ramirez Ruíz, Nickolas</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>NickolasRamirez</code></td>
+      <td style="padding: 10px; border: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">X (Executor)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">C (Collaborator)</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">X (Executor)</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.3.3. Sprint Backlog 3
+
+Durante el Sprint 3, la gestión del flujo de trabajo se realizó en el tablero **Trello (`Sprint 3 - RouteGuard`)**, registrando la transición de cada tarea técnica por los estados *To Do*, *In Process*, *To-Review* y *Done*.
+
+> **URL del Board del Sprint 3:** [https://trello.com/b/v0TGJNNe](https://trello.com/b/v0TGJNNe)
+
+<p align="center">
+  <img src="resources/assets/images/sprint3/sprint3-board.jpg" alt="Sprint 3 Board" width="850">
+  <br><em>Figura: Tablero del Sprint 3 en Trello con el 100% de historias y tareas técnicas estimadas en estado Done.</em>
+</p>
+
+La **Tabla 44** presenta la descomposición de los ítems del Sprint 3 en tareas técnicas (*Engineering Tasks*) con su estimación de 4 a 8 horas, el responsable asignado y el estado final.
+
+<p><strong>Tabla 44.</strong> <em>Descomposición de User Stories en Tareas Técnicas (Sprint Backlog 3)</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">User Story Id</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Work-Item Id</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Work-Item Title</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Descripción Técnica</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Estimación (Horas)</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Asignado A</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>US-S3-01</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>WI-S3-01</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Paridad multi-rol completa en Flutter</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Implementación de vistas de Administrador, Conductor y Apoderado, mapa del conductor, marcador telefónico directo, deshacer abordaje y unificación de planes.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">6 h</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>US-S3-02</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>WI-S3-02</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Paridad visual y modo offline en Android Native</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Actualización de tokens visuales, selector de rol, selector de foto de perfil y modo demostrativo resiliente ante desconexión.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">6 h</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mathias De la Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>US-S3-03</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>WI-S3-03</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Internacionalización reactiva ES/EN</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Traducción completa (<code>es-419</code> / <code>en-US</code>) en recursos XML de Android Native y diccionario reactivo de Flutter con conmutación en caliente desde Perfil.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">6 h</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jhony Francia</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>US-S3-04</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>WI-S3-04</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Suites de pruebas y paridad i18n</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Ejecución y ampliación de pruebas unitarias y de widgets: 17 pruebas en Android Native (<code>StringsXmlParityTest</code>) y 43 pruebas en Flutter (<code>localization_test.dart</code>).</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">4 h</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Jhony Francia</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>US-S3-05</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>WI-S3-05</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pipeline CI/CD y Firebase App Distribution</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Configuración de <code>deploy-firebase.yml</code> en GitHub Actions, secretos de cuenta de servicio y distribución automática de APKs a <code>RouteGuard Mobile</code> y <code>RouteGuard Flutter</code>.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">6 h</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Marcelo Pareja &amp; Nickolas Ramirez</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>US-S3-06</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>WI-S3-06</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Actualización de informe TB2 y evidencia</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Documentación del Sprint 3, registro de commits, capturas de ejecución y despliegue continuo en Firebase App Distribution.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">5 h</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Nickolas Ramirez &amp; Mathias De la Cruz</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Done</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se completó la paridad funcional y visual entre la aplicación nativa Android (Kotlin / Jetpack Compose) y la aplicación multiplataforma (Flutter / Dart), el soporte reactivo de idiomas (`es-419` / `en-US`) en todas las vistas, el modo demostrativo resiliente ante desconexión y los flujos de integración continua en GitHub Actions.
+
+<p><strong>Tabla:</strong> <em>Evidencia de commits de implementación en Sprint 3</em></p>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+  <thead>
+    <tr style="background-color: #003366; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Repository</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Branch</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Id</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Commit Message</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Committed on</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>e7895fc</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(design): implement resilient offline demo mode and update tokens for full visual parity with Flutter</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">24/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>60e2974</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(parity): add role switcher, photo picker, language toggle and undo boarding</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">24/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>fe96f8d</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(i18n,ci): complete ES/EN localization, update README and add Firebase deploy workflow</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">25/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>3f0d564</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(cross-app): implement full 3-role experience matching native app (Admin, Driver, Parent) with interactive assistant and 41 tests</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">23/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>7ffb073</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(ux): implement heuristic and interview validation improvements consistently across roles</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">24/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>bf9688e</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(parity): unify plans, add photo picker, driver map, undo boarding and call dialer</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">24/11/2026</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>6548041</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(i18n,ci): complete ES/EN localization, update README and add Firebase deploy workflow</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">25/11/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.3.5. Testing Suite Evidence for Sprint Review
+
+En el Sprint 3 se ejecutaron de manera automatizada tanto en entorno local como dentro de los flujos de trabajo de GitHub Actions las suites de pruebas de ambas aplicaciones móviles:
+
+*   **Android Native (`routeguard-native-app`):** Ejecución de `./gradlew testDebugUnitTest`, alcanzando **17 pruebas unitarias aprobadas**, incluyendo la verificación automática de paridad de claves entre `values/strings.xml` y `values-en/strings.xml` (`StringsXmlParityTest`).
+*   **Flutter (`routeguard-cross-app`):** Ejecución de `flutter analyze` (sin incidencias) y `flutter test`, alcanzando **43 pruebas unitarias y de widgets aprobadas**, cubriendo modelos de dominio, repositorios en modo offline, navegación multi-rol (`MainShell`), asistente interactivo y paridad de internacionalización (`test/localization_test.dart`).
+
+#### 4.2.3.6. Execution Evidence for Sprint Review
+
+Durante el Sprint 3 se verificó en ejecución la paridad visual y funcional de ambas aplicaciones móviles, destacando el soporte multi-rol en Flutter (Administrador, Conductor y Apoderado), la red de cuidadores autorizados, el selector de foto de perfil, el marcador telefónico directo al conductor, el cambio reactivo de idioma (`es-419` / `en-US`) y el modo demostrativo offline:
+
+*   **Aplicación Multiplataforma Flutter (`routeguard-cross-app`):**
+
+<p align="center">
+  <img src="resources/assets/images/sprint3/flutter_parent_tracking.png" alt="Flutter Seguimiento en Vivo" width="260">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="resources/assets/images/sprint3/flutter_sprint3_profile_es.png" alt="Flutter Perfil y Red Familiar" width="260">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="resources/assets/images/sprint3/flutter_sprint3_profile_bottom.png" alt="Flutter Cambio de Rol e Idioma ES/EN" width="260">
+  <br><em>Figura: Ejecución en Flutter mostrando seguimiento GPS en vivo con llamada directa al conductor, red familiar de cuidadores autorizados y controles de cambio de rol e idioma reactivo (ES/EN).</em>
+</p>
+
+*   **Aplicación Nativa Android (`routeguard-native-app`):**
+
+<p align="center">
+  <img src="resources/assets/images/chapter-3/mobile-mockups/native/native_09_driver_viaje.png" alt="Android Native Vista Conductor" width="260">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="resources/assets/images/chapter-3/mobile-mockups/native/native_14_parent_perfil.png" alt="Android Native Perfil Apoderado" width="260">
+  <br><em>Figura: Ejecución en Android Native mostrando la vista operativa de viaje y la gestión de perfil con paridad visual respecto a Flutter.</em>
+</p>
+
+#### 4.2.3.7. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3, la API RESTful de RouteGuard (C# ASP.NET Core 10) mantuvo el **100% de cobertura** de *endpoints* documentados y operativos bajo **OpenAPI 3.0 / Swagger UI** alcanzados en el Hito AV2, sin requerir nuevos *endpoints* ni cambios disruptivos de contrato. Ambos clientes móviles (Android Native y Flutter) consumen de forma consistente los mismos esquemas de autenticación JWT, gestión de rutas, seguimiento GPS, alertas de seguridad, suscripciones con Stripe y localización de respuestas (`es-419` / `en-US`).
+
+#### 4.2.3.8. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se completó la automatización del proceso de despliegue continuo (CI/CD) para las dos aplicaciones móviles dentro del proyecto **`routeguard-firebase`** en **Firebase App Distribution**, integrando **GitHub Actions** en ambos repositorios:
+
+1.  **Configuración en Firebase y Google Cloud IAM:**
+    *   Se registraron las dos aplicaciones Android bajo el proyecto `routeguard-firebase`: **`RouteGuard Mobile`** (`pe.edu.upc.routeguard`, aplicación nativa Kotlin) y **`RouteGuard Flutter`** (`pe.edu.upc.routeguard.routeguard_cross_app`, aplicación multiplataforma Flutter).
+    *   Se configuró el grupo de evaluadores **`testers`** en Firebase App Distribution para recibir notificaciones automáticas por correo electrónico con cada nueva compilación publicada.
+    *   Se generó una cuenta de servicio con permisos de administración de Firebase App Distribution y se almacenaron sus credenciales de forma segura en GitHub Actions (*Repository Secrets*: `FIREBASE_SERVICE_CREDENTIALS`, `FIREBASE_APP_ID`, `GOOGLE_SERVICES_JSON` y `MAPBOX_ACCESS_TOKEN`; y *Repository Variable*: `FIREBASE_TESTER_GROUPS = testers`).
+
+![Aplicaciones registradas en Firebase Console](resources/assets/images/ci-cd/firebase-project-apps.png)
+
+2.  **Flujo CI/CD en Android Native (`routeguard-native-app`):**
+    *   El archivo `.github/workflows/deploy-firebase.yml` ejecuta `./gradlew testDebugUnitTest` y `./gradlew assembleDebug` en cada `push` hacia `main` o `develop`, resguarda el archivo `app-debug.apk` como artefacto de GitHub Actions y lo distribuye mediante `wzieba/Firebase-Distribution-Github-Action@v1` a **RouteGuard Mobile** (`ea43ce9`).
+
+![Pipeline CI/CD GitHub Actions Android Native](resources/assets/images/ci-cd/github-actions-native.png)
+
+![Release publicado en Firebase App Distribution para RouteGuard Mobile](resources/assets/images/ci-cd/firebase-app-distribution-native.png)
+
+3.  **Flujo CI/CD en Flutter (`routeguard-cross-app`):**
+    *   El archivo `.github/workflows/deploy-firebase.yml` ejecuta `flutter pub get`, `flutter analyze`, `flutter test` y `flutter build apk --release`, resguarda `app-release.apk` como artefacto de GitHub Actions y lo distribuye automáticamente a **RouteGuard Flutter** (`6548041`).
+
+![Pipeline CI/CD GitHub Actions Flutter](resources/assets/images/ci-cd/github-actions-flutter.png)
+
+![Release publicado en Firebase App Distribution para RouteGuard Flutter](resources/assets/images/ci-cd/firebase-app-distribution-flutter.png)
+
+#### 4.2.3.9. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, los cuatro integrantes del equipo RouteGolem consolidaron la entrega final del producto mediante un trabajo coordinado entre desarrollo móvil, aseguramiento de calidad, automatización de despliegue y documentación:
+
+*   **Puntos Positivos:**
+    *   La coordinación entre Marcelo Pareja, Mathias De la Cruz, Jhony Francia y Nickolas Ramirez permitió cerrar la paridad funcional y visual entre Android Native y Flutter en todas las vistas y roles (Administrador, Conductor y Apoderado), incorporando el cambio reactivo de idioma (`es-419` / `en-US`) sin reiniciar la aplicación.
+    *   La automatización con GitHub Actions y Firebase App Distribution eliminó las compilaciones manuales de archivos `.apk`, asegurando que cada cambio integrado en `develop` o `main` pase primero por `flutter analyze`, pruebas unitarias y pruebas de paridad de cadenas antes de llegar a los dispositivos de los evaluadores.
+    *   La revisión cruzada entre pares facilitó el cumplimiento de las convenciones de GitFlow, *Conventional Commits* y los criterios de usabilidad y accesibilidad validados en el hito previo.
+*   **Dificultades Superadas:**
+    *   Durante la puesta en marcha de los flujos de trabajo en GitHub Actions se presentaron incidencias de permisos de ejecución en el script `gradlew` sobre corredores Linux y de nomenclatura del parámetro `appId` en la acción de Firebase App Distribution, las cuales fueron diagnosticadas y resueltas en equipo hasta lograr ejecuciones exitosas en ambos repositorios.
+    *   La unificación de cadenas y estados en modo offline requirió alinear las claves de recursos XML en Kotlin (`StringsXmlParityTest`) con los mapas de localización reactiva en Dart (`localization_test.dart`) para evitar textos sin traducir ante cambios de rol o de idioma en tiempo real.
+*   **Cierre del Ciclo de Desarrollo:**
+    *   Con ambas aplicaciones desplegadas en Firebase App Distribution, el backend RESTful operativo al 100% y las suites automatizadas en verde (17 pruebas en Android Native y 43 en Flutter), el equipo deja establecida una base reproducible y lista para validación continua en dispositivos físicos.
 
 ---
 
