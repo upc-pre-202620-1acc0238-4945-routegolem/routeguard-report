@@ -523,21 +523,25 @@ Tal como se evidencia en la **Tabla 2**, el equipo ha logrado aplicar nuevos apr
         <strong>Pareja Calloapaza, Marcelo Fausto:</strong><br>
         <strong>AV1:</strong> Aprendió y aplicó técnicas avanzadas de Lean UX y herramientas de UX Research (UXPressia) para el diseño de entrevistas y mapeo de journeys, alineando las necesidades del negocio con la visión de la solución.<br>
         <strong>TB1:</strong> Dominó la implementación de patrones tácticos de Domain-Driven Design (DDD) en C# ASP.NET Core 10, desacoplando agregados mediante Value Objects locales y eventos de dominio con RabbitMQ/MassTransit. Asimismo, investigó e implementó persistencia local reactiva offline-first en Android nativo mediante Jetpack Room DB y Kotlin StateFlow para la sincronización asíncrona de abordajes.<br>
-        <strong>AV2:</strong> Investigó y aplicó la arquitectura Feature-First en Flutter 3.47 y Dart 3.13, implementando el módulo de autenticación, persistencia de sesión local con SharedPreferences y diseño de protocolos de validación de usabilidad con usuarios finales.<br><br>
+        <strong>AV2:</strong> Investigó y aplicó la arquitectura Feature-First en Flutter 3.47 y Dart 3.13, implementando el módulo de autenticación, persistencia de sesión local con SharedPreferences y diseño de protocolos de validación de usabilidad con usuarios finales.<br>
+        <strong>TB2:</strong> Consolidó la paridad multi-rol (Administrador, Conductor y Apoderado) en Flutter, integró la automatización CI/CD en GitHub Actions y configuró la distribución continua de APKs mediante Firebase App Distribution.<br><br>
         <strong>Francia Torres, Jhony Manuel:</strong><br>
         <strong>AV1:</strong> Investigó y dominó la sintaxis Gherkin (Given-When-Then) para la correcta especificación de Criterios de Aceptación, así como el uso de Impact Mapping para alinear las historias de usuario con los objetivos SMART.<br>
         <strong>TB1:</strong> Adquirió competencias avanzadas en el modelado del ciclo de vida y navegación móvil en Android utilizando Jetpack Navigation Component y diseño estructurado de User Flows, integrando heurísticas de usabilidad móvil y principios de Material Design 3 orientados a reducir la carga cognitiva del transportista al volante.<br>
-        <strong>AV2:</strong> Amplió sus conocimientos en la integración de pasarelas de pago seguras (Stripe.net SDK) bajo estándares de seguridad digital y en la estructuración de repositorios de datos y clientes RESTful asíncronos en Flutter con tolerancia a fallos.<br><br>
+        <strong>AV2:</strong> Amplió sus conocimientos en la integración de pasarelas de pago seguras (Stripe.net SDK) bajo estándares de seguridad digital y en la estructuración de repositorios de datos y clientes RESTful asíncronos en Flutter con tolerancia a fallos.<br>
+        <strong>TB2:</strong> Estandarizó la internacionalización reactiva (<code>es-419</code> / <code>en-US</code>) en Android Native y Flutter junto con pruebas automatizadas de paridad de cadenas (<code>StringsXmlParityTest</code> y <code>localization_test.dart</code>).<br><br>
         <strong>De la Cruz De los Santos, Mathias Marcelo:</strong><br>
         <strong>AV1:</strong> Actualizó sus conocimientos en el modelado de arquitecturas aplicando Strategic-Level Domain-Driven Design (EventStorming, Context Mapping) y el framework C4 Model para la representación estructural del sistema.<br>
         <strong>TB1:</strong> Actualizó y aplicó competencias de infraestructura en la nube sobre Microsoft Azure (Azure App Service con contenedores Linux, Azure Container Registry y Azure Database for PostgreSQL Flexible Server), automatización de despliegue continuo mediante GitHub Actions CI/CD e integración de notificaciones push server-side mediante Firebase Admin SDK.<br>
-        <strong>AV2:</strong> Investigó y aplicó bibliotecas de renderizado geoespacial reactivo mediante flutter_map y Leaflet sobre OpenStreetMap, dominando el cálculo de coordenadas, proyección de polilíneas y marcadores dinámicos de vehículos y paraderos en Flutter.<br><br>
+        <strong>AV2:</strong> Investigó y aplicó bibliotecas de renderizado geoespacial reactivo mediante flutter_map y Leaflet sobre OpenStreetMap, dominando el cálculo de coordenadas, proyección de polilíneas y marcadores dinámicos de vehículos y paraderos en Flutter.<br>
+        <strong>TB2:</strong> Implementó la paridad visual y el modo demostrativo offline en Android Native, además de consolidar la infraestructura en la nube sobre Render y Aiven PostgreSQL.<br><br>
         <strong>Ramirez Ruíz, Nickolas:</strong><br>
         <strong>AV1:</strong> Adquirió nuevos conocimientos en análisis competitivo y modelado de arquitecturas mediante herramientas de <em>Diagram-as-Code</em> (Structurizr DSL y PlantUML), aplicándolos para diagramar el nivel de código y base de datos.<br>
         <strong>TB1:</strong> Profundizó en la especificación y estandarización de contratos de servicios web mediante OpenAPI 3.0 / Swagger en ASP.NET Core, así como en el diseño y ejecución de baterías de pruebas de integración automatizadas para validar la emisión de claims JWT y la consistencia relacional con Entity Framework Core.<br>
-        <strong>AV2:</strong> Dominó el diseño y ejecución de pruebas de componentes UI mediante WidgetTester en Flutter, pruebas unitarias de modelos de datos y pruebas de localización de respuestas de error (i18n) con xUnit en el backend.
+        <strong>AV2:</strong> Dominó el diseño y ejecución de pruebas de componentes UI mediante WidgetTester en Flutter, pruebas unitarias de modelos de datos y pruebas de localización de respuestas de error (i18n) con xUnit en el backend.<br>
+        <strong>TB2:</strong> Colaboró en la configuración de credenciales seguras y publicación de compilaciones en Firebase App Distribution, así como en la documentación final de evidencias y pruebas del Sprint 3.
       </td>
-      <td style="padding: 10px; border: 1px solid #ddd;">La actualización constante de conocimientos en marcos de trabajo ágiles (Lean UX), modelado de dominio (DDD táctico y estratégico), arquitectura de mensajería asíncrona (RabbitMQ/MassTransit), persistencia offline móvil (Room DB) e infraestructura en la nube (Azure App Service y PostgreSQL) fue fundamental para materializar el incremento de software funcional en el Sprint 1. Este aprendizaje autónomo y continuo permitió al equipo superar los desafíos técnicos de integración entre la API REST y la aplicación móvil nativa con estándares de calidad de la industria.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">La actualización constante de conocimientos en marcos de trabajo ágiles (Lean UX), modelado de dominio (DDD táctico y estratégico), arquitectura de mensajería asíncrona (RabbitMQ/MassTransit), persistencia offline móvil (Room DB), desarrollo multiplataforma en Flutter, internacionalización reactiva y automatización CI/CD hacia Firebase App Distribution permitió materializar la solución completa a lo largo de los tres Sprints con estándares de calidad de la industria.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;"><strong>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</strong></td>
@@ -545,19 +549,23 @@ Tal como se evidencia en la **Tabla 2**, el equipo ha logrado aplicar nuevos apr
         <strong>Pareja Calloapaza, Marcelo Fausto:</strong><br>
         <strong>AV1:</strong> Reconoció la importancia de mantener un estándar de comunicación global (Ubiquitous Language) y dominar herramientas de prototipado colaborativo para asegurar la calidad de los entregables a largo plazo.<br>
         <strong>TB1:</strong> Reconoció que las arquitecturas móviles modernas demandan actualización continua en mecanismos de sincronización en red inestable (offline-first) y desacoplamiento de microservicios backend para garantizar la resiliencia en sistemas de misión crítica.<br>
-        <strong>AV2:</strong> Reconoció que el ecosistema móvil multiplataforma evoluciona vertiginosamente, demandando experimentación empírica y validación continua con usuarios reales para adaptar las soluciones a necesidades imprevistas.<br><br>
+        <strong>AV2:</strong> Reconoció que el ecosistema móvil multiplataforma evoluciona vertiginosamente, demandando experimentación empírica y validación continua con usuarios reales para adaptar las soluciones a necesidades imprevistas.<br>
+        <strong>TB2:</strong> Reconoció la importancia de mantener flujos de integración y distribución continua (CI/CD) para validar cada incremento de producto en dispositivos físicos.<br><br>
         <strong>Francia Torres, Jhony Manuel:</strong><br>
         <strong>AV1:</strong> Identificó que el levantamiento de requisitos evoluciona constantemente, comprendiendo la necesidad de investigar técnicas ágiles de priorización (Product Backlog) para maximizar el valor entregado.<br>
         <strong>TB1:</strong> Identificó que los estándares de diseño de interacción móvil y experiencia de usuario evolucionan velozmente, comprendiendo la necesidad de mantenerse actualizado en guías de diseño accesible y patrones de arquitectura de software para dispositivos móviles.<br>
-        <strong>AV2:</strong> Reconoció que la gobernanza de APIs en la nube y el procesamiento de cobros digitales exigen rigurosa actualización continua en normativas de seguridad, tokens efímeros y observabilidad.<br><br>
+        <strong>AV2:</strong> Reconoció que la gobernanza de APIs en la nube y el procesamiento de cobros digitales exigen rigurosa actualización continua en normativas de seguridad, tokens efímeros y observabilidad.<br>
+        <strong>TB2:</strong> Comprendió que la internacionalización y accesibilidad deben validarse continuamente mediante pruebas automatizadas para evitar regresiones entre plataformas.<br><br>
         <strong>De la Cruz De los Santos, Mathias Marcelo:</strong><br>
         <strong>AV1:</strong> Comprendió que las arquitecturas modernas requieren una constante investigación sobre patrones de integración, evidenciando la necesidad de actualizarse continuamente en enfoques de despliegue en la nube.<br>
         <strong>TB1:</strong> Comprendió que el ecosistema de DevOps, orquestación de contenedores y servicios gestionados en la nube evoluciona dinámicamente, reconociendo la imperiosa necesidad de investigar continuamente sobre seguridad de credenciales (secrets management), pipelines de entrega continua y observabilidad en producción.<br>
-        <strong>AV2:</strong> Reconoció el valor estratégico de aprender y dominar soluciones cartográficas de código abierto (OpenStreetMap) frente a proveedores comerciales con modelos de tarificación restrictivos.<br><br>
+        <strong>AV2:</strong> Reconoció el valor estratégico de aprender y dominar soluciones cartográficas de código abierto (OpenStreetMap) frente a proveedores comerciales con modelos de tarificación restrictivos.<br>
+        <strong>TB2:</strong> Consolidó la importancia de diseñar experiencias resilientes ante desconexión y gestionar servicios administrados en la nube (Render y Aiven PostgreSQL) de forma costo-eficiente.<br><br>
         <strong>Ramirez Ruíz, Nickolas:</strong><br>
         <strong>AV1:</strong> Reconoció que el estudio continuo del mercado y la adopción constante de nuevos frameworks de modelado estructural son habilidades indispensables para agilizar la documentación técnica en entornos reales.<br>
         <strong>TB1:</strong> Reconoció que la formalización rigurosa de especificaciones OpenAPI y la implementación de suites de pruebas automáticas continuas son habilidades vitales para evitar la degradación de contratos en equipos de desarrollo ágiles.<br>
-        <strong>AV2:</strong> Reconoció que la adopción de pruebas automatizadas y análisis estático continuo es un hábito profesional indispensable para garantizar la confiabilidad y mantenibilidad de aplicaciones móviles concurrentes.
+        <strong>AV2:</strong> Reconoció que la adopción de pruebas automatizadas y análisis estático continuo es un hábito profesional indispensable para garantizar la confiabilidad y mantenibilidad de aplicaciones móviles concurrentes.<br>
+        <strong>TB2:</strong> Afianzó el hábito de auditar la calidad de los entregables y automatizar la distribución a evaluadores mediante herramientas como Firebase App Distribution.
       </td>
       <td style="padding: 10px; border: 1px solid #ddd;">El equipo consolida su comprensión de que la ingeniería de software es una disciplina de aprendizaje permanente. Enfrentar los desafíos reales de despliegue en la nube, comunicación asíncrona basada en eventos y resiliencia móvil ante pérdida de conectividad demostró que el éxito del proyecto no depende únicamente de conocimientos preexistentes, sino de la capacidad de investigar, adaptarse y aplicar tecnologías emergentes con rigor profesional.</td>
     </tr>
@@ -5256,7 +5264,7 @@ Para mantener un código limpio, legible y mantenible a lo largo de los diferent
 ### 4.1.4. Software Deployment Configuration
 
 El despliegue de las distintas soluciones de RouteGuard se realiza aprovechando plataformas de *Platform as a Service (PaaS)* y servicios en la nube para asegurar alta disponibilidad y escalabilidad:
-- **Backend:** Los microservicios y la API de Spring Boot son desplegados en servicios modernos en la nube como **Railway** (Railway, 2024), los cuales ofrecen integración continua (CI/CD) directamente desde el repositorio de GitHub y aprovisionamiento automático de bases de datos PostgreSQL con extensiones espaciales como PostGIS (PostGIS Project Steering Committee, 2024). Esto es crítico para soportar la carga operativa y logística urbana de forma ininterrumpida (García, López & Torres, 2024).
+- **Backend:** Los servicios web y la API RESTful desarrollada en C# ASP.NET Core 10 se despliegan en contenedores Docker sobre **Render** mediante integración continua desde GitHub, conectados a una base de datos administrada **PostgreSQL** en **Aiven** (con soporte espacial para coordenadas y rutas). Esto garantiza alta disponibilidad, despliegue reproducible y manejo seguro de variables de entorno para soportar la carga operativa y logística escolar de forma ininterrumpida (García, López & Torres, 2024).
 - **Landing Page:** La aplicación web estática (Landing Page) se despliega utilizando **Vercel** (Vercel, 2024) o alternativamente **GitHub Pages**, herramientas especializadas en alojamiento rápido de frontend que proveen redes de entrega de contenido (CDN) globales y certificados SSL integrados para asegurar un rendimiento óptimo y seguro.
 - **Aplicaciones Móviles (Android Native y Flutter):** La compilación, verificación automatizada y distribución continua de los binarios Android (`.apk`) se automatiza mediante **GitHub Actions** y **Firebase App Distribution** (Google, 2024). Ante cada actualización en las ramas `main` o `develop`, el flujo de trabajo ejecuta las pruebas unitarias y análisis estático correspondientes, genera el paquete `.apk`, resguarda el artefacto de compilación en GitHub Actions y distribuye la nueva versión al grupo de evaluadores (`testers`) registrado en Firebase App Distribution utilizando credenciales de cuenta de servicio resguardadas en *GitHub Repository Secrets* (`FIREBASE_SERVICE_CREDENTIALS`, `FIREBASE_APP_ID` y, en el proyecto nativo, `GOOGLE_SERVICES_JSON` y `MAPBOX_ACCESS_TOKEN`).
 
@@ -7256,7 +7264,7 @@ En esta sección se registra y explica el avance en términos de producto y trab
 
 El *Sprint Planning 3* consolidó los objetivos de cierre del ciclo para garantizar la estabilidad en producción, la cobertura de pruebas unitarias y de interfaz, y la entrega continua de compilaciones verificadas a los evaluadores en Firebase App Distribution.
 
-<p><strong>Tabla:</strong> <em>Resumen del Sprint Planning 3</em></p>
+<p><strong>Tabla 47.</strong> <em>Resumen del Sprint Planning 3</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -7318,9 +7326,9 @@ El *Sprint Planning 3* consolidó los objetivos de cierre del ciclo para garanti
 
 #### 4.2.3.2. Aspect Leaders and Collaborators
 
-Para el cierre del proyecto en el Sprint 3, la **Tabla 43** detalla la asignación de responsabilidades según la matriz **LACX** (*Leader, Approver, Collaborator, eXecutor*) sobre los cuatro frentes ejecutados: paridad funcional multi-rol en Flutter, paridad visual y modo offline en Android Native, internacionalización reactiva (`es-419` / `en-US`) con suites de pruebas, y automatización CI/CD hacia Firebase App Distribution.
+Para el cierre del proyecto en el Sprint 3, la **Tabla 48** detalla la asignación de responsabilidades según la matriz **LACX** (*Leader, Approver, Collaborator, eXecutor*) sobre los cuatro frentes ejecutados: paridad funcional multi-rol en Flutter, paridad visual y modo offline en Android Native, internacionalización reactiva (`es-419` / `en-US`) con suites de pruebas, y automatización CI/CD hacia Firebase App Distribution.
 
-<p><strong>Tabla 43.</strong> <em>Matriz de Liderazgo y Colaboración (LACX) del Sprint 3</em></p>
+<p><strong>Tabla 48.</strong> <em>Matriz de Liderazgo y Colaboración (LACX) del Sprint 3</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -7376,12 +7384,12 @@ Durante el Sprint 3, la gestión del flujo de trabajo se realizó en el tablero 
 
 <p align="center">
   <img src="resources/assets/images/sprint3/sprint3-board.jpg" alt="Sprint 3 Board" width="850">
-  <br><em>Figura: Tablero del Sprint 3 en Trello con el 100% de historias y tareas técnicas estimadas en estado Done.</em>
+  <br><em>Figura 37. Tablero del Sprint 3 en Trello con el 100% de historias y tareas técnicas estimadas en estado Done.</em>
 </p>
 
-La **Tabla 44** presenta la descomposición de los ítems del Sprint 3 en tareas técnicas (*Engineering Tasks*) con su estimación de 4 a 8 horas, el responsable asignado y el estado final.
+La **Tabla 49** presenta la descomposición de los ítems del Sprint 3 en tareas técnicas (*Engineering Tasks*) con su estimación de 4 a 8 horas, el responsable asignado y el estado final.
 
-<p><strong>Tabla 44.</strong> <em>Descomposición de User Stories en Tareas Técnicas (Sprint Backlog 3)</em></p>
+<p><strong>Tabla 49.</strong> <em>Descomposición de User Stories en Tareas Técnicas (Sprint Backlog 3)</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -7456,7 +7464,7 @@ La **Tabla 44** presenta la descomposición de los ítems del Sprint 3 en tareas
 
 Durante el Sprint 3 se completó la paridad funcional y visual entre la aplicación nativa Android (Kotlin / Jetpack Compose) y la aplicación multiplataforma (Flutter / Dart), el soporte reactivo de idiomas (`es-419` / `en-US`) en todas las vistas, el modo demostrativo resiliente ante desconexión y los flujos de integración continua en GitHub Actions.
 
-<p><strong>Tabla:</strong> <em>Evidencia de commits de implementación en Sprint 3</em></p>
+<p><strong>Tabla 50.</strong> <em>Evidencia de commits de implementación en Sprint 3</em></p>
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
   <thead>
     <tr style="background-color: #003366; color: white;">
@@ -7539,7 +7547,7 @@ Durante el Sprint 3 se verificó en ejecución la paridad visual y funcional de 
   <img src="resources/assets/images/sprint3/flutter_sprint3_profile_es.png" alt="Flutter Perfil y Red Familiar" width="260">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="resources/assets/images/sprint3/flutter_sprint3_profile_bottom.png" alt="Flutter Cambio de Rol e Idioma ES/EN" width="260">
-  <br><em>Figura: Ejecución en Flutter mostrando seguimiento GPS en vivo con llamada directa al conductor, red familiar de cuidadores autorizados y controles de cambio de rol e idioma reactivo (ES/EN).</em>
+  <br><em>Figura 38. Ejecución en Flutter mostrando seguimiento GPS en vivo con llamada directa al conductor, red familiar de cuidadores autorizados y controles de cambio de rol e idioma reactivo (ES/EN).</em>
 </p>
 
 *   **Aplicación Nativa Android (`routeguard-native-app`):**
@@ -7548,7 +7556,7 @@ Durante el Sprint 3 se verificó en ejecución la paridad visual y funcional de 
   <img src="resources/assets/images/chapter-3/mobile-mockups/native/native_09_driver_viaje.png" alt="Android Native Vista Conductor" width="260">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="resources/assets/images/chapter-3/mobile-mockups/native/native_14_parent_perfil.png" alt="Android Native Perfil Apoderado" width="260">
-  <br><em>Figura: Ejecución en Android Native mostrando la vista operativa de viaje y la gestión de perfil con paridad visual respecto a Flutter.</em>
+  <br><em>Figura 39. Ejecución en Android Native mostrando la vista operativa de viaje y la gestión de perfil con paridad visual respecto a Flutter.</em>
 </p>
 
 #### 4.2.3.7. Services Documentation Evidence for Sprint Review
@@ -8160,7 +8168,7 @@ Los errores se puntúan con la siguiente escala de severidad:
 
 ##### TAREAS EVALUADAS
 
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas en el aplicativo Flutter:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas en la aplicación Flutter:
 
 1. Iniciar sesión.
 2. Navegar entre las secciones principales (Seguimiento/Recorrido, Alertas y Perfil).
@@ -8409,7 +8417,7 @@ El video de **App Validation** documenta las sesiones de validación formal de u
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/video-app-validation.png" alt="Miniatura Video App Validation" width="700">
-  <br><em>Figura 36. Validación de la aplicación móvil de seguimiento en tiempo real con padres de familia y conductores escolares.</em>
+  <br><em>Figura 49. Validación de la aplicación móvil de seguimiento en tiempo real con padres de familia y conductores escolares.</em>
 </p>
 
 ### Video About the product
@@ -8423,7 +8431,7 @@ El video **About the Product** expone la visión integral de RouteGuard, su prop
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/video-about-product.png" alt="Miniatura Video About the Product" width="700">
-  <br><em>Figura 37. Demostración funcional y propuesta de valor de la plataforma RouteGuard.</em>
+  <br><em>Figura 50. Demostración funcional y propuesta de valor de la plataforma RouteGuard.</em>
 </p>
 
 ### Video About the team
@@ -8437,13 +8445,25 @@ El video **About the Team** presenta al equipo de ingeniería RouteGolem, detall
 
 <p align="center">
   <img src="resources/assets/images/chapter-4/video-about-team.png" alt="Miniatura Video About the Team" width="700">
-  <br><em>Figura 38. Presentación del equipo RouteGolem, metodología ágil y aprendizajes de ingeniería.</em>
+  <br><em>Figura 51. Presentación del equipo RouteGolem, marco de trabajo ágil y aprendizajes de ingeniería.</em>
 </p>
 
 
 <div style="page-break-after: always;"></div>
 
 # Glosario
+
+* **API (Application Programming Interface):** Conjunto de definiciones y protocolos que permite la comunicación entre la aplicación móvil y los servicios web del backend.
+* **APK (Android Application Package):** Formato de archivo empaquetado utilizado por el sistema operativo Android para distribuir e instalar aplicaciones móviles.
+* **Bounded Context:** Límite explícito dentro de *Domain-Driven Design* donde un modelo de dominio particular y su *Ubiquitous Language* aplican de manera consistente.
+* **CI/CD (Continuous Integration / Continuous Delivery):** Práctica de ingeniería de software que automatiza la compilación, ejecución de pruebas y despliegue continuo ante cada cambio en el repositorio.
+* **DDD (Domain-Driven Design):** Enfoque de diseño de software centrado en modelar fielmente el dominio del negocio y sus reglas en colaboración con expertos del dominio.
+* **FCM (Firebase Cloud Messaging):** Servicio de mensajería en la nube empleado para enviar notificaciones push en tiempo real sobre eventos de abordaje y alertas.
+* **i18n (Internationalization):** Proceso de diseñar y preparar una aplicación para soportar múltiples idiomas y convenciones regionales (como `en-US` y `es-419`).
+* **JWT (JSON Web Token):** Estándar abierto basado en JSON para transmitir de forma segura información de autenticación y autorización entre cliente y servidor.
+* **LACX (Leader, Approver, Collaborator, eXecutor):** Matriz de asignación de responsabilidades utilizada para coordinar el liderazgo y ejecución por aspecto dentro de cada Sprint.
+* **RESTful API:** Estilo de arquitectura para servicios web basado en el protocolo HTTP, recursos identificables por URI y operaciones estándar (`GET`, `POST`, `PUT`, `DELETE`).
+* **Value Object:** Objeto inmutable del dominio definido únicamente por sus atributos y sin identidad propia.
 
 <div style="page-break-after: always;"></div>
 
@@ -8463,61 +8483,53 @@ El video **About the Team** presenta al equipo de ingeniería RouteGolem, detall
 * Brandolini, A. (2021). *Introducing EventStorming: An Act of Deliberate Collective Learning.* Leanpub.
 * Chen, Y., & Zhao, M. (2025). Passive monitoring and location-based notifications in family tracking applications. *Journal of Mobile Human-Computer Interaction,* 15(2), 45-60. https://doi.org/10.1016/j.jmhci.2025.104221
 * Cohn, M. (2004). *User Stories Applied: For Agile Software Development.* Addison-Wesley Professional.
+* Conventional Commits. (2024). *Conventional Commits 1.0.0*. https://www.conventionalcommits.org/
 * Cooper, A. (1999). *The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity.* Sams Publishing.
+* Cucumber. (s. f.). *Gherkin reference*. https://cucumber.io/docs/gherkin/reference/
+* Driessen, V. (2010). *A successful Git branching model*. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
 * Enge, E., Spencer, S., & Stricchiola, J. (2015). *The Art of SEO: Mastering Search Engine Optimization* (3rd ed.). O'Reilly Media.
 * Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software.* Addison-Wesley Professional.
 * Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing Great Products with Agile Teams* (3rd ed.). O'Reilly Media.
 * Kumar, A., & Lee, S. (2024). Role-based task frequency analysis in mobile interface design for logistics. *International Journal of Human-Computer Studies,* 182, 103-118. https://doi.org/10.1016/j.ijhcs.2024.103118
-* Nielsen, J. (1994). *Usability Engineering*. Morgan Kaufmann.
+* Nielsen, J. (1994). *Usability Engineering*. Morgan Kaufmann. (Véase también: *10 usability heuristics for user interface design*, https://www.nngroup.com/articles/ten-usability-heuristics/)
+* Preston-Werner, T. (2013). *Semantic Versioning 2.0.0*. SemVer. https://semver.org/
 * Rosenfeld, L., Morville, P., & Arango, J. (2015). *Information Architecture: For the Web and Beyond* (4th ed.). O'Reilly Media.
 * Rubin, K. S. (2012). *Essential Scrum: A Practical Guide to the Most Popular Agile Process.* Addison-Wesley.
 * Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide.* Scrum.org.
 * Stickdorn, M., Hormess, M. E., Lawrence, A., & Schneider, J. (2018). *This Is Service Design Doing: Applying Service Design Thinking in the Real World*. O'Reilly Media.
 * Vernon, V. (2013). *Implementing Domain-Driven Design.* Addison-Wesley.
+* W3C. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. https://www.w3.org/TR/WCAG21/
 
 **Lenguajes, frameworks y herramientas**
 
 * Atlassian. (2024). *Jira Software*. https://www.atlassian.com/software/jira
 * Figma. (2024). *Figma: The collaborative interface design tool*. https://www.figma.com/
-* Google. (2024a). *Firebase Cloud Messaging Documentation.* Google Developers. https://firebase.google.com/docs/cloud-messaging
-* Google. (2024b). *Android Studio*. Android Developers. https://developer.android.com/studio
-* JetBrains. (2024b). *IntelliJ IDEA: The Capable & Ergonomic Java IDE*. https://www.jetbrains.com/idea/
-* Mapbox. (2024). *Mapbox Navigation SDK for Mobile.* Mapbox. https://docs.mapbox.com/
-* Microsoft. (2024). *Visual Studio Code*. https://code.visualstudio.com/
-* PostGIS Project Steering Committee. (2024). *PostGIS: Spatial and Geographic Objects for PostgreSQL.* OSGeo. https://postgis.net/
-* Railway. (2024). *Railway: Infrastructure platform*. https://railway.app/
-* Vercel. (2024). *Vercel: Develop. Preview. Ship.* https://vercel.com/
-* VMware. (2024). *RabbitMQ: Messaging that just works.* Broadcom. https://www.rabbitmq.com/
-
-**Métodos y técnicas de ingeniería de software**
-
-* Nielsen, J. (1994). *10 usability heuristics for user interface design*. Nielsen Norman Group. https://www.nngroup.com/articles/ten-usability-heuristics/
-* Rosenfeld, L., Morville, P., & Arango, J. (2015). *Information architecture: For the web and beyond* (4th ed.). O'Reilly Media.
-* Cucumber. (s. f.). *Gherkin reference*. https://cucumber.io/docs/gherkin/reference/
-
-**Lenguajes, frameworks y herramientas**
-
-* Google. (s. f.). *Search Central: SEO starter guide*. Google for Developers. https://developers.google.com/search/docs/fundamentals/seo-starter-guide
-* Google. (s. f.). *Navigation in Jetpack Compose*. Android Developers. https://developer.android.com/develop/ui/compose/navigation
-* Google. (s. f.). *Save data in a local database using Room*. Android Developers. https://developer.android.com/training/data-storage/room
-* Mapbox. (s. f.). *Geocoding API*. https://docs.mapbox.com/api/search/geocoding/
-* Microsoft. (s. f.). *ASP.NET Core documentation*. Microsoft Learn. https://learn.microsoft.com/aspnet/core
-* Microsoft. (s. f.). *Azure App Service documentation*. Microsoft Learn. https://learn.microsoft.com/azure/app-service/
-* OpenAPI Initiative. (2021). *OpenAPI Specification v3.1.0*. https://spec.openapis.org/oas/v3.1.0
-* W3C. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. https://www.w3.org/TR/WCAG21/
-
-
-
-
-**Gestión de Configuración y Estándares**
-
-* Conventional Commits. (2024). *Conventional Commits 1.0.0*. https://www.conventionalcommits.org/
-* Driessen, V. (2010). *A successful Git branching model*. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
 * Google. (2021). *Google HTML/CSS Style Guide*. Google GitHub. https://google.github.io/styleguide/htmlcssguide.html
 * Google. (2022). *Google Java Style Guide*. Google GitHub. https://google.github.io/styleguide/javaguide.html
+* Google. (2024). *Firebase App Distribution Documentation*. Google Developers. https://firebase.google.com/docs/app-distribution?hl=es
+* Google. (2024a). *Firebase Cloud Messaging Documentation.* Google Developers. https://firebase.google.com/docs/cloud-messaging
+* Google. (2024b). *Android Studio*. Android Developers. https://developer.android.com/studio
+* Google. (s. f.). *Navigation in Jetpack Compose*. Android Developers. https://developer.android.com/develop/ui/compose/navigation
+* Google. (s. f.). *Save data in a local database using Room*. Android Developers. https://developer.android.com/training/data-storage/room
+* Google. (s. f.). *Search Central: SEO starter guide*. Google for Developers. https://developers.google.com/search/docs/fundamentals/seo-starter-guide
 * JetBrains. (2024a). *Coding conventions*. Kotlin Documentation. https://kotlinlang.org/docs/coding-conventions.html
-* Preston-Werner, T. (2013). *Semantic Versioning 2.0.0*. SemVer. https://semver.org/
+* JetBrains. (2024b). *IntelliJ IDEA: The Capable & Ergonomic Java IDE*. https://www.jetbrains.com/idea/
+* Mapbox. (2024). *Mapbox Navigation SDK for Mobile.* Mapbox. https://docs.mapbox.com/
+* Mapbox. (s. f.). *Geocoding API*. https://docs.mapbox.com/api/search/geocoding/
+* Microsoft. (2024). *Visual Studio Code*. https://code.visualstudio.com/
+* Microsoft. (s. f.). *ASP.NET Core documentation*. Microsoft Learn. https://learn.microsoft.com/aspnet/core
+* OpenAPI Initiative. (2021). *OpenAPI Specification v3.1.0*. https://spec.openapis.org/oas/v3.1.0
+* PostGIS Project Steering Committee. (2024). *PostGIS: Spatial and Geographic Objects for PostgreSQL.* OSGeo. https://postgis.net/
+* Vercel. (2024). *Vercel: Develop. Preview. Ship.* https://vercel.com/
+* VMware. (2024). *RabbitMQ: Messaging that just works.* Broadcom. https://www.rabbitmq.com/
 
 <div style="page-break-after: always;"></div>
 
 # Anexos
+
+## Anexo A: Videos de Exposiciones y Validación
+
+* **Video App Validation (Parte 1):** [https://youtu.be/HkJ7oVC4pis](https://youtu.be/HkJ7oVC4pis)
+* **Video App Validation (Parte 2):** [https://youtu.be/C8YxwnOsweI](https://youtu.be/C8YxwnOsweI)
+* **Video About the Product:** [https://youtu.be/3tTIf0rH-jA](https://youtu.be/3tTIf0rH-jA)
+* **Video About the Team:** [https://youtu.be/LM1fuvgD5DM](https://youtu.be/LM1fuvgD5DM)
