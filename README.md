@@ -7479,21 +7479,21 @@ Durante el Sprint 3 se completó la paridad funcional y visual entre la aplicaci
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"><code>e7895fc</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>d6446c5</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(design): implement resilient offline demo mode and update tokens for full visual parity with Flutter</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">24/11/2026</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"><code>60e2974</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>815fbbd</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(parity): add role switcher, photo picker, language toggle and undo boarding</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">24/11/2026</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-native-app</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"><code>fe96f8d</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>5d2c6cf</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(i18n,ci): complete ES/EN localization, update README and add Firebase deploy workflow</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">25/11/2026</td>
     </tr>
@@ -7506,22 +7506,22 @@ Durante el Sprint 3 se completó la paridad funcional y visual entre la aplicaci
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"><code>7ffb073</code></td>
+      <td style="padding: 1px; border: 1px solid #ddd;"><code>develop</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>b03f7ed</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(ux): implement heuristic and interview validation improvements consistently across roles</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">24/11/2026</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"><code>bf9688e</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>68c7aa6</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(parity): unify plans, add photo picker, driver map, undo boarding and call dialer</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">24/11/2026</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>routeguard-cross-app</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>develop</code></td>
-      <td style="padding: 10px; border: 1px solid #ddd;"><code>6548041</code></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><code>b9ac154</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;"><code>feat(i18n,ci): complete ES/EN localization, update README and add Firebase deploy workflow</code></td>
       <td style="padding: 10px; border: 1px solid #ddd;">25/11/2026</td>
     </tr>
@@ -7575,14 +7575,14 @@ Durante el Sprint 3 se completó la automatización del proceso de despliegue co
 ![Aplicaciones registradas en Firebase Console](resources/assets/images/ci-cd/firebase-project-apps.png)
 
 2.  **Flujo CI/CD en Android Native (`routeguard-native-app`):**
-    *   El archivo `.github/workflows/deploy-firebase.yml` ejecuta `./gradlew testDebugUnitTest` y `./gradlew assembleDebug` en cada `push` hacia `main` o `develop`, resguarda el archivo `app-debug.apk` como artefacto de GitHub Actions y lo distribuye mediante `wzieba/Firebase-Distribution-Github-Action@v1` a **RouteGuard Mobile** (`ea43ce9`).
+    *   El archivo `.github/workflows/deploy-firebase.yml` ejecuta `./gradlew testDebugUnitTest` y `./gradlew assembleDebug` en cada `push` hacia `main` o `develop`, resguarda el archivo `app-debug.apk` como artefacto de GitHub Actions y lo distribuye mediante `wzieba/Firebase-Distribution-Github-Action@v1` a **RouteGuard Mobile** (`2ba2e8c`).
 
 ![Pipeline CI/CD GitHub Actions Android Native](resources/assets/images/ci-cd/github-actions-native.png)
 
 ![Release publicado en Firebase App Distribution para RouteGuard Mobile](resources/assets/images/ci-cd/firebase-app-distribution-native.png)
 
 3.  **Flujo CI/CD en Flutter (`routeguard-cross-app`):**
-    *   El archivo `.github/workflows/deploy-firebase.yml` ejecuta `flutter pub get`, `flutter analyze`, `flutter test` y `flutter build apk --release`, resguarda `app-release.apk` como artefacto de GitHub Actions y lo distribuye automáticamente a **RouteGuard Flutter** (`6548041`).
+    *   El archivo `.github/workflows/deploy-firebase.yml` ejecuta `flutter pub get`, `flutter analyze`, `flutter test` y `flutter build apk --release`, resguarda `app-release.apk` como artefacto de GitHub Actions y lo distribuye automáticamente a **RouteGuard Flutter** (`b9ac154`).
 
 ![Pipeline CI/CD GitHub Actions Flutter](resources/assets/images/ci-cd/github-actions-flutter.png)
 
